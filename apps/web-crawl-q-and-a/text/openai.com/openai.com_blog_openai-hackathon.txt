@@ -1,0 +1,196 @@
+
+
+
+
+
+
+
+
+OpenAI Hackathon
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Introducing ChatGPT research release
+
+Try ChatGPT
+Learn more
+
+
+
+
+
+
+
+
+
+
+API
+Research
+Blog
+About
+
+
+API
+Research
+Blog
+About
+
+
+
+
+
+
+
+
+OpenAI Hackathon 
+
+
+
+
+
+
+
+ 
+February 22, 2018
+1 minute read
+
+
+
+Come to OpenAI’s office in San Francisco's Mission District for talks and a hackathon on Saturday, March 3rd. (RSVPs are now closed. We have limited space and will curate the invite list — we'll send email confirmations within the next few days.) Schedule of the day:
+
+8:30a: Doors open, coffee and pastries served.
+9-11a: Talks by Sam Altman, Dario Amodei, Josh Achiam, and Alec Radford.
+11a-7p: Hackathon! Lunch will be provided. Come with a project you’d like to hack on, figure one out with a group of others you meet here, or just hang out and eat the food. If you’re looking for inspiration, maybe try out one of our Requests for Research — but all projects, not just machine learning ones, are welcome!
+
+Please see our Code of Conduct and hackathon terms. There are no judges, prizes, or contests — just the space and time for you to work on a project!
+
+
+Feel free to come for any subset. The goal of the day is to learn more about AI, and to work on a cool project while surrounded by others doing the same.
+
+
+
+
+
+
+
+
+
+Authors
+
+Parnian BarekatainGreg Brockman
+
+
+
+
+
+
+
+
+Filed Under
+
+Events
+
+
+
+
+
+
+
+
+
+
+Featured
+ChatGPT
+DALL·E 2
+Whisper
+Alignment
+Startup Fund
+
+
+
+
+API
+Overview
+Pricing
+Examples
+Docs
+Terms & Policies
+Status
+Log in
+
+
+
+
+Blog
+Index
+Research
+Announcements
+Events
+Milestones
+
+
+
+
+Information
+About Us
+Our Charter
+Our Research
+Publications
+Newsroom
+Careers
+
+
+
+
+
+OpenAI © 2015–2023 Privacy Policy Terms of Use
+
+
+ twitter   youtube   github   soundcloud   linkedin   facebook    twitter   youtube   github   soundcloud   linkedin   facebook  
+
+
+
+
+
+

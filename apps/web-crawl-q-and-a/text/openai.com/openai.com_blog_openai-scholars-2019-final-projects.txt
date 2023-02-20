@@ -1,0 +1,387 @@
+
+
+
+
+
+
+
+
+OpenAI Scholars Spring 2019: Final Projects
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Introducing ChatGPT research release
+
+Try ChatGPT
+Learn more
+
+
+
+
+
+
+
+
+
+
+API
+Research
+Blog
+About
+
+
+API
+Research
+Blog
+About
+
+
+
+
+
+
+
+
+
+OpenAI Scholars 2019: Final Projects 
+
+
+
+
+
+
+
+
+ 
+May 23, 2019
+8 minute read
+
+
+
+
+Our second class of OpenAI Scholars has concluded, with all eight scholars producing an exciting final project showcased at Scholars Demo Day at OpenAI. Over the past three months, we’ve seen how experienced engineers working in software, medicine, physics, child development and other fields can become machine learning practitioners with our combination of educational resources and mentorship.
+Rewatch Demo Day
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Fatma Tarlaci
+Jonathan Michaux
+Nancy Otero
+Elynn Chen
+Helen (Mengxin) Ji
+Yuhao Wan
+Janet Brown
+Edgar Barraza
+
+
+
+
+
+
+Fatma Tarlaci
+Fine-Tuning GPT-2 Small for Question Answering
+
+Mentor: Jonathan Raiman
+Working from Austin, TX
+Website Twitter
+Previous Role: Eric Roberts Fellow in Computer Science at Stanford University
+
+Despite the recent successes of powerful language models, reasoning remains a challenging task in Natural Language Understanding. Question Answering (QA) requires a comprehensive mix of language processing and reasoning skills within a single task. Evaluating a system’s successes and failures on QA tasks provides valuable insights into its reasoning mechanism. This project experiments with fine-tuning of the GPT-2 small model for QA to analyze its performance on reasoning.
+
+Blog PostGitHub Repo
+
+
+The OpenAI Scholars program allowed me to build a solid foundation in deep learning and gain a thorough understanding of Natural Language Processing and Understanding. The program also allowed me to define my research interests in AI more clearly by providing me with the resources to experiment with various subfields of deep learning.
+
+
+
+
+
+Jonathan Michaux
+Using Intrinsic Motivation to Solve Robotic Tasks with Sparse Rewards
+
+Mentor: Feryal Behbahani
+Working from Chicago and San Francisco
+Website Twitter
+Previous Role: PhD student in Cell and Molecular Biology at the University of Chicago
+
+Many robotics problems are naturally formulated such that the extrinsic rewards to the agent are either sparse or missing altogether. These problems can be extremely difficult to solve as the environment provides limited feedback to guide the agent toward accomplishing its goal. Previous work has shown that agents that train using prediction error as an intrinsic reward are able to learn across a wide range of domains, including Atari games and continuous control tasks. In this project, I used curiosity-driven exploration to solve challenging robotics tasks with sparse rewards. I then formulated the intrinsic reward as the error in the agent’s ability to predict its next state, given its current state and executed action. My results demonstrated that this approach is capable of solving several difficult robotic manipulation tasks in simulation.
+
+Blog PostGitHub Repo
+
+
+Before joining the Scholars program I had already undertaken a plan to self-study robotics. The OpenAI Scholars program gave me the opportunity to greatly enhance my self-study with a curriculum focused exclusively on Deep Reinforcement Learning. After spending 8 weeks reading papers and implementing core Deep RL algorithms, I was able to apply what I learned to solving a suite of challenging robotics problems.
+
+
+
+
+
+Nancy Otero
+CREATURE—Human Learning Powered by Machine learning
+
+Mentor: Kai Arulkumaran
+Working from New York City and Mexico City
+Website Twitter
+Previous Roles: Software engineer at Palo Alto Networks; Founding Director of Learning Design and Research; Founded nonprofit based in Mexico; Stanford Education School
+
+Project-based learning is a very effective and enjoyable way to learn, but teachers often struggle to find appropriate projects for their students. Despite thousands of projects existing online, most are poorly labeled and thus difficult for teachers to find. Accurately labeling the thousands of online projects would be daunting and expensive on a case-by-case basis. CREATURE is a proof-of-concept model that labels online projects with 75–90% accuracy.
+
+Blog Post
+
+
+The OpenAI Scholars program demonstrated that given the right mentorship, trust, and financial support, learning ML to do a self-directed project is possible. I learned about language models, data collection and processing, model tuning, and how to integrate all that into a ready-to-use model for educational purposes. I'm excited to keep working on my project, dive deeper into the relationship between human intelligence and AI, and translate what I learned during this program into learning activities others can use.
+
+
+
+
+
+Elynn Chen
+Reinforcement Learning for Medical Applications
+
+Mentor: Lilian Weng
+Working from Princeton, NJ
+Website
+Previous Role: PhD student at Princeton University
+
+I developed a computer system that learns from historical electronic health records (EHR) and recommends optimal therapeutic treatment—dosage of IV fluids and vasopressor—based on patient's vitals and lab values. I specifically considered policy iteration and tabular Q-learning with discrete state and action spaces. Results revealed that the optimal RL policies recommend lower doses of IV fluids and higher doses of vasopressors than the physician’s actual treatments. Off-policy evaluation showed that optimal policy learned by Q-learning had higher reward than the one learned by policy iteration. The system can be easily extended to deal with continuous state/action space and incorporate other off-policy RL algorithms.
+
+Blog PostGitHub Repo
+
+
+I learned about NNs, CNNs, RNNs, LSTMs and deep reinforcement learning. I implemented different NN architectures and most RL algorithms including DQN, VPG, TRPO, PPO, and DDPG. Before this program, I majored in Statistics and had no experience with deep learning. The OpenAI Scholars program provided me with the guidance and resources to learn core deep learning methods in a short amount of time.
+
+
+
+
+
+Helen (Mengxin) Ji
+Sentiment Analysis Using Reinforcement Learning
+
+Mentor: Azalia Mirhoseini
+Working from the Bay Area
+Website Twitter
+Previous Role: PhD student in Economics at UC Davis
+
+We proposed novel models that combine reinforcement learning (RL) methods and supervised NLP methods to predict sentence sentiment. We formulated the sentiment-analysis task as a sequential decision process with the goal of combining RL methods for sentiment analysis. For the model involving a policy network and classification network, we found that adding a RL method can improve the performance from the transformer model and produce comparable results on the pre-trained BERT model. We concluded that for concrete classification problems in a language model, a good reward function definition is an important component for RL training.
+Blog Post
+
+This program gave me the opportunity to learn hands-on from current language models and gain a deeper understanding of RL methods to implement in my project. After these three months, I discovered my key interests in the field of AI and the Scholars program provided me with valuable resources to learn, practice and deploy interesting ideas in this space.
+
+
+
+
+
+Yuhao Wan
+Exploring Gamma: Discount of the Future, or Weight of the Past
+
+Mentor: Josh Achiam
+Working from the Bay Area
+Website
+Previous Role: REU-CAAR summer research group at Carleton College
+
+The role of discount factor is often neglected in deep reinforcement learning (DRL). In this project, I discovered the dual role of the discount factor in deep Q-networks: it encodes intertemporal preference and confidence in bootstrapping. In light of this hypothesis, I designed a simple myopia scheme that improves Baselines performance in various customized Gridworld environments. The experimental results demonstrated that the time-varying scheme could be robust and effective in more general settings, beyond DQN and the discrete action/state framework.
+
+Blog PostGitHub Repo
+
+
+The Scholars program allowed me to quickly gain a range of important skillsets. Over the first two months of self-designed study, I learned about the theory of reinforcement learning and became acquainted with how to implement deep reinforcement learning algorithms from scratch. I also appreciated the freedom and support I received as I worked on my final project. At the end of the program, I now feel more confident and ready to embark on new challenges ahead.
+
+
+
+
+
+Janet Brown
+Visualizing & Evaluating Image Synthesis GANs using the Techniques of Activation Atlases
+
+Mentor: Christy Dennison
+Working from San Francisco
+Website Twitter
+Previous Roles: Atakote; Harvard Business School; McKinsey & Company
+
+More and more realistic imagery is being achieved by generative models—yet we still struggle to effectively evaluate and understand them. I focused on different ways to understand and evaluate image synthesis GANs, using the approach of Distill’s Activation Atlas—a GAN-tlas! Using this method we were able to not only measure the difference in numerical terms, but also in highly visual terms—seeing inside the black box of what a neural network sees when it encounters both real and fake images.
+Blog Post
+
+Before this program, I focused on applying simple DL models in the AR/VR space. This program gave me the time dig into the foundations of DL and investigate the “black box” of neural networks. Not only was the program an opportunity to do this, but to do so with access to leaders in the field that were willing to share their insights.
+
+
+
+
+
+Edgar Barraza
+Knowledge Distillation For Transformer Language Models
+
+Mentor: Susan Zhang
+Working from Ithaca, NY
+Website Twitter
+Previous Role: Physics at Cornell University
+
+With the advent of the transformer, neural networks have the power to generate language like a human, summarize text, answer questions and so much more! As they become more powerful, they also become larger in size, making them increasingly difficult to run on mobile devices. To make these tools more accessible, this project explored knowledge distillation with transformer language models by using a large, well-trained transformer as a teacher to a smaller untrained student network.
+
+Blog PostGitHub Repo
+
+The OpenAI Scholars program gave me the opportunity to learn the latest and greatest advancements in Natural Language Processing. I was also given the resources to implement and explore a new computational massive idea, enabling me to quickly learn the skills to execute my ideas.
+
+
+
+
+
+Our Scholars demonstrate core technical skills across various expert domains and self-motivation—critical competences for a self-directed program like this one. They each entered the field of machine learning as relative newcomers, and we hope their progress shows how accessible machine learning is. To begin your learning journey, check out some of our educational materials. More information about the next class of Scholars and how to apply will be announced in July. Stay tuned!
+Thanks to AWS for providing compute credits to the scholars. Additional thank you to our dedicated community mentors for their time advising the scholars on their projects.
+
+
+
+
+
+
+
+
+
+Authors
+
+OpenAI
+
+
+
+
+
+
+
+
+Filed Under
+
+EventsScholars
+
+
+
+
+
+
+
+
+
+
+Featured
+ChatGPT
+DALL·E 2
+Whisper
+Alignment
+Startup Fund
+
+
+
+
+API
+Overview
+Pricing
+Examples
+Docs
+Terms & Policies
+Status
+Log in
+
+
+
+
+Blog
+Index
+Research
+Announcements
+Events
+Milestones
+
+
+
+
+Information
+About Us
+Our Charter
+Our Research
+Publications
+Newsroom
+Careers
+
+
+
+
+
+OpenAI © 2015–2023 Privacy Policy Terms of Use
+
+
+ twitter   youtube   github   soundcloud   linkedin   facebook    twitter   youtube   github   soundcloud   linkedin   facebook  
+
+
+
+
+
+

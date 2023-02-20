@@ -1,0 +1,367 @@
+
+
+
+
+
+
+
+
+Alec Radford - OpenAI
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Introducing ChatGPT research release
+
+Try ChatGPT
+Learn more
+
+
+
+
+
+
+
+
+
+
+API
+Research
+Blog
+About
+
+
+API
+Research
+Blog
+About
+
+
+
+
+
+
+
+
+Blog
+Alec Radford
+
+
+
+
+
+
+2022
+
+
+
+Introducing Whisper
+
+
+September 21, 2022
+
+
+               — Research
+
+
+
+
+
+
+
+
+
+
+2021
+
+
+
+CLIP: Connecting Text and Images
+
+
+January 5, 2021
+
+
+               — Research, Milestones, Multimodal
+
+
+
+
+
+
+
+
+
+
+2020
+
+
+
+Image GPT
+
+
+June 17, 2020
+
+
+               — Research, Milestones
+
+
+
+
+
+
+
+
+
+
+2020
+
+
+
+Jukebox
+
+
+April 30, 2020
+
+
+               — Research, Milestones
+
+
+
+
+
+
+
+
+
+
+2019
+
+
+
+Fine-Tuning GPT-2 from
+Human Preferences
+
+
+September 19, 2019
+
+
+               — Research
+
+
+
+
+
+
+
+
+
+
+2019
+
+
+
+Better Language Models and Their Implications
+
+
+February 14, 2019
+
+
+               — Research, Milestones, GPT-2
+
+
+
+
+
+
+
+
+
+
+2018
+
+
+
+Improving  Language Understanding with Unsupervised Learning
+
+
+June 11, 2018
+
+
+               — Research, Milestones
+
+
+
+
+
+
+
+
+
+
+2017
+
+
+
+Block-Sparse GPU Kernels
+
+
+December 6, 2017
+
+
+               — Research, Milestones
+
+
+
+
+
+
+
+
+
+
+2017
+
+
+
+OpenAI Baselines: ACKTR & A2C
+
+
+August 18, 2017
+
+
+               — Research, Milestones, OpenAI Baselines
+
+
+
+
+
+
+
+
+
+
+2017
+
+
+
+Proximal Policy Optimization
+
+
+July 20, 2017
+
+
+               — Research, Milestones
+
+
+
+
+
+
+
+
+
+
+2017
+
+
+
+Unsupervised Sentiment Neuron
+
+
+April 6, 2017
+
+
+               — Research, Milestones
+
+
+
+
+
+
+
+
+
+
+
+
+Featured
+ChatGPT
+DALL·E 2
+Whisper
+Alignment
+Startup Fund
+
+
+
+
+API
+Overview
+Pricing
+Examples
+Docs
+Terms & Policies
+Status
+Log in
+
+
+
+
+Blog
+Index
+Research
+Announcements
+Events
+Milestones
+
+
+
+
+Information
+About Us
+Our Charter
+Our Research
+Publications
+Newsroom
+Careers
+
+
+
+
+
+OpenAI © 2015–2023 Privacy Policy Terms of Use
+
+
+ twitter   youtube   github   soundcloud   linkedin   facebook    twitter   youtube   github   soundcloud   linkedin   facebook  
+
+
+
+
+
+

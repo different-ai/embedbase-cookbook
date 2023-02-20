@@ -1,0 +1,218 @@
+
+
+
+
+
+
+
+
+DALL·E 2 Research Preview Update
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Introducing ChatGPT research release
+
+Try ChatGPT
+Learn more
+
+
+
+
+
+
+
+
+
+
+API
+Research
+Blog
+About
+
+
+API
+Research
+Blog
+About
+
+
+
+
+
+
+
+
+
+
+
+DALL·E 2 Research Preview Update 
+Early users have created over 3 million images to date and helped us improve our safety processes. We're excited to begin adding up to 1,000 new users from our waitlist each week. 
+
+
+
+May 18, 2022
+1 minute read
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Last month, we started previewing DALL·E 2 to a limited number of trusted users to learn about the technology’s capabilities and limitations.
+Since then, we’ve been working with our users to actively incorporate the lessons we learn. As of today:
+
+Our users have collectively created over 3 million images with DALL·E.
+We’ve enhanced our safety system, improving the text filters and tuning the automated detection & response system for content policy violations.
+Less than 0.05% of downloaded or publicly shared images were flagged as potentially violating our content policy. About 30% of those flagged images were confirmed by human reviewers to be policy violations, leading to an account deactivation.
+As we work to understand and address the biases that DALL·E has inherited from its training data, we've asked early users not to share photorealistic generations that include faces and to flag problematic generations. We believe this has been effective in limiting potential harm, and we plan to continue the practice in the current phase.
+
+Learning from real-world use is an important part of our commitment to develop and deploy AI responsibly, so we’re starting to widen access to users who joined our waitlist, slowly but steadily.
+We intend to onboard up to 1,000 people every week as we iterate on our safety system and require all users to abide by our content policy. We hope to increase the rate at which we onboard new users as we learn more and gain confidence in our safety system. We’re inspired by what our users have created with DALL·E so far, and excited to see what new users will create.
+In the meantime, you can get a preview of these creations on our Instagram account: @openaidalle.
+
+
+
+Cover Artwork
+
+DALL·E
+
+
+
+
+
+
+
+
+
+
+
+Authors
+
+Joanne JangOpenAI
+
+
+
+
+
+
+
+
+Filed Under
+
+Announcements
+
+
+
+
+
+
+
+
+
+
+Featured
+ChatGPT
+DALL·E 2
+Whisper
+Alignment
+Startup Fund
+
+
+
+
+API
+Overview
+Pricing
+Examples
+Docs
+Terms & Policies
+Status
+Log in
+
+
+
+
+Blog
+Index
+Research
+Announcements
+Events
+Milestones
+
+
+
+
+Information
+About Us
+Our Charter
+Our Research
+Publications
+Newsroom
+Careers
+
+
+
+
+
+OpenAI © 2015–2023 Privacy Policy Terms of Use
+
+
+ twitter   youtube   github   soundcloud   linkedin   facebook    twitter   youtube   github   soundcloud   linkedin   facebook  
+
+
+
+
+
+

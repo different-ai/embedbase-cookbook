@@ -1,0 +1,317 @@
+
+
+
+
+
+
+
+
+DALL·E API Now Available in Public Beta
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Introducing ChatGPT research release
+
+Try ChatGPT
+Learn more
+
+
+
+
+
+
+
+
+
+
+API
+Research
+Blog
+About
+
+
+API
+Research
+Blog
+About
+
+
+
+
+
+
+
+
+
+
+
+DALL·E API Now Available in Public Beta 
+
+
+
+November 3, 2022
+4 minute read
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Starting today, developers can begin building apps with the DALL·E API.
+Read documentation
+
+Developers can now integrate DALL·E directly into their apps and products through our API. More than 3 million people are already using DALL·E to extend their creativity and speed up their workflows, generating over 4 million images a day. Developers can start building with this same technology in a matter of minutes.
+
+
+Generations
+Edits
+Variations
+
+
+
+
+#generations
+curl https://api.openai.com/v1/images/generations \
+  -H "Content-Type: application/json" \
+  -H "Authorization: Bearer $OPENAI_API_KEY" \
+  -d '{
+    "prompt": "a photo of a happy corgi puppy sitting and facing forward, studio light, longshot",
+    "n":1,
+    "size":"1024x1024"
+   }'
+
+down
+
+
+
+
+
+
+
+#edits
+curl https://api.openai.com/v1/images/edits \
+  -H "Authorization: Bearer $OPENAI_API_KEY" \
+  -F image="@/Users/openai/happy_corgi.png" \
+  -F mask="@/Users/openai/mask.png" \
+  -F prompt="a photo of a happy corgi puppy with fancy sunglasses on sitting and facing forward, studio light, longshot" \
+  -F n=1 \
+  -F size="1024x1024"
+
+down
+
+
+
+
+
+
+
+#variations
+curl https://api.openai.com/v1/images/variations \
+  -H "Authorization: Bearer $OPENAI_API_KEY" \
+  -F image="@/Users/openai/corgi_with_sunglasses.png" \
+  -F n=4 \
+  -F size="1024x1024"
+
+down
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+State-of-the-art image generation
+DALL·E’s flexibility allows users to create and edit original images ranging from the artistic to the photorealistic. DALL·E excels at following natural language descriptions so users can plainly describe what they want to see. As our research evolves, we will continue to bring the state of the art into the API, including advances in image quality, latency, scalability, and usability.
+Built-in moderation
+Incorporating the trust & safety lessons we’ve learned while deploying DALL·E to 3 million artists and users worldwide, developers can ship with confidence knowing that built-in mitigations—like filters for hate symbols and gore—will handle the challenging aspects of moderation. As a part of OpenAI’s commitment to responsible deployment, we will continue to make trust & safety a top priority so that developers can focus on building.
+DALL·E applications
+We’ve worked closely with a few early customers who have already built DALL·E into their apps and products across a variety of use cases.
+
+
+
+Microsoft Bing
+
+Microsoft is bringing DALL·E to a new graphic design app called Designer, which helps users create professional quality social media posts, invitations, digital postcards, graphics, and more.
+Microsoft is also integrating DALL·E in Bing and Microsoft Edge with Image Creator, allowing users to create images if web results don't return what they're looking for.
+
+
+
+
+
+
+
+
+CALA
+
+CALA is the world's first fashion and lifestyle operating system. CALA unifies the entire design process—from product ideation all the way through e-commerce enablement and order fulfillment—into a single digital platform. Powered by DALL·E, CALA's new artificial intelligence tools will allow users to generate new design ideas from natural text descriptions or uploaded reference images.
+
+
+
+
+
+
+
+
+Mixtiles
+
+Mixtiles is a fast-growing photo startup. They use software and an easy hanging experience to help millions of people create beautiful photo walls. Mixtiles uses the DALL·E API to create and frame emotionally resonating artwork, by guiding users through a creative process that captures childhood memories, dream destinations, and more.
+We’re excited to see what our customers will do with DALL·E and what creative ideas they’ll come up with.
+
+Build with OpenAI’s powerful models
+DALL·E joins GPT-3, Embeddings, and Codex in our API platform, adding a new building block that developers can use to create novel experiences and applications. All API customers can use the DALL·E API today.
+
+Read documentation
+
+
+
+
+
+
+
+
+
+
+
+
+Authors
+
+OpenAI
+
+
+
+
+
+
+
+
+Filed Under
+
+AnnouncementsAPI
+
+
+
+
+
+
+
+
+
+
+Featured
+ChatGPT
+DALL·E 2
+Whisper
+Alignment
+Startup Fund
+
+
+
+
+API
+Overview
+Pricing
+Examples
+Docs
+Terms & Policies
+Status
+Log in
+
+
+
+
+Blog
+Index
+Research
+Announcements
+Events
+Milestones
+
+
+
+
+Information
+About Us
+Our Charter
+Our Research
+Publications
+Newsroom
+Careers
+
+
+
+
+
+OpenAI © 2015–2023 Privacy Policy Terms of Use
+
+
+ twitter   youtube   github   soundcloud   linkedin   facebook    twitter   youtube   github   soundcloud   linkedin   facebook  
+
+
+
+
+
+

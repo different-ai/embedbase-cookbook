@@ -1,0 +1,203 @@
+
+
+
+
+
+
+
+
+Team Update
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Introducing ChatGPT research release
+
+Try ChatGPT
+Learn more
+
+
+
+
+
+
+
+
+
+
+API
+Research
+Blog
+About
+
+
+API
+Research
+Blog
+About
+
+
+
+
+
+
+
+
+Team Update 
+
+
+
+
+
+
+
+ 
+May 25, 2016
+1 minute read
+
+
+
+We'd like to welcome the latest set of team members to OpenAI (and we're still hiring!):
+
+Full-time
+
+Marcin Andrychowicz. Marcin received 3 gold medals in the IOI, and has been a top participant in programming competitions such as TopCoder and ACM-ICPC. He's been in deep learning for a year and has already made strong progress on neural memory architectures.
+Rafał Józefowicz. Rafał began his career in competitive programming and the finance industry. He's now been in deep learning for a year and a half, and his results include the state-of-the-art language model.
+Kate Miltenberger. Kate has a versatile background, with experience across operations, office administration, user research, community, and support. She previously helped Academia.edu run smoothly.
+Ludwig Pettersson. Ludwig was previously Stripe's Creative Director, where he built and led the design team.
+Jonas Schneider. Jonas did much of the engineering heavy lifting on OpenAI Gym. A recent college graduate, he was previously an intern at Stripe, where he helped build Stripe CTF3.
+Jie Tang. Jie was an engineer at Dropbox for almost five years, where he led the team responsible for the core file sync technology running on hundreds of millions of desktops. Prior to that he worked in Pieter Abbeel's robotics lab at Berkeley, working on autonomous helicopters, RGBD perception, and Starcraft bots.
+
+
+Interns
+
+Prafulla Dhariwal. Prafulla was a gold medalist in the IMO, IPhO, and IAO. He's currently an undergraduate at MIT, performing research on learning of invariant representations for speech and vision tasks.
+Paul Christiano. Paul is a PhD student at Berkeley who has written extensively about AI safety. He received best paper and best student paper awards at STOC for research on optimization and online learning.
+
+
+
+
+
+
+
+
+
+
+Authors
+
+Greg Brockman
+
+
+
+
+
+
+
+
+Filed Under
+
+Announcements
+
+
+
+
+
+
+
+
+
+
+Featured
+ChatGPT
+DALL·E 2
+Whisper
+Alignment
+Startup Fund
+
+
+
+
+API
+Overview
+Pricing
+Examples
+Docs
+Terms & Policies
+Status
+Log in
+
+
+
+
+Blog
+Index
+Research
+Announcements
+Events
+Milestones
+
+
+
+
+Information
+About Us
+Our Charter
+Our Research
+Publications
+Newsroom
+Careers
+
+
+
+
+
+OpenAI © 2015–2023 Privacy Policy Terms of Use
+
+
+ twitter   youtube   github   soundcloud   linkedin   facebook    twitter   youtube   github   soundcloud   linkedin   facebook  
+
+
+
+
+
+

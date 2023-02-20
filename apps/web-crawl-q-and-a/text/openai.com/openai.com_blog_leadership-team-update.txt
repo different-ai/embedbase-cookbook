@@ -1,0 +1,212 @@
+
+
+
+
+
+
+
+
+OpenAI Leadership Team Update
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Introducing ChatGPT research release
+
+Try ChatGPT
+Learn more
+
+
+
+
+
+
+
+
+
+
+API
+Research
+Blog
+About
+
+
+API
+Research
+Blog
+About
+
+
+
+
+
+
+
+
+
+
+
+OpenAI Leadership Team Update 
+We’re happy to announce several executive role changes that reflect our recent progress and will ensure continued momentum toward our next major milestones.
+
+
+
+May 5, 2022
+1 minute read
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Greg Brockman is becoming President, a new role which reflects his unique combination of personal coding contributions on our critical path together with company strategy. He is currently focused on training our flagship AI systems.
+Brad Lightcap has been pivotal in OpenAI's growth, scaling our structure, team, and capital base through his oversight of our Finance, Legal, People, and Operations organizations. He will become Chief Operating Officer and expand his focus, working with our Applied AI teams to sharpen our business and commercial strategies. He will also continue to manage the OpenAI Startup Fund.
+Mira Murati has done a tremendous job leading our research, product, and partnership functions over the past 18 months. Most recently, she was instrumental in bringing these functions together for the successful release of our DALL·E research. Mira is taking on the role of Chief Technology Officer, reflecting her leadership across these critical areas within OpenAI.
+Chris Clark is becoming Head of Nonprofit and Strategic Initiatives. He will lead the operations of OpenAI’s nonprofit parent and key strategic projects including our relationships with mission-aligned partners.
+
+These executives are supported by world-class teams who are the lifeblood of OpenAI, constantly advancing the state of the art in artificial intelligence research and deployment. It’s a pleasure to work alongside such incredible talent and leadership across our company. We are all very excited for the future. (And we’re hiring!)
+
+
+Cover Artwork
+
+DALL·E
+
+
+
+
+
+
+
+
+
+
+
+Authors
+
+Sam Altman
+
+
+
+
+
+
+
+
+Filed Under
+
+Announcements
+
+
+
+
+
+
+
+
+
+
+Featured
+ChatGPT
+DALL·E 2
+Whisper
+Alignment
+Startup Fund
+
+
+
+
+API
+Overview
+Pricing
+Examples
+Docs
+Terms & Policies
+Status
+Log in
+
+
+
+
+Blog
+Index
+Research
+Announcements
+Events
+Milestones
+
+
+
+
+Information
+About Us
+Our Charter
+Our Research
+Publications
+Newsroom
+Careers
+
+
+
+
+
+OpenAI © 2015–2023 Privacy Policy Terms of Use
+
+
+ twitter   youtube   github   soundcloud   linkedin   facebook    twitter   youtube   github   soundcloud   linkedin   facebook  
+
+
+
+
+
+

@@ -1,0 +1,286 @@
+
+
+
+
+
+
+
+
+OpenAI Charter
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Introducing ChatGPT research release
+
+Try ChatGPT
+Learn more
+
+
+
+
+
+
+
+
+
+
+API
+Research
+Blog
+About
+
+
+API
+Research
+Blog
+About
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+OpenAI Charter 
+
+
+
+April 9, 2018
+5 minute read
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+We're releasing a charter that describes the principles we use to execute on OpenAI's mission. This document reflects the strategy we've refined over the past two years, including feedback from many people internal and external to OpenAI. The timeline to AGI remains uncertain, but our charter will guide us in acting in the best interests of humanity throughout its development.
+
+
+我们发布了OpenAI纲领，并在其中描述了我们履行OpenAI使命的原则。这份宣言包含了许多我们实践的重要原则，它是OpenAI内外许多人在两年里不断完善人工智能发展战略的努力的结晶。达成通用人工智能的时间表仍具有很大的不确定性，但这份纲领将指导我们在整个开发过程中致力于为人类的最佳利益行事。
+
+
+
+
+
+
+
+English
+
+中文
+
+
+
+
+OpenAI's mission is to ensure that artificial general intelligence (AGI)—by which we mean highly autonomous systems that outperform humans at most economically valuable work—benefits all of humanity. We will attempt to directly build safe and beneficial AGI, but will also consider our mission fulfilled if our work aids others to achieve this outcome. To that end, we commit to the following principles:
+Broadly Distributed Benefits
+
+We commit to use any influence we obtain over AGI’s deployment to ensure it is used for the benefit of all, and to avoid enabling uses of AI or AGI that harm humanity or unduly concentrate power.
+Our primary fiduciary duty is to humanity. We anticipate needing to marshal substantial resources to fulfill our mission, but will always diligently act to minimize conflicts of interest among our employees and stakeholders that could compromise broad benefit.
+
+Long-Term Safety
+
+We are committed to doing the research required to make AGI safe, and to driving the broad adoption of such research across the AI community.
+We are concerned about late-stage AGI development becoming a competitive race without time for adequate safety precautions. Therefore, if a value-aligned, safety-conscious project comes close to building AGI before we do, we commit to stop competing with and start assisting this project. We will work out specifics in case-by-case agreements, but a typical triggering condition might be "a better-than-even chance of success in the next two years."
+
+Technical Leadership
+
+To be effective at addressing AGI's impact on society, OpenAI must be on the cutting edge of AI capabilities—policy and safety advocacy alone would be insufficient.
+We believe that AI will have broad societal impact before AGI, and we’ll strive to lead in those areas that are directly aligned with our mission and expertise.
+
+Cooperative Orientation
+
+We will actively cooperate with other research and policy institutions; we seek to create a global community working together to address AGI’s global challenges.
+We are committed to providing public goods that help society navigate the path to AGI. Today this includes publishing most of our AI research, but we expect that safety and security concerns will reduce our traditional publishing in the future, while increasing the importance of sharing safety, policy, and standards research.
+
+
+
+OpenAI的使命是确保通用人工智能 (Artificial General Intelligence, AGI)，即一种高度自主且在大多数具有经济价值的工作上超越人类的系统，将为全人类带来福祉。我们不仅希望直接建造出安全的、符合共同利益的通用人工智能，而且愿意帮助其它研究机构共同建造出这样的通用人工智能以达成我们的使命。为了达到这个目标，我们制订了如下原则：
+广泛造福社会
+
+我们承诺在通用人工智能的开发过程中，将利用所有可获得的影响力，确保它可以造福全人类。我们将避免把人工智能或通用人工智能的技术置于损害人类或过度集中权力的事业中。
+我们的首要任务是对人类文明负责。我们预计需要调用大量资源来完成这一使命。同时，我们会积极行动以减少雇员和利益相关者间的利益冲突，确保大多数人可以受益。
+
+关注长远安全问题
+
+OpenAI致力于进行能够确保通用人工智能安全的研究。我们力求在整个人工智能研究领域内推动这类研究项目的广泛应用。
+我们担心通用人工智能在发展后期将演变成一场激烈的竞赛，导致缺乏充足的时间进行安全防范。因此，如果一个与人类价值观相符、注重安全的项目领先于我们将近达成通用人工智能，我们承诺将停止竞赛，幷转而协助这个项目。我们会针对个别情况设计具体的合作方案。不过，一个典型的触发条件可能会是「这个项目在未来两年内能够成功研发通用人工智能的概率超过一半」。
+
+引领技术研究
+
+为了能有效地促进通用人工智能对社会的正面影响，OpenAI必须站在人工智能技术研究的前沿。我们认为仅做政策和安全性的倡导是过于单薄的。
+我们相信人工智能在达成通用人工智能之前便会产生广泛的社会影响。OpenAI希望在符合我们的使命和专长的领域中努力保持领先地位。
+
+保持合作意愿
+
+我们会和其它研究机构以及政策制定机构积极合作。我们希望可以建立一个国际化的社区，共同应对通用人工智能的全球性挑战。
+我们致力于研发公共物品，以帮助社会走向与通用人工智能共处的时代。目前这包括公开发表大多数的人工智能研究成果。OpenAI预料未来对安全和安保的考虑将会使我们减少发表传统的研究成果，而更注重分享安全、政策和标准化相关的研究。
+
+
+
+
+
+
+Chinese Translation
+
+         Brian Tse
+      
+
+
+
+
+
+Cover Artwork
+Ben Barry
+
+
+
+
+
+
+
+
+
+
+
+Authors
+
+OpenAI
+
+
+
+
+
+
+
+
+Filed Under
+
+AnnouncementsMilestones
+
+
+
+
+
+
+
+
+
+
+Featured
+ChatGPT
+DALL·E 2
+Whisper
+Alignment
+Startup Fund
+
+
+
+
+API
+Overview
+Pricing
+Examples
+Docs
+Terms & Policies
+Status
+Log in
+
+
+
+
+Blog
+Index
+Research
+Announcements
+Events
+Milestones
+
+
+
+
+Information
+About Us
+Our Charter
+Our Research
+Publications
+Newsroom
+Careers
+
+
+
+
+
+OpenAI © 2015–2023 Privacy Policy Terms of Use
+
+
+ twitter   youtube   github   soundcloud   linkedin   facebook    twitter   youtube   github   soundcloud   linkedin   facebook  
+
+
+
+
+
+

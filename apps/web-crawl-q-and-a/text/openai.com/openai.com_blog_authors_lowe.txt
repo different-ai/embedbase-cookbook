@@ -1,0 +1,240 @@
+
+
+
+
+
+
+
+
+Ryan Lowe - OpenAI
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Introducing ChatGPT research release
+
+Try ChatGPT
+Learn more
+
+
+
+
+
+
+
+
+
+
+API
+Research
+Blog
+About
+
+
+API
+Research
+Blog
+About
+
+
+
+
+
+
+
+
+Blog
+Ryan Lowe
+
+
+
+
+
+
+2022
+
+
+
+Aligning Language Models to Follow Instructions
+
+
+January 27, 2022
+
+
+               — Research
+
+
+
+
+
+
+
+
+
+
+2021
+
+
+
+Summarizing Books with Human Feedback
+
+
+September 23, 2021
+
+
+               — Research
+
+
+
+
+
+
+
+
+
+
+2020
+
+
+
+Learning to Summarize with Human Feedback
+
+
+September 4, 2020
+
+
+               — Research
+
+
+
+
+
+
+
+
+
+
+2017
+
+
+
+Learning to Cooperate, Compete, and Communicate
+
+
+June 8, 2017
+
+
+               — Research
+
+
+
+
+
+
+
+
+
+
+2017
+
+
+
+Learning to Communicate
+
+
+March 16, 2017
+
+
+               — Research
+
+
+
+
+
+
+
+
+
+
+
+
+Featured
+ChatGPT
+DALL·E 2
+Whisper
+Alignment
+Startup Fund
+
+
+
+
+API
+Overview
+Pricing
+Examples
+Docs
+Terms & Policies
+Status
+Log in
+
+
+
+
+Blog
+Index
+Research
+Announcements
+Events
+Milestones
+
+
+
+
+Information
+About Us
+Our Charter
+Our Research
+Publications
+Newsroom
+Careers
+
+
+
+
+
+OpenAI © 2015–2023 Privacy Policy Terms of Use
+
+
+ twitter   youtube   github   soundcloud   linkedin   facebook    twitter   youtube   github   soundcloud   linkedin   facebook  
+
+
+
+
+
+

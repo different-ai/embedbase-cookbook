@@ -1,0 +1,363 @@
+
+
+
+
+
+
+
+
+OpenAI Scholars 2019: Meet Our Scholars
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Introducing ChatGPT research release
+
+Try ChatGPT
+Learn more
+
+
+
+
+
+
+
+
+
+
+API
+Research
+Blog
+About
+
+
+API
+Research
+Blog
+About
+
+
+
+
+
+
+
+
+OpenAI Scholars 2019: Meet Our Scholars 
+
+
+
+
+
+
+
+
+March 13, 2019
+5 minute read
+
+
+
+
+
+
+
+
+
+
+Our class of eight scholars (out of 550 applicants) brings together collective expertise in literature, philosophy, cell biology, statistics, economics, quantum physics, and business innovation. Our scholars are applying these specializations to current AI research and documenting their progress as they continue to grow as machine learning practitioners.
+
+
+
+Our Spring class of scholars with members of the OpenAI team.
+
+This is our second class of OpenAI Scholars. Their program began in February and will conclude with the completion of an open-source final project. Throughout the program, scholars share their progress with the research community through their blogs. Some applications our scholars are working towards are:
+
+Applying reinforcement learning to robotic manipulation
+Improving inference and reasoning in natural language processing
+Applying reinforcement learning algorithms to sentiment analysis
+
+Meet the Scholars
+
+
+
+
+
+
+
+
+
+Fatma Tarlaci
+
+                Mentor: Jonathan Raiman
+                Working from Austin, TX
+Website Twitter
+
+
+
+
+Fatma received her PhD in Comparative Literature from the University of Texas at Austin in 2016 and earned her Masters in Computer Science from Stanford University in 2018 as an Eric Roberts Fellow. Her knowledge of languages, cultures, and literature led her to explore the human dimension of AGI. Fatma is currently a computer science instructor at St. Edwards University and is interested in the intersection between natural language processing (NLP) and computer vision (CV). She is an avid advocate of diversity in AI and believes that a better representation in AI is critical as it permeates into all aspects of human life. As an OpenAI Scholar, Fatma works on NLP methodologies and aims to complete a project that explores ways of improving inference and reasoning in NLP.
+
+
+
+
+
+
+
+
+
+Jonathan Michaux
+
+                Mentor: Feryal Behbahani
+                Working from Chicago and San Francisco
+Website Twitter
+
+
+
+
+
+Jonathan is a cell biologist (PhD), mathematician (BA), and robotics enthusiast who is deeply interested in the movement and control of complex systems. At the cellular level, he studied the mechanisms that control cell-shape changes in embryonic cells. As an aspiring roboticist, he is applying reinforcement learning to robot manipulation. His long-term research objective is to combine tools from machine learning and optimization with insights from control theory to design algorithms for robotic locomotion and manipulation in real-world settings.
+
+
+
+
+
+
+
+
+
+Nancy Otero
+
+                Mentor: Kai Arulkumaran
+                Working from New York City and Mexico City
+Website Twitter
+
+
+
+
+Nancy has been researching learning for the past 10 years. Thinking about human construction of knowledge is her passion. With a background in software engineering, math, psychology and education from Stanford University, Nancy wants to use multidisciplinary approaches to develop AI prototypes that could improve education. She’s also interested in understanding how AI is redefining how, why and what humans will learn in the near future. She’s on the founding team of the Portfolio School, a project-based school in NYC, and the co-founder of a non-profit in Mexico.
+
+
+
+
+
+
+
+
+
+Elynn Chen
+
+                Mentor: Lilian Weng
+                Working from Princeton, NJ
+Website
+
+
+
+
+Elynn received her PhD in Statistics in 2018. Her PhD focused on spectral method and matrix/tensor factorization on high- and multi-dimensional data. Her research interests lie at the intersection of statistical learning theory, machine learning and optimization. At OpenAI, she works on deep RL and its applications to healthcare and business management.
+
+
+
+
+
+
+
+
+
+Helen (Mengxin) Ji
+
+                Mentor: Azalia Mirhoseini
+                Working from the Bay Area
+Website Twitter
+
+
+
+
+Helen is a PhD student in Resource Economics and a Masters student in Statistics at UC Davis. Her research interests focus on machine learning methods (both classical statistical learning and deep learning) and their application to Energy Economics, and heterogeneous causal inference. She was an applied research intern at Microsoft in 2018 and a 2017 research fellow with Data Science for Social Good at the University of Chicago. In 2018, she was awarded Twitter's Grace Hopper fellowship and also the Women in Quantitative Finance fellowship. As an OpenAI Scholar, Helen works on RL methodologies and plans to complete a project that can apply RL algorithms on sentiment analysis.
+
+
+
+
+
+
+
+
+
+Yuhao Wan
+
+                Mentor: Josh Achiam
+                Working from the Bay Area
+Website Twitter
+
+
+
+
+Yuhao recently graduated from Carleton College studying Mathematics and Philosophy. Fascinated by the structure and dynamics of our world, Yuhao also explored physics, law, and economics. She discovered her interest in research and problem solving through Budapest Semesters in Mathematics and REU in Combinatorics and Algorithms for Real Problems. At OpenAI, Yuhao studies machine learning with a focus on deep reinforcement learning. Currently, she is interested in understanding how learning methods exhibit certain degrees of generalization.
+
+
+
+
+
+
+
+
+
+Janet Brown
+
+                Mentor: Christy Dennison
+                Working from San Francisco, CA
+Website Twitter
+
+
+
+
+Janet has always been fascinated by the visual dimension & using spatial approaches to help augment analysis in traditionally non-visual problem domains. As an OpenAI Scholar, she investigates the possibilities of generative models & their ability to help identify the most critical features of data/images as part of generating reconstructions. Currently, Janet leads Atakote, where she works with technologies like augmented & virtual reality to transform traditional industries such as retail, manufacturing, and transportation. Previously, Janet studied at Harvard Business School & worked at major companies, such as McKinsey & Company, in 20+ countries.
+
+
+
+
+
+
+
+
+
+Edgar Barraza
+
+                Mentor: Susan Zhang
+                Working from Ithaca, NY
+Website Twitter
+
+
+
+
+Edgar is a recent graduate of Cornell University’s Physics program. Originally trained as an experimentalist working on hybrid-quantum systems, he dove into deep learning by applying techniques in computer vision to search for sub-atomic particles represented as images. He hopes to provide people with the resources they need by utilizing AI’s power to accomplish tasks that were once only possible by humans. To work towards this goal, Edgar spends his time as an OpenAI Scholar focusing on natural language understanding.
+
+Our Scholars demonstrate core technical skills across various expert domains and self-motivation—critical competences for a self-directed program like this one. They each entered the field of machine learning as relative newcomers, and we hope their progress shows how accessible machine learning is. To begin your learning journey, check out some of our educational materials.
+Thanks to AWS for providing compute credits to the scholars. Additional thank you to our dedicated community mentors for their time advising the scholars on their projects.
+
+
+
+
+
+
+
+
+
+Authors
+
+OpenAI
+
+
+
+
+
+
+
+
+Filed Under
+
+AnnouncementsScholars
+
+
+
+
+
+
+
+
+
+
+Featured
+ChatGPT
+DALL·E 2
+Whisper
+Alignment
+Startup Fund
+
+
+
+
+API
+Overview
+Pricing
+Examples
+Docs
+Terms & Policies
+Status
+Log in
+
+
+
+
+Blog
+Index
+Research
+Announcements
+Events
+Milestones
+
+
+
+
+Information
+About Us
+Our Charter
+Our Research
+Publications
+Newsroom
+Careers
+
+
+
+
+
+OpenAI © 2015–2023 Privacy Policy Terms of Use
+
+
+ twitter   youtube   github   soundcloud   linkedin   facebook    twitter   youtube   github   soundcloud   linkedin   facebook  
+
+
+
+
+
+

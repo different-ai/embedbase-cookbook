@@ -1,0 +1,259 @@
+
+
+
+
+
+
+
+
+Coordinated Vulnerability Disclosure Policy
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Introducing ChatGPT research release
+
+Try ChatGPT
+Learn more
+
+
+
+
+
+
+
+
+
+
+API
+Research
+Blog
+About
+
+
+API
+Research
+Blog
+About
+
+
+
+
+
+
+
+
+Coordinated Vulnerability Disclosure Policy 
+
+
+
+
+
+
+
+
+November 18, 2020
+4 minute read
+
+
+
+
+
+
+
+
+
+
+Security is essential to OpenAI’s mission. We value the input of hackers acting in good faith to help us maintain a high standard for the security and privacy for our users and technology. This includes encouraging responsible vulnerability research and disclosure. This policy[1] sets out our definition of good faith in the context of finding and reporting vulnerabilities, as well as what you can expect from us in return.
+
+Expectations
+When working with us in accordance with this policy, you can expect us to:
+
+Extend Safe Harbor, as defined by this policy, for your vulnerability research that is related to this policy.
+Work with you to understand and validate your report, including a timely initial response to the submission.
+Work to remediate discovered vulnerabilities in a timely manner.
+Recognize your contribution to improving our security if you are the first to report a unique vulnerability, and your report triggers a code or configuration change. Please note that OpenAI does not offer compensation for vulnerability information.
+
+Rules of Engagement
+To encourage vulnerability research and to avoid any confusion between good-faith hacking and malicious attack, your testing must conform to all of the following standards:
+
+You must notify the OpenAI security team of your intent to perform testing, and receive explicit authorization for said testing, prior to commencing. Authorization may be requested by emailing disclosure@openai.com.
+Play by the rules. This includes following this policy, as well as any other relevant agreements. If there is any inconsistency between this policy and any other relevant terms, the terms of this policy will prevail.
+Report any vulnerability you’ve discovered promptly.
+Avoid violating the privacy of others, disrupting our systems, destroying data, and/or harming user experience.
+Use only the disclosure@openai.com email address to discuss vulnerability information with us.
+Keep the details of any discovered vulnerabilities confidential until they are authorized for release by the OpenAI security team. OpenAI aims to provide said authorization within 90 days of receipt of each report.
+Perform testing only on in-scope systems, and respect systems and activities which are out-of-scope.
+Do not access, modify, destroy, save, transmit, alter, transfer, use, or view data belonging to anyone other than yourself. If a vulnerability provides access to such data, including but not limited to Personally Identifiable Information (PII), Personal Healthcare Information (PHI), credit card data, or proprietary information such as source code, model weights, or cryptographic/application secrets, please cease testing, delete local information, and submit a report immediately.
+You should only interact with test accounts you own, unless otherwise authorized by OpenAI.
+Disclosure of vulnerabilities to OpenAI must be unconditional. OpenAI does not offer compensation for vulnerability information. Do not engage in extortion, threats, or other tactics designed to elicit a response under duress. OpenAI will not allow Safe Harbor for vulnerability disclosure conducted under threat of full disclosure, exposure of data, or withholding of vulnerability information.
+
+Safe Harbor Definition
+When conducting vulnerability research according to this policy, OpenAI will consider your research to be:
+
+Authorized in accordance with the Computer Fraud and Abuse Act (CFAA) (and/or similar state laws), and will not initiate or support legal action against you for accidental, good faith violations of this policy when conducting genuine vulnerability research in accordance with this policy;
+Exempt from the Digital Millennium Copyright Act (DMCA), and we will not bring a claim against you for circumvention of technology controls when conducting genuine vulnerability research in accordance with this policy;
+Exempt from restrictions in our Terms and Conditions that would interfere with conducting security research, and we waive those restrictions on a limited basis for work done under this policy; and
+Lawful, helpful to the overall security of the Internet, and conducted in good faith.
+
+You are expected, as always, to comply with all applicable laws.
+If at any time you have concerns or are uncertain whether your security research is consistent with this policy, please submit an inquiry via disclosure@openai.com before going any further.
+The following services and applications are exhaustively in-scope:
+
+Any Internet-facing infrastructure operated by OpenAI. Examples include:
+
+openai.com and its subdomains, including:
+
+The openai.com public website.
+The beta.openai.com API service website.
+The api.openai.com API service.
+Other subdomains of openai.com.
+
+
+openai.org and its subdomains.
+Firewalls, proxies, networking devices, etc.
+
+
+Any public cloud resource or infrastructure operated by OpenAI. Examples include:
+
+Cloud storage accounts (e.g., Azure data blobs, AWS S3 buckets)
+Cloud compute servers (e.g., Azure virtual machines, AWS EC2 instances)
+
+
+
+The following are non-exhaustively out-of-scope:
+
+Attacks designed or likely to degrade, deny, or adversely impact services or user experience (e.g., denial of service, brute force, password spraying, spam, fuzzing unless otherwise approved by OpenAI’s security team)
+Attacks designed or likely to destroy, corrupt, make unreadable data or information that does not belong to you.
+Attacks designed or likely to validate stolen credentials, credential reuse, account takeover, hijacking, or other credential-based techniques.
+Intentionally accessing data or information that does not belong to you beyond the minimum viable access necessary to demonstrate the vulnerability.
+Performing physical, social engineering, phishing, or electronic access against OpenAI personnel, offices, wireless networks, or property.
+Attacks performed on any system not explicitly mentioned above as in-scope.
+Attacks related to email servers, email protocols, email security (e.g., SPF, DMARC, DKIM) or email spam.
+Reports of insecure SSL/TLS ciphers, unless accompanied by a working proof-of-concept.
+Reports of missing HTTP headers (e.g., lack of HSTS), unless accompanied by a working proof-of-concept.
+
+Reporting
+Follow this process to report a security issue or vulnerability:
+
+Aggregate as much technical information as possible, including steps to reproduce and validate the issue.
+Encrypt your report using our PGP key.
+Within 24 hours of discovery, email your encrypted report to the OpenAI security team via disclosure@openai.com.
+Allow up to 10 business days for confirmation of the reported issue.
+
+
+
+
+
+Footnotes
+
+
+
+
+OpenAI’s coordinated vulnerability disclosure policy is inspired by the disclose.io vulnerability disclosure framework. ↩︎
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Featured
+ChatGPT
+DALL·E 2
+Whisper
+Alignment
+Startup Fund
+
+
+
+
+API
+Overview
+Pricing
+Examples
+Docs
+Terms & Policies
+Status
+Log in
+
+
+
+
+Blog
+Index
+Research
+Announcements
+Events
+Milestones
+
+
+
+
+Information
+About Us
+Our Charter
+Our Research
+Publications
+Newsroom
+Careers
+
+
+
+
+
+OpenAI © 2015–2023 Privacy Policy Terms of Use
+
+
+ twitter   youtube   github   soundcloud   linkedin   facebook    twitter   youtube   github   soundcloud   linkedin   facebook  
+
+
+
+
+
+

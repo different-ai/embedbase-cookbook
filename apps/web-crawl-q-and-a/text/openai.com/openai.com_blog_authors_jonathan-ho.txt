@@ -1,0 +1,261 @@
+
+
+
+
+
+
+
+
+Jonathan Ho - OpenAI
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Introducing ChatGPT research release
+
+Try ChatGPT
+Learn more
+
+
+
+
+
+
+
+
+
+
+API
+Research
+Blog
+About
+
+
+API
+Research
+Blog
+About
+
+
+
+
+
+
+
+
+Blog
+Jonathan Ho
+
+
+
+
+
+
+2018
+
+
+
+Evolved Policy Gradients
+
+
+April 18, 2018
+
+
+               — Research
+
+
+
+
+
+
+
+
+
+
+2017
+
+
+
+Learning a Hierarchy
+
+
+October 26, 2017
+
+
+               — Research
+
+
+
+
+
+
+
+
+
+
+2017
+
+
+
+Faster Physics in Python
+
+
+June 28, 2017
+
+
+               — Research
+
+
+
+
+
+
+
+
+
+
+2017
+
+
+
+Robots that Learn
+
+
+May 16, 2017
+
+
+               — Research, Milestones
+
+
+
+
+
+
+
+
+
+
+2017
+
+
+
+Evolution Strategies as a Scalable Alternative to Reinforcement Learning
+
+
+March 24, 2017
+
+
+               — Research, Milestones
+
+
+
+
+
+
+
+
+
+
+2016
+
+
+
+Generative Models
+
+
+June 16, 2016
+
+
+               — Research, Milestones
+
+
+
+
+
+
+
+
+
+
+
+
+Featured
+ChatGPT
+DALL·E 2
+Whisper
+Alignment
+Startup Fund
+
+
+
+
+API
+Overview
+Pricing
+Examples
+Docs
+Terms & Policies
+Status
+Log in
+
+
+
+
+Blog
+Index
+Research
+Announcements
+Events
+Milestones
+
+
+
+
+Information
+About Us
+Our Charter
+Our Research
+Publications
+Newsroom
+Careers
+
+
+
+
+
+OpenAI © 2015–2023 Privacy Policy Terms of Use
+
+
+ twitter   youtube   github   soundcloud   linkedin   facebook    twitter   youtube   github   soundcloud   linkedin   facebook  
+
+
+
+
+
+

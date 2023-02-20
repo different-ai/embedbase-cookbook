@@ -1,0 +1,349 @@
+
+
+
+
+
+
+
+
+OpenAI Fellows Fall 2018: Final Projects
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Introducing ChatGPT research release
+
+Try ChatGPT
+Learn more
+
+
+
+
+
+
+
+
+
+
+API
+Research
+Blog
+About
+
+
+API
+Research
+Blog
+About
+
+
+
+
+
+
+
+
+OpenAI Fellows Fall 2018: Final Projects 
+
+
+
+
+
+
+
+
+May 17, 2019
+7 minute read
+
+
+
+
+
+
+
+
+
+
+Our second class of OpenAI Fellows has wrapped up, with each Fellow going from a machine learning beginner to core OpenAI contributor in the course of a 6-month apprenticeship. We are currently reviewing applications on a rolling basis for our next round of OpenAI Fellows Summer 2019.
+
+Apply for Summer 2019
+
+During this time, we’ve seen how expertise in other scientific fields like classical music, statistics, and mathematics can yield insights to push AI research forward. All 6 Fellows have completed projects investigating a novel research idea while embedded in an OpenAI research team.
+We’re also excited to welcome all 6 of our Fall Fellows to OpenAI as full-time members of our technical staff!
+Final Projects
+
+
+
+
+
+
+
+
+
+Christine Payne
+
+              Team—Language
+              Mentor—Alec Radford
+
+
+
+
+Previous Role: Pianist
+What I Learned: "The Fellows program provided a great balance of freedom and support. I enjoyed spending the first two months reading papers and learning to implement them, and I really appreciated having a mentor who helped me pick the best papers or ideas to pursue. I was also able to work on my own and experiment with different ideas, but Alec and others on the team were always very generous with their time when I was stuck or needed advice. At the start of 2019, we were asked to think "What do I need to do to make my work this coming year the best work of my life?" For me, a big part of the answer is to work at OpenAI, as part of such a uniquely talented and motivated team."
+Final Project: I created MuseNet, a MIDI music model based on the same transformer architecture that powers GPT-2. MuseNet generates 2–4 minute compositions in many different musical styles. To do this, I collected hundreds of thousands of MIDI files from the web, experimented with different tokenization schemes, developed a way to condition samples based on a particular style or composer, and developed a co-composer tool to enable joint human/AI compositions.
+Blog PostListen to concert
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+What's Next: Joining the Language team at OpenAI, working to improve MuseNet and collaborate with musicians.
+
+
+
+
+
+
+
+
+
+Jacob Hilton
+
+              Team—Reinforcement learning
+              Mentor—John Schulman
+
+
+
+
+Previous Roles: Quantitative researcher/trader at Jane Street, PhD in Mathematics at Leeds.
+What I Learned: "The Fellows program has been a fantastic introduction to machine learning research. It has been intense—a bit like the first year of my PhD condensed into six months. It was reinvigorating to have the first couple of months set aside to just learn, following a nicely-curated curriculum of papers and programming exercises. Just as valuable to learn from has been conducting my first machine learning research project, including all the inevitable false starts and failed experiments. Throughout I've been surrounded by experts who have been eager to bounce around ideas with me, and my mentor's indispensable guidance has helped to hone my research intuition and kept my project on track."
+Final Project: I studied how to make bias-variance tradeoffs in reinforcement learning. There are several hyperparameters of reinforcement learning algorithms that can be viewed as making a tradeoff between bias (systematic error) and variance (random error). For example, the discount rate controls the amount of bias towards shorter-term rewards, which tend to have less variance. I developed a general method of choosing these hyperparameters by directly measuring the bias and variance of gradients. The method also works in other contexts involving stochastic gradient descent outside of reinforcement learning.
+
+Bias and variance measurements for a CoinRun agent trained using PPO. Lower discount rates typically give lower-variance gradients, but become increasingly biased as training continues and the agent learns to model the longer-term effects of its actions.
+What's Next: Joining the RL team at OpenAI, exploring new research directions such as interpretability for RL.
+
+
+
+
+
+
+
+
+
+Todor Markov
+
+              Team—Multiagent
+              Mentors—Igor Mordatch
+
+
+
+
+Previous Role: Software engineer at Blend; BS in Symbolic Systems and MS in Statistics at Stanford University.
+What I Learned: "The Fellows program has been great in terms of both providing a good overview of the current state of deep learning and reinforcement learning research, and also allowing me to get hands-on experience with doing research in the field. The mentorship aspect was also a crucial component, and it has been tremendously helpful for beginning to build a sense of research taste."
+Final Project: I worked on evaluating skill emergence in multiagent environments by creating several evaluation tasks and testing whether transfer learning occurs when an agent trained in the multiagent environment has to learn those evaluation tasks. I also tried to evaluate how much of the observed transfer is caused by useful behaviors being learned in the multiagent environment, and how much is caused by useful mental representations being learned.
+What's Next: Joining the Multiagent team at OpenAI, continuing to work on transfer learning.
+
+
+
+
+
+
+
+
+
+Mark Chen
+
+              Team—Algorithms
+              Mentor—Ilya Sutskever
+
+
+
+
+Previous Role: Quantitative trader
+What I Learned: "The Fellows program provided me with a structured and efficient path to becoming a productive AI researcher. Ilya and Alec always made time for mentorship and to help me refine my ideas. With Ilya's enthusiasm, it's hard not to be excited about the future of generative models research!"
+Final Project: I worked on scaling image transformers to generate coherent images at high resolution. First, I explored the space of multiscale architectures, which allow for faster training and inference. Next, I focused on scaling past GPU memory limits by pipelining the models and alternatively porting them to run on TPU. Finally, I was involved in a team effort to use these large scale models to see how representations learned by generative pretraining aid us in solving downstream supervised image tasks.
+What's Next: Joining the Algorithms team at OpenAI, continuing work on image transformers.
+
+
+
+
+
+
+
+
+
+Lei Zhang
+
+              Team—Robotics
+              Mentor—Matthias Plappert
+
+
+
+
+Previous Role: Software developer; PhD in Coding & Information Theory at the University of Toronto.
+What I Learned: "The Fellows program is very well-suited for bringing a researcher from another technical field up-to-date on the lastest deep learning techniques. Mentorship was a significant factor in my growth as an AI researcher. I always felt that I could discuss ideas and received lots of feedback that helped calibrate my ideas. My experience with deep RL, meta-learning, and solving real-world problems in robotics definitely shaped my research interests and I look forward to exploring them in my future research."
+Final Project: I studied a transfer metric that can predict the performance of an RL policy trained in simulation when deployed on a physical robot. While training in simulation is highly scalable and efficient, simulators are not perfect models and policies often perform poorly in the real world. The transfer metric does not require repeated rollouts on a physical robot. It helps to resolve the sim-to-real transfer problem by predicting which policy and training procedure will lead to better real-world performance.
+What's Next: Joining the Robotics team at OpenAI, continuing to work on improving sim-to-real transfer.
+
+
+
+
+
+
+
+
+
+Mikhail Pavlov
+
+              Team—Hardware
+              Mentor—Scott Gray
+
+
+
+
+Previous Role: Software developer
+What I Learned: "The Fellows program allowed me to get acquainted with field of machine learning research. I think the curriculum-based learning and mentorship were two very important aspects of this program that helped me to do my research effectively. I also learned that doing research is quite challenging—not all ideas work as you expect, but if you continue formulating hypotheses and checking one thing at time, eventually you will find a promising direction and get good results."
+Final Project: We studied techniques to learn sparsity patterns in deep neural networks and how structure in sparsity affects parameter efficiency. We developed an additive pruning approach for learning sparsity, when during training we have few cycles of adding and pruning blocks of weights. Specially designed kernels for block sparse matrix multiplication and this additive pruning approach allowed us to explore more diverse topologies that previously hadn't been possible. We showed that sparse models are more parameter efficient and give lower loss than dense networks for the same parameters budget.
+What's Next: Joining the Hardware team at OpenAI, continuing to investigate sparsity in neural networks.
+
+Next Steps
+We’d like to congratulate our Fall 2018 Fellows on their outstanding work and thank them for their contributions to OpenAI. We are excited to see their research continue! If you want to go from a beginner to producing world class ML contributions, consider applying for our next round of OpenAI Fellows, starting July 2019. We are currently accepting applications and reviewing them on a rolling basis, so apply early!
+As part of our effort to educate more people like our class of Fellows, we recently open sourced part of their introductory curriculum. You can start your ML education today by completing our tutorial, “Spinning up in Deep RL.” Spinning up in Deep RL consists of examples of RL code, educational exercises, documentation, and tutorials that will help you become a skilled practitioner in RL.
+
+
+
+
+
+
+
+
+
+Authors
+
+OpenAI
+
+
+
+
+
+
+
+
+Filed Under
+
+Fellows
+
+
+
+
+
+
+
+
+
+
+Featured
+ChatGPT
+DALL·E 2
+Whisper
+Alignment
+Startup Fund
+
+
+
+
+API
+Overview
+Pricing
+Examples
+Docs
+Terms & Policies
+Status
+Log in
+
+
+
+
+Blog
+Index
+Research
+Announcements
+Events
+Milestones
+
+
+
+
+Information
+About Us
+Our Charter
+Our Research
+Publications
+Newsroom
+Careers
+
+
+
+
+
+OpenAI © 2015–2023 Privacy Policy Terms of Use
+
+
+ twitter   youtube   github   soundcloud   linkedin   facebook    twitter   youtube   github   soundcloud   linkedin   facebook  
+
+
+
+
+
+

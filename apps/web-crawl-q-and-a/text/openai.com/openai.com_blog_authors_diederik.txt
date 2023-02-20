@@ -1,0 +1,219 @@
+
+
+
+
+
+
+
+
+Durk Kingma - OpenAI
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Introducing ChatGPT research release
+
+Try ChatGPT
+Learn more
+
+
+
+
+
+
+
+
+
+
+API
+Research
+Blog
+About
+
+
+API
+Research
+Blog
+About
+
+
+
+
+
+
+
+
+Blog
+Durk Kingma
+
+
+
+
+
+
+2018
+
+
+
+Glow: Better Reversible Generative Models
+
+
+July 9, 2018
+
+
+               — Research
+
+
+
+
+
+
+
+
+
+
+2018
+
+
+
+Requests for Research 2.0
+
+
+January 31, 2018
+
+
+               — Research
+
+
+
+
+
+
+
+
+
+
+2017
+
+
+
+Block-Sparse GPU Kernels
+
+
+December 6, 2017
+
+
+               — Research, Milestones
+
+
+
+
+
+
+
+
+
+
+2016
+
+
+
+Generative Models
+
+
+June 16, 2016
+
+
+               — Research, Milestones
+
+
+
+
+
+
+
+
+
+
+
+
+Featured
+ChatGPT
+DALL·E 2
+Whisper
+Alignment
+Startup Fund
+
+
+
+
+API
+Overview
+Pricing
+Examples
+Docs
+Terms & Policies
+Status
+Log in
+
+
+
+
+Blog
+Index
+Research
+Announcements
+Events
+Milestones
+
+
+
+
+Information
+About Us
+Our Charter
+Our Research
+Publications
+Newsroom
+Careers
+
+
+
+
+
+OpenAI © 2015–2023 Privacy Policy Terms of Use
+
+
+ twitter   youtube   github   soundcloud   linkedin   facebook    twitter   youtube   github   soundcloud   linkedin   facebook  
+
+
+
+
+
+

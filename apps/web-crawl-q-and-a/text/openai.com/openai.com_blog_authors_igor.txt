@@ -1,0 +1,366 @@
+
+
+
+
+
+
+
+
+Igor Mordatch - OpenAI
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Introducing ChatGPT research release
+
+Try ChatGPT
+Learn more
+
+
+
+
+
+
+
+
+
+
+API
+Research
+Blog
+About
+
+
+API
+Research
+Blog
+About
+
+
+
+
+
+
+
+
+Blog
+Igor Mordatch
+
+
+
+
+
+
+2019
+
+
+
+Emergent Tool Use from Multi-Agent Interaction
+
+
+September 17, 2019
+
+
+               — Research, Milestones
+
+
+
+
+
+
+
+
+
+
+2019
+
+
+
+Implicit Generation and Generalization Methods for Energy-Based Models
+
+
+March 21, 2019
+
+
+               — Research
+
+
+
+
+
+
+
+
+
+
+2019
+
+
+
+Neural MMO: A Massively Multiagent Game Environment
+
+
+March 4, 2019
+
+
+               — Research
+
+
+
+
+
+
+
+
+
+
+2018
+
+
+
+Learning Concepts with Energy Functions
+
+
+November 7, 2018
+
+
+               — Research
+
+
+
+
+
+
+
+
+
+
+2018
+
+
+
+OpenAI Fellows Fall 2018
+
+
+May 30, 2018
+
+
+               — Announcements, Fellows
+
+
+
+
+
+
+
+
+
+
+2018
+
+
+
+Interpretable Machine Learning through Teaching
+
+
+February 15, 2018
+
+
+               — Research
+
+
+
+
+
+
+
+
+
+
+2017
+
+
+
+Meta-Learning for Wrestling
+
+
+October 11, 2017
+
+
+               — Research
+
+
+
+
+
+
+
+
+
+
+2017
+
+
+
+Competitive Self-Play
+
+
+October 11, 2017
+
+
+               — Research, Milestones
+
+
+
+
+
+
+
+
+
+
+2017
+
+
+
+Learning to Model Other Minds
+
+
+September 14, 2017
+
+
+               — Research
+
+
+
+
+
+
+
+
+
+
+2017
+
+
+
+Learning to Cooperate, Compete, and Communicate
+
+
+June 8, 2017
+
+
+               — Research
+
+
+
+
+
+
+
+
+
+
+2017
+
+
+
+Learning to Communicate
+
+
+March 16, 2017
+
+
+               — Research
+
+
+
+
+
+
+
+
+
+
+
+
+Featured
+ChatGPT
+DALL·E 2
+Whisper
+Alignment
+Startup Fund
+
+
+
+
+API
+Overview
+Pricing
+Examples
+Docs
+Terms & Policies
+Status
+Log in
+
+
+
+
+Blog
+Index
+Research
+Announcements
+Events
+Milestones
+
+
+
+
+Information
+About Us
+Our Charter
+Our Research
+Publications
+Newsroom
+Careers
+
+
+
+
+
+OpenAI © 2015–2023 Privacy Policy Terms of Use
+
+
+ twitter   youtube   github   soundcloud   linkedin   facebook    twitter   youtube   github   soundcloud   linkedin   facebook  
+
+
+
+
+
+

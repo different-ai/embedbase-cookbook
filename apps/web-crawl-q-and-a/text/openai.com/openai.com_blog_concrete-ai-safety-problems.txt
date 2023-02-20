@@ -1,0 +1,202 @@
+
+
+
+
+
+
+
+
+Concrete AI Safety Problems
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Introducing ChatGPT research release
+
+Try ChatGPT
+Learn more
+
+
+
+
+
+
+
+
+
+
+API
+Research
+Blog
+About
+
+
+API
+Research
+Blog
+About
+
+
+
+
+
+
+
+
+
+Concrete AI Safety Problems 
+
+
+
+
+
+
+
+
+ 
+June 21, 2016
+2 minute read
+
+
+
+We (along with researchers from Berkeley and Stanford) are co-authors on today's paper led by Google Brain researchers, Concrete Problems in AI Safety. The paper explores many research problems around ensuring that modern machine learning systems operate as intended. (The problems are very practical, and we've already seen some being integrated into OpenAI Gym.)
+Advancing AI requires making AI systems smarter, but it also requires preventing accidents — that is, ensuring that AI systems do what people actually want them to do. There's been an increasing focus on safety research from the machine learning community, such as a recent paper from DeepMind and FHI. Still, many machine learning researchers have wondered just how much safety research can be done today.
+
+The authors discuss five areas:
+
+Safe exploration. Can reinforcement learning (RL) agents learn about their environment without executing catastrophic actions? For example, can an RL agent learn to navigate an environment without ever falling off a ledge?
+Robustness to distributional shift. Can machine learning systems be robust to changes in the data distribution, or at least fail gracefully? For example, can we build image classifiers that indicate appropriate uncertainty when shown new kinds of images, instead of confidently trying to use its potentially inapplicable learned model?
+Avoiding negative side effects. Can we transform an RL agent's reward function to avoid undesired effects on the environment? For example, can we build a robot that will move an object while avoiding knocking anything over or breaking anything, without manually programming a separate penalty for each possible bad behavior?
+Avoiding “reward hacking” and “wireheading”. Can we prevent agents from “gaming” their reward functions, such as by distorting their observations? For example, can we train an RL agent to minimize the number of dirty surfaces in a building, without causing it to avoid looking for dirty surfaces or to create new dirty surfaces to clean up?
+Scalable oversight. Can RL agents efficiently achieve goals for which feedback is very expensive? For example, can we build an agent that tries to clean a room in the way the user would be happiest with, even though feedback from the user is very rare and we have to use cheap approximations (like the presence of visible dirt) during training? The divergence between cheap approximations and what we actually care about is an important source of accident risk.
+
+
+Many of the problems are not new, but the paper explores them in the context of cutting-edge systems. We hope they'll inspire more people to work on AI safety research, whether at OpenAI or elsewhere.
+We're particularly excited to have participated in this paper as a cross-institutional collaboration. We think that broad AI safety collaborations will enable everyone to build better machine learning systems. Let us know if you have a future paper you'd like to collaborate on!
+
+
+
+
+
+
+
+
+
+Authors
+
+Paul ChristianoGreg Brockman
+
+
+
+
+
+
+
+
+Filed Under
+
+Research
+
+
+
+
+
+
+
+
+
+
+Featured
+ChatGPT
+DALL·E 2
+Whisper
+Alignment
+Startup Fund
+
+
+
+
+API
+Overview
+Pricing
+Examples
+Docs
+Terms & Policies
+Status
+Log in
+
+
+
+
+Blog
+Index
+Research
+Announcements
+Events
+Milestones
+
+
+
+
+Information
+About Us
+Our Charter
+Our Research
+Publications
+Newsroom
+Careers
+
+
+
+
+
+OpenAI © 2015–2023 Privacy Policy Terms of Use
+
+
+ twitter   youtube   github   soundcloud   linkedin   facebook    twitter   youtube   github   soundcloud   linkedin   facebook  
+
+
+
+
+
+

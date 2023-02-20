@@ -1,0 +1,250 @@
+
+
+
+
+
+
+
+
+Aligning AI systems with human intent
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Introducing ChatGPT research release
+
+Try ChatGPT
+Learn more
+
+
+
+
+
+
+
+
+
+
+API
+Research
+Blog
+About
+
+
+API
+Research
+Blog
+About
+
+
+
+
+
+
+
+
+
+
+Aligning AI systems with human intent
+OpenAI’s mission is to ensure that artificial intelligence benefits all of humanity. An important part of this effort is training AI systems to do what humans want.
+
+
+
+
+
+
+
+
+Our approach to alignment research
+August 24 update
+Read now
+
+
+
+
+
+
+
+
+
+play Watch video
+
+
+
+
+
+
+OpenAI researchers and staff, in order of appearance: Mira Murati, Jan Leike, Ryan Lowe, Jonathan Ward, William Saunders, Tyna Eloundou Nekoul, Sandhini Agarwal, Jeff Wu, Bianca Martin & Carroll Wainwright.
+
+
+
+
+
+
+OpenAI’s Alignment research focuses on training AI systems to be helpful, truthful, and safe. Our team is exploring and developing methods to learn from human feedback.
+Our long-term goal is to achieve scalable solutions that will align far more capable AI systems of the future — a critical part of our mission.
+
+
+
+
+
+
+
+
+
+Learn More
+
+
+AI-Written Critiques Help Humans Notice Flaws
+
+              
+              Showing model-generated critical comments to humans helps them find flaws in summaries.
+              
+            
+Read more
+
+
+Aligning Language Models to Follow Instructions
+
+              
+              We trained language models that are much better than GPT-3 at following user intentions  while also making them more truthful and less toxic.
+              
+            
+Read more
+
+
+Learning to Summarize with Human Feedback
+
+              
+              We applied reinforcement learning from human feedback to train language models that are better at summarization.
+              
+            
+Read more
+
+
+
+
+
+
+
+More Alignment Research
+
+
+Summarizing Books with Human Feedback
+Learning Complex Goals with Iterated Amplification
+AI Safety via Debate
+Learning from Human Preferences
+
+
+
+
+
+Other OpenAI Safety Projects
+
+
+WebGPT: Improving the Factual Accuracy of Language Models through Web Browsing
+Improving Language Model Behavior by Training on a Curated Dataset
+Multimodal Neurons in Artificial Neural Networks
+OpenAI Microscope
+Safety Gym
+
+
+
+
+
+
+
+
+
+Featured
+ChatGPT
+DALL·E 2
+Whisper
+Alignment
+Startup Fund
+
+
+
+
+API
+Overview
+Pricing
+Examples
+Docs
+Terms & Policies
+Status
+Log in
+
+
+
+
+Blog
+Index
+Research
+Announcements
+Events
+Milestones
+
+
+
+
+Information
+About Us
+Our Charter
+Our Research
+Publications
+Newsroom
+Careers
+
+
+
+
+
+OpenAI © 2015–2023 Privacy Policy Terms of Use
+
+
+ twitter   youtube   github   soundcloud   linkedin   facebook    twitter   youtube   github   soundcloud   linkedin   facebook  
+
+
+
+
+
+
+

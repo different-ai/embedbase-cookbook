@@ -1,0 +1,232 @@
+
+
+
+
+
+
+
+
+Nonlinear Computation in Deep Linear Networks
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Introducing ChatGPT research release
+
+Try ChatGPT
+Learn more
+
+
+
+
+
+
+
+
+
+
+API
+Research
+Blog
+About
+
+
+API
+Research
+Blog
+About
+
+
+
+
+
+
+
+
+Nonlinear Computation in Deep Linear Networks 
+
+
+
+
+
+
+
+ 
+September 29, 2017
+4 minute read
+
+
+
+We've shown that deep linear networks — as implemented using floating-point arithmetic — are not actually linear and can perform nonlinear computation. We used evolution strategies to find parameters in linear networks that exploit this trait, letting us solve non-trivial problems.
+Neural networks consist of stacks of a linear layer followed by a nonlinearity like tanh or rectified linear unit. Without the nonlinearity, consecutive linear layers would be in theory mathematically equivalent to a single linear layer. So it's a surprise that floating point arithmetic is nonlinear enough to yield trainable deep networks.
+Background
+Numbers used by computers aren't perfect mathematical objects, but approximate representations using finite numbers of bits. Floating point numbers are commonly used by computers to represent mathematical objects. Each floating point number is represented by a combination of a fraction and an exponent. In the IEEE's float32 standard, 23 bits are used for the fraction and 8 for the exponent, and one for the sign.
+
+Image Credit: Wikipedia
+As a consequence of these conventions and the binary format used, the smallest normal non-zero number (in binary) is 1.0..0 x 2^-126, which we refer to as min going forward. However, the next representable number is 1.0..01 x 2^-126, which we can write as min + 0.0..01 x 2^-126. It is evident that the gap between the 2nd number is by a factor of 2^20 smaller than gap between 0 and min. In float32, when numbers are smaller than the smallest representable number they get mapped to zero. Due to this 'underflow', around zero all computation involving floating point numbers becomes nonlinear.
+An exception to these restrictions is denormal numbers, which can be disabled on some computing hardware. While the GPU and cuBLAS have denormals enabled by default, TensorFlow builds all its primitives with denormals off (with the ftz=true flag set). This means that any non-matrix multiply operation written in TensorFlow has an implicit non-linearity following it (provided the scale of computation is near 1e-38).
+So, while in general the difference between any "mathematical" number and their normal float representation is small, around zero there is a large gap and the approximation error can be very significant.
+
+
+
+This can lead to some odd effects where the familiar rules of mathematics stop applying. For instance, $(a + b) \times c$ becomes unequal to $a \times c + b \times c$.
+For example if you set $a = 0.4 \times min$, $b = 0.5 \times min$, and $c = 1 / min$.
+Then: $(a+b) \times c = (0.4 \times min + 0.5 \times min) \times 1 / min = (0 + 0) \times 1 / min = 0$.
+However: $(a \times c) + (b \times c) = 0.4 \times min / min + 0.5 \times min \times 1 / min = 0.9$.
+In another example, we can set $a = 2.5 \times min$, $b = -1.6 \times min$, and $c = 1 \times min$.
+Then: $(a+b) + c = (0) + 1 \times min = min$.
+However: $(b+c) + a = (0 \times min) + 2.5 \times min = 2.5 \times min$.
+At this smallest scale the fundamental addition operation has become nonlinear!
+
+Exploiting Nonlinearities with Evolution Strategies
+We wanted to know if this inherent nonlinearity could be exploited as a computational nonlinearity, as this would let deep linear networks perform nonlinear computations. The challenge is that modern differentiation libraries are blind to these nonlinearities at the smallest scale. As such, it would be difficult or impossible to train a neural network to exploit them via backpropagation.
+We can use evolution strategies (ES) to estimate gradients without having to rely on symbolic differentiation. Using ES we can indeed exploit the near-zero behavior of float32 as a computational nonlinearity. When trained on MNIST a deep linear network trained via backpropagation achieves a training accuracy of 94% and a testing accuracy of 92%. In contrast, the same linear network can achieve >99% training and 96.7% test accuracy when trained with ES and ensuring that the activations are sufficiently small to be in the nonlinear range of float32. This increase in training performance is due to ES exploiting the nonlinearities in the float32 representation. These powerful nonlinearities allow any layer to generate novel features which are nonlinear combinations of lower level features.  Here is the network structure:
+x = tf.placeholder(dtype=tf.float32, shape=[batch_size,784])
+y = tf.placeholder(dtype=tf.float32, shape=[batch_size,10])
+
+w1 = tf.Variable(np.random.normal(scale=np.sqrt(2./784),size=[784,512]).astype(np.float32))
+b1 = tf.Variable(np.zeros(512,dtype=np.float32))
+w2 = tf.Variable(np.random.normal(scale=np.sqrt(2./512),size=[512,512]).astype(np.float32))
+b2 = tf.Variable(np.zeros(512,dtype=np.float32))
+w3 = tf.Variable(np.random.normal(scale=np.sqrt(2./512),size=[512,10]).astype(np.float32))
+b3 = tf.Variable(np.zeros(10,dtype=np.float32))
+
+params = [w1,b1,w2,b2,w3,b3]
+nr_params = sum([np.prod(p.get_shape().as_list()) for p in params])
+scaling = 2**125
+
+def get_logits(par):
+    h1 = tf.nn.bias_add(tf.matmul(x , par[0]), par[1]) / scaling
+    h2 = tf.nn.bias_add(tf.matmul(h1, par[2]) , par[3] / scaling)   
+    o =   tf.nn.bias_add(tf.matmul(h2, par[4]), par[5]/ scaling)*scaling
+    return o
+
+
+Beyond MNIST, we think other interesting experiments could be extending this work to recurrent neural networks, or to exploit nonlinear computation to improve complex machine learning tasks like language modeling and translation. We're excited to explore this capability with our fellow researchers.
+
+
+
+
+
+
+
+
+
+Authors
+
+Jakob Foerster
+
+
+
+
+
+
+
+
+Filed Under
+
+Research
+
+
+
+
+
+
+
+
+
+
+Featured
+ChatGPT
+DALL·E 2
+Whisper
+Alignment
+Startup Fund
+
+
+
+
+API
+Overview
+Pricing
+Examples
+Docs
+Terms & Policies
+Status
+Log in
+
+
+
+
+Blog
+Index
+Research
+Announcements
+Events
+Milestones
+
+
+
+
+Information
+About Us
+Our Charter
+Our Research
+Publications
+Newsroom
+Careers
+
+
+
+
+
+OpenAI © 2015–2023 Privacy Policy Terms of Use
+
+
+ twitter   youtube   github   soundcloud   linkedin   facebook    twitter   youtube   github   soundcloud   linkedin   facebook  
+
+
+
+
+
+

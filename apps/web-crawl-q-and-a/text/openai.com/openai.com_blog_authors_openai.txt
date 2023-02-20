@@ -1,0 +1,658 @@
+
+
+
+
+
+
+
+
+OpenAI - OpenAI
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Introducing ChatGPT research release
+
+Try ChatGPT
+Learn more
+
+
+
+
+
+
+
+
+
+
+API
+Research
+Blog
+About
+
+
+API
+Research
+Blog
+About
+
+
+
+
+
+
+
+
+Blog
+OpenAI
+
+
+
+
+
+
+2023
+
+
+
+How should AI systems behave, and who should decide?
+
+
+February 16, 2023
+
+
+               — Safety & Alignment
+
+
+
+
+
+
+
+
+
+
+2023
+
+
+
+Introducing ChatGPT Plus
+
+
+February 1, 2023
+
+
+               — Announcements
+
+
+
+
+
+
+
+
+
+
+2023
+
+
+
+OpenAI and Microsoft Extend Partnership
+
+
+January 23, 2023
+
+
+               — Announcements
+
+
+
+
+
+
+
+
+
+
+2023
+
+
+
+Forecasting Potential Misuses of Language Models for Disinformation Campaigns—and How to Reduce Risk
+
+
+January 11, 2023
+
+
+               — Research
+
+
+
+
+
+
+
+
+
+
+2022
+
+
+
+ChatGPT: Optimizing Language Models for Dialogue
+
+
+November 30, 2022
+
+
+               — Announcements, Research
+
+
+
+
+
+
+
+
+
+
+2022
+
+
+
+DALL·E API Now Available in Public Beta
+
+
+November 3, 2022
+
+
+               — Announcements, API
+
+
+
+
+
+
+
+
+
+
+2022
+
+
+
+DALL·E Now Available Without Waitlist
+
+
+September 28, 2022
+
+
+               — Announcements
+
+
+
+
+
+
+
+
+
+
+2022
+
+
+
+DALL·E: Introducing Outpainting
+
+
+August 31, 2022
+
+
+               — Announcements
+
+
+
+
+
+
+
+
+
+
+2022
+
+
+
+DALL·E Now Available in Beta
+
+
+July 20, 2022
+
+
+               — Announcements
+
+
+
+
+
+
+
+
+
+
+2022
+
+
+
+Reducing Bias and Improving Safety in DALL·E 2
+
+
+July 18, 2022
+
+
+               — Announcements
+
+
+
+
+
+
+
+
+
+
+2022
+
+
+
+DALL·E 2: Extending Creativity
+
+
+July 14, 2022
+
+
+               — Community
+
+
+
+
+
+
+
+
+
+
+2022
+
+
+
+Best Practices for Deploying Language Models
+
+
+June 2, 2022
+
+
+
+
+
+
+
+
+
+
+2022
+
+
+
+Powering Next Generation Applications with OpenAI Codex
+
+
+May 24, 2022
+
+
+               — Announcements, API
+
+
+
+
+
+
+
+
+
+
+2022
+
+
+
+DALL·E 2 Research Preview Update
+
+
+May 18, 2022
+
+
+               — Announcements
+
+
+
+
+
+
+
+
+
+
+2022
+
+
+
+DALL·E 2
+
+
+April 6, 2022
+
+
+               — Research, Multimodal
+
+
+
+
+
+
+
+
+
+
+2021
+
+
+
+OpenAI Residency
+
+
+November 30, 2021
+
+
+               — Announcements, Residency
+
+
+
+
+
+
+
+
+
+
+2021
+
+
+
+OpenAI’s API Now Available with No Waitlist
+
+
+November 18, 2021
+
+
+               — Announcements, API
+
+
+
+
+
+
+
+
+
+
+2021
+
+
+
+Summarizing Books with Human Feedback
+
+
+September 23, 2021
+
+
+               — Research
+
+
+
+
+
+
+
+
+
+
+2021
+
+
+
+Helen Toner Joins OpenAI’s Board of Directors
+
+
+September 8, 2021
+
+
+               — Announcements
+
+
+
+
+
+
+
+
+
+
+2021
+
+
+
+OpenAI Codex
+
+
+August 10, 2021
+
+
+               — API, Announcements
+
+
+
+
+
+
+
+
+
+
+2021
+
+
+
+OpenAI Startup Fund
+
+
+May 26, 2021
+
+
+               — Announcements
+
+
+
+
+
+
+
+
+
+
+2021
+
+
+
+OpenAI Scholars 2021: Final Projects
+
+
+May 10, 2021
+
+
+               — Events, Scholars
+
+
+
+
+
+
+
+
+
+
+2021
+
+
+
+Will Hurd Joins OpenAI’s Board of Directors
+
+
+May 3, 2021
+
+
+               — Announcements
+
+
+
+
+
+
+
+
+
+
+2021
+
+
+
+GPT-3 Powers the Next Generation of Apps
+
+
+March 25, 2021
+
+
+               — API, Announcements
+
+
+
+
+
+
+
+
+
+
+2021
+
+
+
+Multimodal Neurons in Artificial Neural Networks
+
+
+March 4, 2021
+
+
+               — Research, Milestones, Multimodal
+
+
+
+
+
+
+
+
+
+
+
+
+Featured
+ChatGPT
+DALL·E 2
+Whisper
+Alignment
+Startup Fund
+
+
+
+
+API
+Overview
+Pricing
+Examples
+Docs
+Terms & Policies
+Status
+Log in
+
+
+
+
+Blog
+Index
+Research
+Announcements
+Events
+Milestones
+
+
+
+
+Information
+About Us
+Our Charter
+Our Research
+Publications
+Newsroom
+Careers
+
+
+
+
+
+OpenAI © 2015–2023 Privacy Policy Terms of Use
+
+
+ twitter   youtube   github   soundcloud   linkedin   facebook    twitter   youtube   github   soundcloud   linkedin   facebook  
+
+
+
+
+
+

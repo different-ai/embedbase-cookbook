@@ -1,0 +1,1011 @@
+
+
+
+
+
+
+
+
+Image GPT
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Introducing ChatGPT research release
+
+Try ChatGPT
+Learn more
+
+
+
+
+
+
+
+
+
+
+API
+Research
+Blog
+About
+
+
+API
+Research
+Blog
+About
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Image GPT 
+
+
+
+June 17, 2020
+20 minute read
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+We find that, just as a large transformer model trained on language can generate coherent text, the same exact model trained on pixel sequences can generate coherent image completions and samples. By establishing a correlation between sample quality and image classification accuracy, we show that our best generative model also contains features competitive with top convolutional nets in the unsupervised setting.
+
+CodeICML 2020 Paper (v1)Paper (v2)
+
+
+
+Contents
+
+Introduction
+Completions
+Samples
+From Language GPT to Image GPT
+Towards General Unsupervised  Learning
+Approach
+Experimental Results
+Limitations
+Conclusion
+
+
+
+Introduction
+Unsupervised and self-supervised learning, or learning without human-labeled data, is a longstanding challenge of machine learning. Recently, it has seen incredible success in language, as transformer models like BERT, GPT-2, RoBERTa, T5, and other variants have achieved top performance on a wide array of language tasks. However, the same broad class of models has not been successful in producing strong features for image classification. Our work aims to understand and bridge this gap.
+Transformer models like BERT and GPT-2 are domain agnostic, meaning that they can be directly applied to 1-D sequences of any form. When we train GPT-2 on images unrolled into long sequences of pixels, which we call iGPT, we find that the model appears to understand 2-D image characteristics such as object appearance and category. This is evidenced by the diverse range of coherent image samples it generates, even without the guidance of human provided labels. As further proof, features from the model achieve state-of-the-art performance on a number of classification datasets and near state-of-the-art unsupervised accuracy[1] on ImageNet.
+
+
+
+
+Evaluation
+Dataset
+Our Result
+Best non-iGPT Result
+
+
+
+
+Logistic regression on learned features (linear probe)
+CIFAR-10
+96.3iGPT-L 32x32 w/ 1536 features
+95.3SimCLR w/ 8192 features
+
+
+CIFAR-100
+82.8iGPT-L 32x32 w/ 1536 features
+80.2SimCLR w/ 8192 features
+
+
+STL-10
+95.5iGPT-L 32x32 w/ 1536 features
+94.2AMDIM w/ 8192 features
+
+
+ImageNet
+72.0iGPT-XLa 64x64 w/ 15360 features
+76.5SimCLR w/ 8192 features
+
+
+Full fine-tune
+CIFAR-10
+99.0iGPT-L 32x32, trained on ImageNet
+99.0bGPipe, trained on ImageNet
+
+
+ImageNet 32x32
+66.3iGPT-L 32x32
+70.2Isometric Nets
+
+
+
+
+
+We only show ImageNet linear probe accuracy for iGPT-XL since other experiments did not finish before we needed to transition to different supercomputing facilities.
+Bit-L, trained on JFT (300M images with 18K classes), achieved a result of 99.3.
+
+
+
+To highlight the potential of generative sequence modeling as a general purpose unsupervised learning algorithm, we deliberately use the same transformer architecture as GPT-2 in language. As a consequence, we require significantly more compute in order to produce features competitive with those from top unsupervised convolutional nets. However, our results suggest that when faced with a new domain where the correct model priors are unknown, a large GPT-2 can learn excellent features without the need for domain-specific architectural design choices.
+
+
+Completions
+
+
+
+
+
+Favorites
+Animals
+Painted Landscapes
+Sports
+Architecture
+ImageNet-R
+Movie Posters
+Famous Artworks
+Popular Memes
+Landscapes
+Album Covers
+Common English Words
+US & State Flags
+OpenAI Research Covers
+OpenAI Pets
+OpenAI Cooking
+
+
+navigateleft
+
+
+navigateright
+
+
+
+
+
+
+Model Input
+
+
+Completions right
+
+
+Original
+
+
+
+Model-generated completions of human-provided half-images. We sample the remaining halves with temperature 1 and without tricks like beam search or nucleus sampling. While we showcase our favorite completions in the first panel, we do not cherry-pick images or completions in all following panels.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Model-generated completions of human-provided half-images. We sample the remaining halves with temperature 1 and without tricks like beam search or nucleus sampling. While we showcase our favorite completions in the first panel, we do not cherry-pick images or completions in all following panels.
+
+Samples
+
+
+Model-generated image samples. We sample these images with temperature 1 and without tricks like beam search or nucleus sampling. All of our samples are shown, with no cherry-picking. Nearly all generated images contain clearly recognizable objects.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+View more samples
+
+
+Model-generated image samples. We sample these images with temperature 1 and without tricks like beam search or nucleus sampling. All of our samples are shown, with no cherry-picking. Nearly all generated images contain clearly recognizable objects.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+From Language GPT to Image GPT
+In language, unsupervised learning algorithms that rely on word prediction (like GPT-2 and BERT) have been extremely successful, achieving top performance on a wide array of language tasks. One possible reason for this success is that instances of downstream language tasks appear naturally in text: questions are often followed by answers (which could help with question-answering) and passages are often followed by summaries (which could help with summarization). In contrast, sequences of pixels do not clearly contain labels for the images they belong to.
+Even without this explicit supervision, there is still a reason why GPT-2 on images might work: a sufficiently large transformer trained on next pixel prediction might eventually learn to generate diverse[2] samples with clearly recognizable objects. Once it learns to do so, an idea known as “Analysis by Synthesis”[3] suggests that the model will also know about object categories. Many early generative models were motivated by this idea, and more recently, BigBiGAN was an example which produced encouraging samples and features. In our work, we first show that better generative models achieve stronger classification performance. Then, through optimizing GPT-2 for generative capabilities, we achieve top-level classification performance in many settings, providing further evidence for analysis by synthesis.
+Towards General Unsupervised Learning
+Generative sequence modeling is a universal unsupervised learning algorithm: since all data types can be represented as sequences of bytes, a transformer can be directly applied to any data type without additional engineering. Our work tests the power of this generality by directly applying the architecture used to train GPT-2 on natural language to image generation. We deliberately chose to forgo hand coding any image specific knowledge in the form of convolutions or techniques like relative attention, sparse attention, and 2-D position embeddings.
+As a consequence of its generality, our method requires significantly more compute to achieve competitive performance in the unsupervised setting. Indeed, contrastive methods are still the most computationally efficient methods for producing high quality features from images. However, in showing that an unsupervised transformer model is competitive with the best unsupervised convolutional nets, we provide evidence that it is possible to trade off hand coded domain knowledge for compute. In new domains, where there isn’t much knowledge to hand code, scaling compute seems an appropriate technique to test.
+Approach
+We train iGPT-S, iGPT-M, and iGPT-L, transformers containing 76M, 455M, and 1.4B parameters respectively, on ImageNet. We also train iGPT-XL[4], a 6.8 billion parameter transformer, on a mix of ImageNet and images from the web. Due to the large computational cost of modeling long sequences with dense attention, we train at the low resolutions of 32x32, 48x48, and 64x64.
+While it is tempting to work at even lower resolutions to further reduce compute cost, prior work has demonstrated that human performance on image classification begins to drop rapidly below these sizes. Instead, motivated by early color display palettes, we create our own 9-bit color palette to represent pixels. Using this palette yields an input sequence length 3 times shorter than the standard (R, G, B) palette, while still encoding color faithfully.
+Experimental Results
+There are two methods we use to assess model performance, both of which involve a downstream classification task. The first, which we refer to as a linear probe, uses the trained model to extract features[5] from the images in the downstream dataset, and then fits a logistic regression to the labels. The second method fine-tunes[6] the entire model on the downstream dataset.
+Since next pixel prediction is not obviously relevant to image classification, features from the final layer may not be the most predictive of the object category. Our first result shows that feature quality is a sharply increasing, then mildly decreasing function of depth. This behavior suggests that a transformer generative model operates in two phases: in the first phase, each position gathers information from its surrounding context in order to build a contextualized image feature. In the second phase, this contextualized feature is used to solve the conditional next pixel prediction task.  The observed two stage performance of our linear probes is reminiscent of another unsupervised neural net, the bottleneck autoencoder, which is manually designed so that features in the middle are used.
+
+
+Feature quality depends heavily on the layer we choose to evaluate. In contrast with supervised models, the best features for these generative models lie in the middle of the network.
+
+Our next result establishes the link between generative performance and feature quality. We find that both increasing the scale of our models and training for more iterations result in better generative performance, which directly translates into better feature quality.
+
+
+
+Hover to see sample images up
+Each line tracks a model throughout generative pre-training: the dotted markers denote checkpoints at steps 131K, 262K, 524K, and 1000K. The positive slopes suggest a link between improved generative performance and improved feature quality. Larger models also produce better features than smaller models. iGPT-XL is not included because it was trained on a different dataset.
+
+When we evaluate our features using linear probes on CIFAR-10, CIFAR-100, and STL-10, we outperform features from all supervised and unsupervised transfer algorithms. Our results are also compelling in the full fine-tuning setting.
+
+
+
+
+
+
+
+Pre-trained on ImageNet
+
+
+Evaluation
+Model
+Accuracy
+w/o labels
+w/ labels
+
+
+
+
+CIFAR-10Linear Probe
+ResNet-152
+94.0
+
+check
+
+
+SimCLR
+95.3
+check
+
+
+
+iGPT-L 32x32
+96.3
+check
+
+
+
+CIFAR-100Linear Probe
+ResNet-152
+78.0
+
+check
+
+
+SimCLR
+80.2
+check
+
+
+
+iGPT-L 32x32
+82.8
+check
+
+
+
+STL-10Linear Probe
+AMDIM-L
+94.2
+check
+
+
+
+iGPT-L 32x32
+95.5
+check
+
+
+
+CIFAR-10Fine-tune
+AutoAugment
+98.5
+
+
+
+
+SimCLR
+98.6
+check
+
+
+
+GPipe
+99.0
+
+check
+
+
+iGPT-L
+99.0
+check
+
+
+
+CIFAR-100Fine-tune
+iGPT-L
+88.5
+check
+
+
+
+SimCLR
+89.0
+check
+
+
+
+AutoAugment
+89.3
+
+
+
+
+EfficientNet
+91.7
+
+check
+
+
+
+A comparison of linear probe and fine-tune accuracies between our models and top performing models which utilize either unsupervised or supervised ImageNet transfer. We also include AutoAugment, the best performing model trained end-to-end on CIFAR.
+Given the resurgence of interest in unsupervised and self-supervised learning on ImageNet, we also evaluate the performance of our models using linear probes on ImageNet. This is an especially difficult setting, as we do not train at the standard ImageNet input resolution. Nevertheless, a linear probe on the 1536 features from the best layer of iGPT-L trained on 48x48 images yields 65.2% top-1 accuracy, outperforming AlexNet.
+Contrastive methods typically report their best results on 8192 features, so we would ideally evaluate iGPT with an embedding dimension of 8192 for comparison. However, training such a model is prohibitively expensive, so we instead concatenate features from multiple layers as an approximation. Unfortunately, our features tend to be correlated across layers, so we need more of them to be competitive. Taking 15360 features from 5 layers in iGPT-XL yields 72.0% top-1 accuracy, outperforming AMDIM, MoCo, and CPC v2, but still underperforming SimCLR by a decent margin.
+
+
+
+
+Method
+Input Resolution
+Features
+Parameters
+Accuracy
+
+
+
+
+Rotation
+original
+8192
+86M
+55.4
+
+
+iGPT-L
+32x32
+1536
+1362M
+60.3
+
+
+BigBiGAN
+original
+16384
+86M
+61.3
+
+
+iGPT-L
+48x48
+1536
+1362M
+65.2
+
+
+AMDIM
+original
+8192
+626M
+68.1
+
+
+MoCo
+original
+8192
+375M
+68.6
+
+
+iGPT-XL
+64x64
+3072
+6801M
+68.7
+
+
+SimCLR
+original
+2048
+24M
+69.3
+
+
+CPC v2
+original
+4096
+303M
+71.5
+
+
+iGPT-XL
+64x64
+3072 x 5
+6801M
+72.0
+
+
+SimCLR
+original
+8192
+375M
+76.5
+
+
+
+A comparison of linear probe accuracies between our models and state-of-the-art self-supervised models. We achieve competitive performance while training at much lower input resolutions, though our method requires more parameters and compute.
+Because masked language models like BERT have outperformed generative models on most language tasks, we also evaluate the performance of BERT on our image models. Instead of training our model to predict the next pixel given all preceding pixels, we mask out 15% of the pixels and train our model to predict them from the unmasked ones. We find that though linear probe performance on BERT models is significantly worse, they excel during fine-tuning:
+
+CIFAR-10
+
+
+ImageNet
+
+
+Comparison of generative pre-training with BERT pre-training using iGPT-L at an input resolution of 322 × 3. Bold colors show the performance boost from ensembling BERT masks. We see that generative models produce much better features than BERT models after pre-training, but BERT models catch up after fine-tuning.
+
+
+While unsupervised learning promises excellent features without the need for human-labeled data, significant recent progress has been made under the more forgiving framework of semi-supervised learning, which allows for limited amounts of human-labeled data. Successful semi-supervised methods often rely on clever techniques such as consistency regularization, data augmentation, or pseudo-labeling, and purely generative-based approaches have not been competitive for years. We evaluate iGPT-L[7] on a competitive benchmark for this sub-field and find that a simple linear probe on features from non-augmented images outperforms Mean Teacher and MixMatch, though it underperforms FixMatch.
+
+
+
+
+
+Model
+40 labels
+250 labels
+4000 labels
+
+
+
+
+Improved GAN
+—
+—
+81.4 ± 2.3
+
+
+Mean Teacher
+—
+67.7 ± 2.3
+90.8 ± 0.2
+
+
+MixMatch
+52.5 ± 11.5
+89.0 ± 0.9
+93.6 ± 0.1
+
+
+iGPT-L
+73.2 ± 01.5
+87.6 ± 0.6
+94.3 ± 0.1
+
+
+UDA
+71.0 ± 05.9
+91.2 ± 1.1
+95.1 ± 0.2
+
+
+FixMatch RA
+86.2 ± 03.4
+94.9 ± 0.7
+95.7 ± 0.1
+
+
+FixMatch CTA
+88.6 ± 03.4
+94.9 ± 0.3
+95.7 ± 0.2
+
+
+
+
+A comparison of performance on low-data CIFAR-10. By leveraging many unlabeled ImageNet images, iGPT-L is able to outperform methods such as Mean Teacher and MixMatch but still underperforms the state of the art methods. Our approach to semi-supervised learning is very simple since we only fit a logistic regression classifier on iGPT-L's features without any data augmentation or fine-tuning—a significant difference from specially designed semi-supervised approaches.
+Limitations
+While we have shown that iGPT is capable of learning powerful image features, there are still significant limitations to our approach. Because we use the generic sequence transformer used for GPT-2 in language, our method requires large amounts of compute: iGPT-L was trained for roughly 2500 V100-days while a similarly performing MoCo model can be trained in roughly 70 V100-days.
+Relatedly, we model low resolution inputs using a transformer, while most self-supervised results use convolutional-based encoders which can easily consume inputs at high resolution. A new architecture, such as a domain-agnostic multiscale transformer, might be needed to scale further. Given these limitations, our work primarily serves as a proof-of-concept demonstration of the ability of large transformer-based language models to learn excellent unsupervised representations in novel domains, without the need for hardcoded domain knowledge. However, the significant resource cost to train these models and the greater accuracy of convolutional neural-network based methods precludes these representations from practical real-world applications in the vision domain.
+Finally, generative models can exhibit biases that are a consequence of the data they've been trained on. Many of these biases are useful, like assuming that a combination of brown and green pixels represents a branch covered in leaves, then using this bias to continue the image. But some of these biases will be harmful, when considered through a lens of fairness and representation. For instance, if the model develops a visual notion of a scientist that skews male, then it might consistently complete images of scientists with male-presenting people, rather than a mix of genders. We expect that developers will need to pay increasing attention to the data that they feed into their systems and to better understand how it relates to biases in trained models.
+Conclusion
+We have shown that by trading off 2-D knowledge for scale and by choosing predictive features from the middle of the network, a sequence transformer can be competitive with top convolutional nets for unsupervised image classification. Notably, we achieved our results by directly applying the GPT-2 language model to image generation. Our results suggest that due to its simplicity and generality, a sequence transformer given sufficient compute might ultimately be an effective way to learn excellent features in many domains.
+If you’re excited to work with us on this area of research, we’re hiring!
+
+
+
+Acknowledgments
+
+Foremost, we would like to acknowledge our paper co-authors Rewon Child, Jeff Wu, Heewoo Jun, Prafulla Dhariwal, and David Luan.
+Thanks to the following for their feedback on this work and contributions to this release: Vedant Misra, Noah Golmant, Johannes Otterbach, Pranav Shyam, Aditya Ramesh, Yura Burda, Harri Edwards, Chris Hallacy, Jeff Clune, Jack Clark, Irene Solaiman, Ryan Lowe, Greg Brockman, Kelly Sims, David Farhi, Will Guss, Quoc V. Le, and Ashish Vaswani.
+
+
+
+
+Editor
+Ashley Pilipiszyn
+
+
+
+Design
+Justin Jay Wang
+
+
+
+Cover Artwork
+Ben Barry
+
+
+
+References
+
+
+
+LeCun, Y. (2017). "Predictive Learning."
+
+
+Vaswani, A., Shazeer, N., Parmar, N., Uszkoreit, J., Jones, L., Gomez, A., Kaiser, L., & Polosukhin, I. "Attention is All you Need." In NeurIPS 2017.
+
+
+Devlin, J., Chang, M., Lee, K., & Toutanova, K. (2018). "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding." arXiv preprint.
+
+
+Radford, A., Wu, J., Child, R., Luan, D., Amodei, D., & Sutskever, I. (2019). "Language Models are Unsupervised Multitask Learners." Technical Report, OpenAI.
+
+
+Liu, Y., Ott, M., Goyal, N., Du, J., Joshi, M., Chen, D., Levy, O., Lewis, M., Zettlemoyer, L., & Stoyanov, V. (2019). "RoBERTa: A Robustly Optimized BERT Pretraining Approach." arXiv preprint.
+
+
+Raffel, C., Shazeer, N., Roberts, A., Lee, K., Narang, S., Matena, M., Zhou, Y., Li, W., & Liu, P. (2019). "Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer." arXiv preprint.
+
+
+Dai, A., Le, Q. V. (2015). "Semi-supervised sequence learning." In NeurIPS 2015.
+
+
+Peters, M., Neumann, M., Iyyer, M., Gardner, M., Clark, C., Lee, K., & Zettlemoyer, L. (2018). "Deep Contextualized Word Representations." In NAACL 2018.
+
+
+Howard, J., Ruder, S. (2018). "Universal Language Model Fine-tuning for Text Classification." In ACL 2018.
+
+
+Radford, A., Narasimhan, K., Salimans, T., & Sutskever, I. (2018). "Improving language understanding by generative pre-training." Technical Report, OpenAI.
+
+
+Ke N., Goyal, A., Bilaniuk,O., Binas, J., Mozer, M., Pal, C., Bengio, Y (2018). "Sparse attentive backtracking: Temporal credit assignment through reminding." In NeurIPS 2018.
+
+
+Chen, T., Kornblith, S., Norouzi, M., Hinton, G. (2020). "A Simple Framework for Contrastive Learning of Visual Representations." arXiv preprint.
+
+
+Bachman, P., Hjelm, R., & Buchwalter, W. (2019). "Learning representations by maximizing mutual information across views." In NeurIPS 2019.
+
+
+Kolesnikov, A. & Beyer, L. & Zhai, X., Puigcerver, J., Yung, J., Gelly, S., Houlsby, N. (2019). "Big Transfer (BiT): General Visual Representation Learning." arXiv preprint.
+
+
+Huang, Y., Cheng, Y., Bapna, A., Firat, O., Chen, D., Chen, M., Lee, H., Ngiam, J., Le, Q. V., Wu, Y., & Chen, Z. (2019) "GPipe: Efficient Training of Giant Neural Networks using Pipeline Parallelism." In NeurIPS 2019.
+
+
+Sandler, M., Baccash, J., Zhmoginov, A., & Howard, A. (2019). "Non-discriminative data or weak model? On the relative importance of data and model resolution." In ICCV 2019.
+
+
+Lasserre, J., Bishop, C., & Minka, T. P. (2006). "Principled Hybrids of Generative and Discriminative Models." In CVPR 2006.
+
+
+Erhan, D., Bengio, Y., Courville, A., Manzagol, P., Vincent, P., Bengio, S. (2010). "Why does unsupervised pre-training help deep learning?." In JMLR 2010.
+
+
+Elman, J. (1990). "Finding Structure in Time." In Cognitive Science 1990.
+
+
+Mikolov, T., Karafiat, M., Burget, L., Cernocky, J., Khudanpur, S. (2010). "Recurrent neural network based language model." In INTERSPEECH-2010.
+
+
+Larochelle, H., Murray, I. (2011). "The neural autoregressive distribution estimator." In AISTATS 2011.
+
+
+Graves, A. (2013). "Generating sequences with recurrent neural networks." arXiv preprint.
+
+
+Tian, Y., Krishnan, D., & Isola, P. (2019). "Contrastive multiview coding." arXiv preprint. 
+
+
+He, K., Fan, H., Wu, Y., Xie, S., & Girshick, R. (2019). "Momentum Contrast for Unsupervised Visual Representation Learning." arXiv preprint.
+
+
+Henaff, O., Srinivas, A., De Fauw, J., Razavi, A., Doersch, C., Eslami, S., Oord, A. (2019). "Data-Efficient Image Recognition with Contrastive Predictive Coding
+." arXiv preprint.
+
+
+Oord, A., Kalchbrenner, N., Kavukcuoglu, K. (2016). "Pixel recurrent neural networks." arXiv preprint.
+
+
+Parmar, N., Vaswani, A., Uszkoreit, J., Kaiser, L., Shazeer, N., Ku, A., & Tran, D. (2018). "Image transformer." In ICML 2018.
+
+
+Menick, J., Kalchbrenner, N. (2018). "Generating High Fidelity Images with Subscale Pixel Networks and Multidimensional Upscaling." arXiv preprint.
+
+
+Mumford, D. (1992). "On the computational architecture of the neocortex." In Biol. Cybern.
+
+
+Rao, R., Ballard, D. (1999). "Predictive coding in the visual cortex: a functional interpretation of some extra-classical receptive-field effects." In Nature Neuroscience.
+
+
+Smolensky, P. (1986). "Information processing in dynamical systems: Foundations of harmony theory."
+
+
+Hinton, G. (2002). "Training Products of Experts by Minimizing Contrastive Divergence." In MIT Press.
+
+
+Hinton, G., Osindero, S., & Teh, Y. (2006). "A fast learning algorithm for deep belief nets." In Neural Computation.
+
+
+Vincent, P., Larochelle, H., Bengio, Y., & Manzagol, P. (2008). "Extracting and composing robust features with denoising autoencoders." In ICML 2008.
+
+
+Coates, A., Lee, H., & Ng, A. Y. (2011). "An analysis of single-layer networks in unsupervised feature learning." In AISTATS 2011.
+
+
+Le, Q. V., Ranzato, M., Monga, R., Devin, M., Chen, K., Corrado, G., Dean, J. & Ng, A. Y. (2012). "Building high-level features using large scale unsupervised learning." In ICML 2012.
+
+
+Donahue, J., Simonyan, K. (2019). "Large scale adversarial representation learning." In NeurIPS 2019.
+
+
+Ciresan, D., Meier, U., Gambardella, L. & Schmidhuber, J. (2010). "Deep Big Simple Neural Nets Excel on Handwritten Digit Recognition." In CoRR 2010.
+
+
+Shaw, P., Uszkoreit, J., & Vaswani A. (2018). "Self-attention with relative position representations." In NAACL 2018.
+
+
+Child, R., Gray, S., Radford, A., & Sutskever, I. (2019). "Generating long sequences with sparse transformers." arXiv preprint.
+
+
+Becker, S., Hinton, G. (1991). "Self-organizing neural network that discovers surfaces in random-dot stereograms." In Nature.
+
+
+Bromley, J., Guyon, I., LeCun, Y., Sackinger, E., & Shah, R. (1994). "Signature verification using a" siamese" time delay neural network." In NeurIPS 1994.
+
+
+Mikolov, T., Sutskever, I., Chen, K., Corrado, G., & Dean, J. (2013). "Distributed Representations of Words and Phrases and their Compositionality
+." In NeurIPS 2013.
+
+Oord, A., Li, Y., Vinyals, O. (2018). "Representation Learning with Contrastive Predictive Coding
+." arXiv preprint.
+
+
+Hjelm, R., Fedorov, A., Lavoie-Marchildon, S., Grewal, K., Bachman, P., Trischler, A., & Bengio, Y. (2018). "Learning deep representations by mutual information estimation and maximization." In ICLR 2019.
+
+
+Alley, E., Khimulya, G., Biswas, S., AlQuraishi, M., Church, G. (2019). "Unified rational protein engineering with sequence-only deep representation learning." In Nature Methods.
+
+
+Rives, A., Goyal, S., Meier, J., Guo, D., Ott, M., Zitnick, C., Ma, J., Fergus, R. (2019). "Biological Structure and Function Emerge from Scaling Unsupervised Learning to 250 Million Protein Sequences." bioRxiv preprint.
+
+
+Torralba, A., Fergus, R., Freeman, W. (2008). "80 million tiny images: A large data set for nonparametric object and scene recognition." In IEEE transactions on pattern analysis and machine intelligence.
+
+
+"List of 8-Bit Computer Hardware Graphics." Wikipedia, 8 May 2020
+
+
+Kornblith, S., Shlens, J., & Le, Q. V. (2019). "Do Better ImageNet Models Transfer Better?." In CVPR 2019.
+
+
+Cubuk, E., Zoph, B., Mane, D., Vasudevan, V., & Le, Q. V. (2019). "AutoAugment: Learning Augmentation Strategies From Data." In CVPR 2019.
+
+
+Tan, M., Le, Q. V. (2019). "EfficientNet: Rethinking Model Scaling for Convolutional Neural Networks." In ICML 2019.
+
+
+Gidaris, S., Singh, P., & Komodakis, N. (2018). "Unsupervised Representation Learning by Predicting Image Rotations." In ICLR 2018.
+
+
+Kingma, D., Rezende, D. J., Mohamed, S., & Welling, M. (2014). "Semi-Supervised Learning with Deep Generative Models." In NeurIPS 2014.
+
+
+Salimans, T., Goodfellow, I., Zaremba, W., Cheung, V., Radford, A., Chen, X. (2016). "Improved techniques for training gans." In NeurIPS 2016.
+
+
+Tarvainen, A., Valpola, H. (2017). "Mean teachers are better role models: Weight-averaged consistency targets improve semi-supervised deep learning results." In NeurIPS 2017.
+
+
+Berthelot, D., Carlini, N., Goodfellow, I., Papernot, N., Oliver, A., Raffel, C. (2019). "MixMatch: A Holistic Approach to Semi-Supervised Learning." In NeurIPS 2019.
+
+
+Xie, Q., Dai, Z., Hovy, E., Luong, M., & Le, Q. V. (2019). "Unsupervised Data Augmentation for Consistency Training." arXiv preprint.
+
+
+Sohn, K., Berthelot, D., Li, C., Zhang, Z., Carlini, N., Cubuk, E., Kurakin, A., Zhang, H., Raffel, C. (2020). "Fixmatch: Simplifying semi-supervised learning with consistency and confidence." arXiv preprint.
+
+
+Sutton, R. (2019). "The Bitter Lesson."
+
+
+
+
+
+
+Footnotes
+
+
+
+
+Measured through logistic regression on learned features (linear probe). ↩︎
+
+A transformer is trained to maximize the likelihood, and thus is mode covering, which automatically ensures the diversity of its samples. ↩︎
+
+The original analysis by synthesis idea is more an argument for generative models with latent variables, but because generative models without latent variables were so much better at modeling the data distribution, we thought the analysis-by-synthesis conjecture should hold for them as well. ↩︎
+
+We only show linear probe accuracy on ImageNet for iGPT-XL since other experiments did not finish before we needed to transition to different supercomputing facilities. ↩︎
+
+To extract features for a linear probe, we take the post layernorm attention block inputs at some layer and average pool over the sequence dimension. ↩︎
+
+To fine-tune, we take the post layernorm transformer output and average pool over the sequence dimension as input for the classification head. ↩︎
+
+A generative model which learns features in a purely unsupervised fashion. ↩︎
+
+
+
+
+
+
+
+
+
+
+
+
+Authors
+
+Mark ChenAlec RadfordIlya Sutskever
+
+
+
+
+
+
+
+
+Filed Under
+
+ResearchMilestones
+
+
+
+
+
+
+
+
+
+
+Featured
+ChatGPT
+DALL·E 2
+Whisper
+Alignment
+Startup Fund
+
+
+
+
+API
+Overview
+Pricing
+Examples
+Docs
+Terms & Policies
+Status
+Log in
+
+
+
+
+Blog
+Index
+Research
+Announcements
+Events
+Milestones
+
+
+
+
+Information
+About Us
+Our Charter
+Our Research
+Publications
+Newsroom
+Careers
+
+
+
+
+
+OpenAI © 2015–2023 Privacy Policy Terms of Use
+
+
+ twitter   youtube   github   soundcloud   linkedin   facebook    twitter   youtube   github   soundcloud   linkedin   facebook  
+
+
+
+
+
+
+
+

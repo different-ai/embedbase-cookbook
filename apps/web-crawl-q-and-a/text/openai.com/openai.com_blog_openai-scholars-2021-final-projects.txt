@@ -1,0 +1,404 @@
+
+
+
+
+
+
+
+
+OpenAI Scholars 2021: Final Projects
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Introducing ChatGPT research release
+
+Try ChatGPT
+Learn more
+
+
+
+
+
+
+
+
+
+
+API
+Research
+Blog
+About
+
+
+API
+Research
+Blog
+About
+
+
+
+
+
+
+
+
+
+OpenAI Scholars 2021: Final Projects 
+
+
+
+
+
+
+
+
+ 
+May 10, 2021
+8 minute read
+
+
+
+We’re proud to announce that the 2021 class of OpenAI Scholars has completed our six-month mentorship program and have produced an open-source research project with stipends and support from OpenAI.
+Working alongside leading OpenAI researchers that created GPT-3 and DALL·E, our Scholars explored topics like AI safety, contrastive learning, generative modeling, scaling laws, auto-encoding multi-objective tasks, test time compute, NLP segmentation strategies, and summarization from human feedback.
+To wrap up the program, our nine Scholars share their work and how the Scholars Program has impacted their careers. Read more about each of them and their projects below.
+
+
+
+playcircle
+
+
+Introduction by Sam Altman
+
+
+
+
+
+
+
+Christina Kim
+Danielle Ensign
+Ellie Kitanidis
+Jonathan Ward
+Kudzo Ahegbebu
+Legg Yeung
+Sam Gbafa
+Shola Oyedele
+Tyna Eloundou
+
+
+
+
+
+
+
+playcircle
+
+
+Scaling Laws for Language Transfer Learning Christina Kim
+
+OpenAI Mentor: Jerry Tworek
+Previous Roles: Founding Engineer at Sourceress, Research Fellow at Recurse Center, Software Engineer at Memebox
+
+Previously, I was the founding engineer at Sourceress, where I built the infrastructure for our machine learning pipeline and human-in-the-loop labeling system. My background is in software engineering and productionizing machine learning. Building upon OpenAI’s recent work on scaling laws, my project explores how much pre-training on English helps when transferring across different languages as we vary model size and dataset size. I found that a) pre-trained English models help most when learning German, then Spanish, and finally Chinese and b) transfer from English to Chinese, German, and Spanish scales predictably in terms of parameters, data, and compute.
+
+My advice to someone starting in deep learning research is to take your time to understand insights from fundamental papers and remember that the field is still relatively new. There's a lot of room for individuals to have an outsized impact.
+
+
+Blog
+
+
+
+
+
+
+playcircle
+
+
+Feedback Loops in Opinion Modeling Danielle Ensign
+
+OpenAI Mentor: Jeff Wu
+Previous Roles: Software Engineer at ITHAKA, Brighten AI, and Phylliida
+
+I have a background in Software Development, AI Fairness, and VR Game Development. I was interested in the Scholars program as a way of strengthening my research skills, learning from other talented people in the field, and moving into industry research or engineering positions. My project is exploratory, investigating prior work on opinion modeling from the context of deep learning. As these models generate more and more text, it's important to understand the impacts they'll have on the ecosystem of opinions and future models. In addition, I investigated what happens when models are iteratively trained on outputs from previous models.
+
+If you can, take a few months to carefully work through the 2019 fast.ai course (parts 1 and 2), Andrew Ng's deep learning course on Coursera, David Silver's RL Course, and Spinning Up in Deep RL. If you don't have a background in statistics, building a more solid foundation in that would be useful as well. This will give you a headstart in learning how to do productive research as you need to spend less time learning the core concepts. In addition, if you haven't yet, try to implement a few papers from scratch in pytorch. Pick old papers that have existing implementations, so you can reference those implementations if you get stuck. See if you can improve the paper by applying an idea from a later paper. This process will give you a better idea of what doing DL research is like.
+
+
+BlogPortfolio
+
+
+
+
+
+
+playcircle
+
+
+Contrastive Language EncodingEllie Kitanidis
+
+OpenAI Mentor: Pranav Shayam
+Previous Role: Physics PhD at UC Berkeley
+
+My background is in physics, with a focus on dark energy, dark matter, and the large-scale structure of the Universe. For my project, I pre-trained a language representation model using a purely contrastive objective. I am interested in the generalizability and scalability of such models compared to models pre-trained with more traditional language modeling objectives. I am also curious about what factors influence the performance of contrastive language encoders. In this talk, I present our methodology and some preliminary results.
+
+Navigating a career change during COVID-19 was daunting, but this program created the perfect environment for me to learn, gain hands-on experience, and orient myself in the field. Discussions with my mentor and others at OpenAI exposed me to expert insights and intuitions that can’t be found in a textbook. The most important thing I discovered, however, was how much I love doing AI research. I plan to continue growing my career in this direction.
+
+
+BlogPublicationsDissertation
+
+
+
+
+
+
+playcircle
+
+
+Large Scale Reward ModelingJonathan Ward
+
+OpenAI Mentor: John Schulman
+Previous Roles: Fullstack Software Engineer at Sisu Data, Quantum Engineer and Data Engineer at Rigetti Computing
+
+I joined the Scholars Program to build computer systems that better understand what people really value. I live in Washington, D.C. and lately, I’ve really enjoyed building fantastic contraptions with K’nex. My recent work at OpenAI has demonstrated that reward models trained on human feedback can support Reinforcement Learning. My project demonstrates that reward models can be trained on large-scale structured feedback extracted from websites.
+
+My advice to people looking to join: make open source projects! Find the simplest interesting idea that you can think of and build it!
+
+
+Blog
+
+
+
+
+
+
+playcircle
+
+
+Characterizing Test Time Compute on Graph Structured ProblemsKudzo Ahegbebu
+
+OpenAI Mentor: William Guss
+Previous Roles: Software Engineer at Facebook and Genentech
+
+I am a software engineer with an applied physics and aerospace background. My presentation explores the generalizability of models leveraging test time compute in a number of domains including autoregressive transformers, deep equilibrium models, and graph neural networks. In it, I ask: Given the constraints of limited training compute budget, can small adaptive models instead leverage test time compute to overcome the handicap of having a smaller number of learnable parameters? Lastly, we present mechanisms that show promise in reducing the computational cost and improving the performance of graph neural networks.
+
+The Scholars program has given me the confidence to pursue new avenues of deep learning interest and research as well as an increased measure of competency so that I may operate with greater clarity, efficiency and ethical maturity. It’s also reignited a latent research interest which I hope to continue to nurture into the future.
+
+
+Blog
+
+
+
+
+
+
+playcircle
+
+
+Breaking Contrastive Models with the SET Card GameLegg Yeung
+
+OpenAI Mentor: Gabriel Goh
+Previous Roles: AI Resident at Microsoft Research, Intern Machine Learning at Autodesk, Intern Data Scientist at Agari Data, Faculty at UC Berkeley           
+
+I was formally trained as a data scientist and architect, but I pivoted my career because AI has a much higher agency on our environment than conventional industries, and there are many interesting research problems in this field. In my project, I extended the well-known card game "SET" to investigate the relationship between vector representation dimension and task composition. I found non-contrastive models of X parameters to solve games that contrastive models of 2X+ parameters cannot. What can a contrastive model learn with vector representations of size 16/32/64/128/256/512? And what not?
+
+I came to the program with a few interests (reasoning, compositionality, multimodal). My mentor helped me a lot in terms of crystallizing these interests into concrete research questions and proposals. We explored multiple directions and kept iterating until we saw something promising. The process was intense, but the lessons were worth the effort.
+
+
+BlogPortfolio
+
+
+
+
+
+
+playcircle
+
+
+Words to Bytes: Exploring Language TokenizationsSam Gbafa
+
+OpenAI Mentor: Arvind Neelakantan
+Previous Roles: Software Engineer at Wahoo Fitness, Founder and CEO at Lorable, Data Engineer at Interkn
+
+I was drawn to the Scholar’s program because I’d seen some of what OpenAI’s models could do and I wanted to understand what it took to build and iterate such powerful models. Having the dedicated time to explore deep learning with great mentorship has been transformative in my ability to understand and contribute to the field! When I’m not working, I’m usually tinkering with gadgets or out seeking adrenaline with friends. My project explores the tradeoffs in using these other tokenization schemes and how these different tokenizations scale. I also consider an approach to learning a sequence's segmentation instead of using a predefined one.
+
+The Scholars program gave me the space to explore many different ideas in ML and deep learning, from "classical" stuff like CNNs and RNNs to understanding the tradeoffs of more recent transformer variants. Being able to have conversations with the researchers at OpenAI made me realize that the frontier of AI research is very accessible. I originally wanted to learn about the current state of the art, but being here for these past few months has let me understand that I can contribute meaningfully to advancing the state of deep learning and AI. Being at OpenAI has also caused me to think a lot about the implications of the models we create and ways to provide such models to the world while minimizing potential harm.
+
+
+Blog
+
+
+
+
+
+
+playcircle
+
+
+Studying Scaling Laws for Transformer Architecture VariantsShola Oyedele
+
+OpenAI Mentor: Alex Ray
+Previous Roles: Senior Software Engineer at IBM, Software Engineer at Walker & Co Brands, Software Engineer at Inuit
+
+I almost majored in French in college because I've always loved language. I frequently watch movies and tv shows in other languages (yes - kdramas are at the top of that list) but I never imagined that my love of language would translate into me doing research in NLP. In my research, I explore the tradeoffs between model performance and the cost of training, and study scaling laws on different transformer architectures to understand the impact of transformer architecture on model performance.
+
+Everything about my perspective has changed since joining the program. There are very few companies and institutions in the world that use machine learning at scale and have a vision of where the field of ML/AI is headed. Even fewer are opportunities for those who don't have research experience and an advanced degree, let alone a program focused on underrepresented groups. Just the significance of joining this program at a time when the industry is discovering the potential of GPT3 has changed my vision of what the future of technology offers and what my place within that could be. I think people assume you need a technical degree to study AI but I was just curious about the future and wanted a part in building it.
+
+
+Blog
+
+
+
+
+
+
+playcircle
+
+
+Learning Multiple Modes of Behavior in a Continuous Control EnvironmentFlorentine (Tyna) Eloundou
+
+OpenAI Mentor: Joshua Achiam
+Previous Roles: Research Programmer, Data Scientist at RAND Corporation, Associate Economist at Federal Reserve Bank of Chicago
+
+I applied to OpenAI because I wanted the profound privilege to wrestle with questions that shape ever-complex AI systems. As a Cameroonian native who grew up in the US, I navigate multiple perspectives (scholastically, culturally and linguistically) and was curious to learn how AI learns from human commonalities and differences. The arduous rewards and constraint engineering process can sometimes lead to misalignment between a designer's idea of success and its analytic specification. Furthermore, many real-world tasks contain multiple objectives and current approaches in reinforcement learning do not offer a direct lever to choose between Pareto-equivalent strategies. To address these problems, in my project, I explain how we use "multiple experts, multiple objectives" (MEMO) to explore an agent's ability to consume examples of success from multiple experts with different objectives, and learn a single conditional policy that can be oriented at the discretion of a supervisor.
+
+For newcomers to the field, I would recommend slowly stepping through clean open source implementations of well-known algorithms while reading their theoretical grounding. Try to experiment with the designs often. Fast.ai and Andrew Ng's courses are excellent resources for the journey.
+
+
+Blog
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Authors
+
+OpenAI
+
+
+
+
+
+
+
+
+Filed Under
+
+EventsScholars
+
+
+
+
+
+
+
+
+
+
+Featured
+ChatGPT
+DALL·E 2
+Whisper
+Alignment
+Startup Fund
+
+
+
+
+API
+Overview
+Pricing
+Examples
+Docs
+Terms & Policies
+Status
+Log in
+
+
+
+
+Blog
+Index
+Research
+Announcements
+Events
+Milestones
+
+
+
+
+Information
+About Us
+Our Charter
+Our Research
+Publications
+Newsroom
+Careers
+
+
+
+
+
+OpenAI © 2015–2023 Privacy Policy Terms of Use
+
+
+ twitter   youtube   github   soundcloud   linkedin   facebook    twitter   youtube   github   soundcloud   linkedin   facebook  
+
+
+
+
+
+

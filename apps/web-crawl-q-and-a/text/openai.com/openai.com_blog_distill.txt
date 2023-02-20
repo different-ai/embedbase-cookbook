@@ -1,0 +1,198 @@
+
+
+
+
+
+
+
+
+Distill
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Introducing ChatGPT research release
+
+Try ChatGPT
+Learn more
+
+
+
+
+
+
+
+
+
+
+API
+Research
+Blog
+About
+
+
+API
+Research
+Blog
+About
+
+
+
+
+
+
+
+
+Distill 
+
+
+
+
+
+
+
+
+March 20, 2017
+1 minute read
+
+
+
+
+
+
+
+
+
+
+We're excited to support today's launch of Distill, a new kind of journal aimed at excellent communication of machine learning results (novel or existing).
+
+Distill is a website and set of associated tools that make it easier for people to explain machine learning concepts using modern web technologies. For example, people have already used the platform to explore the subtle settings of the t-SNE algorithm, to demystify the checkerboard artifacts in synthetic images, and peek under the hood of recurrent neural networks that generate handwriting.
+Andrej will serve on the steering committee for the publication, and Greg is helping fund the Distill Prize for Clarity in Machine Learning, which recognizes outstanding work on communicating ideas in machine learning and related topics (published in any venue!)
+Visit Distill
+
+
+
+
+
+
+
+
+
+Authors
+
+Greg BrockmanAndrej Karpathy
+
+
+
+
+
+
+
+
+Filed Under
+
+Research
+
+
+
+
+
+
+
+
+
+
+Featured
+ChatGPT
+DALL·E 2
+Whisper
+Alignment
+Startup Fund
+
+
+
+
+API
+Overview
+Pricing
+Examples
+Docs
+Terms & Policies
+Status
+Log in
+
+
+
+
+Blog
+Index
+Research
+Announcements
+Events
+Milestones
+
+
+
+
+Information
+About Us
+Our Charter
+Our Research
+Publications
+Newsroom
+Careers
+
+
+
+
+
+OpenAI © 2015–2023 Privacy Policy Terms of Use
+
+
+ twitter   youtube   github   soundcloud   linkedin   facebook    twitter   youtube   github   soundcloud   linkedin   facebook  
+
+
+
+
+
+

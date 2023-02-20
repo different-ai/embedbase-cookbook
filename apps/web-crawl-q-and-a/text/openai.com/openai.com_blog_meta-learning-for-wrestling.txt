@@ -1,0 +1,211 @@
+
+
+
+
+
+
+
+
+Meta-Learning for Wrestling
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Introducing ChatGPT research release
+
+Try ChatGPT
+Learn more
+
+
+
+
+
+
+
+
+
+
+API
+Research
+Blog
+About
+
+
+API
+Research
+Blog
+About
+
+
+
+
+
+
+
+
+Meta-Learning for Wrestling 
+
+
+
+
+We show that for the task of simulated robot wrestling, a meta-learning agent can learn to quickly defeat a stronger non-meta-learning agent, and also show that the meta-learning agent can adapt to physical malfunction.
+
+
+
+
+October 11, 2017
+1 minute read
+
+
+
+
+
+
+
+
+
+View CodeRead Paper
+
+
+
+    A simulated robot ant (red) uses its meta-learning policy to learn to beat a stronger creature with more legs (green).
+  
+
+We've extended the Model-Agnostic Meta-Learning (MAML) algorithm by basing its objective function on optimizing against pairs of environments, rather than single ones as in stock MAML. MAML initializes the policies of our agents so that after only a small number of parameter updates during execution on a new environment (or task) the agents learn to do better in that environment. The policy parameter updates at execution are done via gradient ascent steps on the reward collected during the few episodes of initial interaction with a new environment. By training on pairs we’re able to create policies that quickly adapt to previously unseen environments, as long as the environment doesn’t diverge too wildly from previous ones.
+
+
+
+To test our continuous adaptation approach we designed 3 types of agents — Ant (4-leg), Bug (6-leg), and Spider (8-leg) — and set up a multi-round game where each agent played several matches against the same opponent and adapted its policy parameters between the rounds to better counter the opponent's policy. In tests, we found that agents that could adapt their tactics are much better competitors than agents that have fixed policies. After training over a hundred agents, some of which learned fixed policies and others learned to adapt, we evaluated the fitness of each agent.
+Learning on the fly can also let agents deal with unusual changes in their own bodies as well, like adapting to some of their own limbs losing functionality over time. This suggests we can use techniques like this to develop agents that can handle both changes in their external environment and also changes in their own bodies or internal states.
+
+
+
+We're exploring meta-learning as part of our work on large-scale multi-agent research. Additionally, we're releasing the MuJoCo environments and trained policies used in this work so that others can experiment with these systems.
+
+
+
+
+
+
+
+
+
+Authors
+
+Maruan Al-ShedivatTrapit BansalYura BurdaIlya SutskeverIgor MordatchPieter Abbeel
+
+
+
+
+
+
+
+
+Filed Under
+
+Research
+
+
+
+
+
+
+
+
+
+
+Featured
+ChatGPT
+DALL·E 2
+Whisper
+Alignment
+Startup Fund
+
+
+
+
+API
+Overview
+Pricing
+Examples
+Docs
+Terms & Policies
+Status
+Log in
+
+
+
+
+Blog
+Index
+Research
+Announcements
+Events
+Milestones
+
+
+
+
+Information
+About Us
+Our Charter
+Our Research
+Publications
+Newsroom
+Careers
+
+
+
+
+
+OpenAI © 2015–2023 Privacy Policy Terms of Use
+
+
+ twitter   youtube   github   soundcloud   linkedin   facebook    twitter   youtube   github   soundcloud   linkedin   facebook  
+
+
+
+
+
+

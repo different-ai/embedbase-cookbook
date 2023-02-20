@@ -1,0 +1,240 @@
+
+
+
+
+
+
+
+
+Machine Learning Unconference
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Introducing ChatGPT research release
+
+Try ChatGPT
+Learn more
+
+
+
+
+
+
+
+
+
+
+API
+Research
+Blog
+About
+
+
+API
+Research
+Blog
+About
+
+
+
+
+
+
+
+
+
+Machine Learning Unconference 
+
+
+
+
+
+
+
+
+ 
+August 18, 2016
+2 minute read
+
+
+
+The latest information about the Unconference is now available at the Unconference wiki, which will be periodically updated with more information for attendees.
+
+Machine learning is moving incredibly quickly. To keep up, many practitioners spend several weeks a year at conferences. However, conference presentations are all on work submitted months prior, meaning that people are already intimately familiar with the content (and it's often already been surpassed).
+We'd like to try instead hosting an event focused on the most valuable part of any conference: the people. Please join us for our first Machine Learning Unconference, an experimental gathering driven by its participants rather than an organizing committee.
+The unconference will be a free event at the OpenAI office in San Francisco on Friday and Saturday, October 7-8, 2016. We welcome participants from around the globe. As of August 22, we have finished accepting applications for the unconference.
+
+Why have an unconference on machine learning?
+Conferences play two main roles: social gathering and publication. We feel that these two roles are somewhat orthogonal and can be better served separately.
+At most conferences, the unstructured social time, such as mealtimes, is what people find valuable. We want to maximize the amount of interactivity in a social gathering of researchers. A minimally-structured unconference provides an opportunity for an experiment, to see what kinds of new formats attendees will develop, and find out which of these are most effective.
+We also have ideas for how to improve the paper reviewing and publication system, which we are developing separately.
+
+Agenda
+It would go against the spirit of the unconference for us to provide a specific schedule, but we suggest attendees use the Gitter chat to plan a few topics of discussion ahead of time.
+All attendees are also encouraged to bring a poster describing machine learning work that would be interesting or useful for other attendees to learn about. (We'll follow up with more details on format via email.)
+
+Who should come?
+Anyone who is involved in machine learning research or applications is welcome. We especially expect to see:
+
+PhD students, faculty members, and industry research scientists.
+Software engineers using machine learning in applications or building machine learning infrastructure.
+
+We're particularly excited to support women, minorities, and members of other groups underrepresented in machine learning. OpenAI will provide a limited number of travel and lodging grants for members of these groups.
+This event is primarily intended for people with technical fluency in machine learning to help each other advance the state of the art. If you are interested in learning about the basics of the field, there are plenty of other great events we'd suggest.
+
+Logistics
+OpenAI is sponsoring and hosting the event, but the event itself has no official organization — it's just people who find this invitation interesting, meeting to discuss machine learning.
+OpenAI will provide lunch and snacks. Participants are responsible for arranging their own travel and lodging.
+
+Attendees
+By attending, you agree to abide by our code of conduct.
+We'd like to welcome everyone, but we only have capacity for 150 people. We'll tune the acceptance list to ensure an interesting conference with a diversity of people and perspectives.
+Here's a somewhat representative sample of people you'll get to meet at the unconference, based on early signups:
+
+Conrado Miranda, PhD student, University of Campinas
+Fei Sha, Associate Professor, UCLA
+Georgia Gkioxari, PhD student at Berkeley
+Leila Wehbe, Postdoctoral Researcher at Berkeley
+Many members of Google Brain, including Samy Bengio, Greg Corrado, Douglas Eck, and Dumitru Erhan.
+Many members of the OpenAI team.
+Mehdi Mirza, PhD student, Montreal Institute for Learning Algorithms
+
+Nicolas Papernot, Google PhD Fellow in Security, Pennsylvania State University
+Serena Yeung, PhD student, Stanford University
+Sudnya Diamos, Data Science and Algorithms Engineer, Attune, Inc
+Úlfar Erlingsson, lead of security efforts at Google Research
+Wendy Shang, Software Engineer, Oculus
+
+
+You can discuss plans and logistics with other attendees in the Gitter chat, or email Ian with any questions.
+
+Discuss logistics
+
+
+
+
+
+
+
+
+
+
+Authors
+
+Ian Goodfellow
+
+
+
+
+
+
+
+
+Filed Under
+
+Events
+
+
+
+
+
+
+
+
+
+
+Featured
+ChatGPT
+DALL·E 2
+Whisper
+Alignment
+Startup Fund
+
+
+
+
+API
+Overview
+Pricing
+Examples
+Docs
+Terms & Policies
+Status
+Log in
+
+
+
+
+Blog
+Index
+Research
+Announcements
+Events
+Milestones
+
+
+
+
+Information
+About Us
+Our Charter
+Our Research
+Publications
+Newsroom
+Careers
+
+
+
+
+
+OpenAI © 2015–2023 Privacy Policy Terms of Use
+
+
+ twitter   youtube   github   soundcloud   linkedin   facebook    twitter   youtube   github   soundcloud   linkedin   facebook  
+
+
+
+
+
+

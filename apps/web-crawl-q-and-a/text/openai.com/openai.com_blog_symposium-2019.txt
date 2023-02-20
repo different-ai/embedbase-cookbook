@@ -1,0 +1,338 @@
+
+
+
+
+
+
+
+
+OpenAI Robotics Symposium 2019
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Introducing ChatGPT research release
+
+Try ChatGPT
+Learn more
+
+
+
+
+
+
+
+
+
+
+API
+Research
+Blog
+About
+
+
+API
+Research
+Blog
+About
+
+
+
+
+
+
+
+
+
+
+
+OpenAI Robotics Symposium 2019 
+
+
+
+June 5, 2019
+5 minute read
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+We hosted the first OpenAI Robotics Symposium on April 27, 2019. Robots that learn are an exciting path forward, yet there are differing approaches and opinions on how to make progress. The event brought together a diverse set of people from both robotics and machine learning communities as well as academics and industry leaders to create a platform to exchange ideas and address open questions in building complex robot systems.
+
+Why This Event?
+Robots that learn are a development that will allow robots to become part of our everyday lives. While we have some ideas on how to get there, we think it is important to engage with people from other organizations and disciplines to exchange and discuss ideas. Creating these robots is inherently a multidisciplinary approach—it not only requires technical expertise, but also a deeper understanding of how these robots can be deployed safely and interact with humans in the real world.
+
+The Participants
+We hosted ~80 external attendees at our office and ~200 people joined remotely via our livestream throughout the day. We had attendees from industry labs like Google, Facebook, and NVIDIA in addition to students, postdocs and professors from universities like Stanford, UC Berkeley, CMU and MIT. We also had hobbyists, artists, roboticists, and machine learning researchers in the crowd.
+
+
+
+
+
+The Talks
+
+
+
+
+
+
+
+
+Learning Dexterity
+Wojciech Zaremba, OpenAI
+
+Wojciech talks about our recent research, "Learning Dexterity," which uses sim2real with domain randomization and large-scale reinforcement learning with memory-augmented policies. This approach leads to meta-learning that allows our policy to transfer to the physical robot without ever training on the robot.
+
+Watch talkView slides
+
+
+
+
+
+
+
+
+
+
+Learning From Play
+Pierre Sermanet, Google Brain
+
+Pierre describes how play can provide self-supervision for representation learning. This approach can be used to acquire a diverse set of skills that can be used and recombined to solve novel tasks without ever providing any labels or rewards.
+
+Watch talkView slides
+
+
+
+
+
+
+
+
+
+
+Doing for Our Robots What Nature Did for Us
+Leslie Kaelbling, MIT
+
+Leslie explains how we have to think about learning both in the "robot factory" (i.e., at engineering time) as well as "in the wild" (i.e., when deployed). Leslie describes her overall architecture for building intelligent robots and how it can be used to build robots that acquire new skills.
+
+Watch talkView slides
+
+
+
+
+
+
+
+
+
+
+Treating People as Optimizers in Human-Robot Interaction
+Anca Dragan, UC Berkeley
+
+Anca explores the question of what inductive bias is right when learning for human-robot interaction. She proposes a framework for predicting human actions that broadens the assumption that humans are noisy-rational and allows for strategic human behavior, as well as systematic sub-optimality (like not knowing the exact physics of the environment, or still learning about their preferences).
+
+Watch talkView slides
+
+
+
+
+
+
+
+
+
+
+Social-Emotional Intelligence in Human-Robot Interactions
+Jin Joo Lee, MIT / Amazon
+
+Jin Joo dives into the why and how of making robots lifelike and interactive through social-emotional intelligence. These social robots can read and understand our emotional expressions and also communicate back to us in the same way.
+
+Watch talk
+
+
+
+
+
+
+
+
+
+
+What Should Be Learned
+Chris Atkeson, CMU
+
+Chris critically discusses the gap between robot learning research and robot programming practice. He asks what would make learning robots truly useful and outlined his ideas on how to get there.
+
+Watch talkView slides
+
+
+
+
+
+
+
+
+
+
+Robots That Adapt Like Natural Animals
+Jeff Clune, Uber AI / University of Wyoming
+
+Jeff describes work he and his collaborators published in Nature on how to build robots that can rapidly adapt at runtime if they become damaged. The proposed approach could ultimately lead to robots that are much more able to adapt to damage or unexpected environmental conditions.
+
+Watch talkView slides
+
+
+
+
+
+Dexterity Demo
+Since the event was hosted at our office, we took the opportunity to perform a live demo of our humanoid robot hand manipulating a block using vision and reinforcement learning.
+
+We were excited to show the hand to people and have the OpenAI Robotics team "on hand" to answer their questions! We hope to do this again in the future as it is a very different experience to see this in person.
+
+
+
+Next Steps
+We were extremely pleased with the outcome of the event—this was an experimental format and our expectations were definitely exceeded. The talks during the day led to interesting discussions within our team and resulted in some new ideas (e.g., self-supervision) and perspectives (e.g., traditional robotics vs deep learning robotics). After chatting with the participants and speakers, it was clear everyone felt they benefited from this event and left with a shared understanding of the diversity in the different approaches to solving the same problems. Given this feedback, we intend to repeat this format in the future, possibly as an annual symposium. We'll share details about upcoming events at a later date.
+If you would like to help us do research on robots that learn, please get in touch! We’re hiring.
+Thanks to Loren Kwan, Diane Yoon, and Maddie Hall for co-organizing the event, to all the OpenAI staff volunteers, and to Blake Tucker for filming and photography.
+
+
+
+
+
+
+
+
+
+
+Authors
+
+OpenAI
+
+
+
+
+
+
+
+
+Filed Under
+
+Events
+
+
+
+
+
+
+
+
+
+
+Featured
+ChatGPT
+DALL·E 2
+Whisper
+Alignment
+Startup Fund
+
+
+
+
+API
+Overview
+Pricing
+Examples
+Docs
+Terms & Policies
+Status
+Log in
+
+
+
+
+Blog
+Index
+Research
+Announcements
+Events
+Milestones
+
+
+
+
+Information
+About Us
+Our Charter
+Our Research
+Publications
+Newsroom
+Careers
+
+
+
+
+
+OpenAI © 2015–2023 Privacy Policy Terms of Use
+
+
+ twitter   youtube   github   soundcloud   linkedin   facebook    twitter   youtube   github   soundcloud   linkedin   facebook  
+
+
+
+
+
+

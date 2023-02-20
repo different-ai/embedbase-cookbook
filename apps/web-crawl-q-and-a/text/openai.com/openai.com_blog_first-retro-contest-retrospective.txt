@@ -1,0 +1,414 @@
+
+
+
+
+
+
+
+
+Retro Contest: Results
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Introducing ChatGPT research release
+
+Try ChatGPT
+Learn more
+
+
+
+
+
+
+
+
+
+
+API
+Research
+Blog
+About
+
+
+API
+Research
+Blog
+About
+
+
+
+
+
+
+
+
+Retro Contest: Results 
+
+
+
+
+
+
+
+
+June 22, 2018
+8 minute read
+
+
+
+
+
+
+
+
+
+
+The first run of our Retro Contest—exploring the development of algorithms that can generalize from previous experience—is now complete.
+
+Though many approaches were tried, top results all came from tuning or extending existing algorithms such as PPO and Rainbow. There's a long way to go: top performance was 4,692 after training while the theoretical max is 10,000. These results provide validation that our Sonic benchmark is a good problem for the community to double down on: the winning solutions are general machine learning approaches rather than competition-specific hacks, suggesting that one can't cheat through this problem.
+
+An AI agent by the Dharmaraja team learning over time on a custom version of Aquatic Ruin Zone. The agent was pre-trained on other Sonic levels, but this is its first time seeing this particular level. Times listed are with respect to wall-clock time.
+Over the two-month contest, 923 teams registered and 229 submitted solutions to the leaderboard. Our automated evaluation systems conducted a total of 4,448 evaluations of submitted algorithms, corresponding to about 20 submissions per team. The contestants got to see their scores rise on the leaderboard, which was based on a test set of five low-quality levels that we created using a level editor. You can watch the agents play one of these levels by clicking on the leaderboard entries.
+
+A plot showing leaderboard performance over the duration of the contest. Note: Maximum score is based on leaderboard scores over time; as users' leaderboard scores are based on their latest entry the maximum score can drop if the top entry is replaced with a lower scoring entry from the same user.
+Because contestants got feedback about their submission in the form of a score and a video of the agent being tested on a level, they could easily overfit to the leaderboard test set. Therefore, we used a completely different test set for the final evaluation. Once submissions closed, we took the latest submission from the top 10 entrants and tested their agents against 11 custom Sonic levels made by skilled level designers. To reduce noise, we evaluated each contestant on each level three times, using different random seeds for the environment. The ranking changed in this final evaluation, but not to a large extent.
+
+Three different AIs learning on the same level. Red dots indicate earlier episodes whereas blue dots indicate later episodes. (From top to bottom, ordered by score on the level: Dharmaraja, aborg and mistake)
+
+Top Scores
+The top 5 scoring teams are:
+
+
+
+
+RANK
+TEAM
+SCORE
+
+
+
+
+#1
+Dharmaraja
+4692
+
+
+#2
+mistake
+4446
+
+
+#3
+aborg
+4430
+
+
+#4
+whatever
+4274
+
+
+#5
+Students of Plato
+4269
+
+
+
+Joint PPO baseline
+4070
+
+
+
+Joint Rainbow baseline
+3843
+
+
+
+Rainbow baseline
+3498
+
+
+
+
+Dharmaraja topped the scoreboard during the contest, and the lead remained on the final evaluation; mistake narrowly won out over aborg for second place. The top three teams will receive trophies.
+
+Learning curves of the top three teams for all 11 levels are as follows (showing the standard error computed from three runs).
+
+Averaging over all levels, we can see the following learning curves.
+
+Note that Dharmaraja and aborg start at similar scores, whereas mistake starts much lower. As we will describe in more detail below, these two teams fine-tuned (using PPO) from a pre-trained network, whereas mistake trained from scratch (using Rainbow DQN). mistake's learning curves end early because they timed out at 12 hours.
+
+Meet the Winners
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Dharmaraja
+Dharmaraja is a six-member team including Qing Da, Jing-Cheng Shi, Anxiang Zeng, Guangda Huzhang, Run-Ze Li, and Yang Yu. Qing Da and Anxiang Zeng are from the AI team within the search department of Alibaba in Hangzhou, China. In recent years, they have studied how to apply reinforcement learning to real world problems, especially in an e-commerce setting, together with Yang Yu, who is an Associate Professor of the Department of Computer Science at Nanjing University, Nanjing, China.
+Dharmaraja’s solution is a variant of joint PPO (described in our tech report) with a few improvements. First, it uses RGB images rather than grayscale; second, it uses a slightly augmented action space, with more common button combinations; third, it uses an augmented reward function, which rewards the agent for visiting new states (as judged by a perceptual hash of the screen). In addition to these modifications, the team also tried a number of things that didn’t pan out: DeepMimic, object detection through YOLO, and some Sonic-specific ideas.
+Get the source code
+
+
+
+
+
+
+
+
+
+
+
+Mistake
+Team mistake consists of Peng Xu and Qiaoling Zhong. Both are second-year graduate students in Beijing, China, studying at the CAS Key Laboratory of Network Data Science and the Technology Institute of Computing Technology, Chinese Academy of Sciences. In their spare time, Peng Xu enjoys playing basketball, and Qiaoling Zhong likes to play badminton. Their favorite video games are Contra and Mario.
+Mistake’s solution is based on the Rainbow baseline. They made several modifications that helped boost performance: a better value of n for n-step Q learning; an extra CNN layer added to the model, which made training slower but better; and a lower DQN target update interval. Additionally, the team tried joint training with Rainbow, but found that it actually hurt performance in their case.
+Get the source code
+
+
+
+
+
+
+
+
+Aborg
+Team Aborg is a solo effort from Alexandre Borghi. After completing a PhD in computer science in 2011, Alexandre worked for different companies in France before moving to the United Kingdom where he is a research engineer in deep learning. As both a video game and machine learning enthusiast, he spends most of his free time studying deep reinforcement learning, which led him to take part in the OpenAI Retro Contest.
+Aborg’s solution, like Dharmaraja’s, is a variant of joint PPO with many improvements: more training levels from the Game Boy Advance and Master System Sonic games; a different network architecture; and fine-tuning hyper-parameters that were designed specifically for fast learning. Elaborating on the last point, Alexandre noticed that the first 150K timesteps of fine-tuning were unstable (i.e. the performance sometimes got worse), so he tuned the learning rate to fix this problem. In addition to the above changes, Alexandre tried several solutions that did not work: different optimizers, MobileNetV2, using color images, etc.
+Get the source code
+
+Best Write-ups
+The Best Write-up Prize is awarded to contestants that produced high-quality essays describing the approaches they tried.
+
+
+
+RANK
+WINNER
+WRITEUP
+
+
+
+
+#1
+Dylan Djian
+World Models
+
+
+#2
+Oleg Mürk
+Exploration algorithms, policy distillation and fine-tuning
+
+
+#3
+Felix Yu
+Fine-tuning on per-zone expert policies
+
+
+
+Now, let’s meet the winners of this prize category.
+
+
+
+
+
+
+
+
+Dylan Djian
+Dylan currently lives in Paris, France. He is a student in software development at school 42 in Paris. He got into machine learning after watching a video of a genetic algorithm learning how to play Mario a year and a half ago. This video sparked his interest and made him want to learn more about the field. His favorite video games are Zelda Twilight Princess and World of Warcraft.
+
+
+
+
+
+
+
+
+Oleg Mürk
+Oleg Mürk hails from the San Francisco Bay Area, but is originally from Tartu, Estonia. During the day, he works with distributed data processing systems as a Chief Architect at Planet OS. In his free time, he burns "too much money" on renting GPUs for running deep learning experiments in TensorFlow. Oleg likes traveling, hiking, and kite-surfing and intends to finally learn to surf over the next 30 years. His favorite computer game (also the only one he has completed) is Wolfenstein 3D. His masterplan is to develop an automated programmer over the next 20 years and then retire.
+
+
+
+
+
+
+
+
+Felix Yu
+Felix is an entrepreneur who lives in Hong Kong. His first exposure to machine learning was a school project where he applied PCA to analyse stock data. After several years pursuing entrpreneurship, he got into ML in late 2015; he has become an active Kaggler and has worked on several side projects on computer vision and reinforcement learning.
+
+Best Supporting Material
+One of the best things that came from this contest was seeing contestants helping each other out. Lots of people contributed guides for getting started, useful scripts, and troubleshooting support for other contestants.
+
+
+
+
+
+
+
+
+Tristan Sokol
+The winner of our Best Supporting Material award is Tristan Sokol, who wrote many helpful blog posts throughout the contest and made a tool for visualizing trajectories through Sonic levels.
+During the day, Tristan works for Square, helping to build their developer platform; at night, he is a designer and entrepreneur. This was the first time that he has done any AI/ML, and also his first time using Python for any real use case. Looking forward, Tristan is going to try to make cool things with TensorFlow.js. Whenever he isn't in front of a computer, Tristan is probably in his Oakland backyard watching plants grow.
+
+Lessons and Next Steps
+Contests have the potential to overhaul the prevailing consensus on what works the best, since contestants will try a diverse set of different approaches and the best one will win. In this particular contest, the top performing approaches were not radically different from the ones that we at OpenAI had found to be successful prior to the contest.
+We were glad to see several of the top solutions making use of transfer learning; fine-tuning from the training levels. However, we were surprised to find that some of the top submissions were simply tuned versions of our baseline algorithms. This emphasizes the importance of hyper-parameters, especially in RL algorithms such as Rainbow DQN.
+We plan to start another rendition of the contest in a few months. We hope and expect that some of the more off-beat approaches will be successful in this second round, now that people know what to expect and have begun to think deeply about the problems of fast learning and generalization in reinforcement learning. We’ll see you then, and we look forward to watching your innovative solutions climb up the scoreboard.
+Gotta Learn Fast
+
+
+
+
+Acknowledgments
+
+        Thanks to Kevin Wong and Cathy Trang for creating the final evaluation levels.
+      
+
+
+
+
+
+
+
+
+
+
+
+
+Authors
+
+John SchulmanVicki PfauAlex NicholChristopher HesseOleg KlimovLarissa Schiavo
+
+
+
+
+
+
+
+
+Filed Under
+
+Research
+
+
+
+
+
+
+
+
+
+
+Featured
+ChatGPT
+DALL·E 2
+Whisper
+Alignment
+Startup Fund
+
+
+
+
+API
+Overview
+Pricing
+Examples
+Docs
+Terms & Policies
+Status
+Log in
+
+
+
+
+Blog
+Index
+Research
+Announcements
+Events
+Milestones
+
+
+
+
+Information
+About Us
+Our Charter
+Our Research
+Publications
+Newsroom
+Careers
+
+
+
+
+
+OpenAI © 2015–2023 Privacy Policy Terms of Use
+
+
+ twitter   youtube   github   soundcloud   linkedin   facebook    twitter   youtube   github   soundcloud   linkedin   facebook  
+
+
+
+
+
+

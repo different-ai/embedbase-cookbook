@@ -1,0 +1,261 @@
+
+
+
+
+
+
+
+
+New and Improved Content Moderation Tooling
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Introducing ChatGPT research release
+
+Try ChatGPT
+Learn more
+
+
+
+
+
+
+
+
+
+
+API
+Research
+Blog
+About
+
+
+API
+Research
+Blog
+About
+
+
+
+
+
+
+
+
+
+
+
+New and Improved Content Moderation Tooling 
+
+
+
+August 10, 2022
+5 minute read
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+We are introducing a new and improved content moderation tool: The Moderation endpoint improves upon our previous content filter, and is available for free today to OpenAI API developers.
+
+To help developers protect their applications against possible misuse, we are introducing the faster and more accurate Moderation endpoint. This endpoint provides OpenAI API developers with free access to GPT-based classifiers that detect undesired content—an instance of using AI systems to assist with human supervision of these systems. We have also released both a technical paper describing our methodology and the dataset used for evaluation.
+When given a text input, the Moderation endpoint assesses whether the content is sexual, hateful, violent, or promotes self-harm—content prohibited by our content policy. The endpoint has been trained to be quick, accurate, and to perform robustly across a range of applications. Importantly, this reduces the chances of products “saying” the wrong thing, even when deployed to users at-scale. As a consequence, AI can unlock benefits in sensitive settings, like education, where it could not otherwise be used with confidence.
+
+
+
+
+input text
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Violence
+Self-harm
+Hate
+Sexual
+
+Moderation endpoint
+
+
+
+
+
+
+
+
+Flagged
+
+
+
+
+Flagged
+
+
+
+The Moderation endpoint helps developers to benefit from our infrastructure investments. Rather than build and maintain their own classifiers—an extensive process, as we document in our paper—they can instead access accurate classifiers through a single API call.
+As part of OpenAI’s commitment to making the AI ecosystem safer, we are providing this endpoint to allow free moderation of all OpenAI API-generated content. For instance, Inworld, an OpenAI API customer, uses the Moderation endpoint to help their AI-based virtual characters remain appropriate for their audiences. By leveraging OpenAI’s technology, Inworld can focus on their core product: creating memorable characters. We currently do not support monitoring of third-party traffic.
+
+Get started with the Moderation endpoint by checking out the documentation. More details of the training process and model performance are available in our paper. We have also released an evaluation dataset, featuring Common Crawl data labeled within these categories, which we hope will spur further research in this area.
+
+
+
+
+
+Acknowledgments
+Many people reviewed or contributed to this work, to whom we share our thanks, including: Sam Altman, Miles Brundage, Derek Chen, Karl Cobbe, Thomas Degry, Steve Dowling, Elie Georges, Jacob Hilton, Raf Jakubanis, Fraser Kelton, Matt Knight, Gretchen Krueger, Jason Kwon, Jan Leike, Mira Murati, Tinnei Pang, Girish Sastry, Pranav Shyam, Maddie Simens, Natalie Summers, Justin Wang, Peter Welinder, Dave Willner, Hannah Wong, Jeff Wu, and Summer Yue.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Authors
+
+Todor MarkovChong ZhangSandhini AgarwalTyna EloundouTeddy LeeSteven AdlerAngela JiangLilian Weng
+
+
+
+
+
+
+
+
+Filed Under
+
+Announcements
+
+
+
+
+
+
+
+
+
+
+Featured
+ChatGPT
+DALL·E 2
+Whisper
+Alignment
+Startup Fund
+
+
+
+
+API
+Overview
+Pricing
+Examples
+Docs
+Terms & Policies
+Status
+Log in
+
+
+
+
+Blog
+Index
+Research
+Announcements
+Events
+Milestones
+
+
+
+
+Information
+About Us
+Our Charter
+Our Research
+Publications
+Newsroom
+Careers
+
+
+
+
+
+OpenAI © 2015–2023 Privacy Policy Terms of Use
+
+
+ twitter   youtube   github   soundcloud   linkedin   facebook    twitter   youtube   github   soundcloud   linkedin   facebook  
+
+
+
+
+
+

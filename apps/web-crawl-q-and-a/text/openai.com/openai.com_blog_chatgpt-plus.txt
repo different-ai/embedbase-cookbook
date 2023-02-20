@@ -1,0 +1,212 @@
+
+
+
+
+
+
+
+
+Introducing ChatGPT Plus
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Introducing ChatGPT research release
+
+Try ChatGPT
+Learn more
+
+
+
+
+
+
+
+
+
+
+API
+Research
+Blog
+About
+
+
+API
+Research
+Blog
+About
+
+
+
+
+
+
+
+
+
+
+
+Introducing ChatGPT Plus 
+
+
+
+February 1, 2023
+1 minute read
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+We’re launching a pilot subscription plan for ChatGPT, a conversational AI that can chat with you, answer follow-up questions, and challenge incorrect assumptions.
+
+The new subscription plan, ChatGPT Plus, will be available for $20/month, and subscribers will receive a number of benefits:
+
+General access to ChatGPT, even during peak times
+Faster response times
+Priority access to new features and improvements
+
+ChatGPT Plus is available to customers in the United States, and we will begin the process of inviting people from our waitlist over the coming weeks. We plan to expand access and support to additional countries and regions soon.
+We love our free users and will continue to offer free access to ChatGPT. By offering this subscription pricing, we will be able to help support free access availability to as many people as possible.
+Learning from the research preview
+We launched ChatGPT as a research preview so we could learn more about the system’s strengths and weaknesses and gather user feedback to help us improve upon its limitations. Since then, millions of people have given us feedback, we’ve made several important updates and we’ve seen users find value across a range of professional use-cases, including drafting & editing content, brainstorming ideas, programming help, and learning new topics.
+Our plans for the future
+We plan to refine and expand this offering based on your feedback and needs. We’ll also soon be launching the (ChatGPT API waitlist), and we are actively exploring options for lower-cost plans, business plans, and data packs for more availability.
+
+
+
+
+
+
+
+
+
+Authors
+
+OpenAI
+
+
+
+
+
+
+
+
+Filed Under
+
+Announcements
+
+
+
+
+
+
+
+
+
+
+Featured
+ChatGPT
+DALL·E 2
+Whisper
+Alignment
+Startup Fund
+
+
+
+
+API
+Overview
+Pricing
+Examples
+Docs
+Terms & Policies
+Status
+Log in
+
+
+
+
+Blog
+Index
+Research
+Announcements
+Events
+Milestones
+
+
+
+
+Information
+About Us
+Our Charter
+Our Research
+Publications
+Newsroom
+Careers
+
+
+
+
+
+OpenAI © 2015–2023 Privacy Policy Terms of Use
+
+
+ twitter   youtube   github   soundcloud   linkedin   facebook    twitter   youtube   github   soundcloud   linkedin   facebook  
+
+
+
+
+
+

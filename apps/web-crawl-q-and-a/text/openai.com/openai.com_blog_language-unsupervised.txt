@@ -1,0 +1,476 @@
+
+
+
+
+
+
+
+
+Improving  Language Understanding with Unsupervised Learning
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Introducing ChatGPT research release
+
+Try ChatGPT
+Learn more
+
+
+
+
+
+
+
+
+
+
+API
+Research
+Blog
+About
+
+
+API
+Research
+Blog
+About
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Improving  Language Understanding with Unsupervised Learning 
+
+
+
+June 11, 2018
+9 minute read
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+We've obtained state-of-the-art results on a suite of diverse language tasks with a scalable, task-agnostic system, which we're also releasing. Our approach is a combination of two existing ideas: transformers and unsupervised pre-training. These results provide a convincing example that pairing supervised learning methods with unsupervised pre-training works very well; this is an idea that many have explored in the past, and we hope our result motivates further research into applying this idea on larger and more diverse datasets.
+
+Read PaperView Code
+
+
+
+Dataset
+Task
+SOTA
+Ours
+
+
+
+
+SNLI
+Textual Entailment
+89.3
+89.9
+
+
+MNLI Matched
+Textual Entailment
+80.6
+82.1
+
+
+MNLI Mismatched
+Textual Entailment
+80.1
+81.4
+
+
+SciTail
+Textual Entailment
+83.3
+88.3
+
+
+QNLI
+Textual Entailment
+82.3
+88.1
+
+
+RTE
+Textual Entailment
+61.7
+56.0
+
+
+STS-B
+Semantic Similarity
+81.0
+82.0
+
+
+QQP
+Semantic Similarity
+66.1
+70.3
+
+
+MRPC
+Semantic Similarity
+86.0
+82.3
+
+
+RACE
+Reading Comprehension
+53.3
+59.0
+
+
+ROCStories
+Commonsense Reasoning
+77.6
+86.5
+
+
+COPA
+Commonsense Reasoning
+71.2
+78.6
+
+
+SST-2
+Sentiment Analysis
+93.2
+91.3
+
+
+CoLA
+Linguistic Acceptability
+35.0
+45.4
+
+
+GLUE
+Multi Task Benchmark
+68.9
+72.8
+
+
+
+Our system works in two stages; first we train a transformer model on a very large amount of data in an unsupervised manner — using language modeling as a training signal — then we fine-tune this model on much smaller supervised datasets to help it solve specific tasks. We developed this approach following our sentiment neuron work, in which we noted that unsupervised learning techniques can yield surprisingly discriminative features when trained on enough data. Here, we wanted to further explore this idea: can we develop one model, train it in an unsupervised way on a large amount of data, and then fine-tune the model to achieve good performance on many different tasks? Our results indicate that this approach works surprisingly well; the same core model can be fine-tuned for very different tasks with minimal adaptation.
+This work builds on the approach introduced in Semi-supervised Sequence Learning, which showed how to improve document classification performance by using unsupervised pre-training of an LSTM followed by supervised fine-tuning. It also extends ULMFiT, research that shows how a single dataset-agnostic LSTM language model can be fine-tuned to get state-of-the-art performance on a variety of document classification datasets; our work shows how a Transformer-based model can be used in this approach to succeed at a broader range of tasks beyond document classification, such as commonsense reasoning, semantic similarity, and reading comprehension. It is also similar to but more task-agnostic than ELMo, which incorporates pre-training but uses task-customized architectures to get state-of-the-art results on a broad suite of tasks.
+Very little tuning was used to achieve our results. All datasets use a single forward language model, without any ensembling, and the majority of the reported results use the exact same hyperparameter settings.
+A result we are particularly excited about is the performance of our approach on three datasets — COPA, RACE, and ROCStories — designed to test commonsense reasoning and reading comprehension. Our model obtains new state-of-the-art results on these datasets by a wide margin. These datasets are thought to require multi-sentence reasoning and significant world knowledge to solve suggesting that our model improves these skills predominantly via unsupervised learning. This suggests there's hope for developing complex language understanding capabilities via unsupervised techniques.
+Why Unsupervised Learning?
+Supervised learning is at the core of most of the recent success of machine learning. However, it can require large, carefully cleaned, and expensive to create datasets to work well. Unsupervised learning is attractive because of its potential to address these drawbacks. Since unsupervised learning removes the bottleneck of explicit human labeling it also scales well with current trends of increasing compute and availability of raw data. Unsupervised learning is a very active area of research but practical uses of it are often still limited.
+There's been a recent push to try to further language capabilities by using  unsupervised learning to augment systems with large amounts of unlabeled data; representations of words trained via unsupervised techniques can use large datasets consisting of terabytes of information and, when integrated with supervised learning, improve performance on a wide range of NLP tasks. Until recently, these unsupervised techniques for NLP (for example, GLoVe and word2vec) used simple models (word vectors) and training signals (the local co-occurence of words). Skip-Thought Vectors is a notable early demonstration of the potential improvements more complex approaches can realize. But new techniques are now being used which are further boosting performance. These include the use of pre-trained sentence representation models, contextualized word vectors (notably ELMo and CoVE), and approaches which use customized architectures to fuse unsupervised pre-training with supervised fine-tuning, like our own.
+
+Pre-training our model on a large corpus of text significantly improves its performance on challenging natural language processing tasks like Winograd Schema Resolution.
+We also noticed we can use the underlying language model to begin to perform tasks without ever training on them. For example, performance on tasks like picking the right answer to a multiple choice question steadily increases as the underlying language model improves. While the absolute performance of these methods is still often quite low compared to the supervised state-of-the-art (for question answering it still outperformed by a simple sliding-window baseline) it is encouraging that this behavior is robust across a broad set of tasks. Randomly initialized networks containing no information about the task and the world perform no-better than random using these heuristics. This provides some insight into why generative pre-training can improve performance on downstream tasks.
+We can also use the existing language functionality in the model to perform sentiment analysis. For the Stanford Sentiment Treebank dataset, which consists of sentences from positive and negative movie reviews, we can use the language model to guess whether a review is positive or negative by inputting the word “very” after the sentence and seeing whether the model predicts the word “positive” or “negative” as more likely. This approach, without adapting the model at all to the task, performs on par with classic baselines ~80% accuracy.
+Our work is also a validation of the robustness and usefulness of the transformer architecture, indicating that it is sufficiently flexible to achieve state-of-the-art results on a wide range of tasks without requiring complicated task-specific customization or hyperparameter tuning.
+Drawbacks
+This project has a few outstanding issues which are worth noting:
+
+Compute Requirements: Many previous approaches to NLP tasks train relatively small models on a single GPU from scratch. Our approach requires an expensive pre-training step - 1 month on 8 GPUs. Luckily, this only has to be done once and we're releasing our model so others can avoid it. It is also a large model (in comparison to prior work) and consequently uses more compute and memory — we used a 37-layer (12 block) Transformer architecture, and we train on sequences of up to 512 tokens. Most experiments were conducted on 4 and 8 GPU systems. The model does fine-tune to new tasks very quickly which helps mitigate the additional resource requirements.
+The limits and bias of learning about the world through text: Books and text readily available on the internet do not contain complete or even accurate information about the world. Recent work has shown that certain kinds of information are difficult to learn via just text and other work has shown that models learn and exploit biases in data distributions.
+Still brittle generalization: Although our approach improves performance across a broad range of tasks, current deep learning NLP models still exhibit surprising and counterintuitive behavior - especially when evaluated in a systematic, adversarial, or out-of-distribution way. Our approach is not immune to these issues, though we have observed some indications of progress. Our approach shows improved lexical robustness over previous purely neural approaches to textual entailment. On the dataset introduced in Glockner et al. (2018) our model achieves 83.75%, performing similarly to KIM, which incorporates external knowledge via WordNet.
+
+Future
+
+Scaling the approach: We've observed that improvements in the performance of the language model are well correlated with improvements on downstream tasks. We're currently using commodity hardware (a single 8 GPU machine) and a training dataset of only a few thousand books (~5GB of text). This suggests there is significant room for improvement using the well-validated approach of more compute and data.
+Improved fine-tuning: Our approach is currently very simple. It is likely that substantial improvements can be made using more intricate adaptation and transfer techniques such as those explored in ULMFiT.
+Better understanding of why generative pre-training helps: Although we've discussed some ideas we are partial to here, more targeted experiments and research will help distinguish between competing explanations. For instance, how much of the benefits we observe are due to improved ability to process broader context versus improved world knowledge?
+
+Appendix: Dataset Examples
+
+
+
+
+Dataset
+Example
+Label
+
+
+
+
+SNLI
+1. A black race car starts up in front of a crowd of people.
+        
+        2. A man is driving down a lonely road.
+Contra.
+
+
+MNLI
+1. At the other end of Pennsylvania Avenue, people began to line up for a White House tour. 
+        
+        2. People formed a line at the end of Pennsylvania Avenue.
+Entails
+
+
+SciTail
+1. Because type 1 diabetes is a relatively rare disease, you may wish to focus on prevention only if you know your child is at special risk for the disease.
+        
+        2. Diabetes is unpreventable in the type one form but may be prevented by diet if it is of the second type.
+
+Neutral
+
+
+QNLI
+Context:  In meteorology, precipitation is any product of the condensation of atmospheric water vapor that falls under gravity.
+        
+        Statement:  What causes precipitation to fall? 
+
+Entails
+
+
+RTE
+1. Passions surrounding Germany’s final match turned violent when a woman stabbed her partner because she didn’t want to watch the game. 
+        
+        2. A woman passionately wanted to watch the game.
+
+Contra.
+
+
+STS-B
+1. They flew out of the nest in groups. 
+        
+        2. They flew into the nest together.
+
+Similarity 2/5
+
+
+QQP
+1. What are natural numbers
+        
+        2. What is the least natural number
+
+Not same
+
+
+MRPC
+1. If people took the pill daily, they would lower their risk of heart attack by 88 percent and of stroke by 80 percent, the scientists claim.
+        
+        2. Taking the pill would lower the risk of heart attack by 88 percent and of stroke by 80 percent, the scientists said.
+
+Same
+
+
+RACE
+In a small village in England about 150 years ago, a mail coach was standing on the street. It didn’t come to that village often. People had to pay a lot to get a letter. The person who sent the letter didn’t have to pay the postage, while the receiver had to. “Here’s a letter for Miss Alice Brown,” said the mailman. “ I’m Alice Brown,” a girl of about 18 said in a low voice. Alice looked at the envelope for a minute, and then handed it back to the mailman. “I’m sorry I can’t take it, I don’t have enough money to pay it”, she said. A gentleman standing around were very sorry for her. Then he came up and paid the postage for her. When the gentleman gave the letter to her, she said with a smile, “ Thank you very much, This letter is from Tom. I’m going to marry him. He went to London to look for work. I’ve waited a long time for this letter, but now I don’t need it, there is nothing in it.” “Really? How do you know that?” the gentleman said in surprise. “He told me that he would put some signs on the envelope. Look, sir, this cross in the corner means that he is well and this circle means he has found work. That’s good news.” The gentleman was Sir Rowland Hill. He didn’t forgot Alice and her letter. “The postage to be paid by the receiver has to be changed,” he said to himself and had a good plan. “The postage has to be much lower, what about a penny? And the person who sends the letter pays the postage. He has to buy a stamp and put it on the envelope.” he said . The government accepted his plan. Then the first stamp was put out in 1840. It was called the “Penny Black”. It had a picture of the Queen on it.
+        
+
+     The girl handed the letter back to the mailman because:
+        
+
+        1. she didn’t know whose letter it was 
+        
+        2. she had no money to pay the postage 
+        
+        3. she received the letter but she didn’t want to open it 
+        
+        4. she had already known what was written in the letter
+
+4
+
+
+ROCStories
+Karen was assigned a roommate her first year of college. Her roommate asked her to go to a nearby city for a concert. Karen agreed happily. The show was absolutely exhilarating.
+        
+
+        1. Karen became good friends with her roommate.
+        
+        2. Karen hated her roommate.
+
+1
+
+
+COPA
+The man broke his toe. What was the CAUSE of this?
+        
+        1. He got a hole in his sock. 
+        
+        2. He dropped a hammer on his foot.
+
+2
+
+
+SST-2
+Just the labor involved in creating the layered richness of the imagery in this chiaroscuro of madness and light is astonishing.
+
+Positive
+
+
+CoLA
+As you eat the most, you want the least.
+
+Not acceptable
+
+
+
+
+Compute
+We're increasingly interested in understanding the relationship between the compute we expend on training models and the resulting output. The total compute used to train this model was 0.96 petaflop days (pfs-days).
+8 P600 GPU's * 30 days * 12 TFLOPS/GPU * 0.33 utilization = 
+= .96 pfs-days
+
+
+
+
+
+Cover Artwork
+Ben Barry
+
+
+
+
+
+
+
+
+
+
+
+Authors
+
+Alec Radford
+
+
+
+
+
+
+
+
+Filed Under
+
+ResearchMilestones
+
+
+
+
+
+
+
+
+
+
+Featured
+ChatGPT
+DALL·E 2
+Whisper
+Alignment
+Startup Fund
+
+
+
+
+API
+Overview
+Pricing
+Examples
+Docs
+Terms & Policies
+Status
+Log in
+
+
+
+
+Blog
+Index
+Research
+Announcements
+Events
+Milestones
+
+
+
+
+Information
+About Us
+Our Charter
+Our Research
+Publications
+Newsroom
+Careers
+
+
+
+
+
+OpenAI © 2015–2023 Privacy Policy Terms of Use
+
+
+ twitter   youtube   github   soundcloud   linkedin   facebook    twitter   youtube   github   soundcloud   linkedin   facebook  
+
+
+
+
+
+

@@ -1,0 +1,198 @@
+
+
+
+
+
+
+
+
+Gretchen Krueger - OpenAI
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Introducing ChatGPT research release
+
+Try ChatGPT
+Learn more
+
+
+
+
+
+
+
+
+
+
+API
+Research
+Blog
+About
+
+
+API
+Research
+Blog
+About
+
+
+
+
+
+
+
+
+Blog
+Gretchen Krueger
+
+
+
+
+
+
+2022
+
+
+
+Lessons Learned on Language Model Safety and Misuse
+
+
+March 3, 2022
+
+
+               — Research
+
+
+
+
+
+
+
+
+
+
+2021
+
+
+
+DALL·E: Creating Images from Text
+
+
+January 5, 2021
+
+
+               — Research, Milestones, Multimodal
+
+
+
+
+
+
+
+
+
+
+2021
+
+
+
+CLIP: Connecting Text and Images
+
+
+January 5, 2021
+
+
+               — Research, Milestones, Multimodal
+
+
+
+
+
+
+
+
+
+
+
+
+Featured
+ChatGPT
+DALL·E 2
+Whisper
+Alignment
+Startup Fund
+
+
+
+
+API
+Overview
+Pricing
+Examples
+Docs
+Terms & Policies
+Status
+Log in
+
+
+
+
+Blog
+Index
+Research
+Announcements
+Events
+Milestones
+
+
+
+
+Information
+About Us
+Our Charter
+Our Research
+Publications
+Newsroom
+Careers
+
+
+
+
+
+OpenAI © 2015–2023 Privacy Policy Terms of Use
+
+
+ twitter   youtube   github   soundcloud   linkedin   facebook    twitter   youtube   github   soundcloud   linkedin   facebook  
+
+
+
+
+
+

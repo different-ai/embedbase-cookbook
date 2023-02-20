@@ -1,0 +1,8 @@
+Your participation in this hackathon ("Hackathon") is voluntary and by participating you acknowledge and agree to these terms. Entrants may create original solutions, prototypes,
+datasets, scripts, or other content, materials, discoveries or inventions (a "Submission"). The Hackathon is organized by OpenAI.
+
+Entrants retain ownership of all applicable intellectual and industrial property rights (including moral rights) in and to Submissions.
+
+As a condition of submission, Entrant grants OpenAI, its subsidiaries, agents and partner companies, a perpetual, irrevocable, worldwide, royalty-free, and non-exclusive license to create a copy of, modify (for formatting purposes only), publicly display and perform, distribute and otherwise use the Submission, including on our social media channels, our website and for other marketing and publication purposes; 
+
+Entrants provide Submissions on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied, including, without limitation, any warranties or conditions of TITLE, NON-INFRINGEMENT, MERCHANTABILITY, or FITNESS FOR A PARTICULAR PURPOSE.

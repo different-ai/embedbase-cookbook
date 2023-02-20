@@ -1,0 +1,211 @@
+
+
+
+
+
+
+
+
+Microsoft Invests In and Partners with OpenAI to Support Us Building Beneficial AGI
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Introducing ChatGPT research release
+
+Try ChatGPT
+Learn more
+
+
+
+
+
+
+
+
+
+
+API
+Research
+Blog
+About
+
+
+API
+Research
+Blog
+About
+
+
+
+
+
+
+
+
+
+Microsoft Invests In and Partners with OpenAI to Support Us Building Beneficial AGI 
+
+
+
+
+
+
+
+
+July 22, 2019
+2 minute read
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Microsoft is investing $1 billion in OpenAI to support us building artificial general intelligence (AGI) with widely distributed economic benefits. We're partnering to develop a hardware and software platform within Microsoft Azure which will scale to AGI. We’ll jointly develop new Azure AI supercomputing technologies, and Microsoft will become our exclusive cloud provider—so we'll be working hard together to further extend Microsoft Azure's capabilities in large-scale AI systems.
+
+
+
+OpenAI team and their families at our July 2019 offsite.
+
+Each year since 2012, the world has seen a new step function advance in AI capabilities. Though these advances are across very different fields like vision (2012), simple video games (2013), machine translation (2014), complex board games (2015), speech synthesis (2016), image generation (2017), robotic control (2018), and writing text (2019), they are all powered by the same approach: innovative applications of deep neural networks coupled with increasing computational power. But still, AI system building today involves a lot of manual engineering for each well-defined task.
+In contrast, an AGI will be a system capable of mastering a field of study to the world-expert level, and mastering more fields than any one human — like a tool which combines the skills of Curie, Turing, and Bach. An AGI working on a problem would be able to see connections across disciplines that no human could. We want AGI to work with people to solve currently intractable multi-disciplinary problems, including global challenges such as climate change, affordable and high-quality healthcare, and personalized education. We think its impact should be to give everyone economic freedom to pursue what they find most fulfilling, creating new opportunities for all of our lives that are unimaginable today.
+OpenAI is producing a sequence of increasingly powerful AI technologies, which requires a lot of capital for computational power. The most obvious way to cover costs is to build a product, but that would mean changing our focus. Instead, we intend to license some of our pre-AGI technologies, with Microsoft becoming our preferred partner for commercializing them.
+We believe that the creation of beneficial AGI will be the most important technological development in human history, with the potential to shape the trajectory of humanity. We have a hard technical path in front of us, requiring a unified software engineering and AI research effort of massive computational scale, but technical success alone is not enough. To accomplish our mission of ensuring that AGI (whether built by us or not) benefits all of humanity, we'll need to ensure that AGI is deployed safely and securely; that society is well-prepared for its implications; and that its economic upside is widely shared. If we achieve this mission, we will have actualized Microsoft and OpenAI's shared value of empowering everyone.
+
+Read Press ReleaseWatch Video
+
+
+
+
+
+
+
+
+
+
+Authors
+
+Greg Brockman
+
+
+
+
+
+
+
+
+Filed Under
+
+Announcements
+
+
+
+
+
+
+
+
+
+
+Featured
+ChatGPT
+DALL·E 2
+Whisper
+Alignment
+Startup Fund
+
+
+
+
+API
+Overview
+Pricing
+Examples
+Docs
+Terms & Policies
+Status
+Log in
+
+
+
+
+Blog
+Index
+Research
+Announcements
+Events
+Milestones
+
+
+
+
+Information
+About Us
+Our Charter
+Our Research
+Publications
+Newsroom
+Careers
+
+
+
+
+
+OpenAI © 2015–2023 Privacy Policy Terms of Use
+
+
+ twitter   youtube   github   soundcloud   linkedin   facebook    twitter   youtube   github   soundcloud   linkedin   facebook  
+
+
+
+
+
+

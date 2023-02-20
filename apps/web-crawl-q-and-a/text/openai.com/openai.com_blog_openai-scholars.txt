@@ -1,0 +1,280 @@
+
+
+
+
+
+
+
+
+OpenAI Scholars
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Introducing ChatGPT research release
+
+Try ChatGPT
+Learn more
+
+
+
+
+
+
+
+
+
+
+API
+Research
+Blog
+About
+
+
+API
+Research
+Blog
+About
+
+
+
+
+
+
+
+
+OpenAI Scholars 
+
+
+
+
+
+
+
+ 
+March 6, 2018
+3 minute read
+
+
+
+We're providing 6-10 stipends and mentorship to individuals from underrepresented groups to study deep learning full-time for 3 months and open-source a project.
+Apply
+
+This is a remote program and is open to anyone with US work authorization located in US timezones (we're happy to provide a desk in our San Francisco office if you happen to be located in the Bay Area). In return, we ask that you document your experiences studying deep learning and hopefully inspire others to do the same.
+Why we're doing this
+Diversity is core to AI having a positive effect on the world — it's necessary to ensure the advanced AI systems in the future are built to benefit everyone. While we hope that some of the scholars will join OpenAI (where we are actively working on internal diversity & inclusion initiatives), we want this program to improve diversity in the field at large.
+Once you've decided to join the field, there are many programs (such as our Fellowship or any number of residencies) which can help you develop your skills. But these require a longer commitment and some existing machine learning experience, and for many people with families or other obligations it's not possible to simply pack up and come to the Bay Area.
+Resources we'll provide
+
+We'll provide you with a $7.5k/mo stipend for 3 months from June 4, 2018 to August 31, 2018.
+Each scholar will receive $25,000 worth of credits from Amazon Web Services.
+You'll have a mentor who will provide at least an hour of mentorship via video call each week, answer your questions via chat/email, and work with you to design and execute a good project to stretch your skills.
+There will be a group Slack with the scholars and mentors. If you're in the Bay Area, we'll optionally provide a desk for you at the OpenAI office.
+
+Meet the mentors
+We've lined up the following mentors from OpenAI and the community. AWS is donating $25,000 worth of credits to each community mentor.
+
+
+
+
+
+
+Yasaman
+
+
+
+
+
+Natasha
+
+
+
+
+
+Igor
+
+
+
+
+
+Christy
+
+
+
+
+
+Karthik
+
+
+
+
+
+Emily
+
+
+
+
+
+Alec
+
+
+
+
+
+Geoffrey
+
+
+
+Expectations
+
+You should be studying deep learning full-time during the 3 months.
+You should write a weekly blog post updating the community on your progress: describe what you learned during the week, what materials you found useful, what questions you find yourself asking, etc.
+You should complete and open source a project by the end of the program.
+
+What we're looking for
+You are eligible to apply if:
+
+You are a member of an underrepresented group in science and engineering.
+You have US work authorization and are located in a US timezone.
+You understand this article on calculus and this article on linear algebra. It's fine if you have to brush up on these skills.
+You are comfortable programming in Python (other languages are helpful, but you'll spend the program writing in Python).
+
+We’re open to all experience levels and backgrounds that meet the above criteria — it's a common myth that you need a PhD to work in AI (many OpenAI employees don't have one).
+We'll use these criteria for selection:
+
+Impact on you. We want to understand why this grant and mentorship will help you achieve something you couldn't otherwise.
+Self-motivation & communication. We're looking for people who will work hard through those three months, and who will inspire others (in the program and externally) to endeavor to learn deep learning as well.
+Technical skills. The stronger your technical background, the more time you'll spend focusing on the deep learning itself.
+
+Questions? Email scholars@openai.com.
+Applications are open starting immediately, and starting March 14th we will begin reviewing applications, contacting people for follow-up, and filling positions on a rolling basis. Applications will close no later than 11:59pm PT on March 31st, with decision sent no later than April 16th. Apply now!
+Update: Applications for the Summer 2018 Scholars cohort are now closed. We will be reaching out to applicants regarding their admissions status by April 16th.
+
+
+
+
+
+
+
+
+
+
+Authors
+
+Larissa SchiavoGreg Brockman
+
+
+
+
+
+
+
+
+Filed Under
+
+AnnouncementsScholars
+
+
+
+
+
+
+
+
+
+
+Featured
+ChatGPT
+DALL·E 2
+Whisper
+Alignment
+Startup Fund
+
+
+
+
+API
+Overview
+Pricing
+Examples
+Docs
+Terms & Policies
+Status
+Log in
+
+
+
+
+Blog
+Index
+Research
+Announcements
+Events
+Milestones
+
+
+
+
+Information
+About Us
+Our Charter
+Our Research
+Publications
+Newsroom
+Careers
+
+
+
+
+
+OpenAI © 2015–2023 Privacy Policy Terms of Use
+
+
+ twitter   youtube   github   soundcloud   linkedin   facebook    twitter   youtube   github   soundcloud   linkedin   facebook  
+
+
+
+
+
+

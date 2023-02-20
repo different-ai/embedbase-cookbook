@@ -1,0 +1,1236 @@
+
+
+
+
+
+
+
+
+OpenAI at NeurIPS 2020
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Introducing ChatGPT research release
+
+Try ChatGPT
+Learn more
+
+
+
+
+
+
+
+
+
+
+API
+Research
+Blog
+About
+
+
+API
+Research
+Blog
+About
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ at NeurIPS 2020
+
+
+
+
+
+
+Schedule
+About OpenAI
+NeurIPS
+Virtual Booth
+
+
+
+
+
+
+Catch us every day at 1pm at our virtual booth for live demos and discussions on GPT-3 (via Zoom).
+
+
+
+
+
+Monday, December 7
+All times Pacific (GMT-8)
+
+
+
+Monday, December 7
+All times Pacific (GMT-8)
+
+
+
+
+
+
+
+
+11am–12pm
+11am–12pm
+
+
+
+
+
+Virtual Booth
+
+Girish Sastry & Henrique Ponde de Oliveira Pinto
+
+
+
+
+
+
+
+
+
+
+
+12–1pm
+12–1pm
+
+
+
+
+
+Virtual Booth
+
+Brandon Houghton & Amanda Askell
+
+
+
+
+
+
+
+
+
+
+
+1–1:30pm
+1–1:30pm
+
+
+
+
+
+Live Paper Discussion and Q&A (via Zoom)
+
+                            Language Models are Few-Shot Learners” with Ben Mann
+
+
+
+During this live Q&A, Ben will be discussing his and OpenAI’s major contributions in this paper, as well as where we fell short. His work was mainly on training data, eval memorization, and the eval suite. He will offer deep dives on these sections.
+
+
+
+View paper
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1–2pm
+1–2pm
+
+
+
+
+
+Virtual Booth
+
+Reiichiro Nakano & Daniel Ziegler
+
+
+
+
+
+
+
+
+
+
+
+1:30–2pm
+1:30–2pm
+
+
+
+
+
+Virtual Booth Chat
+
+                            GPT-3 with Ben Mann and members of the GPT-3 team
+
+
+
+
+
+
+
+
+
+
+
+2–3pm
+2–3pm
+
+
+
+
+
+Virtual Booth
+
+Prafulla Dhariwal & Alex Paino
+
+
+
+
+
+
+
+
+
+
+
+2–3pm
+2–3pm
+
+
+
+
+
+Virtual Booth Chat
+
+                            GPT-3 and Jukebox with Prafulla Dhariwal
+
+
+
+Prafulla has worked on both Language Models are Few-Shot Learners and Jukebox: A Generative Model for Music focusing on generative models, in particular on scaling them to high dimensional data like audio and images. His most recent work is Jukebox, which showcases the ability of neural nets to produce music with singing.
+
+
+
+View GPT-3 paper
+
+
+View Jukebox paper
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+9–11pm
+9–11pm
+
+
+
+
+
+Poster Session, In Poster Session 0, #49
+
+                            Language Models are Few-Shot Learners” with Ben Mann and Nick Ryder
+
+
+
+We demonstrate that scaling up language models greatly improves task-agnostic, few-shot performance, sometimes even becoming competitive with prior state-of-the-art fine-tuning approaches. Specifically, we train GPT-3, an autoregressive language model with 175 billion parameters, 10x more than any previous non-sparse language model, and test its performance in the few-shot setting.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Tuesday, December 8
+All times Pacific (GMT-8)
+
+
+
+Tuesday, December 8
+All times Pacific (GMT-8)
+
+
+
+
+
+
+
+
+11am–12pm
+11am–12pm
+
+
+
+
+
+Virtual Booth
+
+Vineet Kosaraju & Ilge Akkaya
+
+
+
+
+
+
+
+
+
+
+
+12–1pm
+12–1pm
+
+
+
+
+
+Virtual Booth
+
+Kenneth Stanley & Ariel Herbert-Voss
+
+
+
+
+
+
+
+
+
+
+
+1–1:35pm
+1–1:35pm
+
+
+
+
+
+Live Demo and Q&A (via Zoom)
+
+                            OpenAI's API Playground: GPT-3 with Andrew Mayne
+
+
+
+Andrew will be demonstrating the capabilities of the API via the interactive playground and tools for Semantic Search.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1–2pm
+1–2pm
+
+
+
+
+
+Virtual Booth
+
+Jeff Clune & Gretchen Krueger
+
+
+
+
+
+
+
+
+
+
+
+1:35–2pm
+1:35–2pm
+
+
+
+
+
+Virtual Booth Chat
+
+                            GPT-3 with Andrew Mayne and members of the Applied AI Team
+
+
+
+
+
+
+
+
+
+
+
+2–3pm
+2–3pm
+
+
+
+
+
+Virtual Booth
+
+Matthias Plappert & Jacob Hilton
+
+
+
+
+
+
+
+
+
+
+
+3:15–4pm
+3:15–4pm
+
+
+
+
+
+Office Hours
+
+                            Open-Endedness with Kenneth Stanley & Joel Lehman
+
+
+
+Chat with members of our Open-Endedness team about anything related to their work and research at virtual Table #6 at the NeurIPS Social.
+
+
+
+
+
+
+
+
+
+
+
+
+9–11pm
+9–11pm
+
+
+
+
+
+Poster Session, In Poster Session 2, #722
+
+                            Learning to Summarize with Human Feedback” with Ryan Lowe, Jeff Wu & Daniel Ziegler
+
+
+
+As language models become more powerful, training and evaluation are increasingly bottlenecked by the data and metrics used for a particular task. In this work, we show that it is possible to significantly improve summary quality by training a model to optimize for human preferences.
+
+
+
+
+
+
+
+
+
+
+
+
+9–11pm
+9–11pm
+
+
+
+
+
+Poster Session, In Poster Session 3, #19045
+
+                            Emergent Reciprocity and Team Formation From Randomized Uncertain Social Preferences” with Bowen Baker
+
+
+
+Reinforcement learning agents typically fall into uncooperative equilibria when trained in social dilemma environments. We explore whether randomized and uncertain social preferences can pressure agents into more cooperative equilibria.
+
+
+
+View paper
+
+
+Visit Gather Town Poster Session
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Wednesday, December 9
+All times Pacific (GMT-8)
+
+
+
+Wednesday, December 9
+All times Pacific (GMT-8)
+
+
+
+
+
+
+
+
+11am–12pm
+11am–12pm
+
+
+
+
+
+Virtual Booth
+
+Chris Hallacy & Chris Hesse
+
+
+
+
+
+
+
+
+
+
+
+12–1pm
+12–1pm
+
+
+
+
+
+Virtual Booth
+
+Joel Lehman & Bowen Baker
+
+
+
+
+
+
+
+
+
+
+
+12–1pm
+12–1pm
+
+
+
+
+
+Virtual Booth Chat
+
+                            Emergent Reciprocity and Team Formation From Randomized Uncertain Social Preferences” with Bowen Baker
+
+
+
+If you missed his poster session last night, come chat with Bowen at our booth!
+
+
+
+View paper
+
+
+
+
+
+
+
+
+
+
+
+
+
+1–1:30pm
+1–1:30pm
+
+
+
+
+
+Live Paper Discussion and Q&A (via Zoom)
+
+                            Language Models are Few-Shot Learners” with Ben Mann
+
+
+
+Ben will describe OpenAI’s major contributions in this paper, as well as where we fell short. His work was mainly on training data, eval memorization, and the eval suite. He will offer deep dives on these sections.
+
+
+
+View paper
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1–2pm
+1–2pm
+
+
+
+
+
+Virtual Booth
+
+Vedant Misra & Miles Brundage
+
+
+
+
+
+
+
+
+
+
+
+2–3pm
+2–3pm
+
+
+
+
+
+Virtual Booth
+
+Ingmar Kanitscheider & Diogo Moitinho de Almeida
+
+
+
+
+
+
+
+
+
+
+
+1:30–2pm
+1:30–2pm
+
+
+
+
+
+Virtual Booth Chat
+
+                            GPT-3 with Ben Mann and members of the GPT-3 team
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Thursday, December 10
+All times Pacific (GMT-8)
+
+
+
+Thursday, December 10
+All times Pacific (GMT-8)
+
+
+
+
+
+
+
+
+11am–12pm
+11am–12pm
+
+
+
+
+
+Virtual Booth
+
+Roger Jiang & Kamal Ndousse
+
+
+
+
+
+
+
+
+
+
+
+12–1pm
+12–1pm
+
+
+
+
+
+Virtual Booth
+
+Karl Cobbe & Heewoo Jun
+
+
+
+
+
+
+
+
+
+
+
+1–1:35pm
+1–1:35pm
+
+
+
+
+
+Live Demo and Q&A (via Zoom)
+
+                            OpenAI's API Playground: GPT-3 with Andrew Mayne
+
+
+
+Andrew will be demonstrating the capabilities of the API via the interactive playground and tools for Semantic Search.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1–2pm
+1–2pm
+
+
+
+
+
+Virtual Booth
+
+Lilian Weng & Jeff Wu
+
+
+
+
+
+
+
+
+
+
+
+1:35–2pm
+1:35–2pm
+
+
+
+
+
+Virtual Booth Chat
+
+                            GPT-3 with Andrew Mayne and members of the Applied AI Team
+
+
+
+
+
+
+
+
+
+
+
+2–3pm
+2–3pm
+
+
+
+
+
+Virtual Booth
+
+Alethea Power & Tao Xu
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Friday, December 11
+All times Pacific (GMT-8)
+
+
+
+Friday, December 11
+All times Pacific (GMT-8)
+
+
+
+
+
+
+
+
+3am–12pm
+3am–12pm
+
+
+
+
+
+Workshop
+
+                            Meta-Learning (MetaLearn 2020) with Jeff Clune
+
+
+
+This workshop aims to bring together researchers from all the different communities and topics that fall under the umbrella of meta-learning. We expect that the presence of these different communities will result in a fruitful exchange of ideas and stimulate an open discussion about the current challenges in meta-learning as well as possible solutions.
+
+
+
+View Workshop
+
+
+
+
+
+
+
+
+
+
+
+
+
+8:30am–9pm
+8:30am–9pm
+
+
+
+
+
+Workshop
+
+                            ML Retrospectives, Surveys & Meta-Analyses (ML-RSA) with Ryan Lowe
+
+
+
+The exponential growth of AI research has led to several papers floating on arxiv, making it difficult to review existing literature. Despite the huge demand, the proportion of survey & analyses papers published is very low due to reasons like lack of a venue and incentives. Our Workshop, ML-RSA provides a platform and incentivizes writing such types of papers. It meets the need of taking a step back, looking at the sub-field as a whole and evaluating actual progress.
+
+
+
+
+
+
+
+
+
+
+
+
+9:45–10am
+9:45–10am
+
+
+
+
+
+Talk (Deep Reinforcement Learning Workshop)
+
+                            Asymmetric self-play for automatic goal discovery in robotic manipulation” with Lilian Weng
+
+
+
+Lilian has been working on teaching robots to solve a wide variety of tasks via RL training in simulation and sim2real transfer to the physical world. Her recent work uses asymmetric self-play to train a single, goal-conditioned policy that can solve many robotic manipulation tasks, including tasks with previously unseen goals and objects. Come and chat with Lilian about the paper "Asymmetric self-play for automatic goal discovery in robotic manipulation.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Saturday, December 12
+All times Pacific (GMT-8)
+
+
+
+Saturday, December 12
+All times Pacific (GMT-8)
+
+
+
+
+
+
+
+
+8am–5:45pm
+8am–5:45pm
+
+
+
+
+
+Workshop: Competition Track Sunday
+
+                            Introduction to the Procgen Benchmark, Procgen Competition with Karl Cobbe
+
+
+
+
+
+
+
+
+
+
+
+11:30am–12:30pm
+11:30am–12:30pm
+
+
+
+
+
+Discussion Panel (Navigating the Broader Impacts of AI Research Workshop)
+
+                            Responsible Publication: NLP Case Study with Miles Brundage
+
+
+
+Join OpenAI’s Miles Brundage—with Bryan McCann, Colin Raffel, Natalie Schulter, Zeerak Waseem, Rosie Campbell—as they discuss responsible publication following growing concerns with both harmful research impact and research conduct in computer science and research published at NeurIPS.
+
+
+
+
+
+
+
+
+
+
+
+
+11am–12pm
+11am–12pm
+
+
+
+
+
+Paper Discussion Spotlight Talk (Cooperative AI Workshop)
+
+                            Learning Social Learning” with Kamal Ndousse
+
+
+
+The research on this paper grew out of the work Kamal did with OpenAI’s Scholars program, mentored by Natasha Jaques. In this paper (winner of a best paper award at the Cooperative AI Workshop), they show that independent RL agents can learn social policies that allow them to learn from experts in their environment. The learned social learning behavior allows them to accomplish tasks that would otherwise be prohibitively difficult, and to perform well in unseen social tasks.
+
+
+
+View paper
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        OpenAI is an AI research and deployment company. Our mission is to ensure that artificial general intelligence benefits all of humanity.
+      
+
+Learn more
+Join us
+
+
+
+
+
+
+
+
+
+
+Featured
+ChatGPT
+DALL·E 2
+Whisper
+Alignment
+Startup Fund
+
+
+
+
+API
+Overview
+Pricing
+Examples
+Docs
+Terms & Policies
+Status
+Log in
+
+
+
+
+Blog
+Index
+Research
+Announcements
+Events
+Milestones
+
+
+
+
+Information
+About Us
+Our Charter
+Our Research
+Publications
+Newsroom
+Careers
+
+
+
+
+
+OpenAI © 2015–2023 Privacy Policy Terms of Use
+
+
+ twitter   youtube   github   soundcloud   linkedin   facebook    twitter   youtube   github   soundcloud   linkedin   facebook  
+
+
+
+
+
+
+

@@ -1,0 +1,1249 @@
+
+
+
+
+
+
+
+
+Publications
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Introducing ChatGPT research release
+
+Try ChatGPT
+Learn more
+
+
+
+
+
+
+
+
+
+
+API
+Research
+Blog
+About
+
+
+API
+Research
+Blog
+About
+
+
+
+
+
+
+
+
+Publications
+
+2022
+
+
+Efficient Training of Language Models to Fill in the Middle
+
+
+July 28, 2022
+
+
+
+
+Hierarchical Text-Conditional Image Generation with CLIP Latents
+
+
+April 13, 2022
+
+
+                  — Read blog post
+
+
+
+
+Formal Mathematics Statement Curriculum Learning
+
+
+February 3, 2022
+
+
+                  — Read blog post
+
+
+
+
+Training language models to follow instructions with human feedback
+
+
+January 27, 2022
+
+
+                  — Read blog post
+
+
+
+
+Text and Code Embeddings by Contrastive Pre-Training
+
+
+January 24, 2022
+
+
+                  — Read blog post
+
+
+
+
+
+
+
+2021
+
+
+WebGPT: Browser-assisted question-answering with human feedback
+
+
+December 17, 2021
+
+
+                  — Read blog post
+
+
+
+
+Training Verifiers to Solve Math Word Problems
+
+
+November 18, 2021
+
+
+                  — Read blog post
+
+
+
+
+Recursively Summarizing Books with Human Feedback
+
+
+September 22, 2021
+
+
+                  — Read blog post
+
+
+
+
+Evaluating Large Language Models Trained on Code
+
+
+July 14, 2021
+
+
+                  — Read blog post
+
+
+
+
+Process for Adapting Language Models to Society (PALMS) with Values-Targeted Datasets
+
+
+June 10, 2021
+
+
+                  — Read blog post
+
+
+
+
+Multimodal Neurons in Artificial Neural Networks
+
+
+March 3, 2021
+
+
+                  — Read blog post
+
+
+
+
+Learning Transferable Visual Models From Natural Language Supervision
+
+
+February 26, 2021
+
+
+                  — Read blog post
+
+
+
+
+Zero-Shot Text-to-Image Generation
+
+
+February 24, 2021
+
+
+                  — Read blog post
+
+
+
+
+Understanding the Capabilities, Limitations, and Societal Impact of Large Language Models
+
+
+February 4, 2021
+
+
+
+
+
+
+
+2020
+
+
+Generative Language Modeling for Automated Theorem Proving
+
+
+September 7, 2020
+
+
+
+
+Learning to Summarize from Human Feedback
+
+
+September 2, 2020
+
+
+                  — Read blog post
+
+
+
+
+Generative Pretraining from Pixels
+
+
+June 17, 2020
+
+
+                  — Read blog post
+
+
+
+
+Language Models are Few-Shot Learners
+
+
+May 28, 2020
+
+
+
+
+Measuring the Algorithmic Efficiency of Neural Networks
+
+
+May 5, 2020
+
+
+                  — Read blog post
+
+
+
+
+Jukebox: A Generative Model for Music
+
+
+April 30, 2020
+
+
+                  — Read blog post
+
+
+
+
+Toward Trustworthy AI Development: Mechanisms for Supporting Verifiable Claims
+
+
+April 16, 2020
+
+
+                  — Read blog post
+
+
+
+
+Scaling Laws for Neural Language Models
+
+
+January 23, 2020
+
+
+
+
+
+
+
+2019
+
+
+Deep Double Descent: Where Bigger Models and More Data Hurt
+
+
+December 4, 2019
+
+
+                  — Read blog post
+
+
+
+
+Leveraging Procedural Generation to Benchmark Reinforcement Learning
+
+
+December 3, 2019
+
+
+                  — Read blog post
+
+
+
+
+Benchmarking Safe Exploration in Deep Reinforcement Learning
+
+
+November 21, 2019
+
+
+
+
+Release Strategies and the Social Impacts of Language Models
+
+
+November 13, 2019
+
+
+                  — Read blog post
+
+
+
+
+Solving Rubik's Cube with a Robot Hand
+
+
+October 16, 2019
+
+
+                  — Read blog post
+
+
+
+
+Fine-Tuning Language Models from Human Preferences
+
+
+September 18, 2019
+
+
+                  — Read blog post
+
+
+
+
+Emergent Tool Use From Multi-Agent Autocurricula
+
+
+September 17, 2019
+
+
+                  — Read blog post
+
+
+
+
+Testing Robustness Against Unforeseen Adversaries
+
+
+August 21, 2019
+
+
+                  — Read blog post
+
+
+
+
+The Role of Cooperation in Responsible AI Development
+
+
+July 10, 2019
+
+
+                  — Read blog post
+
+
+
+
+SGD on Neural Networks Learns Functions of Increasing Complexity
+
+
+May 28, 2019
+
+
+
+
+Transfer of Adversarial Robustness Between Perturbation Types
+
+
+May 3, 2019
+
+
+
+
+Generating Long Sequences with Sparse Transformers
+
+
+April 23, 2019
+
+
+                  — Read blog post
+
+
+
+
+Implicit Generation and Generalization in Energy-Based Models
+
+
+March 20, 2019
+
+
+                  — Read blog post
+
+
+
+
+Neural MMO: A Massively Multiagent Game Environment for Training and Evaluating Intelligent Agents
+
+
+March 2, 2019
+
+
+                  — Read blog post
+
+
+
+
+Language Models are Unsupervised Multitask Learners
+
+
+February 14, 2019
+
+
+                  — Read blog post
+
+
+
+
+Computational Limitations in Robust Classification and Win-Win Results
+
+
+February 4, 2019
+
+
+
+
+
+
+
+2018
+
+
+An Empirical Model of Large-Batch Training
+
+
+December 14, 2018
+
+
+                  — Read blog post
+
+
+
+
+Quantifying Generalization in Reinforcement Learning
+
+
+December 6, 2018
+
+
+                  — Read blog post
+
+
+
+
+Concept Learning with Energy-Based Models
+
+
+November 7, 2018
+
+
+                  — Read blog post
+
+
+
+
+Plan Online, Learn Offline: Efficient Learning and Exploration via Model-Based Control
+
+
+November 5, 2018
+
+
+
+
+Exploration by Random Network Distillation
+
+
+October 30, 2018
+
+
+                  — Read blog post
+
+
+
+
+Supervising Strong Learners by Amplifying Weak Experts
+
+
+October 19, 2018
+
+
+                  — Read blog post
+
+
+
+
+FFJORD: Free-Form Continuous Dynamics for Scalable Reversible Generative Models
+
+
+October 3, 2018
+
+
+
+
+Domain Randomization and Generative Models for Robotic Grasping
+
+
+October 1, 2018
+
+
+
+
+Constant Arboricity Spectral Sparsifiers
+
+
+August 16, 2018
+
+
+
+
+Large-Scale Study of Curiosity-Driven Learning
+
+
+August 13, 2018
+
+
+
+
+Learning Dexterous In-Hand Manipulation
+
+
+August 1, 2018
+
+
+
+
+Learning Policy Representations in Multiagent Systems
+
+
+July 31, 2018
+
+
+
+
+Variational Option Discovery Algorithms
+
+
+July 26, 2018
+
+
+
+
+Learning with Opponent-Learning Awareness
+
+
+July 9, 2018
+
+
+
+
+Glow: Generative Flow with Invertible 1x1 Convolutions
+
+
+July 9, 2018
+
+
+                  — Read blog post
+
+
+
+
+GamePad: A Learning Environment for Theorem Proving
+
+
+June 2, 2018
+
+
+
+
+AI Safety via Debate
+
+
+May 2, 2018
+
+
+                  — Read blog post
+
+
+
+
+Emergence of Grounded Compositional Language in Multi-Agent Populations
+
+
+April 25, 2018
+
+
+
+
+Gotta Learn Fast: A New Benchmark for Generalization in RL
+
+
+April 10, 2018
+
+
+
+
+On First-Order Meta-Learning Algorithms
+
+
+April 4, 2018
+
+
+
+
+Variance Reduction for Policy Gradient with Action-Dependent Factorized Baselines
+
+
+March 19, 2018
+
+
+
+
+Improving GANs Using Optimal Transport
+
+
+March 14, 2018
+
+
+
+
+Reptile: a Scalable Metalearning Algorithm
+
+
+March 8, 2018
+
+
+
+
+Sim-to-real Transfer of Robotic Control with Dynamics Randomization
+
+
+March 3, 2018
+
+
+
+
+Some Considerations on Learning to Explore via Meta-Reinforcement Learning
+
+
+March 3, 2018
+
+
+
+
+Multi-Goal Reinforcement Learning: Challenging Robotics Environments and Request for Research
+
+
+February 26, 2018
+
+
+
+
+Backpropagation through the Void: Optimizing Control Variates for Black-Box Gradient Estimation
+
+
+February 23, 2018
+
+
+
+
+The Malicious Use of Artificial Intelligence: Forecasting, Prevention, and Mitigation
+
+
+February 20, 2018
+
+
+                  — Read blog post
+
+
+
+
+Evolved Policy Gradients
+
+
+February 13, 2018
+
+
+                  — Read blog post
+
+
+
+
+DeepType: Multilingual Entity Linking by Neural Type System Evolution
+
+
+February 2, 2018
+
+
+                  — Read blog post
+
+
+
+
+
+
+
+2017
+
+
+Learning Sparse Neural Networks through L0 Regularization
+
+
+December 4, 2017
+
+
+
+
+Interpretable and Pedagogical Examples
+
+
+November 2, 2017
+
+
+
+
+Meta Learning Shared Hierarchies
+
+
+October 26, 2017
+
+
+                  — Read blog post
+
+
+
+
+Domain Randomization and Generative Models for Robotic Grasping
+
+
+October 17, 2017
+
+
+
+
+Asymmetric Actor Critic for Image-Based Robot Learning
+
+
+October 17, 2017
+
+
+
+
+Emergent Complexity via Multi-Agent Competition
+
+
+October 12, 2017
+
+
+                  — Read blog post
+
+
+
+
+Continuous Adaptation via Meta-Learning in Nonstationary and Competitive Environments
+
+
+October 10, 2017
+
+
+                  — Read blog post
+
+
+
+
+Learning with Opponent-Learning Awareness
+
+
+September 13, 2017
+
+
+                  — Read blog post
+
+
+
+
+Proximal Policy Optimization Algorithms
+
+
+August 28, 2017
+
+
+                  — Read blog post
+
+
+
+
+Hindsight Experience Replay
+
+
+July 5, 2017
+
+
+
+
+Teacher-Student Curriculum Learning
+
+
+July 1, 2017
+
+
+
+
+Deep reinforcement learning from human preferences
+
+
+June 12, 2017
+
+
+                  — Read blog post
+
+
+
+
+Multi-Agent Actor-Critic for Mixed Cooperative-Competitive Environments
+
+
+June 7, 2017
+
+
+                  — Read blog post
+
+
+
+
+Parameter Space Noise for Exploration
+
+
+June 6, 2017
+
+
+
+
+UCB Exploration via Q-Ensembles
+
+
+June 5, 2017
+
+
+
+
+Equivalence Between Policy Gradients and Soft Q-Learning
+
+
+April 21, 2017
+
+
+
+
+Stochastic Neural Networks for Hierarchical Reinforcement Learning
+
+
+April 10, 2017
+
+
+
+
+Learning to Generate Reviews and Discovering Sentiment
+
+
+April 5, 2017
+
+
+                  — Read blog post
+
+
+
+
+One-shot Imitation Learning
+
+
+March 21, 2017
+
+
+
+
+Domain Randomization for Transferring Deep Neural Networks from Simulation to the Real World
+
+
+March 20, 2017
+
+
+                  — Read blog post
+
+
+
+
+Emergence of Grounded Compositional Language in Multi-Agent Populations
+
+
+March 15, 2017
+
+
+                  — Read blog post
+
+
+
+
+Prediction and Control with Temporal Segment Models
+
+
+March 12, 2017
+
+
+
+
+Evolution Strategies as a Scalable Alternative to Reinforcement Learning
+
+
+March 10, 2017
+
+
+                  — Read blog post
+
+
+
+
+Third Person Imitation Learning
+
+
+March 6, 2017
+
+
+
+
+Adversarial Attacks on Neural Network Policies
+
+
+February 8, 2017
+
+
+
+
+PixelCNN++: Improving the PixelCNN with Discretized Logistic Mixture Likelihood and Other Modifications
+
+
+January 19, 2017
+
+
+
+
+
+
+
+2016
+
+
+Universe
+
+
+December 5, 2016
+
+
+
+
+#Exploration: A Study of Count-Based Exploration for Deep Reinforcement Learning
+
+
+November 15, 2016
+
+
+
+
+On the Quantitative Analysis of Decoder-Based Generative Models
+
+
+November 14, 2016
+
+
+
+
+A Connection between Generative Adversarial Networks, Inverse Reinforcement Learning, and Energy-Based Models
+
+
+November 11, 2016
+
+
+
+
+RL2: Fast Reinforcement Learning via Slow Reinforcement Learning
+
+
+November 9, 2016
+
+
+
+
+Variational Lossy Autoencoder
+
+
+November 8, 2016
+
+
+
+
+Adversarial Training Methods for Semi-Supervised Text Classification
+
+
+November 7, 2016
+
+
+
+
+Extensions and Limitations of the Neural GPU
+
+
+November 2, 2016
+
+
+
+
+Semi-supervised Knowledge Transfer for Deep Learning from Private Training Data
+
+
+October 18, 2016
+
+
+
+
+Transfer from Simulation to Real World through Learning Deep Inverse Dynamics Model
+
+
+October 11, 2016
+
+
+
+
+Infrastructure for Deep Learning
+
+
+August 29, 2016
+
+
+
+
+Concrete Problems in AI Safety
+
+
+June 21, 2016
+
+
+                  — Read blog post
+
+
+
+
+Improving Variational Inference with Inverse Autoregressive Flow
+
+
+June 15, 2016
+
+
+                  — Read blog post
+
+
+
+
+InfoGAN: Interpretable Representation Learning by Information Maximizing Generative Adversarial Nets
+
+
+June 12, 2016
+
+
+                  — Read blog post
+
+
+
+
+Improved Techniques for Training GANS
+
+
+June 10, 2016
+
+
+                  — Read blog post
+
+
+
+
+OpenAI Gym
+
+
+June 5, 2016
+
+
+                  — Read blog post
+
+
+
+
+Weight Normalization: A Simple Reparameterization to Accelerate Training of Deep Neural Networks
+
+
+June 4, 2016
+
+
+
+
+VIME: Variational Information Maximizing Exploration
+
+
+May 31, 2016
+
+
+                  — Read blog post
+
+
+
+
+
+
+
+
+
+
+
+
+Featured
+ChatGPT
+DALL·E 2
+Whisper
+Alignment
+Startup Fund
+
+
+
+
+API
+Overview
+Pricing
+Examples
+Docs
+Terms & Policies
+Status
+Log in
+
+
+
+
+Blog
+Index
+Research
+Announcements
+Events
+Milestones
+
+
+
+
+Information
+About Us
+Our Charter
+Our Research
+Publications
+Newsroom
+Careers
+
+
+
+
+
+OpenAI © 2015–2023 Privacy Policy Terms of Use
+
+
+ twitter   youtube   github   soundcloud   linkedin   facebook    twitter   youtube   github   soundcloud   linkedin   facebook  
+
+
+
+
+
+

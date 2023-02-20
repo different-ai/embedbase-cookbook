@@ -1,0 +1,2159 @@
+
+
+
+
+
+
+
+
+DALL·E: Creating Images from Text
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Introducing ChatGPT research release
+
+Try ChatGPT
+Learn more
+
+
+
+
+
+
+
+
+
+
+API
+Research
+Blog
+About
+
+
+API
+Research
+Blog
+About
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+DALL·E: Creating Images from Text 
+We’ve trained a neural network called DALL·E that creates images from text captions for a wide range of concepts expressible in natural language.
+
+
+
+January 5, 2021
+27 minute read
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Read paperView code
+DALL·E is a 12-billion parameter version of GPT-3 trained to generate images from text descriptions, using a dataset of text–image pairs. We’ve found that it has a diverse set of capabilities, including creating anthropomorphized versions of animals and objects, combining unrelated concepts in plausible ways, rendering text, and applying transformations to existing images.
+See also: DALL·E 2, which generates more realistic and accurate images with 4x greater resolution.
+
+
+
+
+
+
+
+
+
+
+
+Text prompt
+an illustration of a baby daikon radish in a tutu walking a dog
+
+
+AI-generated images
+
+
+
+
+
+
+
+
+
+Edit prompt or view more images
+
+
+
+
+
+
+
+
+
+
+
+
+Text prompt
+an armchair in the shape of an avocado. . . .
+
+
+AI-generated images
+
+
+
+
+
+
+
+
+
+Edit prompt or view more images
+
+
+
+
+
+
+
+
+
+
+
+
+Text prompt
+a store front that has the word ‘openai’ written on it. . . .
+
+
+AI-generated images
+
+
+
+
+
+
+
+
+
+Edit prompt or view more images
+
+
+
+
+
+
+
+
+
+
+
+
+Text & image prompt
+the exact same cat on the top as a sketch on the bottom
+
+
+AI-generated images
+
+
+
+
+
+
+
+
+
+Edit prompt or view more images
+
+
+
+
+
+
+
+
+
+
+
+
+GPT-3 showed that language can be used to instruct a large neural network to perform a variety of text generation tasks. Image GPT showed that the same type of neural network can also be used to generate images with high fidelity. We extend these findings to show that manipulating visual concepts through language is now within reach.
+Overview
+Like GPT-3, DALL·E is a transformer language model. It receives both the text and the image as a single stream of data containing up to 1280 tokens, and is trained using maximum likelihood to generate all of the tokens, one after another.[1] This training procedure allows DALL·E to not only generate an image from scratch, but also to regenerate any rectangular region of an existing image that extends to the bottom-right corner, in a way that is consistent with the text prompt.
+We recognize that work involving generative models has the potential for significant, broad societal impacts. In the future, we plan to analyze how models like DALL·E relate to societal issues like economic impact on certain work processes and professions, the potential for bias in the model outputs, and the longer term ethical challenges implied by this technology.
+Capabilities
+We find that DALL·E is able to create plausible images for a great variety of sentences that explore the compositional structure of language. We illustrate this using a series of interactive visuals in the next section. The samples shown for each caption in the visuals are obtained by taking the top 32 of 512 after reranking with CLIP, but we do not use any manual cherry-picking, aside from the thumbnails and standalone images that appear outside.[2]
+Controlling Attributes
+We test DALL·E’s ability to modify several of an object’s attributes, as well as the number of times that it appears.
+
+Click to edit text prompt or view more AI-generated images
+
+
+
+
+a pentagonal green clock. a green clock in the shape of a pentagon.
+
+
+
+navigatedownwide
+
+
+
+navigateupwide
+
+
+
+
+Text prompt
+
+
+
+
+
+
+
+
+
+AI-generated images
+
+
+
+
+
+
+
+
+We find that DALL·E can render familiar objects in polygonal shapes that are sometimes unlikely to occur in the real world. For some objects, such as “picture frame” and “plate,” DALL·E can reliably draw the object in any of the polygonal shapes except heptagon. For other objects, such as “manhole cover” and “stop sign,” DALL·E’s success rate for more unusual shapes, such as “pentagon,” is considerably lower.
+
+For several of the visuals in this post, we find that repeating the caption, sometimes with alternative phrasings, improves the consistency of the results.
+
+
+
+
+
+navigateupwide
+
+
+
+
+
+
+
+
+
+a cube made of porcupine. a cube with the texture of a porcupine.
+
+
+
+navigatedownwide
+
+
+
+navigateupwide
+
+
+
+
+Text prompt
+
+
+
+
+
+
+
+
+
+AI-generated images
+
+
+
+
+
+
+
+
+We find that DALL·E can map the textures of various plants, animals, and other objects onto three dimensional solids. As in the preceding visual, we find that repeating the caption with alternative phrasing improves the consistency of the results.
+
+
+
+
+
+navigateupwide
+
+
+
+
+
+
+
+
+
+a collection of glasses is sitting on a table
+
+
+
+navigatedownwide
+
+
+
+navigateupwide
+
+
+
+
+Text prompt
+
+
+
+
+
+
+
+
+
+AI-generated images
+
+
+
+
+
+
+
+
+We find that DALL·E is able to draw multiple copies of an object when prompted to do so, but is unable to reliably count past three. When prompted to draw nouns for which there are multiple meanings, such as “glasses,” “chips,” and “cups” it sometimes draws both interpretations, depending on the plural form that is used.
+
+
+
+
+
+navigateupwide
+
+
+
+
+Drawing Multiple Objects
+Simultaneously controlling multiple objects, their attributes, and their spatial relationships presents a new challenge. For example, consider the phrase “a hedgehog wearing a red hat, yellow gloves, blue shirt, and green pants.” To correctly interpret this sentence, DALL·E must not only correctly compose each piece of apparel with the animal, but also form the associations (hat, red), (gloves, yellow), (shirt, blue), and (pants, green) without mixing them up.[3] We test DALL·E’s ability to do this for relative positioning, stacking objects, and controlling multiple attributes.
+
+
+
+
+
+a small red block sitting on a large green block
+
+
+
+navigatedownwide
+
+
+
+navigateupwide
+
+
+
+
+Text prompt
+
+
+
+
+
+
+
+
+
+AI-generated images
+
+
+
+
+
+
+
+
+We find that DALL·E correctly responds to some types of relative positions, but not others. The choices “sitting on” and “standing in front of” sometimes appear to work, “sitting below,” “standing behind,” “standing left of,” and “standing right of” do not. DALL·E also has a lower success rate when asked to draw a large object sitting on top of a smaller one, when compared to the other way around.
+
+
+
+
+
+navigateupwide
+
+
+
+
+
+
+
+
+
+a stack of 3 cubes. a red cube is on the top, sitting on a green cube. the green cube is in the middle, sitting on a blue cube. the blue cube is on the bottom.
+
+
+
+navigatedownwide
+
+
+
+navigateupwide
+
+
+
+
+Text prompt
+
+
+
+
+
+
+
+
+
+AI-generated images
+
+
+
+
+
+
+
+
+We find that DALL·E typically generates an image with one or two of the objects having the correct colors. However, only a few samples for each setting tend to have exactly three objects colored precisely as specified.
+
+
+
+
+
+navigateupwide
+
+
+
+
+
+
+
+
+
+an emoji of a baby penguin wearing a blue hat, red gloves, green shirt, and yellow pants
+
+
+
+navigatedownwide
+
+
+
+navigateupwide
+
+
+
+
+Text prompt
+
+
+
+
+
+
+
+
+
+AI-generated images
+
+
+
+
+
+
+
+
+We find that DALL·E typically generates an image with two or three articles of clothing having the correct colors. However, only a few of the samples for each setting tend to have all four articles of clothing with the specified colors.
+
+
+
+
+
+navigateupwide
+
+
+
+
+While DALL·E does offer some level of controllability over the attributes and positions of a small number of objects, the success rate can depend on how the caption is phrased. As more objects are introduced, DALL·E is prone to confusing the associations between the objects and their colors, and the success rate decreases sharply. We also note that DALL·E is brittle with respect to rephrasing of the caption in these scenarios: alternative, semantically equivalent captions often yield no correct interpretations.
+Visualizing Perspective and Three-Dimensionality
+We find that DALL·E also allows for control over the viewpoint of a scene and the 3D style in which a scene is rendered.
+
+
+
+
+
+an extreme close-up view of a capybara sitting in a field
+
+
+
+navigatedownwide
+
+
+
+navigateupwide
+
+
+
+
+Text prompt
+
+
+
+
+
+
+
+
+
+AI-generated images
+
+
+
+
+
+
+
+
+We find that DALL·E can draw each of the animals in a variety of different views. Some of these views, such as “aerial view” and “rear view,” require knowledge of the animal’s appearance from unusual angles. Others, such as “extreme close-up view,” require knowledge of the fine-grained details of the animal’s skin or fur.
+
+
+
+
+
+navigateupwide
+
+
+
+
+
+
+
+
+
+a capybara made of voxels sitting in a field
+
+
+
+navigatedownwide
+
+
+
+navigateupwide
+
+
+
+
+Text prompt
+
+
+
+
+
+
+
+
+
+AI-generated images
+
+
+
+
+
+
+
+
+We find that DALL·E is often able to modify the surface of each of the animals according to the chosen 3D style, such as “claymation” and “made of voxels,” and render the scene with plausible shading depending on the location of the sun. The “x-ray” style does not always work reliably, but it shows that DALL·E can sometimes orient the bones within the animal in plausible (though not anatomically correct) configurations.
+
+
+
+
+
+navigateupwide
+
+
+
+
+To push this further, we test DALL·E’s ability to repeatedly draw the head of a well-known figure at each angle from a sequence of equally spaced angles, and find that we can recover a smooth animation of the rotating head.
+
+
+
+
+
+a photograph of a bust of homer
+
+
+
+navigatedownwide
+
+
+
+navigateupwide
+
+
+
+
+Text prompt
+
+
+
+
+
+
+
+
+
+Image prompt
+
+
+
+
+
+
+
+
+
+AI-generated images
+
+
+
+
+
+
+
+
+We prompt DALL·E with both a caption describing a well-known figure and the top region of an image showing a hat drawn at a particular angle. Then, we ask DALL·E to complete the remaining part of the image given this contextual information. We do this repeatedly, each time rotating the hat a few more degrees, and find that we are able to recover smooth animations of several well-known figures, with each frame respecting the precise specification of angle and ambient lighting.
+
+
+
+
+
+navigateupwide
+
+
+
+
+DALL·E appears to be able to apply some types of optical distortions to scenes, as we see with the options “fisheye lens view” and “a spherical panorama.” This motivated us to explore its ability to generate reflections.
+
+
+
+
+
+a plain white cube looking at its own reflection in a mirror. a plain white cube gazing at itself in a mirror.
+
+
+
+navigatedownwide
+
+
+
+navigateupwide
+
+
+
+
+Text prompt
+
+
+
+
+
+
+
+
+
+Image prompt
+
+
+
+
+
+
+
+
+
+AI-generated images
+
+
+
+
+
+
+
+
+Similar to what was done before, we prompt DALL·E to complete the bottom-right corners of a sequence of frames, each of which contains a mirror and reflective floor. While the reflection in the mirror usually resembles the object outside of it, it often does not render the reflection in a physically correct way. By contrast, the reflection of an object drawn on a reflective floor is typically more plausible.
+
+
+
+
+
+navigateupwide
+
+
+
+
+Visualizing Internal and External Structure
+The samples from the “extreme close-up view” and “x-ray” style led us to further explore DALL·E’s ability to render internal structure with cross-sectional views, and external structure with macro photographs.
+
+
+
+
+
+a cross-section view of a walnut
+
+
+
+navigatedownwide
+
+
+
+navigateupwide
+
+
+
+
+Text prompt
+
+
+
+
+
+
+
+
+
+AI-generated images
+
+
+
+
+
+
+
+
+We find that DALL·E is able to draw the interiors of several different kinds of objects.
+
+
+
+
+
+navigateupwide
+
+
+
+
+
+
+
+
+
+a macro photograph of brain coral
+
+
+
+navigatedownwide
+
+
+
+navigateupwide
+
+
+
+
+Text prompt
+
+
+
+
+
+
+
+
+
+AI-generated images
+
+
+
+
+
+
+
+
+We find that DALL·E is able to draw the fine-grained external details of several different kinds of objects. These details are only apparent when the object is viewed up close.
+
+
+
+
+
+navigateupwide
+
+
+
+
+Inferring Contextual Details
+The task of translating text to images is underspecified: a single caption generally corresponds to an infinitude of plausible images, so the image is not uniquely determined. For instance, consider the caption “a painting of a capybara sitting on a field at sunrise.” Depending on the orientation of the capybara, it may be necessary to draw a shadow, though this detail is never mentioned explicitly. We explore DALL·E’s ability to resolve underspecification in three cases: changing style, setting, and time; drawing the same object in a variety of different situations; and generating an image of an object with specific text written on it.
+
+
+
+
+
+a painting of a capybara sitting in a field at sunrise
+
+
+
+navigatedownwide
+
+
+
+navigateupwide
+
+
+
+
+Text prompt
+
+
+
+
+
+
+
+
+
+AI-generated images
+
+
+
+
+
+
+
+
+We find that DALL·E is able to render the same scene in a variety of different styles, and can adapt the lighting, shadows, and environment based on the time of day or season.
+
+
+
+
+
+navigateupwide
+
+
+
+
+
+
+
+
+
+a stained glass window with an image of a blue strawberry
+
+
+
+navigatedownwide
+
+
+
+navigateupwide
+
+
+
+
+Text prompt
+
+
+
+
+
+
+
+
+
+AI-generated images
+
+
+
+
+
+
+
+
+We find that DALL·E is able to flexibly adapt the representation of the object based on the medium on which it is being drawn. For “a mural,” “a soda can,” and “a teacup,” DALL·E must change how it draws the object based on the angle and curvature of the drawing surface. For “a stained glass window” and “a neon sign,” it must alter the appearance of the object from how it usually appears.
+
+
+
+
+
+navigateupwide
+
+
+
+
+
+
+
+
+
+a store front that has the word ‘openai’ written on it. a store front that has the word ‘openai’ written on it. a store front that has the word ‘openai’ written on it. ‘openai’ store front.
+
+
+
+navigatedownwide
+
+
+
+navigateupwide
+
+
+
+
+Text prompt
+
+
+
+
+
+
+
+
+
+AI-generated images
+
+
+
+
+
+
+
+
+We find that DALL·E is sometimes able to render text and adapt the writing style to the context in which it appears. For example, “a bag of chips” and “a license plate” each requires different types of fonts, and “a neon sign” and “written in the sky” require the appearance of the letters to be changed.
+
+Generally, the longer the string that DALL·E is prompted to write, the lower the success rate. We find that the success rate improves when parts of the caption are repeated. Additionally, the success rate sometimes improves as the sampling temperature for the image is decreased, although the samples become simpler and less realistic.
+
+
+
+
+
+navigateupwide
+
+
+
+
+With varying degrees of reliability, DALL·E provides access to a subset of the capabilities of a 3D rendering engine via natural language. It can independently control the attributes of a small number of objects, and to a limited extent, how many there are, and how they are arranged with respect to one another. It can also control the location and angle from which a scene is rendered, and can generate known objects in compliance with precise specifications of angle and lighting conditions.
+Unlike a 3D rendering engine, whose inputs must be specified unambiguously and in complete detail, DALL·E is often able to “fill in the blanks” when the caption implies that the image must contain a certain detail that is not explicitly stated.
+Applications of Preceding Capabilities
+Next, we explore the use of the preceding capabilities for fashion and interior design.
+
+
+
+
+
+a male mannequin dressed in an orange and black flannel shirt
+
+
+
+navigatedownwide
+
+
+
+navigateupwide
+
+
+
+
+Text prompt
+
+
+
+
+
+
+
+
+
+Image prompt
+
+
+
+
+
+
+
+
+
+
+
+AI-generated images
+
+
+
+
+
+
+
+
+We explore DALL·E’s ability to render male mannequins in a variety of different outfits. When prompted with two colors, e.g., “an orange and white bomber jacket” and “an orange and black turtleneck sweater,” DALL·E often exhibits a range of possibilities for how both colors can be used for the same article of clothing.
+
+DALL·E also seems to occasionally confuse less common colors with other neighboring shades. For example, when prompted to draw clothes in “navy,” DALL·E sometimes uses lighter shades of blue, or shades very close to black. Similarly, DALL·E sometimes confuses “olive” with shades of brown or brighter shades of green.
+
+
+
+
+
+navigateupwide
+
+
+
+
+
+
+
+
+
+a female mannequin dressed in a black leather jacket and gold pleated skirt
+
+
+
+navigatedownwide
+
+
+
+navigateupwide
+
+
+
+
+Text prompt
+
+
+
+
+
+
+
+
+
+Image prompt
+
+
+
+
+
+
+
+
+
+
+
+AI-generated images
+
+
+
+
+
+
+
+
+We explore DALL·E’s ability to render female mannequins in a variety of different outfits. We find that DALL·E is able to portray unique textures such as the sheen of a “black leather jacket” and “gold” skirts and leggings. As before, we see that DALL·E occasionally confuses less common colors, such as “navy” and “olive,” with other neighboring shades.
+
+
+
+
+
+navigateupwide
+
+
+
+
+
+
+
+
+
+a living room with two white armchairs and a painting of the colosseum. the painting is mounted above a modern fireplace.
+
+
+
+navigatedownwide
+
+
+
+navigateupwide
+
+
+
+
+Text prompt
+
+
+
+
+
+
+
+
+
+Image prompt
+
+
+
+
+
+
+
+
+
+
+
+AI-generated images
+
+
+
+
+
+
+
+
+We explore DALL·E’s ability to generate images of rooms with several details specified. We find that it can generate paintings of a wide range of different subjects, including real-world locations such as “the colosseum” and fictional characters like “yoda.” For each subject, DALL·E exhibits a variety of interpretations. While the painting is almost always present in the scene, DALL·E sometimes fails to draw the fireplace or the correct number of armchairs.
+
+
+
+
+
+navigateupwide
+
+
+
+
+
+
+
+
+
+a loft bedroom with a white bed next to a nightstand. there is a fish tank beside the bed.
+
+
+
+navigatedownwide
+
+
+
+navigateupwide
+
+
+
+
+Text prompt
+
+
+
+
+
+
+
+
+
+Image prompt
+
+
+
+
+
+
+
+
+
+
+
+AI-generated images
+
+
+
+
+
+
+
+
+We explore DALL·E’s ability to generate bedrooms with several details specified. Despite the fact that we do not tell DALL·E what should go on top of the nightstand or shelf beside the bed, we find that it sometimes decides to place the other specified object on top. As before, we see that it often fails to draw one or more of the specified objects.
+
+
+
+
+
+navigateupwide
+
+
+
+
+Combining Unrelated Concepts
+The compositional nature of language allows us to put together concepts to describe both real and imaginary things. We find that DALL·E also has the ability to combine disparate ideas to synthesize objects, some of which are unlikely to exist in the real world. We explore this ability in two instances: transferring qualities from various concepts to animals, and designing products by taking inspiration from unrelated concepts.
+
+
+
+
+
+a snail made of harp. a snail with the texture of a harp.
+
+
+
+navigatedownwide
+
+
+
+navigateupwide
+
+
+
+
+Text prompt
+
+
+
+
+
+
+
+
+
+AI-generated images
+
+
+
+
+
+
+
+
+We find that DALL·E can generate animals synthesized from a variety of concepts, including musical instruments, foods, and household items. While not always successful, we find that DALL·E sometimes takes the forms of the two objects into consideration when determining how to combine them. For example, when prompted to draw “a snail made of harp,” it sometimes relates the pillar of the harp to the spiral of the snail’s shell.
+
+In a previous section, we saw that as more objects are introduced into the scene, DALL·E is liable to confuse the associations between the objects and their specified attributes. Here, we see a different sort of failure mode: sometimes, rather than binding some attribute of the specified concept (say, “a faucet”) to the animal (say, “a snail”), DALL·E just draws the two as separate items.
+
+
+
+
+
+navigateupwide
+
+
+
+
+
+
+
+
+
+an armchair in the shape of an avocado. an armchair imitating an avocado.
+
+
+
+navigatedownwide
+
+
+
+navigateupwide
+
+
+
+
+Text prompt
+
+
+
+
+
+
+
+
+
+AI-generated images
+
+
+
+
+
+
+
+
+In the preceding visual, we explored DALL·E’s ability to generate fantastical objects by combining two unrelated ideas. Here, we explore its ability to take inspiration from an unrelated idea while respecting the form of the thing being designed, ideally producing an object that appears to be practically functional. We found that prompting DALL·E with the phrases “in the shape of,” “in the form of,” and “in the style of” gives it the ability to do this.
+
+When generating some of these objects, such as “an armchair in the shape of an avocado”, DALL·E appears to relate the shape of a half avocado to the back of the chair, and the pit of the avocado to the cushion. We find that DALL·E is susceptible to the same kinds of mistakes mentioned in the previous visual.
+
+
+
+
+
+navigateupwide
+
+
+
+
+Animal Illustrations
+In the previous section, we explored DALL·E’s ability to combine unrelated concepts when generating images of real-world objects. Here, we explore this ability in the context of art, for three kinds of illustrations: anthropomorphized versions of animals and objects, animal chimeras, and emojis.
+
+
+
+
+
+an illustration of a baby daikon radish in a tutu walking a dog
+
+
+
+navigatedownwide
+
+
+
+navigateupwide
+
+
+
+
+Text prompt
+
+
+
+
+
+
+
+
+
+AI-generated images
+
+
+
+
+
+
+
+
+We find that DALL·E is sometimes able to transfer some human activities and articles of clothing to animals and inanimate objects, such as food items. We include “pikachu” and “wielding a blue lightsaber” to explore DALL·E’s ability to incorporate popular media.
+
+We find it interesting how DALL·E adapts human body parts onto animals. For example, when asked to draw a daikon radish blowing its nose, sipping a latte, or riding a unicycle, DALL·E often draws the kerchief, hands, and feet in plausible locations.
+
+
+
+
+
+navigateupwide
+
+
+
+
+
+
+
+
+
+a professional high quality illustration of a giraffe turtle chimera. a giraffe imitating a turtle. a giraffe made of turtle.
+
+
+
+navigatedownwide
+
+
+
+navigateupwide
+
+
+
+
+Text prompt
+
+
+
+
+
+
+
+
+
+AI-generated images
+
+
+
+
+
+
+
+
+We find that DALL·E is sometimes able to combine distinct animals in plausible ways. We include “pikachu” to explore DALL·E’s ability to incorporate knowledge of popular media, and “robot” to explore its ability to generate animal cyborgs. Generally, the features of the second animal mentioned in the caption tend to be dominant.
+
+We also find that inserting the phrase “professional high quality” before “illustration” and “emoji” sometimes improves the quality and consistency of the results.
+
+
+
+
+
+navigateupwide
+
+
+
+
+
+
+
+
+
+a professional high quality emoji of a lovestruck cup of boba
+
+
+
+navigatedownwide
+
+
+
+navigateupwide
+
+
+
+
+Text prompt
+
+
+
+
+
+
+
+
+
+AI-generated images
+
+
+
+
+
+
+
+
+We find that DALL·E is sometimes able to transfer some emojis to animals and inanimate objects, such as food items. As in the preceding visual, we find that inserting the phrase “professional high quality” before “emoji” sometimes improves the quality and consistency of the results.
+
+
+
+
+
+navigateupwide
+
+
+
+
+Zero-Shot Visual Reasoning
+GPT-3 can be instructed to perform many kinds of tasks solely from a description and a cue to generate the answer supplied in its prompt, without any additional training. For example, when prompted with the phrase “here is the sentence ‘a person walking his dog in the park’ translated into French:”, GPT-3 answers “un homme qui promène son chien dans le parc.” This capability is called zero-shot reasoning. We find that DALL·E extends this capability to the visual domain, and is able to perform several kinds of image-to-image translation tasks when prompted in the right way.
+
+
+
+
+
+the exact same cat on the top as a sketch on the bottom
+
+
+
+navigatedownwide
+
+
+
+navigateupwide
+
+
+
+
+Text prompt
+
+
+
+
+
+
+
+
+
+Image prompt
+
+
+
+
+
+
+
+
+
+AI-generated images
+
+
+
+
+
+
+
+
+We find that DALL·E is able to apply several kinds of image transformations to photos of animals, with varying degrees of reliability. The most straightforward ones, such as “photo colored pink” and “photo reflected upside-down,” also tend to be the most reliable, although the photo is often not copied or reflected exactly. The transformation “animal in extreme close-up view” requires DALL·E to recognize the breed of the animal in the photo, and render it up close with the appropriate details. This works less reliably, and for several of the photos, DALL·E only generates plausible completions in one or two instances.
+
+Other transformations, such as “animal with sunglasses” and “animal wearing a bow tie,” require placing the accessory on the correct part of the animal’s body. Those that only change the color of the animal, such as “animal colored pink,” are less reliable, but show that DALL·E is sometimes capable of segmenting the animal from the background. Finally, the transformations “a sketch of the animal” and “a cell phone case with the animal” explore the use of this capability for illustrations and product design.
+
+
+
+
+
+navigateupwide
+
+
+
+
+
+
+
+
+
+the exact same teapot on the top with ’gpt’ written on it on the bottom
+
+
+
+navigatedownwide
+
+
+
+navigateupwide
+
+
+
+
+Text prompt
+
+
+
+
+
+
+
+
+
+Image prompt
+
+
+
+
+
+
+
+
+
+AI-generated images
+
+
+
+
+
+
+
+
+We find that DALL·E is able to apply several different kinds of image transformations to photos of teapots, with varying degrees of reliability. Aside from being able to modify the color of the teapot (e.g., “colored blue”) or its pattern (e.g., “with stripes”), DALL·E can also render text (e.g., “with ‘gpt’ written on it”) and map the letters onto the curved surface of the teapot in a plausible way. With much less reliability, it can also draw the teapot in a smaller size (for the “tiny” option) and in a broken state (for the “broken” option).
+
+
+
+
+
+navigateupwide
+
+
+
+
+We did not anticipate that this capability would emerge, and made no modifications to the neural network or training procedure to encourage it. Motivated by these results, we measure DALL·E’s aptitude for analogical reasoning problems by testing it on Raven’s progressive matrices, a visual IQ test that saw widespread use in the 20th century.
+
+
+
+
+
+a sequence of geometric shapes.
+
+
+
+navigatedownwide
+
+
+
+navigateupwide
+
+
+
+
+Text prompt
+
+
+
+
+
+
+
+
+
+Example Image prompt
+
+
+
+
+
+
+
+
+
+AI-generated images
+
+
+
+
+
+
+
+
+Rather than treating the IQ test a multiple-choice problem as originally intended, we ask DALL·E to complete the bottom-right corner of each image using argmax sampling, and consider its completion to be correct if it is a close visual match to the original.
+
+DALL·E is often able to solve matrices that involve continuing simple patterns or basic geometric reasoning, such as those in sets B and C. It is sometimes able to solve matrices that involve recognizing permutations and applying boolean operations, such as those in set D. The instances in set E tend to be the most difficult, and DALL·E gets almost none of them correct.
+
+For each of the sets, we measure DALL·E’s performance on both the original images, and the images with the colors inverted. The inversion of colors should pose no additional difficulty for a human, yet does generally impair DALL·E’s performance, suggesting its capabilities may be brittle in unexpected ways.
+
+
+
+
+
+navigateupwide
+
+
+
+
+Geographic Knowledge
+We find that DALL·E has learned about geographic facts, landmarks, and neighborhoods. Its knowledge of these concepts is surprisingly precise in some ways and flawed in others.
+
+
+
+
+
+a photo of the food of china
+
+
+
+navigatedownwide
+
+
+
+navigateupwide
+
+
+
+
+Text prompt
+
+
+
+
+
+
+
+
+
+AI-generated images
+
+
+
+
+
+
+
+
+We test DALL·E’s understanding of simple geographical facts, such as country flags, cuisines, and local wildlife. While DALL·E successfully answers many of these queries, such as those involving national flags, it often reflects superficial stereotypes for choices like “food” and “wildlife,” as opposed to representing the full diversity encountered in the real world.
+
+
+
+
+
+navigateupwide
+
+
+
+
+
+
+
+
+
+a photo of alamo square, san francisco, from a street at night
+
+
+
+navigatedownwide
+
+
+
+navigateupwide
+
+
+
+
+Text prompt
+
+
+
+
+
+
+
+
+
+AI-generated images
+
+
+
+
+
+
+
+
+We find that DALL·E is sometimes capable of rendering semblances of certain locations in San Francisco. For locations familiar to the authors, such as San Francisco, they evoke a sense of déjà vu—eerie simulacra of streets, sidewalks and cafes that remind us of very specific locations that do not exist.
+
+
+
+
+
+navigateupwide
+
+
+
+
+
+
+
+
+
+a photo of san francisco’s golden gate bridge
+
+
+
+navigatedownwide
+
+
+
+navigateupwide
+
+
+
+
+Text prompt
+
+
+
+
+
+
+
+
+
+Image prompts
+
+
+
+
+
+
+
+
+
+AI-generated images
+
+
+
+
+
+
+
+
+We can also prompt DALL·E to draw famous landmarks. In fact, we can even dictate when the photo was taken by specifying the first few rows of the sky. When the sky is dark, for example, DALL·E recognizes it is night, and turns on the lights in the buildings.
+
+
+
+
+
+navigateupwide
+
+
+
+
+Temporal Knowledge
+In addition to exploring DALL·E’s knowledge of concepts that vary over space, we also explore its knowledge of concepts that vary over time.
+
+
+
+
+
+a photo of a phone from the 20s
+
+
+
+navigatedownwide
+
+
+
+navigateupwide
+
+
+
+
+Text prompt
+
+
+
+
+
+
+
+
+
+Image prompts
+
+
+
+
+
+
+
+
+
+AI-generated images
+
+
+
+
+
+
+
+
+We find that DALL·E has learned about basic stereotypical trends in design and technology over the decades. Technological artifacts appear to go through periods of explosion of change, dramatically shifting for a decade or two, then changing more incrementally, becoming refined and streamlined.
+
+
+
+
+
+navigateupwide
+
+
+
+
+
+Summary of Approach and Prior Work
+DALL·E is a simple decoder-only transformer that receives both the text and the image as a single stream of 1280 tokens—256 for the text and 1024 for the image—and models all of them autoregressively. The attention mask at each of its 64 self-attention layers allows each image token to attend to all text tokens. DALL·E uses the standard causal mask for the text tokens, and sparse attention for the image tokens with either a row, column, or convolutional attention pattern, depending on the layer. We provide more details about the architecture and training procedure in our paper.
+Text-to-image synthesis has been an active area of research since the pioneering work of Reed et. al, whose approach uses a GAN conditioned on text embeddings. The embeddings are produced by an encoder pretrained using a contrastive loss, not unlike CLIP. StackGAN and StackGAN++ use multi-scale GANs to scale up the image resolution and improve visual fidelity. AttnGAN incorporates attention between the text and image features, and proposes a contrastive text-image feature matching loss as an auxiliary objective. This is interesting to compare to our reranking with CLIP, which is done offline. Other work incorporates additional sources of supervision during training to improve image quality. Finally, work by Nguyen et. al and Cho et. al explores sampling-based strategies for image generation that leverage pretrained multimodal discriminative models.
+Similar to the rejection sampling used in VQVAE-2, we use CLIP to rerank the top 32 of 512 samples for each caption in all of the interactive visuals. This procedure can also be seen as a kind of language-guided search, and can have a dramatic impact on sample quality.
+
+
+
+
+
+an illustration of a baby daikon radish in a tutu walking a dog [caption 1, best 8 of 2048]
+
+
+
+navigatedownwide
+
+
+
+navigateupwide
+
+
+
+
+Text prompt
+
+
+
+
+
+
+
+
+
+AI-generated images
+
+
+
+
+
+
+
+
+Reranking the samples from DALL·E using CLIP can dramatically improve consistency and quality of the samples.
+
+
+
+
+
+navigateupwide
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Contributions
+
+Aditya Ramesh was the project lead: he developed the approach, trained the models, and wrote most of the blog copy.
+Aditya Ramesh, Mikhail Pavlov, and Scott Gray worked together to scale up the model to 12 billion parameters, and designed the infrastructure used to draw samples from the model.
+Aditya Ramesh, Gabriel Goh, and Justin Jay Wang worked together to create the interactive visuals for the blog.
+Mark Chen and Aditya Ramesh created the images for Raven's Progressives Matrices.
+Rewon Child and Vedant Misra assisted in writing the blog.
+Pamela Mishkin, Gretchen Krueger, and Sandhini Agarwal advised on broader impacts of the work and assisted in writing the blog.
+Ilya Sutskever oversaw the project and assisted in writing the blog.
+
+
+
+Acknowledgments
+
+Thanks to the following for their feedback on this work and contributions to this release: Alec Radford, Andrew Mayne, Jeff Clune, Ashley Pilipiszyn, Steve Dowling, Jong Wook Kim, Lei Pan, Heewoo Jun, John Schulman, Michael Tabatowski, Preetum Nakkiran, Jack Clark, Fraser Kelton, Jacob Jackson, Greg Brockman, Wojciech Zaremba, Justin Mao-Jones, David Luan, Shantanu Jain, Prafulla Dhariwal, Sam Altman, Pranav Shyam, Miles Brundage, Jakub Pachocki, and Ryan Lowe.
+
+
+
+Cover Artwork
+
+Justin Jay Wang
+
+
+
+References
+
+
+
+Reed, S., Akata, Z., Yan, X., Logeswaran, L., Schiele, B., Lee, H. (2016). "Generative adversarial text to image synthesis". In ICML 2016.
+
+
+Reed, S., Akata, Z., Mohan, S., Tenka, S., Schiele, B., Lee, H. (2016). "Learning what and where to draw". In NIPS 2016.
+
+
+Zhang, H., Xu, T., Li, H., Zhang, S., Wang, X., Huang X., Metaxas, D. (2016). "StackGAN: Text to photo-realistic image synthesis with stacked generative adversarial networks". In ICCY 2017.
+
+
+Zhang, H., Xu, T., Li, H., Zhang, S., Wang, X., Huang, X., Metaxas, D. (2017). "StackGAN++: realistic image synthesis with stacked generative adversarial networks". In IEEE TPAMI 2018.
+
+
+Xu, T., Zhang, P., Huang, Q., Zhang, H., Gan, Z., Huang, X., He, X. (2017). "AttnGAN: Fine-grained text to image generation with attentional generative adversarial networks. 
+
+
+Li, W., Zhang, P., Zhang, L., Huang, Q., He, X., Lyu, S., Gao, J. (2019). "Object-driven text-to-image synthesis via adversarial training". In CVPR 2019.
+
+
+Koh, J. Y., Baldridge, J., Lee, H., Yang, Y. (2020). "Text-to-image generation grounded by fine-grained user attention". In WACV 2021.
+
+
+Nguyen, A., Clune, J., Bengio, Y., Dosovitskiy, A., Yosinski, J. (2016). "Plug & play generative networks: conditional iterative generation of images in latent space.
+
+
+Cho, J., Lu, J., Schwen, D., Hajishirzi, H., Kembhavi, A. (2020). "X-LXMERT: Paint, caption, and answer questions with multi-modal transformers". EMNLP 2020.
+
+
+Kingma, Diederik P., and Max Welling. "Auto-encoding variational bayes." arXiv preprint (2013).
+
+
+Rezende, Danilo Jimenez, Shakir Mohamed, and Daan Wierstra. "Stochastic backpropagation and approximate inference in deep generative models." arXiv preprint (2014).
+
+
+Jang, E., Gu, S., Poole, B. (2016). "Categorical reparametrization with Gumbel-softmax".
+
+
+Maddison, C., Mnih, A., Teh, Y. W. (2016). "The Concrete distribution: a continuous relaxation of discrete random variables".
+
+
+van den Oord, A., Vinyals, O., Kavukcuoglu, K. (2017). "Neural discrete representation learning".
+
+
+Razavi, A., van der Oord, A., Vinyals, O. (2019). "Generating diverse high-fidelity images with VQ-VAE-2".
+
+
+Andreas, J., Klein, D., Levine, S. (2017). "Learning with Latent Language".
+
+
+Smolensky, P. (1990). "Tensor product variable binding and the representation of symbolic structures in connectionist systems".
+
+
+Plate, T. (1995). "Holographic reduced representations: convolution algebra for compositional distributed representations".
+
+
+Gayler, R. (1998). "Multiplicative binding, representation operators & analogy".
+
+
+Kanerva, P. (1997). "Fully distributed representations".
+
+
+
+
+
+Footnotes
+
+
+
+
+A token is any symbol from a discrete vocabulary; for humans, each English letter is a token from a 26-letter alphabet. DALL·E's vocabulary has tokens for both text and image concepts. Specifically, each image caption is represented using a maximum of 256 BPE-encoded tokens with a vocabulary size of 16384, and the image is represented using 1024 tokens with a vocabulary size of 8192.The images are preprocessed to 256x256 resolution during training. Similar to VQVAE, each image is compressed to a 32x32 grid of discrete latent codes using a discrete VAE that we pretrained using a continuous relaxation. We found that training using the relaxation obviates the need for an explicit codebook, EMA loss, or tricks like dead code revival, and can scale up to large vocabulary sizes. ↩︎
+
+Further details provided in a later section. ↩︎
+
+This task is called variable binding, and has been extensively studied in the literature. ↩︎
+
+
+
+
+
+
+
+
+
+
+
+
+Authors
+
+Aditya RameshMikhail PavlovGabriel GohScott GrayMark ChenRewon ChildVedant MisraPamela MishkinGretchen KruegerSandhini AgarwalIlya Sutskever
+
+
+
+
+
+
+
+
+Filed Under
+
+ResearchMilestonesMultimodal
+
+
+
+
+
+
+
+
+
+
+Featured
+ChatGPT
+DALL·E 2
+Whisper
+Alignment
+Startup Fund
+
+
+
+
+API
+Overview
+Pricing
+Examples
+Docs
+Terms & Policies
+Status
+Log in
+
+
+
+
+Blog
+Index
+Research
+Announcements
+Events
+Milestones
+
+
+
+
+Information
+About Us
+Our Charter
+Our Research
+Publications
+Newsroom
+Careers
+
+
+
+
+
+OpenAI © 2015–2023 Privacy Policy Terms of Use
+
+
+ twitter   youtube   github   soundcloud   linkedin   facebook    twitter   youtube   github   soundcloud   linkedin   facebook  
+
+
+
+
+
+

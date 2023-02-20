@@ -1,0 +1,241 @@
+
+
+
+
+
+
+
+
+OpenAI at The International
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Introducing ChatGPT research release
+
+Try ChatGPT
+Learn more
+
+
+
+
+
+
+
+
+
+
+API
+Research
+Blog
+About
+
+
+API
+Research
+Blog
+About
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+OpenAI at The International
+We've created an AI which beats the world's top professionals at 1v1 matches of Dota 2. Watch us play on main stage during The International.
+
+About Dota 2
+Team
+Press
+Jobs
+
+
+
+
+
+
+
+Team
+
+Built by a team of researchers and engineers at OpenAI. Join us to solve 5v5.
+
+Greg Brockman
+Rafał Józefowicz
+Jakub Pachocki
+Szymon Sidor
+Christopher Hesse
+Przemyslaw Debiak
+Jie Tang
+Shariq Hashme
+Quirin Fischer
+
+
+Ilya Sutskever
+Christopher Berner
+Catherine Olsson
+Jeremy Schlatter
+Tim Salimans
+Vicki Cheung
+Jonas Schneider
+
+
+Special thanks to Chris Carollo, Nick Maggiore, Shivon Zilis, Samuel Anderson, Nate Parkinson and Danny Cote.
+
+
+
+
+For any press inquiries, please email press@openai.com
+
+
+
+
+
+
+
+Behind the scenes
+
+Learn more about the bot.
+
+Read blog
+
+
+
+
+
+
+About Dota 2
+
+ Dota 2 is a complex, team-based game played by over ten million people monthly. It has a thriving pro scene with over $20M awarded in The International alone.
+The game is continuous, has hidden information, and good strategy and positioning win over raw mechanics. We use Dota 2 as a testbed for new AI technologies.
+
+
+
+
+
+
+
+
+
+Built by OpenAI, in collaboration with Valve. Our infrastructure partner is Microsoft Azure.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Featured
+ChatGPT
+DALL·E 2
+Whisper
+Alignment
+Startup Fund
+
+
+
+
+API
+Overview
+Pricing
+Examples
+Docs
+Terms & Policies
+Status
+Log in
+
+
+
+
+Blog
+Index
+Research
+Announcements
+Events
+Milestones
+
+
+
+
+Information
+About Us
+Our Charter
+Our Research
+Publications
+Newsroom
+Careers
+
+
+
+
+
+OpenAI © 2015–2023 Privacy Policy Terms of Use
+
+
+ twitter   youtube   github   soundcloud   linkedin   facebook    twitter   youtube   github   soundcloud   linkedin   facebook  
+
+
+
+
+
+

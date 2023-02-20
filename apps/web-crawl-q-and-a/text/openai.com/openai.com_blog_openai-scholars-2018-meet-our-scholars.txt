@@ -1,0 +1,348 @@
+
+
+
+
+
+
+
+
+OpenAI Scholars 2018: Meet Our Scholars
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Introducing ChatGPT research release
+
+Try ChatGPT
+Learn more
+
+
+
+
+
+
+
+
+
+
+API
+Research
+Blog
+About
+
+
+API
+Research
+Blog
+About
+
+
+
+
+
+
+
+
+OpenAI Scholars 2018: Meet Our Scholars 
+
+
+
+
+
+
+
+ 
+July 25, 2018
+5 minute read
+
+
+
+Our first class of OpenAI Scholars is underway, and you can now follow along as this group of experienced software developers becomes machine learning practitioners. We had over 700 applicants for the 8 OpenAI Scholars slots and reviewed each application on a standardized list of criteria for maximal fairness. We hope this group inspires many other developers to make the transition to machine learning too.
+
+OpenAI Scholars began their studies on June 1st, blogging weekly about their progress and culminating in an open-source final project. The scholars have written about model-based RL, audio classification with softmax, deep learning in simple English, the k-nearest neighbors algorithm, and attention.
+Meet the scholars:
+
+
+
+
+
+
+
+
+
+Christine Payne
+
+                Mentor—Karthik Narasimhan
+                Working from San Francisco, CA
+                Twitter—@mcleavey
+
+
+
+
+Christine was co-valedictorian of her class at Princeton with a degree in physics, and then studied neuroscience and medicine at Stanford. Also a trained classical pianist, she moved away from science for a few years when she had the opportunity to join a chamber music group with members of the SF Symphony.  After realizing how exciting deep learning and AI is, but also how fundamentally it will affect future generations (including her two young kids!), she decided she needed to return and be a part of this work.  As an OpenAI Scholar, Christine is using a soccer simulation to study team dynamics and inter-agent communication:
+
+
+
+
+
+
+
+
+
+
+Dolapo Martins
+
+                Mentor— Geoffrey Irving
+                Working from Baltimore, MD
+                Twitter—@ALLHailDolapo
+
+
+
+
+A recent graduate of the University of Maryland, College Park, Dolapo's interest lies in the intersection of computing, linguistics, and classical philology. She'd like to (1) build machines that can learn language like a human child and (2) build computational models to assist in the decryption of ancient scrolls (cf Scrolls of Herculaneum). Dolapo is particularly enthusiastic about the ways we can use machines to bridge language gaps. She's slated to start graduate school at the University of Illinois at Urbana-Champaign where she aims to earn a M.Sc. in Computer Science and a Ph.D. in Linguistics. She's a syntactician at heart.
+
+
+
+
+
+
+
+
+
+Hannah Davis
+
+                Mentor— Emily Denton
+                Working from New York, NY
+                Twitter— @ahandvanish
+
+
+
+
+Hannah Davis is a generative musician and researcher based in NYC. She is the creator of TransProse, a program that translates literature and emotional data into music, and is working on a similar project to generatively score films. Through her work on emotions in AI, she’s become particularly interested in the idea of “subjective data” and has started further research into this area, including creating unique datasets for machine learning.
+
+
+
+
+
+
+
+
+
+Holly Grimm
+
+                Mentor—Christy Dennison
+                Working from Santa Fe, NM
+                Twitter—@hollygrimm
+
+
+
+
+Holly Grimm is a Navajo software developer and painter. She believes that Machine Learning is an essential tool to solve many problems, ranging from practical to artistic. During her time as an OpenAI Scholar, she is researching everything she can about Reinforcement Learning (RL) with the goal of applying it to the process of art generation. Recently she studied the improvements that have been made to Deep Q-Networks and trained "Sonic the Hedgehog" with a Rainbow RL algorithm.
+
+
+
+
+
+
+
+
+
+
+Ifu Aniemeka
+
+                Mentor—Igor Mordatch
+                Working from Chicago, IL
+                Twitter—@ianiemeka
+
+
+
+
+Ifu is a software engineer from Chicago. She’s particularly interested in machine locomotion and the medical applications of machine learning. In her spare time, she practices Muay Thai. Check out her blog, where she talks about machine learning and makes superfluous references to Westworld.
+
+
+
+
+
+
+
+
+
+Munashe Shumba
+
+                Mentor—Yasaman Bahri
+                Working from New York, NY
+                Twitter—@munashe
+
+
+
+
+Munashe is the founder and CEO of Everyday AI, a new startup founded right before becoming an OpenAI Scholar, that creates customized artificial intelligence solutions for small- and medium-sized businesses. Munashe previously worked for several years at Google, where he advised large publishers on web technology and led software development for online advertising support. Originally from Zimbabwe, Munashe graduated from Brown University with a degree in computer engineering before joining Goldman Sachs as a software engineer. Munashe is currently on leave from Everyday AI while he completes the OpenAI Scholars program. His synopses of the most effective and novel techniques in deep learning, which he aims to communicate in accessible, non-technical language, can be found on Everyd-AI.com/blog.
+
+
+
+
+
+
+
+
+
+Nadja Rhodes
+
+                Mentor—Natasha Jaques
+                Working from Seattle, WA
+                Twitter—@ohnadj
+
+
+
+
+Nadja is a software engineer who originally hails from Maryland. While working at Microsoft, she joined an initiative to apply machine learning to note-taking at OneNote. She caught the ML bug and jumped at the opportunity to learn more as an OpenAI Scholar. She is spending this program learning as much as she can about language modeling, especially towards the goal of creative text generation.
+
+
+
+
+
+
+
+
+
+Sophia Arakelyan
+
+                Mentor—Alec Radford
+                Working from San Francisco, CA
+                Twitter—@sopharicks
+
+
+
+
+Sophia is an accomplished ballerina. For more than 15 years, she performed in many European countries, including Russia, Switzerland, and France. After an injury she had to end her dancing career. She transitioned to journalism and worked as a reporter with BusinessWeek (Moscow office) covering tech and finance topics; one of her articles was named “Article of the Year” by the Russian National Award for Journalism. For the last several years, she has worked as a writer with AI startups in Silicon Valley and has completed ML projects. You can learn about her path from ballet to AI in her personal blog.
+
+We selected Scholars with strong technical aptitude, interesting personal stories, and demonstrated self-starter initiative - important for a self-directed program like this one. They are all entering the field as newcomers, and we hope their progress shows how accessible machine learning is. After this first round of the Scholars program is complete, we'll share their final projects, in addition to a case study about the program.
+
+Thanks to AWS for providing compute credits to the scholars.
+
+
+
+
+
+
+
+
+Authors
+
+Larissa SchiavoGreg Brockman
+
+
+
+
+
+
+
+
+Filed Under
+
+AnnouncementsScholars
+
+
+
+
+
+
+
+
+
+
+Featured
+ChatGPT
+DALL·E 2
+Whisper
+Alignment
+Startup Fund
+
+
+
+
+API
+Overview
+Pricing
+Examples
+Docs
+Terms & Policies
+Status
+Log in
+
+
+
+
+Blog
+Index
+Research
+Announcements
+Events
+Milestones
+
+
+
+
+Information
+About Us
+Our Charter
+Our Research
+Publications
+Newsroom
+Careers
+
+
+
+
+
+OpenAI © 2015–2023 Privacy Policy Terms of Use
+
+
+ twitter   youtube   github   soundcloud   linkedin   facebook    twitter   youtube   github   soundcloud   linkedin   facebook  
+
+
+
+
+
+

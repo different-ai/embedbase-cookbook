@@ -1,0 +1,212 @@
+
+
+
+
+
+
+
+
+Gathering Human Feedback
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Introducing ChatGPT research release
+
+Try ChatGPT
+Learn more
+
+
+
+
+
+
+
+
+
+
+API
+Research
+Blog
+About
+
+
+API
+Research
+Blog
+About
+
+
+
+
+
+
+
+
+Gathering Human Feedback 
+
+
+
+
+
+
+
+
+August 3, 2017
+1 minute read
+
+
+
+
+
+
+
+
+
+
+RL-Teacher is an open-source implementation of our interface to train AIs via occasional human feedback rather than hand-crafted reward functions. The underlying technique was developed as a step towards safe AI systems, but also applies to reinforcement learning problems with rewards that are hard to specify.
+
+View Code
+
+
+
+    This simulated robot is being trained to do ballet via a human giving feedback. It's not obvious how to specify a reward function to achieve the same behavior.
+  
+
+The release contains three main components:
+
+A reward predictor that can be plugged into any agent and learns to predict the actions the agent could take that a human would approve of.
+An example agent that learns via a function specified by a reward predictor. RL-Teacher ships with three pre-integrated algorithms, including OpenAI Baselines PPO.
+A web-app that humans can use to give feedback, providing the data used to train the reward predictor.
+
+The entire system consists of less than 1,000 lines of Python code (excluding the agents). After you've set up your web server you can launch an experiment by running:
+$ python rl_teacher/teach.py -p human --pretrain_labels 175 -e Reacher-v1 -n human-175
+
+Humans can give feedback via a simple web interface (shown above), which can be run locally (not recommended) or on a separate machine. Full documentation is available on the project's GitHub repository. We're excited to see what AI researchers and engineers do with this technology — please get in touch with any experimental results!
+
+
+
+
+
+
+
+
+
+Authors
+
+Tom BrownDario AmodeiPaul Christiano
+
+
+
+
+
+
+
+
+Filed Under
+
+Research
+
+
+
+
+
+
+
+
+
+
+Featured
+ChatGPT
+DALL·E 2
+Whisper
+Alignment
+Startup Fund
+
+
+
+
+API
+Overview
+Pricing
+Examples
+Docs
+Terms & Policies
+Status
+Log in
+
+
+
+
+Blog
+Index
+Research
+Announcements
+Events
+Milestones
+
+
+
+
+Information
+About Us
+Our Charter
+Our Research
+Publications
+Newsroom
+Careers
+
+
+
+
+
+OpenAI © 2015–2023 Privacy Policy Terms of Use
+
+
+ twitter   youtube   github   soundcloud   linkedin   facebook    twitter   youtube   github   soundcloud   linkedin   facebook  
+
+
+
+
+
+

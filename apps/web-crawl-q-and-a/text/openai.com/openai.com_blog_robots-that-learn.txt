@@ -1,0 +1,237 @@
+
+
+
+
+
+
+
+
+Robots that Learn
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Introducing ChatGPT research release
+
+Try ChatGPT
+Learn more
+
+
+
+
+
+
+
+
+
+
+API
+Research
+Blog
+About
+
+
+API
+Research
+Blog
+About
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Robots that Learn 
+
+
+
+May 16, 2017
+3 minute read
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+We've created a robotics system, trained entirely in simulation and deployed on a physical robot, which can learn a new task after seeing it done once.
+
+Domain Randomization
+One-shot imitation learning
+
+
+
+
+
+
+Algorithms
+Last month, we showed an earlier version of this robot where we'd trained its vision system using domain randomization, that is, by showing it simulated objects with a variety of color, backgrounds, and textures, without the use of any real images.
+Now, we've developed and deployed a new algorithm, one-shot imitation learning, allowing a human to communicate how to do a new task by performing it in VR. Given a single demonstration, the robot is able to solve the same task from an arbitrary starting configuration.
+
+General procedure
+
+
+  Our system  can learn a behavior from a single demonstration delivered within a simulator, then reproduce that behavior in different setups in reality.
+
+The system is powered by two neural networks: a vision network and an imitation network.
+The vision network ingests an image from the robot's camera and outputs state representing the positions of the objects. As before, the vision network is trained with hundreds of thousands of simulated images with different perturbations of lighting, textures, and objects. (The vision system is never trained on a real image.)
+The imitation network observes a demonstration, processes it to infer the intent of the task, and then accomplishes the intent starting from another starting configuration. Thus, the imitation network must generalize the demonstration to a new setting. But how does the imitation network know how to generalize?
+The network learns this from the distribution of training examples. It is trained on dozens of different tasks with thousands of demonstrations for each task. Each training example is a pair of demonstrations that perform the same task. The network is given the entirety of the first demonstration and a single observation from the second demonstration. We then use supervised learning to predict what action the demonstrator took at that observation. In order to predict the action effectively, the robot must learn how to infer the relevant portion of the task from the first demonstration.
+Applied to block stacking, the training data consists of pairs of trajectories that stack blocks into a matching set of towers in the same order, but start from different start states. In this way, the imitation network learns to match the demonstrator's ordering of blocks and size of towers without worrying about the relative location of the towers.
+
+Block stacking
+The task of creating color-coded stacks of blocks is simple enough that we were able to solve it with a scripted policy in simulation. We used the scripted policy to generate the training data for the imitation network. At test time, the imitation network was able to parse demonstrations produced by a human, even though it had never seen messy human data before.
+The imitation network uses soft attention over the demonstration trajectory and the state vector which represents the locations of the blocks, allowing the system to work with demonstrations of variable length. It also performs attention over the locations of the different blocks, allowing it to imitate longer trajectories than it's ever seen, and stack blocks into a configuration that has more blocks than any demonstration in its training data.
+For the imitation network to learn a robust policy, we had to inject a modest amount of noise into the outputs of the scripted policy.  This forced the scripted policy to demonstrate how to recover when things go wrong, which taught the imitation network to deal with the disturbances from an imperfect policy. Without injecting the noise, the policy learned by the imitation network would usually fail to complete the stacking task.
+
+If you’d like to help us build this robot, join us at OpenAI.
+
+
+
+
+
+
+
+
+
+Authors
+
+Peter WelinderBob McGrewJonas SchneiderRocky DuanJosh TobinRachel FongAlex RayFilip WolskiVikash KumarJonathan HoMarcin AndrychowiczBradly StadieAnkur HandaMatthias PlappertErika ReinhardtPieter AbbeelGreg BrockmanIlya SutskeverJack ClarkWojciech Zaremba
+
+
+
+
+
+
+
+
+Filed Under
+
+ResearchMilestones
+
+
+
+
+
+
+
+
+
+
+Featured
+ChatGPT
+DALL·E 2
+Whisper
+Alignment
+Startup Fund
+
+
+
+
+API
+Overview
+Pricing
+Examples
+Docs
+Terms & Policies
+Status
+Log in
+
+
+
+
+Blog
+Index
+Research
+Announcements
+Events
+Milestones
+
+
+
+
+Information
+About Us
+Our Charter
+Our Research
+Publications
+Newsroom
+Careers
+
+
+
+
+
+OpenAI © 2015–2023 Privacy Policy Terms of Use
+
+
+ twitter   youtube   github   soundcloud   linkedin   facebook    twitter   youtube   github   soundcloud   linkedin   facebook  
+
+
+
+
+
+

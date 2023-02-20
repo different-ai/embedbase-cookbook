@@ -1,0 +1,146 @@
+
+
+
+
+
+
+
+
+DALL·E 2
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Introducing ChatGPT research release
+
+Try ChatGPT
+Learn more
+
+
+
+
+
+
+
+
+
+
+API
+Research
+Blog
+About
+
+
+API
+Research
+Blog
+About
+
+
+
+
+
+  Log in Sign up      DALL·E 2  DALL·E 2 is a new AI system that can create realistic images and art from a description in natural language.   Sign up   Follow on Instagram   View API Docs   View Research   Explore                                                                                                                                  DALL·E 2 can create original, realistic images and art from a text description. It can combine concepts, attributes, and styles.    DALL·E 2 can expand images beyond what's in the original canvas, creating expansive new compositions.     DALL·E 2 can make realistic edits to existing images from a natural language caption. It can add and remove elements while taking shadows, reflections, and textures into account.    DALL·E 2 can take an image and create different variations of it inspired by the original.   DALL·E 2 has learned the relationship between images and the text used to describe them. It uses a process called “diffusion,” which starts with a pattern of random dots and gradually alters that pattern towards an image when it recognizes specific aspects of that image.     play    DALL·E 2 Explained 2:47  In January 2021, OpenAI introduced DALL·E. One year later, our newest system, DALL·E 2, generates more realistic and accurate images with 4x greater resolution.    DALL·E 1          DALL·E 2         a painting of a fox sitting in a field at sunrise in the style of Claude Monet”   DALL·E 2 is preferred over DALL·E 1 for its caption matching and photorealism when evaluators were asked to compare 1,000 image generations from each model.   71.7% preferred forcaption matching   88.8% preferred forphotorealism    View Research Paper  DALL·E 2 began as a research project and is now available in beta. Safety mitigations we have developed and continue to improve upon include:           Preventing Harmful Generations We’ve limited the ability for DALL·E 2 to generate violent, hate, or adult images. By removing the most explicit content from the training data, we minimized DALL·E 2’s exposure to these concepts. We also used advanced techniques to prevent photorealistic generations of real individuals’ faces, including those of public figures.              Curbing Misuse Our content policy does not allow users to generate violent, adult, or political content, among other categories. We won’t generate images if our filters identify text prompts and image uploads that may violate our policies. We also have automated and human monitoring systems to guard against misuse.              Phased Deployment Based on Learning Learning from real-world use is an important part of developing and deploying AI responsibly. We began by previewing DALL·E 2 to a limited number of trusted users. As we learned more about the technology’s capabilities and limitations, and gained confidence in our safety systems, we slowly added more users and made DALL·E available in beta in July 2022.       Sign up Content Policy  Risks and Limitations    Our hope is that DALL·E 2 will empower people to express themselves creatively. DALL·E 2 also helps us understand how advanced AI systems see and understand our world, which is critical to our mission of creating AI that benefits humanity.      Research Advancements Aditya Ramesh, Prafulla Dhariwal, Alex Nichol, Casey Chu, Mark Chen   Engineering, Design, Product, and Prototyping Jeff Belgum, Dave Cummings, Jonathan Gordon, Chris Hallacy, Shawn Jain, Joanne Jang, Fraser Kelton, Vishal Kuo, Joel Lehman, Rachel Lim, Bianca Martin, Evan Morikawa, Rajeev Nayak, Glenn Powell, Krijn Rijshouwer, David Schnurr, Maddie Simens, Kenneth Stanley, Felipe Such, Chelsea Voss, Justin Jay Wang   Comms, Policy, Legal, Ops, Safety, and Security Steven Adler, Lama Ahmad, Miles Brundage, Kevin Button, Che Chang, Fotis Chantzis, Derek Chen, Frances Choi, Steve Dowling, Elie Georges, Shino Jomoto, Aris Konstantinidis, Gretchen Krueger, Andrew Mayne, Pamela Mishkin, Bob Rotsted, Natalie Summers, Dave Willner, Hannah Wong   Acknowledgments Thanks to those who helped with and provided feedback on this release: Sandhini Agarwal, Sam Altman, Chester Cho, Peter Hoeschele, Jacob Jackson, Jong Wook Kim, Matt Knight, Jason Kwon, Anna Makanju, Katie Mayer, Bob McGrew, Luke Miller, Mira Murati, Adam Nace, Hyeonwoo Noh, Cullen O’Keefe, Long Ouyang, Michael Petrov, Henrique Ponde de Oliveira Pinto, Alec Radford, Girish Sastry, Pranav Shyam, Aravind Srinivas, Ilya Sutskever, Preston Tuggle, Arun Vijayvergiya, Peter Welinder                                                                                                                                
+
+
+
+
+
+
+Featured
+ChatGPT
+DALL·E 2
+Whisper
+Alignment
+Startup Fund
+
+
+
+
+API
+Overview
+Pricing
+Examples
+Docs
+Terms & Policies
+Status
+Log in
+
+
+
+
+Blog
+Index
+Research
+Announcements
+Events
+Milestones
+
+
+
+
+Information
+About Us
+Our Charter
+Our Research
+Publications
+Newsroom
+Careers
+
+
+
+
+
+OpenAI © 2015–2023 Privacy Policy Terms of Use
+
+
+ twitter   youtube   github   soundcloud   linkedin   facebook    twitter   youtube   github   soundcloud   linkedin   facebook  
+
+
+
+
+
+
+

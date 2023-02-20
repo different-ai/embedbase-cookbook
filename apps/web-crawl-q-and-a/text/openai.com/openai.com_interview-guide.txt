@@ -1,0 +1,241 @@
+
+
+
+
+
+
+
+
+Interview Guide
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Introducing ChatGPT research release
+
+Try ChatGPT
+Learn more
+
+
+
+
+
+
+
+
+
+
+API
+Research
+Blog
+About
+
+
+API
+Research
+Blog
+About
+
+
+
+
+
+
+
+
+Interview Guide 
+
+
+
+
+
+
+
+
+February 4, 2020
+3 minute read
+
+
+
+
+
+
+
+
+
+
+A brief overview of OpenAI’s hiring philosophy and interview process, as well as some preparation tips and resources.
+
+Hiring philosophy
+
+Hiring mission. We seek to hire talented people with diverse perspectives and backgrounds who are passionate about collaboratively building safe AGI for all of humanity.
+Hiring values. We want to ensure all candidates go through a consistent interview process and have the opportunity to showcase their variety of strengths. We are not credential-driven—rather, we want to understand your unique background and what you can contribute to our team.
+What we look for. We’re excited about people who are already experts in their fields as well as people who are not yet specialized but show high potential. By “high potential” we mean people who have demonstrated the ability to ramp up quickly in a new domain and produce results. We care about collaboration, effective communication, openness to feedback, and alignment with our mission and values.
+
+Refer to our careers page for specific roles and technical requirements.
+Interview process
+OpenAI employees come from all different backgrounds and disciplines, but there is one thing that we all have in common: a dedication to our mission to build safe artificial intelligence that benefits all of humanity. Our interview process is a chance for us to get to know you, and for you to get to know us and learn what makes OpenAI, OpenAI. Below is an example of what you can expect if you apply for one of our roles. Your interview experience may differ from what’s below, but we strive for consistency to make sure all applicants have the same chance to showcase their strengths.
+
+
+
+
+
+
+Application and résumé review. Submit your application to positions that interest you here. It typically takes the recruiting team one week to review your resume and email you back.
+
+
+Introductory calls. If there is a potential fit, a recruiting coordinator will email you to schedule a conversation with the hiring manager or recruiter. Recruiters will answer any questions you have along the way.
+
+
+Be prepared to discuss your work and academic experience, motivations and goals. You can find OpenAI’s latest work on our blog. We recommend familiarizing yourself with our recent updates —  especially those that pertain to the team you are interviewing for.
+
+
+
+
+Skills-based assessment. Within a week, our recruiting team will let you know if you’ve progressed to the next stage. We’ll share details about your next assessment. Formats vary by team and may include: pair coding interviews, take-home projects, HackerRank tests, etc. We may ask you to complete more than one assessment depending on the role. The recruiting team will provide prep to set you up for success. After the assessment, you’ll hear within a week if you’ve advanced to the next round.
+
+
+Final interviews. By default, our interviews will continue to take place virtually. Depending on the current circumstances around COVID, you may choose to interview onsite at our office in San Francisco. Typically, our candidates go through 4-6 hours of final interviews with 4-6 people over 1-2 days.
+
+
+
+Interviews will be focused on your area of expertise and are designed to stretch you beyond your comfort zone.
+
+
+For engineering interviews, we generally look for well-designed solutions to the challenge, high-quality code, optimal performance, and good test coverage.
+
+
+We evaluate for strong communication and collaboration skills. Please give us insight into how you consider and solve problems.
+
+
+
+
+
+Decision. You should expect to hear from us within one week of your final interviews. Your recruiter may ask for references at this stage.
+
+
+
+
+
+
+
+
+Preparation
+General reading
+
+Read the OpenAI Charter
+Read research blog posts that you find interesting
+
+Recommended technical reading
+
+Deep Learning Book
+Spinning Up in Deep RL
+
+More resources and tips coming soon!
+
+View careers at OpenAI
+
+
+
+
+
+
+
+
+
+
+
+Featured
+ChatGPT
+DALL·E 2
+Whisper
+Alignment
+Startup Fund
+
+
+
+
+API
+Overview
+Pricing
+Examples
+Docs
+Terms & Policies
+Status
+Log in
+
+
+
+
+Blog
+Index
+Research
+Announcements
+Events
+Milestones
+
+
+
+
+Information
+About Us
+Our Charter
+Our Research
+Publications
+Newsroom
+Careers
+
+
+
+
+
+OpenAI © 2015–2023 Privacy Policy Terms of Use
+
+
+ twitter   youtube   github   soundcloud   linkedin   facebook    twitter   youtube   github   soundcloud   linkedin   facebook  
+
+
+
+
+
+

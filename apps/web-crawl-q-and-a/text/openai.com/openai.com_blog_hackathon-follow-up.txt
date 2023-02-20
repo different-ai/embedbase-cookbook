@@ -1,0 +1,218 @@
+
+
+
+
+
+
+
+
+Report from the OpenAI Hackathon
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Introducing ChatGPT research release
+
+Try ChatGPT
+Learn more
+
+
+
+
+
+
+
+
+
+
+API
+Research
+Blog
+About
+
+
+API
+Research
+Blog
+About
+
+
+
+
+
+
+
+
+Report from the OpenAI Hackathon 
+
+
+
+
+
+
+
+ 
+March 15, 2018
+3 minute read
+
+
+
+On March 3rd, we hosted our first hackathon with 100 members of the artificial intelligence community. We had over 500 RSVPs arrive within two days of announcing the event — if you didn't make it this time, please RSVP again in the future!
+Thank you to Cirrascale for providing GPU machines during the hackathon.
+The Crowd
+Our applicants included high schoolers, industry practitioners, engineers for nonprofits (not just at OpenAI!), researchers at universities, and more, with interests spanning healthcare to AGI. We could only accommodate one hundred people this time so we tried to pick a balanced crowd with a wide range of backgrounds and levels of experience. In particular, we strove to achieve gender balance; many attendees told us that this kind of representation made a positive difference for their experience of the hackathon.
+The Talks
+
+We kicked the day off with a series of talks on OpenAI’s mission and the technical topics that we focus on in our research. Sam Altman took questions on AGI timelines, safety issues, and the importance of avoiding AI arms races. Sam described how he personally came to focus on AI safety: he saw it as an underfunded, under-explored area with the potential to impact everyone. Josh Achiam gave an introduction to reinforcement learning, which is one of our main research areas; we've open-sourced the slides and sample code from his talk. Ilya Sutskever talked about self-play with RL agents; for an overview of the work covered, see our recent blog posts and code releases. Alec Radford provided a tutorial and survey of the many different kinds of GANs and we've made the tutorial code available.
+The Hacking
+
+After the talks wrapped up, the hacking began. Over the course of an 8-hour code sprint participants authored dozens of AI projects on topics ranging from safety to healthcare. Some of our favorites:
+
+Jiale Xian, Clarence Leung, Kyle Zheng, Madeline Hawkins, and Stergios Hetelekides worked on an image classifier to identify purine-rich seafoods that gout patients should avoid.
+
+
+
+
+
+Arthur Juliani implemented PPO with curiosity-based intrinsic rewards and trained an agent to smash block towers:
+
+
+
+
+
+High schoolers Ethan Knight and Osher Lerner worked on Natural Q-Learning based on one of our requests for research.
+Malhar Patel and Lee Redden worked on AeroEnv, a Gym interface for a physical robot.
+Rodger Luo implemented Q-learning in Processing, a programming tool for media artists.
+Andy Matuschak developed the scrying pen, a fun and unique tool for machine-assisted sketching based on SketchRNNs.
+James Giammona and Brad Neuberg generated ideas for how RL agents might avoid dangerous parts of the environment that they haven’t seen before.
+
+
+
+We got a lot of helpful feedback from hackathon attendees, which we'll use to make even more interesting events in the future: stay tuned! If you'd like to work on AI as your day job, you may be interested in our Scholars or Fellows programs (you're of course always welcome to apply full-time).
+
+
+
+
+
+
+
+
+
+Authors
+
+Joshua AchiamParnian Barekatain
+
+
+
+
+
+
+
+
+Filed Under
+
+Events
+
+
+
+
+
+
+
+
+
+
+Featured
+ChatGPT
+DALL·E 2
+Whisper
+Alignment
+Startup Fund
+
+
+
+
+API
+Overview
+Pricing
+Examples
+Docs
+Terms & Policies
+Status
+Log in
+
+
+
+
+Blog
+Index
+Research
+Announcements
+Events
+Milestones
+
+
+
+
+Information
+About Us
+Our Charter
+Our Research
+Publications
+Newsroom
+Careers
+
+
+
+
+
+OpenAI © 2015–2023 Privacy Policy Terms of Use
+
+
+ twitter   youtube   github   soundcloud   linkedin   facebook    twitter   youtube   github   soundcloud   linkedin   facebook  
+
+
+
+
+
+

@@ -1,0 +1,194 @@
+
+
+
+
+
+
+
+
+Welcome, Pieter and Shivon!
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Introducing ChatGPT research release
+
+Try ChatGPT
+Learn more
+
+
+
+
+
+
+
+
+
+
+API
+Research
+Blog
+About
+
+
+API
+Research
+Blog
+About
+
+
+
+
+
+
+
+
+Welcome, Pieter and Shivon! 
+
+
+
+
+
+
+
+ 
+April 26, 2016
+1 minute read
+
+
+
+We have two more team updates.
+
+
+ Pieter Abbeel. Pieter is a professor at UC Berkeley specializing in making robots learn. He's been giving us advice since before OpenAI was born, and now he's taking a leave from Berkeley to work with us full-time. Pieter and his lab members have been responsible for some of the most striking advances in robot learning and deep reinforcement learning (RL) in recent years. Together, we will explore ways to combine unsupervised learning with RL, which we believe could address fundamental limitations in today’s RL algorithms. 
+ Shivon Zilis. Shivon is a partner at Bloomberg Beta focusing on machine intelligence. She has an extremely broad view of how the space is evolving (and has written extensively on the landscape). We've been going to her for advice for the past few months, and now she's becoming an official advisor to OpenAI. 
+
+
+We could not be more excited to work with both. Welcome Pieter and Shivon!
+
+
+
+
+
+
+
+
+
+Authors
+
+Ilya Sutskever
+
+
+
+
+
+
+
+
+Filed Under
+
+Announcements
+
+
+
+
+
+
+
+
+
+
+Featured
+ChatGPT
+DALL·E 2
+Whisper
+Alignment
+Startup Fund
+
+
+
+
+API
+Overview
+Pricing
+Examples
+Docs
+Terms & Policies
+Status
+Log in
+
+
+
+
+Blog
+Index
+Research
+Announcements
+Events
+Milestones
+
+
+
+
+Information
+About Us
+Our Charter
+Our Research
+Publications
+Newsroom
+Careers
+
+
+
+
+
+OpenAI © 2015–2023 Privacy Policy Terms of Use
+
+
+ twitter   youtube   github   soundcloud   linkedin   facebook    twitter   youtube   github   soundcloud   linkedin   facebook  
+
+
+
+
+
+

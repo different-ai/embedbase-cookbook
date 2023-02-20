@@ -1,0 +1,261 @@
+
+
+
+
+
+
+
+
+Jan Leike - OpenAI
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Introducing ChatGPT research release
+
+Try ChatGPT
+Learn more
+
+
+
+
+
+
+
+
+
+
+API
+Research
+Blog
+About
+
+
+API
+Research
+Blog
+About
+
+
+
+
+
+
+
+
+Blog
+Jan Leike
+
+
+
+
+
+
+2023
+
+
+
+New AI classifier for indicating AI-written text
+
+
+January 31, 2023
+
+
+               — Announcements
+
+
+
+
+
+
+
+
+
+
+2022
+
+
+
+Our Approach to Alignment Research
+
+
+August 24, 2022
+
+
+               — Research
+
+
+
+
+
+
+
+
+
+
+2022
+
+
+
+AI-Written Critiques Help Humans Notice Flaws
+
+
+June 13, 2022
+
+
+               — Research
+
+
+
+
+
+
+
+
+
+
+2022
+
+
+
+Lessons Learned on Language Model Safety and Misuse
+
+
+March 3, 2022
+
+
+               — Research
+
+
+
+
+
+
+
+
+
+
+2022
+
+
+
+Aligning Language Models to Follow Instructions
+
+
+January 27, 2022
+
+
+               — Research
+
+
+
+
+
+
+
+
+
+
+2021
+
+
+
+Summarizing Books with Human Feedback
+
+
+September 23, 2021
+
+
+               — Research
+
+
+
+
+
+
+
+
+
+
+
+
+Featured
+ChatGPT
+DALL·E 2
+Whisper
+Alignment
+Startup Fund
+
+
+
+
+API
+Overview
+Pricing
+Examples
+Docs
+Terms & Policies
+Status
+Log in
+
+
+
+
+Blog
+Index
+Research
+Announcements
+Events
+Milestones
+
+
+
+
+Information
+About Us
+Our Charter
+Our Research
+Publications
+Newsroom
+Careers
+
+
+
+
+
+OpenAI © 2015–2023 Privacy Policy Terms of Use
+
+
+ twitter   youtube   github   soundcloud   linkedin   facebook    twitter   youtube   github   soundcloud   linkedin   facebook  
+
+
+
+
+
+

@@ -1,0 +1,230 @@
+
+
+
+
+
+
+
+
+OpenAI Five Benchmark
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Introducing ChatGPT research release
+
+Try ChatGPT
+Learn more
+
+
+
+
+
+
+
+
+
+
+API
+Research
+Blog
+About
+
+
+API
+Research
+Blog
+About
+
+
+
+
+
+
+
+
+OpenAI Five Benchmark 
+
+
+
+
+
+
+
+
+July 18, 2018
+3 minute read
+
+
+
+
+
+
+
+
+
+The OpenAI Five Benchmark match is now over!
+
+Watch the recordingSee the results
+
+
+We've removed the most significant restrictions on OpenAI Five's gameplay—namely, wards, Roshan, and mirror match of fixed heroes, and will soon benchmark our progress by playing 99.95th-percentile Dota players. The OpenAI Five Benchmark match will be held 12:30pm Pacific Time on August 5th in San Francisco. The human team will include Blitz, Cap, Fogged, and Merlini, some of whom are former professionals. The games will be streamed on our Twitch channel and casted by popular casters Purge and ODPixel.
+Last year our preliminary Dota system defeated the world's top professionals at the 1v1 version of Dota; last month OpenAI Five started defeating amateur teams at the full game of Dota (with some restrictions). This event will show whether we have any hope of reaching the level of top professionals by The International at the end of August.
+We'll kick off the OpenAI Five Benchmark with some warmup games against audience members; please let us know on the invite request form if you'd like to volunteer.
+Game rules
+Because our training system Rapid is very general, we were able to teach OpenAI Five many complex skills since June simply by integrating new features and randomizations. Many people pointed out that wards and Roshan were particularly important to include — and now we’ve done so. We've also increased the hero pool to 18 heroes. Many commenters thought these improvements would take another year. We'll see how well these new game mechanics work on August 5th!
+
+The latest version of OpenAI Five taking Roshan.
+
+We will play with the following restrictions (the crossed out restrictions are those lifted since the original OpenAI Five blog post), which correspond to the last bits of the game we haven't integrated:
+
+Pool of 18 heroes (Axe, Crystal Maiden, Death Prophet, Earthshaker, Gyrocopter, Lich, Lion, Necrophos, Queen of Pain, Razor, Riki, Shadow Fiend, Slark, Sniper, Sven, Tidehunter, Viper, or Witch Doctor) Mirror match of Necrophos, Sniper, Viper, Crystal Maiden, and Lich
+No Divine Rapier, Bottle , Quelling Blade, Boots of Travel, Tome of Knowledge, Infused Raindrop
+No summons/illusions
+5 invulnerable couriers, no exploiting them by scouting or tanking
+No Scan
+No warding
+No Roshan
+No invisibility (consumables and relevant items)
+
+We've increased the reaction time of OpenAI Five from 80ms to 200ms. This reaction time is much closer to human level, though we haven't seen evidence of changes in gameplay as OpenAI Five's strength comes more from teamwork and coordination than reflexes.
+
+Event schedule
+The final date for the match is August 5th, and will run as follows:
+
+12pm PT: doors open
+12:30pm PT: livestream begins with "for fun" audience games
+1:15pm PT: main event begins: intro and best-of-three versus 99.95th percentile Dota players
+
+
+Want to attend in person?
+If you'd like to attend the match in person in San Francisco, please request an invite by Friday 7/20 at 11:59p PT; invites will be sent by the end of Monday 7/23. Our venue is limited to 300 attendees, so we'll be selecting invitees based on their answers to the request form. If you've already requested an invite, you'll receive an email linking to this form as well.
+
+
+
+
+
+
+
+
+
+Authors
+
+OpenAI
+
+
+
+
+
+
+
+
+Filed Under
+
+OpenAI FiveEvents
+
+
+
+
+
+
+
+
+
+
+Featured
+ChatGPT
+DALL·E 2
+Whisper
+Alignment
+Startup Fund
+
+
+
+
+API
+Overview
+Pricing
+Examples
+Docs
+Terms & Policies
+Status
+Log in
+
+
+
+
+Blog
+Index
+Research
+Announcements
+Events
+Milestones
+
+
+
+
+Information
+About Us
+Our Charter
+Our Research
+Publications
+Newsroom
+Careers
+
+
+
+
+
+OpenAI © 2015–2023 Privacy Policy Terms of Use
+
+
+ twitter   youtube   github   soundcloud   linkedin   facebook    twitter   youtube   github   soundcloud   linkedin   facebook  
+
+
+
+
+
+

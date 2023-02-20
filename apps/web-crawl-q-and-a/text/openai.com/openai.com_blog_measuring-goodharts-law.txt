@@ -1,0 +1,241 @@
+
+
+
+
+
+
+
+
+Measuring Goodhart’s Law
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Introducing ChatGPT research release
+
+Try ChatGPT
+Learn more
+
+
+
+
+
+
+
+
+
+
+API
+Research
+Blog
+About
+
+
+API
+Research
+Blog
+About
+
+
+
+
+
+
+
+
+Measuring Goodhart’s Law 
+
+
+
+
+
+
+
+ 
+April 13, 2022
+5 minute read
+
+
+
+Goodhart’s law famously says: “When a measure becomes a target, it ceases to be a good measure.” Although originally from economics, it’s something we have to grapple with at OpenAI when figuring out how to optimize objectives that are difficult or costly to measure. It’s often necessary to introduce some proxy objective that’s easier or cheaper to measure, but when we do this, we need to be careful not to optimize it too much.
+For example, as part of our work to align models like GPT-3 with human intent and values, we would like to optimize things like “How helpful is this response?”, or “How factually accurate is this claim?”. These are complex objectives that require humans to carefully check things over. For this reason, we train a model to predict these human preferences, known as a reward model, and use the reward model’s predictions as a proxy objective. But it’s important to keep track of how well the true objective is being optimized.
+In this post we’ll look at some of the mathematics behind how we do this. We’ll focus on a setting that is particularly clean to analyze, in which we have access to the true objective. In practice, even human preferences can fail to measure what we really care about, but we’re setting that issue aside in this post.
+Best-of-$n$ sampling
+There are many ways in which one could optimize the proxy objective, but perhaps the simplest is best-of-$n$ sampling, also known as rejection sampling or reranking. We simply sample $n$ times and take the one that scores the highest according to the proxy objective.
+Although this method is very simple, it can actually be competitive with more advanced techniques such as reinforcement learning, albeit at the cost of more inference-time compute. For example, in WebGPT, our best-of-$64$ model outperformed our reinforcement learning model, perhaps in part because the best-of-$64$ model got to browse many more websites. Even applying best-of-$4$ provided a significant boost to human preferences.
+In addition, best-of-$n$ sampling has reliable performance and is straightforward to analyze mathematically, making it well-suited to empirical studies of Goodhart’s law and related phenomena.
+The mathematics of best-of-$n$ sampling
+Let’s study best-of-$n$ sampling more formally. Suppose we have some sample space $S$ (such as the set of possible question-answer pairs), some probability distribution $P$ over $S$, a true objective (or "reward") $R_{\text{true}}:S\to\mathbb R$, and a proxy objective $R_{\text{proxy}}:S\to\mathbb R$. Let’s say that we somehow optimize $R_{\text{proxy}}$ and thereby obtain some new distribution $P^\prime$. Then:
+
+The expectation $\mathbb E_{x^\prime\sim P^\prime}\left[R_{\text{true}}\left(x^\prime\right)\right]$ measures how well we have optimized the true objective.
+The KL divergence $D_{\text{KL}}\left(P^\prime\parallel P\right)$ measures how much optimization we have done. For example, if $P^\prime$ is obtained by taking the first sample from $P$ that lies in some subset $S^\prime\subseteq S$, then this KL divergence is just the negative log probability that a sample from $P$ lies in $S^\prime$.
+
+It turns out that in the case of best-of-$n$ sampling, both of these quantities can be estimated efficiently using samples from $P$.
+Let’s look at the expectation first. The naive approach is to use a Monte Carlo estimator: run best-of-$n$ sampling many times, measure the true objective on those samples, and average the results. However, there is a better estimator. If we have $N\geq n$ samples from $P$ overall, then we can simultaneously consider every possible subset of these samples of size $n$, weight each sample by the number of subsets for which it is the best according to the proxy objective, and then take the weighted average true objective score. This weight is just the binomial coefficient $\binom{k-1}{n-1}$, where $k$ is the rank of the sample under the proxy objective, from $1$ (worst) up to $N$ (best).[1] As well as using samples more efficiently, this also allows us to reuse samples for different values of $n$.
+As for the KL divergence, surprisingly, this turns out to have an exact formula that works for any continuous probability distribution $P$ (i.e., as long as $P$ has no point masses). One might naively guess that the answer is $\log n$, since best-of-$n$ is doing something like taking the top $\frac 1n$ of the distribution, and this is roughly correct: the exact answer is $\log n-\frac{n-1}n$.[2]
+Together, these estimators allow us to easily analyze how the true objective varies with the amount of optimization applied to the proxy objective.
+Here’s a real-life example from WebGPT:
+
+Best-of-$n$ performance for WebGPT 175B
+
+
+
+Best-of-$n$ performance for WebGPT, with shaded regions representing $\pm 1$ standard error, and the KL axis following a square root scale. Here, the original distribution ($P$) is given by the 175B model trained using behavior cloning, the proxy objective used to compute best-of-$n$ ($R_{\text{proxy}}$) is given by the training reward model, and we consider three putatively "true" objectives ($R_{\text{true}}$): the training reward model itself, a validation reward model trained on held-out data, and actual human preferences. There isn't much over-optimization of the proxy objective, but we would expect there to be at higher KLs.
+
+Going beyond best-of-$n$ sampling
+The main limitation of best-of-$n$ sampling is that the KL divergence grows logarithmically with $n$, so it is only suitable for applying a small amount of optimization.
+To apply more optimization, we typically use reinforcement learning. In the settings we’ve studied so far, such as summarization, we’ve typically been able to reach a KL of around 10 nats using reinforcement learning before the true objective starts to decrease due to Goodhart’s law. We’d have to take $n$ to be around 60,000 to reach this KL using best-of-$n$, and we hope to be able to reach much larger KLs than this with improvements to our reward modeling and reinforcement learning practices.
+However, not all nats are equal. Empirically, for small KL budgets, best-of-$n$ better optimizes both the proxy and the true objectives than reinforcement learning. Intuitively, best-of-$n$ is the "brute force" approach, making it more information-theoretically efficient than reinforcement learning, but less computationally efficient at large KLs.[3]
+We’re actively studying the scaling properties of proxy objectives as part of our work to align our models with human intent and values. If you’d like to help us with this research, we’re hiring!
+
+
+
+
+Acknowledgments
+
+Thanks to Suchir Balaji, Paul Christiano, William Guss, Vineet Kosaraju, John Schulman, Nisan Stiennon, Jeff Wu, and Daniel Ziegler for discussions related to the ideas in this post. Thanks to Greg Brockman, Jan Leike, Holly Mandel, John Schulman, and Jeff Wu for feedback on drafts. Thanks to Bianca Martin, Steve Dowling, Natalie Summers and Justin Jay Wang for communications and design.
+
+
+
+
+Footnotes
+
+
+
+
+The sum of these weights is $\binom{N}{n}$, giving a proof of the Hockey-stick identity. For a formal derivation of the estimator described here, see Appendix I of the WebGPT paper. ↩︎
+
+Hint: express the PDF of the best-of-$n$ distribution as a function of both the PDF and the CDF of the original distribution. ↩︎
+
+Best-of-$n$ is not necessarily optimal in the information-theoretic sense, however. For example, if $P$ has a heavy right tail, then for any $x>0$ and any $\varepsilon>0$, there is a distribution $Q$ such that $\mathbb E_{y\sim Q}\left[y\right]>x$ and $D_{\text{KL}}\left(Q\parallel P\right)<\varepsilon$ (exercise). ↩︎
+
+
+
+
+
+
+
+
+
+
+
+
+Authors
+
+Jacob HiltonLeo Gao
+
+
+
+
+
+
+
+
+Filed Under
+
+Research
+
+
+
+
+
+
+
+
+
+
+Featured
+ChatGPT
+DALL·E 2
+Whisper
+Alignment
+Startup Fund
+
+
+
+
+API
+Overview
+Pricing
+Examples
+Docs
+Terms & Policies
+Status
+Log in
+
+
+
+
+Blog
+Index
+Research
+Announcements
+Events
+Milestones
+
+
+
+
+Information
+About Us
+Our Charter
+Our Research
+Publications
+Newsroom
+Careers
+
+
+
+
+
+OpenAI © 2015–2023 Privacy Policy Terms of Use
+
+
+ twitter   youtube   github   soundcloud   linkedin   facebook    twitter   youtube   github   soundcloud   linkedin   facebook  
+
+
+
+
+
+

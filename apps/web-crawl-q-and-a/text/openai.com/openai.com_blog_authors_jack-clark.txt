@@ -1,0 +1,429 @@
+
+
+
+
+
+
+
+
+Jack Clark - OpenAI
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Introducing ChatGPT research release
+
+Try ChatGPT
+Learn more
+
+
+
+
+
+
+
+
+
+
+API
+Research
+Blog
+About
+
+
+API
+Research
+Blog
+About
+
+
+
+
+
+
+
+
+Blog
+Jack Clark
+
+
+
+
+
+
+2019
+
+
+
+GPT-2: 1.5B Release
+
+
+November 5, 2019
+
+
+               — Research, GPT-2
+
+
+
+
+
+
+
+
+
+
+2019
+
+
+
+GPT-2: 6-Month Follow-Up
+
+
+August 20, 2019
+
+
+               — Research, GPT-2
+
+
+
+
+
+
+
+
+
+
+2019
+
+
+
+Why Responsible AI Development Needs Cooperation on Safety
+
+
+July 10, 2019
+
+
+               — Research
+
+
+
+
+
+
+
+
+
+
+2019
+
+
+
+Better Language Models and Their Implications
+
+
+February 14, 2019
+
+
+               — Research, Milestones, GPT-2
+
+
+
+
+
+
+
+
+
+
+2018
+
+
+
+AI and Compute
+
+
+May 16, 2018
+
+
+               — Research
+
+
+
+
+
+
+
+
+
+
+2018
+
+
+
+Preparing for Malicious Uses of AI
+
+
+February 20, 2018
+
+
+               — Research
+
+
+
+
+
+
+
+
+
+
+2017
+
+
+
+Robots that Learn
+
+
+May 16, 2017
+
+
+               — Research, Milestones
+
+
+
+
+
+
+
+
+
+
+2017
+
+
+
+Unsupervised Sentiment Neuron
+
+
+April 6, 2017
+
+
+               — Research, Milestones
+
+
+
+
+
+
+
+
+
+
+2017
+
+
+
+Spam Detection in the Physical World
+
+
+April 1, 2017
+
+
+               — Research
+
+
+
+
+
+
+
+
+
+
+2017
+
+
+
+Learning to Communicate
+
+
+March 16, 2017
+
+
+               — Research
+
+
+
+
+
+
+
+
+
+
+2017
+
+
+
+Attacking Machine Learning with Adversarial Examples
+
+
+February 24, 2017
+
+
+               — Research
+
+
+
+
+
+
+
+
+
+
+2017
+
+
+
+Team Update
+
+
+January 30, 2017
+
+
+               — Announcements
+
+
+
+
+
+
+
+
+
+
+2016
+
+
+
+Faulty Reward Functions in the Wild
+
+
+December 21, 2016
+
+
+               — Research
+
+
+
+
+
+
+
+
+
+
+2016
+
+
+
+Report from the Self-Organizing Conference
+
+
+October 13, 2016
+
+
+               — Events
+
+
+
+
+
+
+
+
+
+
+
+
+Featured
+ChatGPT
+DALL·E 2
+Whisper
+Alignment
+Startup Fund
+
+
+
+
+API
+Overview
+Pricing
+Examples
+Docs
+Terms & Policies
+Status
+Log in
+
+
+
+
+Blog
+Index
+Research
+Announcements
+Events
+Milestones
+
+
+
+
+Information
+About Us
+Our Charter
+Our Research
+Publications
+Newsroom
+Careers
+
+
+
+
+
+OpenAI © 2015–2023 Privacy Policy Terms of Use
+
+
+ twitter   youtube   github   soundcloud   linkedin   facebook    twitter   youtube   github   soundcloud   linkedin   facebook  
+
+
+
+
+
+

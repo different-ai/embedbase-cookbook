@@ -1,0 +1,286 @@
+
+
+
+
+
+
+
+
+DALL·E Now Available Without Waitlist
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Introducing ChatGPT research release
+
+Try ChatGPT
+Learn more
+
+
+
+
+
+
+
+
+
+
+API
+Research
+Blog
+About
+
+
+API
+Research
+Blog
+About
+
+
+
+
+
+
+
+
+
+
+
+DALL·E Now Available Without Waitlist 
+
+
+
+September 28, 2022
+2 minute read
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+New users can start creating straight away. Lessons learned from deployment and improvements to our safety systems make wider availability possible.
+
+Sign up
+
+
+Starting today, we are removing the waitlist for the DALL·E beta so users can sign up and start using it immediately. More than 1.5M users are now actively creating over 2M images a day with DALL·E—from artists and creative directors to authors and architects—with over 100K users sharing their creations and feedback in our Discord community.
+Responsibly scaling a system as powerful and complex as DALL·E—while learning about all the creative ways it can be used and misused—has required an iterative deployment approach.
+Since we first previewed the DALL·E research to users in April, users have helped us discover new uses for DALL·E as a powerful creative tool. Artists, in particular, have provided important input on DALL·E’s features.
+
+
+
+
+
+
+
+”Cyberpunk cat, 90s Japan anime style“ by OpenAI
+
+
+
+
+
+
+”Wildflowers, grassy field, autumn rhythm, watercolor“ by OpenAI
+
+
+
+
+
+
+”Running at the edge of space, toward a planet, calm, reaching the abyss, digital art“ by OpenAI
+
+ 
+
+
+      Follow @openaidalle
+    
+
+ 
+Their feedback inspired us to build features like Outpainting, which lets users continue an image beyond its original borders and create bigger images of any size, and collections—so users can create in all new ways and expedite their creative processes.
+Learning from real-world use has allowed us to improve our safety systems, making wider availability possible today. In the past months, we’ve made our filters more robust at rejecting attempts to generate sexual, violent and other content that violates our content policy and built new detection and response techniques to stop misuse.
+We are currently testing a DALL·E API with several customers and are excited to soon offer it more broadly to developers and businesses so they can build apps on this powerful system.
+We can't wait to see what users from around the world create with DALL·E. Sign up today and start creating.
+
+Sign up
+
+
+
+
+
+
+
+Our journey over the past few months includes:
+
+DALL·E beta is available without a waitlist, over 1.5M users creating more than 2M images per day
+
+
+
+Outpainting is added to the Edit tool
+
+
+
+DALL·E available in beta with pricing, which enabled onboarding over 1 million users
+
+
+
+1,000 users per week onboarded to research preview
+
+
+
+DALL·E 2 paper published and Research Preview available to 200 artists, researchers, and trusted users
+
+
+First version of GLIDE paper is published
+
+
+
+Diffusion models outperform GANs on ImageNet synthesis
+
+
+
+OpenAI announces the first DALL·E and open-sources CLIP
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Authors
+
+OpenAI
+
+
+
+
+
+
+
+
+Filed Under
+
+Announcements
+
+
+
+
+
+
+
+
+
+
+Featured
+ChatGPT
+DALL·E 2
+Whisper
+Alignment
+Startup Fund
+
+
+
+
+API
+Overview
+Pricing
+Examples
+Docs
+Terms & Policies
+Status
+Log in
+
+
+
+
+Blog
+Index
+Research
+Announcements
+Events
+Milestones
+
+
+
+
+Information
+About Us
+Our Charter
+Our Research
+Publications
+Newsroom
+Careers
+
+
+
+
+
+OpenAI © 2015–2023 Privacy Policy Terms of Use
+
+
+ twitter   youtube   github   soundcloud   linkedin   facebook    twitter   youtube   github   soundcloud   linkedin   facebook  
+
+
+
+
+
+

@@ -1,0 +1,237 @@
+
+
+
+
+
+
+
+
+OpenAI Five Finals
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Introducing ChatGPT research release
+
+Try ChatGPT
+Learn more
+
+
+
+
+
+
+
+
+
+
+API
+Research
+Blog
+About
+
+
+API
+Research
+Blog
+About
+
+
+
+
+
+
+
+
+
+
+
+OpenAI Five Finals 
+
+
+
+March 26, 2019
+2 minute read
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+We'll be holding our final live event for OpenAI Five at 11:30a PT on April 13th. We’ll showcase aspects of OpenAI Five which we think illustrate how humans and AI will interact in the future. We believe that AI's impact on the world will be driven by its competence, scalability, and ability to enhance what humans can do—and this event will use OpenAI Five to concretely demonstrate each of these. We hope Finals will help people better internalize AI progress and how it will affect the world.
+
+
+Watch on Twitch
+
+Request to attend
+
+
+
+
+Your browser does not support video
+
+A sneak peak of a visualization of OpenAI Five's objectives.
+
+We started working with Dota 2 because we expected it to be a good testbed for developing general-purpose AI technologies. It has additionally turned out to be a great avenue for helping people experience modern AI—which we expect to become a high-stakes part of people's lives in the future, starting with systems like self-driving cars.
+
+
+
+
+
+As part of the event, we're honored to compete against the reigning Dota 2 world champions, OG, who will test OpenAI Five at the limits of human ability. We'll also be joined by Blitz, Capitalist, ODPixel, Purge, and Sheever. Games will be played with rules similar to those used for the OpenAI Five matches at The International 2018.
+Watch the Event
+OpenAI Five Finals will be hosted in the Bay Area on April 13th. The event will run from 11:30a to about 4p (exact length depends on game duration). Doors will open at 11a.
+
+
+
+
+
+
+
+
+
+Last year's Benchmark—a taste of what Finals will be like.
+
+If you’d like to attend in person, please request an invite by Friday 3/29 at 9:00pm PT; invites will be sent by the end of Monday 4/1. Our venue has limited seating, so we’ll be selecting invitees based on their answers to the request form.
+If you can't attend in person, please tune in on Twitch!
+
+
+
+
+
+
+
+
+
+Authors
+
+OpenAI
+
+
+
+
+
+
+
+
+Filed Under
+
+ResearchOpenAI FiveEvents
+
+
+
+
+
+
+
+
+
+
+Featured
+ChatGPT
+DALL·E 2
+Whisper
+Alignment
+Startup Fund
+
+
+
+
+API
+Overview
+Pricing
+Examples
+Docs
+Terms & Policies
+Status
+Log in
+
+
+
+
+Blog
+Index
+Research
+Announcements
+Events
+Milestones
+
+
+
+
+Information
+About Us
+Our Charter
+Our Research
+Publications
+Newsroom
+Careers
+
+
+
+
+
+OpenAI © 2015–2023 Privacy Policy Terms of Use
+
+
+ twitter   youtube   github   soundcloud   linkedin   facebook    twitter   youtube   github   soundcloud   linkedin   facebook  
+
+
+
+
+
+

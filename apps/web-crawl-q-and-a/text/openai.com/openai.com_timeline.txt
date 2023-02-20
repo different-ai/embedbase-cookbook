@@ -1,0 +1,668 @@
+
+
+
+
+
+
+
+
+Timeline
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Introducing ChatGPT research release
+
+Try ChatGPT
+Learn more
+
+
+
+
+
+
+
+
+
+
+API
+Research
+Blog
+About
+
+
+API
+Research
+Blog
+About
+
+
+
+
+
+
+
+
+2015–2022
+
+
+
+2015
+
+
+
+Introducing OpenAI
+
+
+December 11, 2015
+
+
+               — Announcements
+
+
+
+
+
+
+
+
+
+
+2016
+
+
+
+OpenAI Gym Beta
+
+
+April 27, 2016
+
+
+               — Research
+
+
+
+
+
+
+
+
+
+
+2016
+
+
+
+Universe
+
+
+December 5, 2016
+
+
+               — Research
+
+
+
+
+
+
+
+
+
+
+2017
+
+
+
+Proximal Policy Optimization
+
+
+July 20, 2017
+
+
+               — Research, Milestones
+
+
+
+
+
+
+
+
+
+
+2017
+
+
+
+Dota 2
+
+
+August 11, 2017
+
+
+               — Research, OpenAI Five
+
+
+
+
+
+
+
+
+
+
+2018
+
+
+
+Preparing for Malicious Uses of AI
+
+
+February 20, 2018
+
+
+               — Research
+
+
+
+
+
+
+
+
+
+
+2018
+
+
+
+OpenAI Charter
+
+
+April 9, 2018
+
+
+               — Announcements, Milestones
+
+
+
+
+
+
+
+
+
+
+2018
+
+
+
+Learning Dexterity
+
+
+July 30, 2018
+
+
+               — Research, Milestones
+
+
+
+
+
+
+
+
+
+
+2019
+
+
+
+Better Language Models and Their Implications
+
+
+February 14, 2019
+
+
+               — Research, Milestones, GPT-2
+
+
+
+
+
+
+
+
+
+
+2019
+
+
+
+OpenAI LP
+
+
+March 11, 2019
+
+
+               — Announcements
+
+
+
+
+
+
+
+
+
+
+2019
+
+
+
+OpenAI Five Defeats Dota 2 World Champions
+
+
+April 15, 2019
+
+
+               — Research, OpenAI Five
+
+
+
+
+
+
+
+
+
+
+2019
+
+
+
+MuseNet
+
+
+April 25, 2019
+
+
+               — Research, Milestones
+
+
+
+
+
+
+
+
+
+
+2019
+
+
+
+Microsoft Invests In and Partners with OpenAI to Support Us Building Beneficial AGI
+
+
+July 22, 2019
+
+
+               — Announcements
+
+
+
+
+
+
+
+
+
+
+2019
+
+
+
+GPT-2: 6-Month Follow-Up
+
+
+August 20, 2019
+
+
+               — Research, GPT-2
+
+
+
+
+
+
+
+
+
+
+2019
+
+
+
+Emergent Tool Use from Multi-Agent Interaction
+
+
+September 17, 2019
+
+
+               — Research, Milestones
+
+
+
+
+
+
+
+
+
+
+2019
+
+
+
+Solving Rubik’s Cube with a Robot Hand
+
+
+October 15, 2019
+
+
+               — Research, Milestones
+
+
+
+
+
+
+
+
+
+
+2019
+
+
+
+GPT-2: 1.5B Release
+
+
+November 5, 2019
+
+
+               — Research, GPT-2
+
+
+
+
+
+
+
+
+
+
+2020
+
+
+
+Jukebox
+
+
+April 30, 2020
+
+
+               — Research, Milestones
+
+
+
+
+
+
+
+
+
+
+2020
+
+
+
+OpenAI API
+
+
+June 11, 2020
+
+
+               — API, Announcements
+
+
+
+
+
+
+
+
+
+
+2021
+
+
+
+CLIP: Connecting Text and Images
+
+
+January 5, 2021
+
+
+               — Research, Milestones, Multimodal
+
+
+
+
+
+
+
+
+
+
+2021
+
+
+
+DALL·E: Creating Images from Text
+
+
+January 5, 2021
+
+
+               — Research, Milestones, Multimodal
+
+
+
+
+
+
+
+
+
+
+2021
+
+
+
+Multimodal Neurons in Artificial Neural Networks
+
+
+March 4, 2021
+
+
+               — Research, Milestones, Multimodal
+
+
+
+
+
+
+
+
+
+
+2021
+
+
+
+OpenAI Codex
+
+
+August 10, 2021
+
+
+               — API, Announcements
+
+
+
+
+
+
+
+
+
+
+2022
+
+
+
+DALL·E 2
+
+
+April 6, 2022
+
+
+               — Research, Multimodal
+
+
+
+
+
+
+
+
+
+
+2022
+
+
+
+ChatGPT: Optimizing Language Models for Dialogue
+
+
+November 30, 2022
+
+
+               — Announcements, Research
+
+
+
+
+
+
+
+
+
+
+
+
+
+Featured
+ChatGPT
+DALL·E 2
+Whisper
+Alignment
+Startup Fund
+
+
+
+
+API
+Overview
+Pricing
+Examples
+Docs
+Terms & Policies
+Status
+Log in
+
+
+
+
+Blog
+Index
+Research
+Announcements
+Events
+Milestones
+
+
+
+
+Information
+About Us
+Our Charter
+Our Research
+Publications
+Newsroom
+Careers
+
+
+
+
+
+OpenAI © 2015–2023 Privacy Policy Terms of Use
+
+
+ twitter   youtube   github   soundcloud   linkedin   facebook    twitter   youtube   github   soundcloud   linkedin   facebook  
+
+
+
+
+
+

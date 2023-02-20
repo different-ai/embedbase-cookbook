@@ -1,0 +1,464 @@
+
+
+
+
+
+
+
+
+OpenAI API
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Introducing ChatGPT research release
+
+Try ChatGPT
+Learn more
+
+
+
+
+
+
+
+
+
+
+API
+Research
+Blog
+About
+
+
+API
+Research
+Blog
+About
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Overview
+Pricing
+Docs
+Examples
+
+
+Log in
+Sign up
+
+
+
+
+Overview
+
+Pricing
+
+Docs
+
+Examples
+
+
+
+
+Build next-gen apps with OpenAI’s powerful models.
+
+        Access GPT-3, which performs a variety of natural language tasks, Codex, which translates natural language to code, and DALL·E, which creates and edits original images.
+      
+Get started
+Read Documentation
+
+
+
+
+
+
+
+Developers can now begin building apps with the DALL·E API.
+
+
+
+More than 3 million people are already using DALL·E to extend their creativity and speed up their workflows, generating over 4 million images a day. Get started with this same technology in a matter of minutes.
+Get started
+Learn more
+
+
+
+
+
+
+
+Start building with a simple API call.
+
+Get started
+Read Documentation
+import openai
+
+openai.Completion.create(
+  engine="davinci",
+  prompt="Make a list of astronomical observatories:"
+)
+
+
+
+
+
+
+
+Copywriting
+Summarization
+Parsing unstructured text
+Classification
+Translation
+
+
+
+
+Create promo copy for the FamilyTime mobile application. It allows unlimited uploading, special filters and makes it easy to create albums of photos and videos. It runs on iOS and Android:
+FamilyTime is the perfect app to share and create memories with your family. FamilyTime is a free, unlimited photo and video editor that allows you to create albums of your memories. It has a special filter for the perfect summer look and is so simple to use.
+
+
+Summarize this email into a single sentence:
+              
+
+              Dear Olivia,
+              
+
+              The solar energy conference went great. New Horizon Manufacturing wants to meet with us to talk about our photovoltaic window system we’re about to launch. 
+              
+              I think it would be great to talk this Tuesday.
+              
+
+              Best,
+              
+              Allison
+              
+Allison is excited to meet with New Horizon Manufacturing to discuss their photovoltaic window system.
+
+
+Answer the following questions about this customer email:
+              
+
+              I’m wondering if you could provide me with information about your cloud services for companies. I’m CTO for Moon Door, a movie production company and want to know if it can help us manage our different projects that are in production.
+              
+
+              Questions:
+              
+              1. What industry is the company
+              
+              2. What is the name of the company
+              
+              3. What are they interested in
+              
+              4. What is the customer’s position
+              
+
+              Answers:
+              
+1. The company is in the movie production industry.2. The company is Moon Door.3. The customer is interested in cloud services for companies.4. The customer is the CTO.
+
+
+Choose a genre category for each book 1. The Hunger Games, 2. The Kite Runner  3. A Wrinkle in Time ("fiction", "young adult", "science fiction", "fantasy", "other") and make a list of the book and its genre:
+1. The Hunger Games: young adult, fiction2. The Kite Runner: fiction, young adult3. A Wrinkle in Time: science fiction, fantasy, other
+
+
+Translate this into French: Where can I find a bookstore?
+Où puis-je trouver un magasin de livres?
+
+
+
+
+
+Perform a wide variety of natural language tasks with GPT-3.
+
+Get started
+See more examples
+
+
+
+
+
+
+
+
+
+Translate natural language to code with Codex.
+
+Learn more
+See more examples
+
+
+
+
+
+
+Text to SQL translation
+Calling an API via natural language
+Code continuation
+
+
+
+"""
+Table customers, columns = [CustomerId, FirstName, LastName, Company, Address, City, State, Country, PostalCode, Phone, Fax, Email, SupportRepId, TotalSpend]
+
+Create a MySQL query for all customers in Texas who have spent over five thousand dollars.
+"""
+
+query = "SELECT * FROM customers WHERE State = 'TX' AND TotalSpend > 5000"
+"""
+Python 3
+Get the current value of a Bitcoin in US dollars using the bitcoincharts api
+"""
+
+import requests
+import json
+
+def get_bitcoin_price():
+    url = 'http://api.bitcoincharts.com/v1/weighted_prices.json'
+    response = requests.get(url)
+    data = json.loads(response.text)
+    return data['USD']['7d']
+
+if __name__ == '__main__':
+    print(get_bitcoin_price())
+"""
+Extract all the html from the string and replace the tags with ''
+"""
+
+def extract_html(text):
+    return re.sub('<[^<]+?>', '', text)
+
+
+
+
+
+
+
+lightningFast
+Our advanced inference infrastructure provides extremely short response times.
+
+
+expandScalable
+We can handle high volume requests that scale with your needs.
+
+
+forkFlexible
+Easy to use and flexible enough to make machine learning teams more productive.
+
+
+
+
+
+
+
+
+Like our developers, we strive to ensure machine learning models are used responsibly.
+
+
+
+We help developers use best practices and provide tools, including:
+
+Free content filtering
+End user monitoring to prevent misuse
+Specialized endpoints to scope API usage
+
+Our API allows us to review applications before they go live, continually improve our safety tools, help developers scale over time, and better understand the effects of our technology.
+
+Get started
+
+
+
+
+
+
+Built with OpenAI’s API
+Our API has been deployed in thousands of applications with tasks ranging from helping people learn new languages to solving complex classification problems.
+
+
+
+
+GitHub Copilot
+AI pair programmer that helps you write code faster with less work. Using Codex, GitHub Copilot applies the context in your editor and synthesizes whole lines and even entire functions of code.
+
+
+
+Keeper Tax
+Helps freelancers automatically find tax-deductible expenses by using GPT-3 to interpret data from their bank statements into usable transaction information.
+
+
+
+Viable
+Helps businesses better and more quickly understand what customers are telling them by using language models, including GPT-3, to analyze customer feedback and generate summaries and insights.
+
+
+
+Duolingo
+Uses GPT-3 to provide French grammar corrections. An internal Duolingo study shows that use of this feature leads to measurably better second language writing skills!
+
+
+
+
+
+
+Get started with OpenAI’s powerful language and code generation models.
+Get started
+
+
+
+
+
+
+Blog
+
+
+
+New and Improved Embedding Model
+
+
+December 15, 2022
+
+
+         — Announcements, API
+
+
+
+
+DALL·E API Now Available in Public Beta
+
+
+November 3, 2022
+
+
+         — Announcements, API
+
+
+
+
+Powering Next Generation Applications with OpenAI Codex
+
+
+May 24, 2022
+
+
+         — Announcements, API
+
+
+
+View All API Blog Posts
+
+
+
+
+
+
+
+
+
+Featured
+ChatGPT
+DALL·E 2
+Whisper
+Alignment
+Startup Fund
+
+
+
+
+API
+Overview
+Pricing
+Examples
+Docs
+Terms & Policies
+Status
+Log in
+
+
+
+
+Blog
+Index
+Research
+Announcements
+Events
+Milestones
+
+
+
+
+Information
+About Us
+Our Charter
+Our Research
+Publications
+Newsroom
+Careers
+
+
+
+
+
+OpenAI © 2015–2023 Privacy Policy Terms of Use
+
+
+ twitter   youtube   github   soundcloud   linkedin   facebook    twitter   youtube   github   soundcloud   linkedin   facebook  
+
+
+
+
+
+
+

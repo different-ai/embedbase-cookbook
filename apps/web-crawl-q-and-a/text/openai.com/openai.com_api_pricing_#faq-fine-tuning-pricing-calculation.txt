@@ -1,0 +1,662 @@
+
+
+
+
+
+
+
+
+Pricing
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Introducing ChatGPT research release
+
+Try ChatGPT
+Learn more
+
+
+
+
+
+
+
+
+
+
+API
+Research
+Blog
+About
+
+
+API
+Research
+Blog
+About
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Overview
+Pricing
+Docs
+Examples
+
+
+Log in
+Sign up
+
+
+
+
+Overview
+
+Pricing
+
+Docs
+
+Examples
+
+
+
+
+Pricing
+
+      Simple and flexible. Only pay for what you use.
+    
+Get started
+Contact sales
+
+
+
+
+
+
+Image models
+Build DALL·E directly into your apps to generate and edit novel images and art. Our image models offer three tiers of resolution for flexibility.
+Learn more
+
+
+
+
+
+
+Resolution
+Price
+
+
+1024×1024
+$0.020 / image
+
+
+512×512
+$0.018 / image
+
+
+256×256
+$0.016 / image
+
+
+
+
+
+
+
+
+Language models
+
+Base models
+
+
+
+
+
+
+                Ada Fastest
+
+
+$0.0004
+ / 1K tokens
+
+
+
+
+
+
+
+
+                Babbage 
+              
+
+$0.0005
+ / 1K tokens
+
+
+
+
+
+
+
+
+                Curie 
+              
+
+$0.0020
+ / 1K tokens
+
+
+
+
+
+
+
+
+                Davinci Most powerful
+
+
+$0.0200
+ / 1K tokens
+
+
+
+
+
+
+Multiple models, each with different capabilities and price points. Ada is the fastest model, while Davinci is the most powerful.
+Prices are per 1,000 tokens. You can think of tokens as pieces of words, where 1,000 tokens is about 750 words. This paragraph is 35 tokens.
+Learn more
+
+
+
+
+
+
+flagStart for free
+Start experimenting with $18 in free credit that can be used during your first 3 months.
+
+
+barupPay as you go
+To keep things simple and flexible, pay only for the resources you use.
+
+
+checkChoose your model
+Use the right model for the job. We offer a spectrum of capabilities and price points.
+
+
+
+
+
+
+
+
+Fine-tuned models
+Create your own custom models by fine-tuning our base models with your training data. Once you fine-tune a model, you'll be billed only for the tokens you use in requests to that model.
+Learn more
+
+
+
+
+
+
+Model
+Training
+Usage
+
+
+Ada
+$0.0004 / 1K tokens
+$0.0016 / 1K tokens
+
+
+Babbage
+$0.0006 / 1K tokens
+$0.0024 / 1K tokens
+
+
+Curie
+$0.0030 / 1K tokens
+$0.0120 / 1K tokens
+
+
+Davinci
+$0.0300 / 1K tokens
+$0.1200 / 1K tokens
+
+
+
+
+
+
+
+
+
+Embedding models
+Build advanced search, clustering, topic modeling, and classification functionality with our embeddings offering.
+
+
+
+
+
+
+
+Model
+Usage
+
+
+Ada
+
+$0.0004
+/ 1K tokens
+
+
+
+This Ada model, text-embedding-ada-002, is a better and lower cost replacement for our older embedding models. Show old pricing
+
+
+
+Model
+Usage
+
+
+Ada v1
+
+$0.0040
+/ 1K tokens
+
+
+
+Babbage v1
+
+$0.0050
+/ 1K tokens
+
+
+
+Curie v1
+
+$0.0200
+/ 1K tokens
+
+
+
+Davinci v1
+
+$0.2000
+/ 1K tokens
+
+
+
+
+
+
+
+
+
+
+
+Usage quotas
+
+
+Because this technology is new, we also want to make sure that rollouts are done responsibly. When you sign up, you’ll be granted an initial spend limit, or quota, and we’ll increase that limit over time as you build a track record with your application. If you need more tokens, you can always request a quota increase.
+
+
+
+
+
+
+
+
+Frequently Asked Questions
+
+
+
+
+
+
+What's a token?
+navigatedown
+navigateup
+
+
+
+
+You can think of tokens as pieces of words used for natural language processing. For English text, 1 token is approximately 4 characters or 0.75 words. As a point of reference, the collected works of Shakespeare are about 900,000 words or 1.2M tokens.
+To learn more about how tokens work and estimate your usage…
+
+Experiment with our interactive Tokenizer tool.
+Log in to your account and enter text into the Playground. The counter in the footer will display how many tokens are in your text.
+
+
+
+
+
+
+
+
+
+Which model should I use?
+navigatedown
+navigateup
+
+
+
+
+While Davinci is generally the most capable model, the other models can perform certain tasks extremely well and, in some cases, significantly faster. They also have cost advantages. For example, Curie can perform many of the same tasks as Davinci, but faster and for 1/10th the cost. We encourage developers to experiment to find the model that’s most efficient for your application. Visit our documentation for a more detailed model comparison.
+
+
+
+
+
+
+
+
+How will I know how many tokens I've used each month?
+navigatedown
+navigateup
+
+
+
+
+Log in to your account to view your usage tracking dashboard. This page will show you how many tokens you've used during the current and past billing cycles.
+
+
+
+
+
+
+
+
+How can I manage my spending?
+navigatedown
+navigateup
+
+
+
+
+You can configure a usage hard limit in your billing settings, after which we’ll stop serving your requests. You may also configure a soft limit to receive an email alert once you pass a certain usage threshold. There may be a delay in enforcing the limit, and you are responsible for any overage incurred. We recommend checking your usage tracking dashboard regularly to monitor your spend.
+
+
+
+
+
+
+
+
+Does Playground usage count against my quota?
+navigatedown
+navigateup
+
+
+
+
+Yes, we treat Playground usage the same as regular API usage.
+
+
+
+
+
+
+
+
+How is pricing calculated for Completions?
+navigatedown
+navigateup
+
+
+
+
+Completions requests are billed based on the number of tokens sent in your prompt plus the number of tokens in the completion(s) returned by the API.
+The best_of and n parameters may also impact costs. Because these parameters generate multiple completions per prompt, they act as multipliers on the number of tokens returned.
+Your request may use up to num_tokens(prompt) + max_tokens * max(n, best_of) tokens, which will be billed at the per-engine rates outlined at the top of this page.
+In the simplest case, if your prompt contains 10 tokens and you request a single 90 token completion from the davinci engine, your request will use 100 tokens and will cost $0.002.
+You can limit costs by reducing prompt length or maximum response length, limiting usage of best_of/n, adding appropriate stop sequences, or using engines with lower per-token costs.
+
+
+
+
+
+
+
+
+How is pricing calculated for Fine-tuning?
+navigatedown
+navigateup
+
+
+
+
+There are two components to fine-tuning pricing: training and usage.
+When training a fine-tuned model, the total tokens used will be billed according to our training rates. Note that the number of training tokens depends on the number of tokens in your training dataset and your chosen number of training epochs. The default number of epochs is 4.
+
+  (Tokens in your training file * Number of training epochs) = Total training tokens
+
+
+Once you fine-tune a model, you'll be billed only for the tokens you use. Requests sent to fine-tuned models are billed at our usage rates.
+
+
+
+
+
+
+
+
+How is pricing calculated for Classifications?
+navigatedown
+navigateup
+
+
+
+
+Classifications requests are billed based on the number of tokens in the inputs you provide. Internally this endpoint makes calls to the search and completions endpoints, so its costs are a function of the costs of those endpoints.
+The actual cost per token is based upon which models you select to perform both the search and the completion, which are controlled by the search_model and model parameters respectively.
+You may provide a file containing the examples to search over, or you can explicitly specify examples in your request. Providing a file makes search faster and more cost effective when the number of examples you'd like to search over is greater than max_examples. In this scenario, costs are largely based on the number of examples reranked (controlled by max_examples) and the total length of those examples. If you pass examples in your request instead, costs are based on the total length of all those examples.
+The length of the query passed into the model as well as the final classification label that is generated will also factor into costs.
+You can use the return_prompt debugging flag to understand the length of the final combined prompt that will be sent to the completions endpoint to generate the classification label.
+
+
+
+
+
+
+
+
+How is pricing calculated for Search?
+navigatedown
+navigateup
+
+
+
+
+Search requests are billed based on the total number of tokens in the documents you provide, plus the tokens in the query and the tokens needed to instruct the model on how to perform the operation. The API also uses a reference document to generate a response, adding 1 to the total document count. These tokens are billed at the per-engine rates outlined at the top of this page.
+You may provide a file containing the documents to search over, or you can explicitly specify documents in your request. Providing a file makes search faster and more cost effective when the number of documents you'd like to search over is greater than max_rerank. In this scenario, costs are largely based on the number of documents reranked (controlled by max_rerank) and the total length of those documents. If you pass documents in your request instead, costs are based on the total length of all those documents.
+Below you'll find the formula for calculating overall token consumption. The 14 represents the additional tokens the API uses per document to accomplish the Semantic Search task, and the added 1 is a reference document:
+
+  Number of tokens in all of your documents
+  + (Number of documents + 1) * 14
+  + (Number of documents + 1) * Number of tokens in your query
+
+  = Total tokens
+
+As an example, if you had 5 documents (plus one added by the API) with token lengths of 12, 34, 22, 33, 78 (179 total) and your query was 8 tokens, the total tokens consumed would be: 179 + (6 * 14) + (6 * 8) = 311
+You may use the Search Token Estimator or see the code from the Python Estimator to further understand search token usage.
+
+
+
+
+
+
+
+
+How is pricing calculated for Answers?
+navigatedown
+navigateup
+
+
+
+
+Answers requests are billed based on the number of tokens in the inputs you provide and the answer that the model generates. Internally, this endpoint makes calls to the Search and Completions APIs, so its costs are a function of the costs of those endpoints.
+The actual cost per token is based upon which models you select to perform both the search and the completion, which are controlled by the search_model and model parameters respectively.
+You may provide a file containing the documents to search over, or you can explicitly specify documents in your request. Providing a file makes search faster and more cost effective when the number of documents you'd like to search over is greater than max_rerank. In this scenario, costs are largely based on the number of documents reranked (controlled by max_rerank) and the total length of those documents. If you pass documents in your request instead, costs are based on the total length of all those documents.
+The length of examples, examples_context, question and the length of the generated answer (controlled by max_tokens/stop) will also impact costs.
+You can use the return_prompt debugging flag to understand the length of the final combined prompt that will be sent to the completions endpoint to generate the answer.
+
+
+
+
+
+
+
+
+Is there an SLA on the various models?
+navigatedown
+navigateup
+
+
+
+
+We will be publishing an SLA soon. In the meantime you can visit our Status page to monitor service availability and view historical uptime. If your company or application has specific requirements, please contact our sales team.
+
+
+
+
+
+
+
+
+Is the API available on Microsoft Azure?
+navigatedown
+navigateup
+
+
+
+
+Yes. Azure customers can access the OpenAI API on Azure with the compliance, regional support, and enterprise-grade security that Azure offers. Learn more or contact sales@openai.com.
+
+
+
+
+
+
+
+
+
+
+
+Get started with OpenAI’s powerful language and code generation models.
+Get started
+Contact sales
+
+
+
+
+
+
+
+
+Featured
+ChatGPT
+DALL·E 2
+Whisper
+Alignment
+Startup Fund
+
+
+
+
+API
+Overview
+Pricing
+Examples
+Docs
+Terms & Policies
+Status
+Log in
+
+
+
+
+Blog
+Index
+Research
+Announcements
+Events
+Milestones
+
+
+
+
+Information
+About Us
+Our Charter
+Our Research
+Publications
+Newsroom
+Careers
+
+
+
+
+
+OpenAI © 2015–2023 Privacy Policy Terms of Use
+
+
+ twitter   youtube   github   soundcloud   linkedin   facebook    twitter   youtube   github   soundcloud   linkedin   facebook  
+
+
+
+
+
+
+

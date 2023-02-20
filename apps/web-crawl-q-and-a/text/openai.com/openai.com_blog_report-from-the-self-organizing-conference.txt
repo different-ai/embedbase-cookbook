@@ -1,0 +1,195 @@
+
+
+
+
+
+
+
+
+Report from the Self-Organizing Conference
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Introducing ChatGPT research release
+
+Try ChatGPT
+Learn more
+
+
+
+
+
+
+
+
+
+
+API
+Research
+Blog
+About
+
+
+API
+Research
+Blog
+About
+
+
+
+
+
+
+
+
+
+Report from the Self-Organizing Conference 
+
+
+
+
+
+
+
+
+ 
+October 13, 2016
+2 minute read
+
+
+
+Our first group learning experiment! Last week we hosted over a hundred and fifty AI practitioners in our offices for our first self-organizing conference on machine learning. The goal was to accelerate AI research by bringing a diverse group of people together and making it easy for them to educate each other and generate new ideas. To achieve this we sought to build an entire event around the chance hallway conversations, serendipitous lunches and inspiring encounters that people have at traditional conferences.
+
+The format worked. PHD students talked to professors, hobbyists talked to full-time researchers, and designers mingled with neuroscientists; most importantly, many people left the event with new research ideas. Participants identified issues ranging from the need for a greater theoretical underpinning within robotics, to how we might make use of neuroscience to accelerate AI development, to ways to increase the diversity of the AI community. Minutes from some of these meetings are available.
+
+The backbone of typical conferences consists of keynotes, plenaries, and panels, turning many of the attendees into passive spectators. At SOCML, the backbone of the event was about the interaction between participants, and they were able to form sessions, choose moderators, give impromptu lectures, and debug each other's problems, without much administration. Everyone taught everyone else and everyone learned from everyone else.
+
+The self-organizing nature makes this sort of conference reasonably easy and affordable to host, and brings talented minds together to work on urgent issues. If you're keen to host a self-organizing conference of your own we’ll be gathering feedback and adding some tips and tricks to the wiki in the coming weeks. Good luck!
+
+
+
+
+
+
+
+
+
+Authors
+
+Jack ClarkIan Goodfellow
+
+
+
+
+
+
+
+
+Filed Under
+
+Events
+
+
+
+
+
+
+
+
+
+
+Featured
+ChatGPT
+DALL·E 2
+Whisper
+Alignment
+Startup Fund
+
+
+
+
+API
+Overview
+Pricing
+Examples
+Docs
+Terms & Policies
+Status
+Log in
+
+
+
+
+Blog
+Index
+Research
+Announcements
+Events
+Milestones
+
+
+
+
+Information
+About Us
+Our Charter
+Our Research
+Publications
+Newsroom
+Careers
+
+
+
+
+
+OpenAI © 2015–2023 Privacy Policy Terms of Use
+
+
+ twitter   youtube   github   soundcloud   linkedin   facebook    twitter   youtube   github   soundcloud   linkedin   facebook  
+
+
+
+
+
+

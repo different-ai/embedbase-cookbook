@@ -1,0 +1,270 @@
+
+
+
+
+
+
+
+
+OpenAI’s API Now Available with No Waitlist
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Introducing ChatGPT research release
+
+Try ChatGPT
+Learn more
+
+
+
+
+
+
+
+
+
+
+API
+Research
+Blog
+About
+
+
+API
+Research
+Blog
+About
+
+
+
+
+
+
+
+
+
+OpenAI’s API Now Available with No Waitlist 
+
+
+
+
+
+Wider availability made possible by safety progress.
+
+
+
+
+November 18, 2021
+3 minute read
+
+
+
+
+
+
+
+
+
+OpenAI is committed to the safe deployment of AI. Since the launch of our API, we’ve made deploying applications faster and more streamlined while adding new safety features. Our progress with safeguards makes it possible to remove the waitlist for GPT-3. Starting today, developers in supported countries can sign up and start experimenting with our API right away.
+Improvements to our API over the past year include the Instruct Series models that adhere better to human instructions, specialized endpoints for more truthful question-answering, and a free content filter to help developers mitigate abuse. Our work also allows us to review applications before they go live, monitor for misuse, support developers as their product scales, and better understand the effects of this technology.
+Other changes include an improved Playground, which makes it easy to prototype with our models, an example library with dozens of prompts to get developers started, and Codex, a new model that translates natural language into code.
+Tens of thousands of developers are already taking advantage of powerful AI models through our platform. We believe that by opening access to these models via an easy-to-use API, more developers will find creative ways to apply AI to a large number of useful applications and open problems.
+To ensure API-backed applications are built responsibly, we provide tools and help developers use best practices so they can bring their applications to production quickly and safely. As our systems evolve and we work to improve the capabilities of our safeguards, we expect to continue streamlining the process for developers, refining our Usage Guidelines, and allowing even more use cases over time.
+As another step in this direction, we are also updating our Content Guidelines to clarify what kind of content our API can be used to generate. Our policies have always prohibited the use of our API in ways that do not adhere to the principles described in our charter, and content like hate speech remains prohibited.
+To help developers ensure their applications are used for their intended purpose, prevent potential misuse, and adhere to our content guidelines, we offer developers a free content filter. We are currently testing targeted filters for specific content categories with some customers.
+We are also prohibiting certain types of content on our API, like adult content, where our system is not currently able to reliably discern harmful from acceptable use. We are continually working to make our content filters more robust and we intend to allow acceptable use within some categories as our system improves.
+We’re excited to have the safeguards in place to open up GPT-3 for more developers. As our safeguards continue to improve, we will expand how the API can be used while further improving the experience for our users. Sign up today and try it out.
+
+
+
+
+
+API Content Guidelines
+We prohibit users from knowingly generating—or allowing others to knowingly generate—the following categories of content:
+
+
+Hate
+
+Content that expresses, incites, or promotes hate based on identity.
+
+
+Harassment
+
+Content that intends to harass, threaten, or bully an individual.
+
+
+Violence
+
+Content that promotes or glorifies violence or celebrates the suffering or humiliation of others.
+
+
+
+
+Self-harm
+
+Content that promotes, encourages, or depicts acts of self-harm, such as suicide, cutting, and eating disorders.
+
+
+Adult
+
+Content meant to arouse sexual excitement, such as the description of sexual activity, or that promotes sexual services (excluding sex education and wellness).
+
+
+Political
+
+Content attempting to influence the political process or to be used for campaigning purposes.
+
+
+
+
+Spam
+
+Unsolicited bulk content.
+
+
+Deception
+
+Content that is false or misleading, such as attempting to defraud individuals or spread disinformation.
+
+
+Malware
+
+Content that attempts to generate ransomware, keyloggers, viruses, or other software intended to impose some level of harm.
+
+
+We also work with researchers who are looking to use the API for research or building use-cases to address related harms.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Authors
+
+OpenAI
+
+
+
+
+
+
+
+
+Filed Under
+
+AnnouncementsAPI
+
+
+
+
+
+
+
+
+
+
+Featured
+ChatGPT
+DALL·E 2
+Whisper
+Alignment
+Startup Fund
+
+
+
+
+API
+Overview
+Pricing
+Examples
+Docs
+Terms & Policies
+Status
+Log in
+
+
+
+
+Blog
+Index
+Research
+Announcements
+Events
+Milestones
+
+
+
+
+Information
+About Us
+Our Charter
+Our Research
+Publications
+Newsroom
+Careers
+
+
+
+
+
+OpenAI © 2015–2023 Privacy Policy Terms of Use
+
+
+ twitter   youtube   github   soundcloud   linkedin   facebook    twitter   youtube   github   soundcloud   linkedin   facebook  
+
+
+
+
+
+

@@ -1,0 +1,265 @@
+
+
+
+
+
+
+
+
+Neural MMO: A Massively Multiagent Game Environment
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Introducing ChatGPT research release
+
+Try ChatGPT
+Learn more
+
+
+
+
+
+
+
+
+
+
+API
+Research
+Blog
+About
+
+
+API
+Research
+Blog
+About
+
+
+
+
+
+
+
+
+
+
+
+Neural MMO: A Massively Multiagent Game Environment 
+
+
+
+March 4, 2019
+6 minute read
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+We're releasing a Neural MMO, a massively multiagent game environment for reinforcement learning agents. Our platform supports a large, variable number of agents within a persistent and open-ended task. The inclusion of many agents and species leads to better exploration, divergent niche formation, and greater overall competence.
+
+
+Read Paper
+
+View Code
+
+3D Client
+
+
+
+
+Your browser does not support video
+
+
+In recent years, multiagent settings have become an effective platform for deep reinforcement learning research. Despite this progress, there are still two main challenges for multiagent reinforcement learning. We need to create open-ended tasks with a high complexity ceiling: current environments are either complex but too narrow or open-ended but too simple. Properties such as persistence and large population scale are key, but we also need more benchmark environments to quantify learning progress in the presence of large population scales and persistence. The game genre of Massively Multiplayer Online Games (MMOs) simulates a large ecosystem of a variable number of players competing in persistent and extensive environments.
+To address these challenges, we built our Neural MMO to meet the following criteria:
+
+Persistence: Agents learn concurrently in the presence of other learning agents with no environment resets. Strategies must consider long time horizons and adapt to potentially rapid changes in the behaviors of other agents.
+Scale: The environment supports a large and variable number of entities. Our experiments consider up to 100M lifetimes of 128 concurrent agents in each of 100 concurrent servers.
+Efficiency: The computational barrier to entry is low. We can train effective policies on a single desktop CPU.
+Expansion: Similarily to existing MMOs, our Neural MMO is designed to update with new content. Current core features include procedural generation of tile-based terrain, a food and water foraging system, and a strategic combat system. There is an opportunity for open-source driven expansion in the future.
+
+The Environment
+Players (agents) may join any available server (environment), each containing an automatically generated tile-based game map of configurable size. Some tiles, such as food-bearing forest tiles and grass tiles, are traversable. Others, such as water and solid stone, are not. Agents spawn at a random location along the edges of the environment. They must obtain food and water, and avoid combat damage from other agents, in order to sustain their health. Stepping on a forest tile or next to a water tile refills a portion of the agent's food or water supply, respectively. However, forest tiles have a limited supply of food, which regenerates slowly over time. This means that agents must compete for food tiles while periodically refilling their water supply from infinite water tiles. Players engage in combat using three combat styles, denoted Melee, Range, and Mage for flavor.
+Input: Agents observe a square crop of tiles centered on their current position. This includes tile terrain types and the select properties (health, food, water, and position) of occupying agents.
+Output: Agents output action choices for the next game tick (timestep). Actions consist of one movement and one attack.
+
+Our platform provides a procedural environment generator and visualization tools for value functions, map tile visitation distribution, and agent-agent dependencies of learned policies. Baselines are trained with policy gradients over 100 worlds.
+The Model
+As a simple baseline, we train a small, fully connected architecture using vanilla policy gradients, with a value function baseline and reward discounting as the only enhancements. Instead of rewarding agents for achieving particular objectives, agents optimize only for their lifetime (trajectory length): they receive reward 1 for each tick of their lifetime. We convert variable length observations, such as the list of surrounding players, into a single length vector by computing the maximum across all players (OpenAI Five also utilized this trick). The source release includes our full distributed training implementation, which is based on PyTorch and Ray.
+Evaluation Results
+
+Maximum population size at train time varies in (16, 32, 64, 128). Policies are shared across groups of 16 agents for efficiency. At test time, we merge the populations learned in pairs of experiments and evaluate lifetimes at a fixed population size. We evaluate with foraging only, as combat policies are more difficult to compare directly. Agents trained in larger populations always perform better.
+Agents’ policies are sampled uniformly from a number of populations — agents in different populations share architectures, but only agents in the same population share weights. Initial experiments show that agent competence scales with increasing multiagent interaction. Increasing the maximum number of concurrent players magnifies exploration; increasing the number of populations magnifies niche formation — that is, the tendency of populations to spread out and forage within different parts of the map.
+Server Merge Tournaments: Multiagent Magnifies Competence
+There is no standard procedure among MMOs for evaluating relative player competence across multiple servers. However, MMO servers sometimes undergo merges where the player bases from multiple servers are placed within a single server. We implement “tournament” style evaluation by merging the player bases trained in different servers. This allows us to directly compare the policies learned in different experiment settings. We vary test time scale and find that agents trained in larger settings consistently outperform agents trained in smaller settings.
+Increased Population Size Magnifies Exploration
+
+
+Your browser does not support video
+
+Population size magnifies exploration: agents spread out to avoid competition. The last few frames show the learned value function overlay. Refer to the [paper](http://arxiv.org/abs/1903.00784) for additional figures.
+In the natural world, competition among animals can incentivize them to spread out to avoid conflict. We observe that map coverage increases as the number of concurrent agents increases. Agents learn to explore only because the presence of other agents provides a natural incentive for doing so.
+Increased Species Count Magnifies Niche Formation
+
+Species count (number of populations) magnifies niche formation. Visitation maps overlay the game map; different colors correspond to different species. Training a single population tends to produce a single deep exploration path. Training eight populations results in many shallower paths: populations spread out to avoid competition among species.
+Given a sufficiently large and resource-rich environment, we found different populations of agents separated across the map to avoid competing with others as the populations increased. As entities cannot out-compete other agents of their own population (i.e. agents with whom they share weights), they tend to seek areas of the map that contain enough resources to sustain their population. Similar effects were also independently observed in concurrent multiagent research by DeepMind.
+Additional Insights
+
+Each square map shows the response of an agent, located at the square's center, to the presence of agents around it. We show foraging maps upon initialization and early in training; additional dependency maps correspond to different formulations of foraging and combat.
+We visualize agent-agent dependencies by fixing an agent at the center of a hypothetical map crop. For each position visible to that agent, we show what the value function would be if there were a second agent at that position. We find that agents learn policies dependent on those of other agents, in both the foraging and combat environments. Agents learn “bull's eye” avoidance maps to begin foraging more effectively after only a few minutes of training. As agents learn the combat mechanics of the environment, they begin to appropriately value effective engagement ranges and angles of approach.
+Next Steps
+Our Neural MMO resolves two key limitations of previous game-based environments, but there are still many left unsolved. This Neural MMO strikes a middle ground between environment complexity and population scale. We’ve designed this environment with open-source expansion in mind and for the research community to build upon.
+If you are excited about conducting research on multiagent systems, consider joining OpenAI.
+
+
+
+
+Acknowledgments
+
+Thanks to Clare Zhu for her substantial work on the 3D client.
+We also thank the following for feedback on drafts of this post: Greg Brockman, Ilya Sutskever, Jack Clark, Ashley Pilipiszyn, Ryan Lowe, Julian Togelius, Joel Liebo, Cinjon Resnick.
+
+
+
+
+
+
+
+
+
+
+
+
+Authors
+
+Joseph SuarezYilun DuPhillip IsolaIgor Mordatch
+
+
+
+
+
+
+
+
+Filed Under
+
+Research
+
+
+
+
+
+
+
+
+
+
+Featured
+ChatGPT
+DALL·E 2
+Whisper
+Alignment
+Startup Fund
+
+
+
+
+API
+Overview
+Pricing
+Examples
+Docs
+Terms & Policies
+Status
+Log in
+
+
+
+
+Blog
+Index
+Research
+Announcements
+Events
+Milestones
+
+
+
+
+Information
+About Us
+Our Charter
+Our Research
+Publications
+Newsroom
+Careers
+
+
+
+
+
+OpenAI © 2015–2023 Privacy Policy Terms of Use
+
+
+ twitter   youtube   github   soundcloud   linkedin   facebook    twitter   youtube   github   soundcloud   linkedin   facebook  
+
+
+
+
+
+

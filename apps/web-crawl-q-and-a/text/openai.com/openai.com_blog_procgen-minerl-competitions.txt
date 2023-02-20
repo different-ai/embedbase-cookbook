@@ -1,0 +1,260 @@
+
+
+
+
+
+
+
+
+Procgen and MineRL Competitions
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Introducing ChatGPT research release
+
+Try ChatGPT
+Learn more
+
+
+
+
+
+
+
+
+
+
+API
+Research
+Blog
+About
+
+
+API
+Research
+Blog
+About
+
+
+
+
+
+
+
+
+
+Procgen and MineRL Competitions 
+
+
+
+
+
+
+
+
+
+June 9, 2020
+5 minute read
+
+
+
+
+
+
+
+
+
+
+We’re excited to announce that OpenAI is co-organizing two NeurIPS 2020 competitions with AIcrowd, Carnegie Mellon University, and DeepMind, using Procgen Benchmark and MineRL. We rely heavily on these environments internally for research on reinforcement learning, and we look forward to seeing the progress the community makes in these challenging competitions.
+
+
+Procgen Competition
+Sign up for Procgen
+
+
+
+
+
+The Procgen Competition focuses on improving sample efficiency and generalization in reinforcement learning. Participants will attempt to maximize agents' performance using a fixed number of environment interactions. Agents will be evaluated in each of the 16 environments already publicly released in Procgen Benchmark, as well as in four secret test environments created specifically for this competition. By aggregating performance across so many diverse environments, we obtain high quality metrics to judge the underlying algorithms. More information about the details of each round can be found here.
+Since all content is procedurally generated, each Procgen environment intrinsically requires agents to generalize to never-before-seen situations. These environments therefore provide a robust test of an agent's ability to learn in many diverse settings. Moreover, we designed Procgen environments to be fast and simple to use. Participants with limited computational resources will be able to easily reproduce our baseline results and run new experiments. We hope that this will empower participants to iterate quickly on new methods to improve sample efficiency and generalization in RL.
+
+MineRL Competition
+Sign up for MineRL
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Many of the recent, celebrated successes of artificial intelligence, such as AlphaStar, AlphaGo, and our own OpenAI Five, utilize deep reinforcement learning to achieve human or super-human level performance in sequential decision-making tasks. These improvements to the state-of-the-art have thus far required an exponentially increasing amount of compute and simulator samples, and therefore it is difficult[1] to apply many of these systems directly to real-world problems where environment samples are expensive. One well-known way to reduce the environment sample complexity is to leverage human priors and demonstrations of the desired behavior.
+
+A rendering of the 1st place submission from the MineRL 2019 competition getting an iron pickaxe. 
+To further catalyze research in this direction, we are co-organizing the MineRL 2020 Competition which aims to foster the development of algorithms which can efficiently leverage human demonstrations to drastically reduce the number of samples needed to solve complex, hierarchical, and sparse environments. To that end, participants will compete to develop systems which can obtain a diamond in Minecraft from raw pixels using only 8,000,000 samples from the MineRL simulator and 4 days of training on a single GPU machine. Participants will be provided the MineRL-v0 dataset (website, paper), a large-scale collection of over 60 million frames of human demonstrations, enabling them to utilize expert trajectories to minimize their algorithm’s interactions with the Minecraft simulator.
+This competition is a follow-up to the MineRL 2019 Competition in which the top team’s agent was able to obtain an iron pickaxe (the penultimate goal of the competition) under this extremely limited compute and simulator-interaction budget. Put in perspective, state-of-the-art standard reinforcement learning systems require hundreds of millions of environment interactions on large multi-GPU systems to achieve the same goal. This year, we anticipate competitors will push the state-of-the-art even further.
+To guarantee that competitors develop truly sample efficient algorithms, the MineRL competition organizers train the top team’s final round models from scratch with strict constraints on the hardware, compute, and simulator-interaction available. The MineRL 2020 Competition also features a novel measure to avoid hand engineering features and overfitting solutions to the domain. More details on the competition structure can be found here.
+
+
+
+Acknowledgments
+
+Our partners at AIcrowd have been instrumental in the development of these competitions, by creating much of the competition infrastructure, securing computational resources, and providing valuable technical support. Additionally we’d like to thank our partners at Preferred Networks for being instrumental in developing baselines for the MineRL competition. The MineRL competition extends its gratitude to our sponsors and co-organizers at DeepMind, Microsoft, and NVIDIA.
+The Procgen Competition is a collaboration between OpenAI and AIcrowd. The organizing team consists of Sharada Mohanty, Karl Cobbe, Jyotish Poonganam, Shivam Khandelwal, Christopher Hesse, Jacob Hilton, John Schulman, and William H. Guss.
+The MineRL Competition is a collaboration between OpenAI, Carnegie Mellon University, MineRL Labs, Google DeepMind, Preferred Networks, Microsoft, and AIcrowd. The lead organizer is William H. Guss, and the organizing team consists of Brandon Houghton, Stephanie Milani, Nicholay Topin, John Schulman, Oriol Vinyals, Ruslan Salakhutdinov, Noboru Sean Kuno, Sam Devlin, Crissman Loomis, Keisuke Nakata, Shinya Shiroshita, Avinash Ummadisingu, and Mario Ynocente Castro.
+
+
+
+
+Footnotes
+
+
+
+While direct application is not possible due to the sheer number of samples required, Sim2Real and data augmentation techniques can mittigate the need to sample real-world dynamics directly. ↩︎
+
+
+
+
+
+
+
+
+
+
+
+
+Authors
+
+OpenAI
+
+
+
+
+
+
+
+
+Filed Under
+
+AnnouncementsEvents
+
+
+
+
+
+
+
+
+
+
+Featured
+ChatGPT
+DALL·E 2
+Whisper
+Alignment
+Startup Fund
+
+
+
+
+API
+Overview
+Pricing
+Examples
+Docs
+Terms & Policies
+Status
+Log in
+
+
+
+
+Blog
+Index
+Research
+Announcements
+Events
+Milestones
+
+
+
+
+Information
+About Us
+Our Charter
+Our Research
+Publications
+Newsroom
+Careers
+
+
+
+
+
+OpenAI © 2015–2023 Privacy Policy Terms of Use
+
+
+ twitter   youtube   github   soundcloud   linkedin   facebook    twitter   youtube   github   soundcloud   linkedin   facebook  
+
+
+
+
+
+
+

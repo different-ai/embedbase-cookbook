@@ -1,0 +1,228 @@
+
+
+
+
+
+
+
+
+Faster Physics in Python
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Introducing ChatGPT research release
+
+Try ChatGPT
+Learn more
+
+
+
+
+
+
+
+
+
+
+API
+Research
+Blog
+About
+
+
+API
+Research
+Blog
+About
+
+
+
+
+
+
+
+
+
+
+
+Faster Physics in Python 
+
+
+
+June 28, 2017
+2 minute read
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+We're open-sourcing a high-performance Python library for robotic simulation using the MuJoCo engine, developed over our past year of robotics research.
+
+View CodeView Docs
+This library is one of our core tools for deep learning robotics research, which we've now released as a major version of mujoco-py, our Python 3 bindings for MuJoCo. mujoco-py 1.50.1.0 brings a number of new capabilities and significant performance boosts. New features include:
+
+Efficient handling of parallel simulations
+GPU-accelerated headless 3D rendering
+Direct access to MuJoCo functions and data structures
+Support for all MuJoCo 1.50 features like its improved contact solver
+
+Batched Simulation
+Many methods in trajectory optimization and reinforcement learning (like LQR, PI2, and TRPO) benefit from being able to run multiple simulations in parallel. mujoco-py uses data parallelism through OpenMP and direct-access memory management through Cython and NumPy to make batched simulation more efficient.
+Naive usage of the new version’s MjSimPool interface shows a 400% speedup over the old, and still about 180% over an optimized and restricted usage pattern using Python’s multiprocessing package to gain the same level of parallelism. The majority of the speedup comes from reduced access times to the various MuJoCo data structures. Check out examples/simpool.py for a tour of MjSimPool.
+High Performance Texture Randomization
+
+We use the domain randomization technique across many projects at OpenAI. The latest version of mujoco-py supports headless GPU rendering; this yields a speedup of ~40x compared to CPU-based rendering, letting us generate hundreds of frames per second of synthetic image data. In the above (slowed down) animation we use this to vary the textures of one of our robots, which helps it identify its body when we transfer it from the simulator to reality. Check out examples/disco_fetch.py for an example of randomized texture generation.
+Virtual Reality with mujoco-py
+The API exposed by mujoco-py is sufficient to enable Virtual Reality interaction without any extra C++ code. We ported MuJoCo’s C++ VR example to Python using mujoco-py. If you have an HTC Vive VR setup, you can give try it using this example (this support is considered experimental, but we've been using it internally for a while).
+API and Usage
+The simplest way to get started with mujoco-py is with the MjSim class. It is a wrapper around the simulation model and data, and lets you to easily step the simulation and render images from camera sensors. Here's a simple example:
+from mujoco_py import load_model_from_path, MjSim
+
+model = load_model_from_path("xmls/tosser.xml")  
+
+sim = MjSim(model)
+sim.step()
+print(sim.data.qpos)
+# => [ -1.074e-05   1.043e-04  -3.923e-05   0.000e+00   0.000e+00]
+
+For advanced users, we provide a number of lower-level interfaces for accessing the innards of the MuJoCo C structs and functions directly. Refer to the README and the full documentation to learn more.
+
+
+
+
+
+
+
+
+
+Authors
+
+Jonas SchneiderPeter WelinderAlex RayJonathan HoWojciech Zaremba
+
+
+
+
+
+
+
+
+Filed Under
+
+Research
+
+
+
+
+
+
+
+
+
+
+Featured
+ChatGPT
+DALL·E 2
+Whisper
+Alignment
+Startup Fund
+
+
+
+
+API
+Overview
+Pricing
+Examples
+Docs
+Terms & Policies
+Status
+Log in
+
+
+
+
+Blog
+Index
+Research
+Announcements
+Events
+Milestones
+
+
+
+
+Information
+About Us
+Our Charter
+Our Research
+Publications
+Newsroom
+Careers
+
+
+
+
+
+OpenAI © 2015–2023 Privacy Policy Terms of Use
+
+
+ twitter   youtube   github   soundcloud   linkedin   facebook    twitter   youtube   github   soundcloud   linkedin   facebook  
+
+
+
+
+
+

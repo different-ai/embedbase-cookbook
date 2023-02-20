@@ -1,0 +1,210 @@
+
+
+
+
+
+
+
+
+Team++
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Introducing ChatGPT research release
+
+Try ChatGPT
+Learn more
+
+
+
+
+
+
+
+
+
+
+API
+Research
+Blog
+About
+
+
+API
+Research
+Blog
+About
+
+
+
+
+
+
+
+
+Team++ 
+
+
+
+
+
+
+
+ 
+March 31, 2016
+2 minute read
+
+
+
+We've had some fantastic people join over the past few months (and we're still hiring). Welcome, everyone!
+
+Full-timers
+
+Yura Burda. Yura finished a math PhD at the age of 24, and switched into machine learning a year and a half ago. He's focusing on generative models. He discovered a simple but fundamental improvement to the variational lower bound that had evaded notice since its original discovery decades ago.
+Ian Goodfellow. Ian is well known for his many contributions to machine learning, including the MaxOut Network and the Generative Adversarial Network, the latter of which is a driver of excitement in generative modeling research. In addition, he's the lead author of the book on deep learning.
+Alec Radford. Alec created DCGAN, a neural model that could generate large, coherent images containing an unprecedented level of global coherence and detail. In addition, his model has learned to do image analogies in an entirely unsupervised way.
+Tim Salimans. Tim is an expert on variational methods. The author of the first paper on stochastic gradient variational inference (for which he won the Lindley prize), he was at one point ranked number 2 overall on Kaggle.
+
+
+Interns
+Also joining us for the summer (and in some cases, to continue the collaboration once they return to their home institution):
+
+Peter Chen. Peter previously co-founded a startup and did research on parallel computing and cognitive science. Recently, he's been working on reinforcement learning, from theory to applications with deep neural nets.
+Rocky Duan. Rocky is a PhD student who previously co-founded a startup (with Peter) and worked on a number of projects in robotics. He's now transitioned to the field of deep reinforcement learning, and recently TA'd Berkeley's Deep Reinforcement Learning class.
+Linxi Fan. Although Linxi is just finishing up his undergrad, he has already worked on a variety of projects in deep learning, including Deep Speech 2.
+Jon Gauthier. Jon is an undergraduate student whose achievements include, among others, a method that makes it possible to efficiently train large recursive neural networks on large datasets.
+Jonathan Ho. Jonathan is a PhD student at Stanford, where he is developing a new approach to imitation learning. Earlier in his research career, he had success teaching robots how to tie knots.
+Rein Houthooft. Rein hails from Belgium, started his research career in the field of computer networking, and now is developing novel ways to incorporate uncertainty into deep reinforcement learning algorithms.
+Eric Price. Eric is a professor of theoretical computer science at UT Austin. His achievements include the development and the analysis of a faster-than-n log n sparse Fourier transform. In his past life, he achieved a perfect score at the IOI.
+
+
+As a closing note, we get a lot of questions about what we're working on, how we work, and what we're trying to achieve. We're not being intentionally mysterious; we've just been busy launching the organization (and finding awesome people to help us do so!).
+We're currently focused on unsupervised learning and reinforcement learning. We should have interesting results to share over the next month or two. A bunch of us will be around ICLR, where we'll likely hold an event of some form. I'll also host a Quora Session in May or June to answer any questions for people we don't meet in Puerto Rico.
+
+
+
+
+
+
+
+
+
+Authors
+
+Greg Brockman
+
+
+
+
+
+
+
+
+Filed Under
+
+Announcements
+
+
+
+
+
+
+
+
+
+
+Featured
+ChatGPT
+DALL·E 2
+Whisper
+Alignment
+Startup Fund
+
+
+
+
+API
+Overview
+Pricing
+Examples
+Docs
+Terms & Policies
+Status
+Log in
+
+
+
+
+Blog
+Index
+Research
+Announcements
+Events
+Milestones
+
+
+
+
+Information
+About Us
+Our Charter
+Our Research
+Publications
+Newsroom
+Careers
+
+
+
+
+
+OpenAI © 2015–2023 Privacy Policy Terms of Use
+
+
+ twitter   youtube   github   soundcloud   linkedin   facebook    twitter   youtube   github   soundcloud   linkedin   facebook  
+
+
+
+
+
+

@@ -1,0 +1,661 @@
+
+
+
+
+
+
+
+
+OpenAI Blog
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Introducing ChatGPT research release
+
+Try ChatGPT
+Learn more
+
+
+
+
+
+
+
+
+
+
+API
+Research
+Blog
+About
+
+
+API
+Research
+Blog
+About
+
+
+
+
+
+
+
+Index
+
+
+
+2018
+
+
+
+Interpretable Machine Learning through Teaching
+
+
+February 15, 2018
+
+
+               — Research
+
+
+
+
+
+
+
+
+
+
+2018
+
+
+
+Discovering Types for Entity Disambiguation
+
+
+February 7, 2018
+
+
+               — Research
+
+
+
+
+
+
+
+
+
+
+2018
+
+
+
+Requests for Research 2.0
+
+
+January 31, 2018
+
+
+               — Research
+
+
+
+
+
+
+
+
+
+
+2018
+
+
+
+Scaling Kubernetes to 2,500 Nodes
+
+
+January 18, 2018
+
+
+               — Research
+
+
+
+
+
+
+
+
+
+
+2017
+
+
+
+Block-Sparse GPU Kernels
+
+
+December 6, 2017
+
+
+               — Research, Milestones
+
+
+
+
+
+
+
+
+
+
+2017
+
+
+
+Learning a Hierarchy
+
+
+October 26, 2017
+
+
+               — Research
+
+
+
+
+
+
+
+
+
+
+2017
+
+
+
+Generalizing from Simulation
+
+
+October 19, 2017
+
+
+               — Research
+
+
+
+
+
+
+
+
+
+
+2017
+
+
+
+Meta-Learning for Wrestling
+
+
+October 11, 2017
+
+
+               — Research
+
+
+
+
+
+
+
+
+
+
+2017
+
+
+
+Competitive Self-Play
+
+
+October 11, 2017
+
+
+               — Research, Milestones
+
+
+
+
+
+
+
+
+
+
+2017
+
+
+
+Nonlinear Computation in Deep Linear Networks
+
+
+September 29, 2017
+
+
+               — Research
+
+
+
+
+
+
+
+
+
+
+2017
+
+
+
+Learning to Model Other Minds
+
+
+September 14, 2017
+
+
+               — Research
+
+
+
+
+
+
+
+
+
+
+2017
+
+
+
+OpenAI Baselines: ACKTR & A2C
+
+
+August 18, 2017
+
+
+               — Research, Milestones, OpenAI Baselines
+
+
+
+
+
+
+
+
+
+
+2017
+
+
+
+More on Dota 2
+
+
+August 16, 2017
+
+
+               — Research, OpenAI Five
+
+
+
+
+
+
+
+
+
+
+2017
+
+
+
+Dota 2
+
+
+August 11, 2017
+
+
+               — Research, OpenAI Five
+
+
+
+
+
+
+
+
+
+
+2017
+
+
+
+OpenAI at The International
+
+
+August 11, 2017
+
+
+               — Events, OpenAI Five
+
+
+
+
+
+
+
+
+
+
+2017
+
+
+
+Gathering Human Feedback
+
+
+August 3, 2017
+
+
+               — Research
+
+
+
+
+
+
+
+
+
+
+2017
+
+
+
+Better Exploration with Parameter Noise
+
+
+July 27, 2017
+
+
+               — Research, Milestones
+
+
+
+
+
+
+
+
+
+
+2017
+
+
+
+Proximal Policy Optimization
+
+
+July 20, 2017
+
+
+               — Research, Milestones
+
+
+
+
+
+
+
+
+
+
+2017
+
+
+
+Robust Adversarial Inputs
+
+
+July 17, 2017
+
+
+               — Research
+
+
+
+
+
+
+
+
+
+
+2017
+
+
+
+Faster Physics in Python
+
+
+June 28, 2017
+
+
+               — Research
+
+
+
+
+
+
+
+
+
+
+2017
+
+
+
+Learning from Human Preferences
+
+
+June 13, 2017
+
+
+               — Research
+
+
+
+
+
+
+
+
+
+
+2017
+
+
+
+Learning to Cooperate, Compete, and Communicate
+
+
+June 8, 2017
+
+
+               — Research
+
+
+
+
+
+
+
+
+
+
+2017
+
+
+
+OpenAI Baselines: DQN
+
+
+May 24, 2017
+
+
+               — Research, Milestones, OpenAI Baselines
+
+
+
+
+
+
+
+
+
+
+2017
+
+
+
+Robots that Learn
+
+
+May 16, 2017
+
+
+               — Research, Milestones
+
+
+
+
+
+
+
+
+
+
+2017
+
+
+
+Roboschool
+
+
+May 15, 2017
+
+
+               — Research
+
+
+
+
+
+
+
+
+
+
+
+Newer Posts
+
+Page 6 of 7
+
+Older Posts
+
+
+
+
+
+
+
+
+
+
+Featured
+ChatGPT
+DALL·E 2
+Whisper
+Alignment
+Startup Fund
+
+
+
+
+API
+Overview
+Pricing
+Examples
+Docs
+Terms & Policies
+Status
+Log in
+
+
+
+
+Blog
+Index
+Research
+Announcements
+Events
+Milestones
+
+
+
+
+Information
+About Us
+Our Charter
+Our Research
+Publications
+Newsroom
+Careers
+
+
+
+
+
+OpenAI © 2015–2023 Privacy Policy Terms of Use
+
+
+ twitter   youtube   github   soundcloud   linkedin   facebook    twitter   youtube   github   soundcloud   linkedin   facebook  
+
+
+
+
+
+

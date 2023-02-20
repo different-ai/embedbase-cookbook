@@ -1,0 +1,238 @@
+
+
+
+
+
+
+
+
+OpenAI Multimodal Research
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Introducing ChatGPT research release
+
+Try ChatGPT
+Learn more
+
+
+
+
+
+
+
+
+
+
+API
+Research
+Blog
+About
+
+
+API
+Research
+Blog
+About
+
+
+
+
+
+
+
+
+
+
+Blog
+Multimodal
+
+
+
+
+A long-term objective of artificial intelligence is to build “multimodal” neural networks—AI systems that learn about concepts in several modalities, primarily the textual and visual domains, in order to better un­der­stand the world. In our latest research an­nounce­ments, we present two neural networks that bring us closer to this goal.
+The first neural network, DALL·E, can successfully turn text into an appropriate image for a wide range of concepts expressible in natural language. DALL·E uses the same approach used for GPT-3, in this case applied to text–image pairs represented as sequences of “tokens” from a certain alphabet.
+The second, CLIP, has the ability to reliably perform a staggering set of visual recognition tasks. Given a set of categories expressed in language, CLIP can instantly classify an image as belonging to one of these categories in a “zero-shot” way, without the need to fine-tune on data specific to these categories, as is required with standard neural networks. Measured against the industry benchmark ImageNet, CLIP outscores the well-known ResNet-50 system and far surpasses ResNet in recognizing unusual images.
+We believe that these neural networks represent a meaningful step toward multimodal AI systems.
+—Ilya Sutskever, January 2021
+
+
+
+
+
+
+
+
+
+2022
+
+
+
+DALL·E 2
+
+
+April 6, 2022
+
+
+               — Research, Multimodal
+
+
+
+
+
+
+
+
+
+
+2021
+
+
+
+Multimodal Neurons in Artificial Neural Networks
+
+
+March 4, 2021
+
+
+               — Research, Milestones, Multimodal
+
+
+
+
+
+
+
+
+
+
+2021
+
+
+
+DALL·E: Creating Images from Text
+
+
+January 5, 2021
+
+
+               — Research, Milestones, Multimodal
+
+
+
+
+
+
+
+
+
+
+2021
+
+
+
+CLIP: Connecting Text and Images
+
+
+January 5, 2021
+
+
+               — Research, Milestones, Multimodal
+
+
+
+
+
+
+
+
+
+
+
+
+Featured
+ChatGPT
+DALL·E 2
+Whisper
+Alignment
+Startup Fund
+
+
+
+
+API
+Overview
+Pricing
+Examples
+Docs
+Terms & Policies
+Status
+Log in
+
+
+
+
+Blog
+Index
+Research
+Announcements
+Events
+Milestones
+
+
+
+
+Information
+About Us
+Our Charter
+Our Research
+Publications
+Newsroom
+Careers
+
+
+
+
+
+OpenAI © 2015–2023 Privacy Policy Terms of Use
+
+
+ twitter   youtube   github   soundcloud   linkedin   facebook    twitter   youtube   github   soundcloud   linkedin   facebook  
+
+
+
+
+
+

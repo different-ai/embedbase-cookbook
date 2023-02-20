@@ -1,0 +1,265 @@
+
+
+
+
+
+
+
+
+OpenAI Five Benchmark: Results
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Introducing ChatGPT research release
+
+Try ChatGPT
+Learn more
+
+
+
+
+
+
+
+
+
+
+API
+Research
+Blog
+About
+
+
+API
+Research
+Blog
+About
+
+
+
+
+
+
+
+
+OpenAI Five Benchmark: Results 
+
+
+
+
+
+
+
+
+August 6, 2018
+4 minute read
+
+
+
+
+
+
+
+
+
+
+Yesterday, OpenAI Five won a best-of-three against a team of 99.95th percentile Dota players: Blitz, Cap, Fogged, Merlini, and MoonMeander—four of whom have played Dota professionally—in front of a live audience and 100,000 concurrent livestream viewers.
+
+The human team won game three after the audience adversarially selected Five's heroes. We also showed our preliminary work to introspect Five's view of the game, including its probability of winning, which made predictions surprising to the human observers. These results show that Five is a step towards advanced AI systems which can handle the complexity and uncertainty of the real world.
+In case you missed it: the livestream from the Benchmark commentated by Purge and ODPixel. Christy and Greg also both livetweeted the event.
+
+
+
+
+Overview of the day
+Audience game
+The day began with a team of volunteers from the audience bravely playing the first public match against OpenAI Five.
+
+Five won within the first 14 minutes (an evenly-matched game generally takes 45 minutes).
+
+Games 1 & 2
+
+Team solidarity before the match.
+We revealed a new OpenAI Five capability — the ability to draft. Drafting is considered an extremely challenging part of Dota, since heroes interact with each other in complex ways.
+
+Visualization showing OpenAI Five's expected win probability after each hero was picked.
+In late June we added a win probability output to our neural network to introspect what OpenAI Five is predicting. When later considering drafting, we realized we could use this to evaluate the win probability of any draft: just look at the prediction on the first frame of a game with that lineup. In one week of implementation, we crafted a fake frame for each of the 11 million possible team matchups and wrote a tree search to find OpenAI Five's optimal draft.
+
+After the game 1 draft, OpenAI Five predicted a 95% win probability, even though the matchup seemed about even to the human observers. It won the first game in 21 minutes and 37 seconds. After the game 2 draft, OpenAI Five predicted a 76.2% win probability, and won the second in 24 minutes and 53 seconds.
+Game 3: audience draft
+For the third game, we asked the audience to draft OpenAI Five's heroes. As expected, they selected an adversarial lineup.
+The line-up for OAI5 this round is fairly Looney-Tunes. Two big scary tanks, Sven and Axe, with two good invisibility / ganker (surprise attack) heroes, Slark and Riki, and the Queen of Pain who can blink (teleport a few metres) for escape and attack.— Smerity (@Smerity) August 5, 2018
+
+
+Before the game began, OpenAI Five predicted a 2.9% chance of winning. Five played on despite the bad odds, and at one point made enough progress to predict a 17% win probability, before ultimately losing after 35 minutes and 47 seconds.
+
+Congratulating the human team on their game 3 victory.
+Training
+Our usual development cycle is to train each major revision of the system from scratch. However, this version of OpenAI Five contains parameters that have been training since June 9th across six major system revisions. Each revision was initialized with parameters from the previous one.
+We invested heavily in "surgery" tooling which allows us to map old parameters to a new network architecture. For example, when we first trained warding, we shared a single action head for determining where to move and where to place a ward. But Five would often drop wards seemingly in the direction it was trying to go, and we hypothesized it was allocating its capacity primarily to movement. Our tooling let us split the head into two clones initialized with the same parameters.
+We estimate that we used the following amounts of compute to train our various Dota systems:
+
+1v1 model: 8 petaflop/s-days
+June 6th model: 11 petaflop/s-days[1]
+Aug 5th model: 35 petaflop/s-days [1:1]
+
+We are also releasing our latest network architecture.
+Peeking at the model
+We can get some insight into the model's planning via an output which predicts where a hero will be in the future. In the following video, the highlighted boxes show the predicted location of Sven in 6 seconds:
+
+
+
+We can also train outputs to predict various other quantities — last hits, tower counts, and the like:
+
+
+
+Making our model function requires working through many bugs and unexpected behaviors. Here are some examples:
+
+
+
+What's next
+These results give us confidence in moving to the next phase of this project: playing a team of professionals at The International later this month. We will announce details of the games once they are confirmed — follow us on Twitter to stay up to date!
+
+
+
+
+Footnotes
+
+
+
+
+We revised these numbers after a more rigorous analysis (4/14/19) ↩︎ ↩︎
+
+
+
+
+
+
+
+
+
+
+
+
+Authors
+
+OpenAI
+
+
+
+
+
+
+
+
+Filed Under
+
+ResearchEventsOpenAI Five
+
+
+
+
+
+
+
+
+
+
+Featured
+ChatGPT
+DALL·E 2
+Whisper
+Alignment
+Startup Fund
+
+
+
+
+API
+Overview
+Pricing
+Examples
+Docs
+Terms & Policies
+Status
+Log in
+
+
+
+
+Blog
+Index
+Research
+Announcements
+Events
+Milestones
+
+
+
+
+Information
+About Us
+Our Charter
+Our Research
+Publications
+Newsroom
+Careers
+
+
+
+
+
+OpenAI © 2015–2023 Privacy Policy Terms of Use
+
+
+ twitter   youtube   github   soundcloud   linkedin   facebook    twitter   youtube   github   soundcloud   linkedin   facebook  
+
+
+
+
+
+

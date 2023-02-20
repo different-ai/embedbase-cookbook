@@ -1,0 +1,246 @@
+
+
+
+
+
+
+
+
+About OpenAI
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Introducing ChatGPT research release
+
+Try ChatGPT
+Learn more
+
+
+
+
+
+
+
+
+
+
+API
+Research
+Blog
+About
+
+
+API
+Research
+Blog
+About
+
+
+
+
+
+
+
+
+
+      OpenAI is an AI research and deployment company. Our mission is to ensure that artificial general intelligence benefits all of humanity.
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+      OpenAI’s mission is to ensure that artificial general intelligence (AGI)—by which we mean highly autonomous systems that outperform humans at most economically valuable work—benefits all of humanity.
+      
+
+      We will attempt to directly build safe and beneficial AGI, but will also consider our mission fulfilled if our work aids others to achieve this outcome.
+      
+Read our Charter
+
+
+
+Highlights
+
+
+
+ChatGPT: Optimizing Language Models for Dialogue
+
+
+November 30, 2022
+
+
+         — Announcements, Research
+
+
+
+
+DALL·E 2
+
+
+April 6, 2022
+
+
+         — Research, Multimodal
+
+
+
+
+OpenAI Codex
+
+
+August 10, 2021
+
+
+         — API, Announcements
+
+
+
+View All Highlights
+
+
+
+
+
+Who’s Involved
+
+
+OpenAI LP is governed by the board of the OpenAI nonprofit, comprised of OpenAI LP employees Greg Brockman (Chairman & President), Ilya Sutskever (Chief Scientist), and Sam Altman (CEO), and non-employees Adam D’Angelo, Reid Hoffman, Will Hurd, Tasha McCauley, Helen Toner, and Shivon Zilis.
+Our investors include Microsoft, Reid Hoffman’s charitable foundation, and Khosla Ventures.
+Visit Newsroom
+
+
+
+
+
+
+
+Our first-of-its-kind API can be applied to any language task, and serves millions of production requests each day.
+Explore API
+
+
+
+
+
+
+
+
+Join OpenAI
+We’re hiring talented people in a variety of roles across research, engineering, operations, people, finance, and policy to join our team in San Francisco.
+View Open Positions
+
+
+
+
+
+
+
+      Read our Coordinated Vulnerability Disclosure Policy.
+    
+
+
+
+
+
+
+
+Featured
+ChatGPT
+DALL·E 2
+Whisper
+Alignment
+Startup Fund
+
+
+
+
+API
+Overview
+Pricing
+Examples
+Docs
+Terms & Policies
+Status
+Log in
+
+
+
+
+Blog
+Index
+Research
+Announcements
+Events
+Milestones
+
+
+
+
+Information
+About Us
+Our Charter
+Our Research
+Publications
+Newsroom
+Careers
+
+
+
+
+
+OpenAI © 2015–2023 Privacy Policy Terms of Use
+
+
+ twitter   youtube   github   soundcloud   linkedin   facebook    twitter   youtube   github   soundcloud   linkedin   facebook  
+
+
+
+
+
+

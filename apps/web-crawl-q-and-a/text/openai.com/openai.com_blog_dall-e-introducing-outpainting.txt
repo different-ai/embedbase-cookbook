@@ -1,0 +1,347 @@
+
+
+
+
+
+
+
+
+DALL·E: Introducing Outpainting
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Introducing ChatGPT research release
+
+Try ChatGPT
+Learn more
+
+
+
+
+
+
+
+
+
+
+API
+Research
+Blog
+About
+
+
+API
+Research
+Blog
+About
+
+
+
+
+
+
+
+
+
+DALL·E: Introducing Outpainting 
+
+
+
+
+
+
+
+
+August 31, 2022
+5 minute read
+
+
+
+
+
+
+
+
+
+
+Extend creativity and tell a bigger story with DALL-E images of any size
+
+
+
+
+
+Original outpainting by Emma Catnip
+
+
+
+Today we’re introducing Outpainting, a new feature which helps users extend their creativity by continuing an image beyond its original borders — adding visual elements in the same style, or taking a story in new directions — simply by using a natural language description.
+
+
+
+
+End-result
+
+Timelapse
+
+
+
+
+
+
+
+
+Original: Girl with a Pearl Earring by Johannes Vermeer
+Outpainting: August Kamp
+
+
+
+DALL·E’s Edit feature already enables changes within a generated or uploaded image — a capability known as Inpainting. Now, with Outpainting, users can extend the original image, creating large-scale images in any aspect ratio. Outpainting takes into account the image’s existing visual elements — including shadows, reflections, and textures — to maintain the context of the original image.
+More than one million people are using DALL·E, the AI system that generates original images and artwork from a natural language description, as a creative tool today. Artists have already created remarkable images with the new Outpainting feature, and helped us better understand its capabilities in the process.
+
+
+
+
+
+
+Original outpainting by Tyna Eloundou
+
+
+
+
+
+
+
+Original outpainting by OpenAI
+
+
+
+
+
+
+
+Outpainting by David Schnurr
+
+
+
+
+
+
+
+Original outpainting by Sonia Levesque
+
+
+
+
+
+
+
+Original outpainting by Danielle Baskin
+
+
+
+
+
+
+
+Original outpainting by Danielle Baskin
+
+
+
+
+
+
+
+Original outpainting by Chad Nelson
+
+
+
+Outpainting is now available to all DALL·E users on desktop. To discover new realms of creativity, visit labs.openai.com or join the waitlist.
+
+Featured artists:
+
+
+
+
+
+Emma Catnip
+
+
+
+      View Profile
+    
+
+
+
+
+
+August Kamp
+
+
+
+      View Profile
+    
+
+
+
+
+
+Sonia Levesque
+
+
+
+      View Profile
+    
+
+
+
+
+
+Danielle Baskin
+
+
+
+      View Profile
+    
+
+
+
+
+
+Chad Nelson
+
+
+
+      View Profile
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+Authors
+
+OpenAI
+
+
+
+
+
+
+
+
+Filed Under
+
+Announcements
+
+
+
+
+
+
+
+
+
+
+Featured
+ChatGPT
+DALL·E 2
+Whisper
+Alignment
+Startup Fund
+
+
+
+
+API
+Overview
+Pricing
+Examples
+Docs
+Terms & Policies
+Status
+Log in
+
+
+
+
+Blog
+Index
+Research
+Announcements
+Events
+Milestones
+
+
+
+
+Information
+About Us
+Our Charter
+Our Research
+Publications
+Newsroom
+Careers
+
+
+
+
+
+OpenAI © 2015–2023 Privacy Policy Terms of Use
+
+
+ twitter   youtube   github   soundcloud   linkedin   facebook    twitter   youtube   github   soundcloud   linkedin   facebook  
+
+
+
+
+
+

@@ -1,0 +1,363 @@
+
+
+
+
+
+
+
+
+OpenAI Codex
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Introducing ChatGPT research release
+
+Try ChatGPT
+Learn more
+
+
+
+
+
+
+
+
+
+
+API
+Research
+Blog
+About
+
+
+API
+Research
+Blog
+About
+
+
+
+
+
+
+
+
+OpenAI Codex 
+
+
+
+
+
+
+
+ 
+August 10, 2021
+3 minute read
+
+
+
+We’ve created an improved version of OpenAI Codex, our AI system that translates natural language to code, and we are releasing it through our API in private beta starting today. Codex is the model that powers GitHub Copilot, which we built and launched in partnership with GitHub a month ago. Proficient in more than a dozen programming languages, Codex can now interpret simple commands in natural language and execute them on the user’s behalf—making it possible to build a natural language interface to existing applications. We are now inviting businesses and developers to build on top of OpenAI Codex through our API.
+
+Start using Codex
+
+
+Rewatch Live Demo
+
+View the Codex Challenge
+
+Read Paper
+
+
+
+
+
+
+
+
+
+
+Watch Video
+
+
+
+
+
+
+
+
+Creating a Space Game with OpenAI Codex
+
+Tweet
+
+
+
+
+
+
+
+
+
+
+
+Watch Video
+
+
+
+
+
+
+
+
+“Hello World” with OpenAI Codex
+
+Tweet
+
+
+
+
+
+
+
+
+
+
+
+Watch Video
+
+
+
+
+
+
+
+
+Data Science with OpenAI Codex
+
+Tweet
+
+
+
+
+
+
+
+
+
+
+
+Watch Video
+
+
+
+
+
+
+
+
+Talking to Your Computer with OpenAI Codex
+
+Tweet
+
+
+
+
+
+
+
+
+
+
+
+Watch Video
+
+
+
+
+
+
+
+
+Converting Python to Ruby with OpenAI Codex
+
+Tweet
+
+
+
+
+
+
+
+
+
+
+
+Watch Video
+
+
+
+
+
+
+
+
+Giving OpenAI Codex a First Grade Math Test
+
+Tweet
+
+
+
+
+
+
+OpenAI Codex is a descendant of GPT-3; its training data contains both natural language and billions of lines of source code from publicly available sources, including code in public GitHub repositories. OpenAI Codex is most capable in Python, but it is also proficient in over a dozen languages including JavaScript, Go, Perl, PHP, Ruby, Swift and TypeScript, and even Shell. It has a memory of 14KB for Python code, compared to GPT-3 which has only 4KB—so it can take into account over 3x as much contextual information while performing any task.
+GPT-3’s main skill is generating natural language in response to a natural language prompt, meaning the only way it affects the world is through the mind of the reader. OpenAI Codex has much of the natural language understanding of GPT-3, but it produces working code—meaning you can issue commands in English to any piece of software with an API. OpenAI Codex empowers computers to better understand people’s intent, which can empower everyone to do more with computers.
+Once a programmer knows what to build, the act of writing code can be thought of as (1) breaking a problem down into simpler problems, and (2) mapping those simple problems to existing code (libraries, APIs, or functions) that already exist. The latter activity is probably the least fun part of programming (and the highest barrier to entry), and it’s where OpenAI Codex excels most.
+OpenAI Codex is a general-purpose programming model, meaning that it can be applied to essentially any programming task (though results may vary). We’ve successfully used it for transpilation, explaining code, and refactoring code. But we know we’ve only scratched the surface of what can be done.
+We’re now making OpenAI Codex available in private beta via our API, and we are aiming to scale up as quickly as we can safely. During the initial period, OpenAI Codex will be offered for free. OpenAI will continue building on the safety groundwork we laid with GPT-3—reviewing applications and incrementally scaling them up while working closely with developers to understand the effect of our technologies in the world.
+
+Start using Codex
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Authors
+
+Wojciech ZarembaGreg BrockmanOpenAI
+
+
+
+
+
+
+
+
+Filed Under
+
+APIAnnouncements
+
+
+
+
+
+
+
+
+
+
+Featured
+ChatGPT
+DALL·E 2
+Whisper
+Alignment
+Startup Fund
+
+
+
+
+API
+Overview
+Pricing
+Examples
+Docs
+Terms & Policies
+Status
+Log in
+
+
+
+
+Blog
+Index
+Research
+Announcements
+Events
+Milestones
+
+
+
+
+Information
+About Us
+Our Charter
+Our Research
+Publications
+Newsroom
+Careers
+
+
+
+
+
+OpenAI © 2015–2023 Privacy Policy Terms of Use
+
+
+ twitter   youtube   github   soundcloud   linkedin   facebook    twitter   youtube   github   soundcloud   linkedin   facebook  
+
+
+
+
+
+

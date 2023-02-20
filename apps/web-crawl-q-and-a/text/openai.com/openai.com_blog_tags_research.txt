@@ -1,0 +1,667 @@
+
+
+
+
+
+
+
+
+Research - OpenAI
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Introducing ChatGPT research release
+
+Try ChatGPT
+Learn more
+
+
+
+
+
+
+
+
+
+
+API
+Research
+Blog
+About
+
+
+API
+Research
+Blog
+About
+
+
+
+
+
+
+
+
+Blog
+Research
+
+
+
+
+
+
+2023
+
+
+
+Forecasting Potential Misuses of Language Models for Disinformation Campaigns—and How to Reduce Risk
+
+
+January 11, 2023
+
+
+               — Research
+
+
+
+
+
+
+
+
+
+
+2022
+
+
+
+ChatGPT: Optimizing Language Models for Dialogue
+
+
+November 30, 2022
+
+
+               — Announcements, Research
+
+
+
+
+
+
+
+
+
+
+2022
+
+
+
+Introducing Whisper
+
+
+September 21, 2022
+
+
+               — Research
+
+
+
+
+
+
+
+
+
+
+2022
+
+
+
+Our Approach to Alignment Research
+
+
+August 24, 2022
+
+
+               — Research
+
+
+
+
+
+
+
+
+
+
+2022
+
+
+
+DALL·E 2 Pre-Training Mitigations
+
+
+June 28, 2022
+
+
+               — Research
+
+
+
+
+
+
+
+
+
+
+2022
+
+
+
+Learning to Play Minecraft with Video PreTraining (VPT)
+
+
+June 23, 2022
+
+
+               — Research
+
+
+
+
+
+
+
+
+
+
+2022
+
+
+
+AI-Written Critiques Help Humans Notice Flaws
+
+
+June 13, 2022
+
+
+               — Research
+
+
+
+
+
+
+
+
+
+
+2022
+
+
+
+Techniques for Training Large Neural Networks
+
+
+June 9, 2022
+
+
+               — Research
+
+
+
+
+
+
+
+
+
+
+2022
+
+
+
+Measuring Goodhart’s Law
+
+
+April 13, 2022
+
+
+               — Research
+
+
+
+
+
+
+
+
+
+
+2022
+
+
+
+DALL·E 2
+
+
+April 6, 2022
+
+
+               — Research, Multimodal
+
+
+
+
+
+
+
+
+
+
+2022
+
+
+
+Lessons Learned on Language Model Safety and Misuse
+
+
+March 3, 2022
+
+
+               — Research
+
+
+
+
+
+
+
+
+
+
+2022
+
+
+
+Solving (Some) Formal Math Olympiad Problems
+
+
+February 2, 2022
+
+
+               — Research
+
+
+
+
+
+
+
+
+
+
+2022
+
+
+
+Aligning Language Models to Follow Instructions
+
+
+January 27, 2022
+
+
+               — Research
+
+
+
+
+
+
+
+
+
+
+2022
+
+
+
+Introducing Text and Code Embeddings
+
+
+January 25, 2022
+
+
+               — API, Announcements, Research
+
+
+
+
+
+
+
+
+
+
+2021
+
+
+
+WebGPT: Improving the Factual Accuracy of Language Models through Web Browsing
+
+
+December 16, 2021
+
+
+               — Research
+
+
+
+
+
+
+
+
+
+
+2021
+
+
+
+Solving Math Word Problems
+
+
+October 29, 2021
+
+
+               — Research
+
+
+
+
+
+
+
+
+
+
+2021
+
+
+
+Summarizing Books with Human Feedback
+
+
+September 23, 2021
+
+
+               — Research
+
+
+
+
+
+
+
+
+
+
+2021
+
+
+
+Introducing Triton: Open-Source GPU Programming for Neural Networks
+
+
+July 28, 2021
+
+
+               — Research
+
+
+
+
+
+
+
+
+
+
+2021
+
+
+
+Improving Language Model Behavior by Training on a Curated Dataset
+
+
+June 10, 2021
+
+
+               — Research
+
+
+
+
+
+
+
+
+
+
+2021
+
+
+
+Multimodal Neurons in Artificial Neural Networks
+
+
+March 4, 2021
+
+
+               — Research, Milestones, Multimodal
+
+
+
+
+
+
+
+
+
+
+2021
+
+
+
+Scaling Kubernetes to 7,500 Nodes
+
+
+January 25, 2021
+
+
+               — Research
+
+
+
+
+
+
+
+
+
+
+2021
+
+
+
+DALL·E: Creating Images from Text
+
+
+January 5, 2021
+
+
+               — Research, Milestones, Multimodal
+
+
+
+
+
+
+
+
+
+
+2021
+
+
+
+CLIP: Connecting Text and Images
+
+
+January 5, 2021
+
+
+               — Research, Milestones, Multimodal
+
+
+
+
+
+
+
+
+
+
+2020
+
+
+
+Learning to Summarize with Human Feedback
+
+
+September 4, 2020
+
+
+               — Research
+
+
+
+
+
+
+
+
+
+
+2020
+
+
+
+Image GPT
+
+
+June 17, 2020
+
+
+               — Research, Milestones
+
+
+
+
+
+
+
+
+
+
+
+
+Featured
+ChatGPT
+DALL·E 2
+Whisper
+Alignment
+Startup Fund
+
+
+
+
+API
+Overview
+Pricing
+Examples
+Docs
+Terms & Policies
+Status
+Log in
+
+
+
+
+Blog
+Index
+Research
+Announcements
+Events
+Milestones
+
+
+
+
+Information
+About Us
+Our Charter
+Our Research
+Publications
+Newsroom
+Careers
+
+
+
+
+
+OpenAI © 2015–2023 Privacy Policy Terms of Use
+
+
+ twitter   youtube   github   soundcloud   linkedin   facebook    twitter   youtube   github   soundcloud   linkedin   facebook  
+
+
+
+
+
+

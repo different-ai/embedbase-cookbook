@@ -1,0 +1,236 @@
+
+
+
+
+
+
+
+
+Introducing Activation Atlases
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Introducing ChatGPT research release
+
+Try ChatGPT
+Learn more
+
+
+
+
+
+
+
+
+
+
+API
+Research
+Blog
+About
+
+
+API
+Research
+Blog
+About
+
+
+
+
+
+
+
+
+
+Introducing Activation Atlases 
+
+
+
+
+
+
+
+
+
+March 6, 2019
+4 minute read
+
+
+
+
+
+
+
+
+
+
+We’ve created activation atlases (in collaboration with Google researchers), a new technique for visualizing what interactions between neurons can represent. As AI systems are deployed in increasingly sensitive contexts, having a better understanding of their internal decision-making processes will let us identify weaknesses and investigate failures.
+
+Read PaperView CodeTry Demo
+Modern neural networks are often criticized as being a “black box.” Despite their success at a variety of problems, we have a limited understanding of how they make decisions internally. Activation atlases are a new way to see some of what goes on inside that box.
+
+
+
+An activation atlas of the InceptionV1 vision classification network reveals many fully realized features, such as electronics, buildings, food, animal ears, plants, and watery backgrounds. Explore it ➞
+
+Activation atlases build on feature visualization, a technique for studying what the hidden layers of neural networks can represent. Early work in feature visualization primarily focused on individual neurons. By collecting hundreds of thousands of examples of neurons interacting and visualizing those, activation atlases move from individual neurons to visualizing the space those neurons jointly represent.
+
+
+
+Collect a million activation vectors from different training examples.
+Arrange them in 2D so that similar ones are close together.
+Impose a grid and use feature visualization on the average of each cell. 
+
+Understanding what’s going on inside neural nets isn’t solely a question of scientific curiosity — our lack of understanding handicaps our ability to audit neural networks and, in high stakes contexts, ensure they are safe. Normally, if one was going to deploy a critical piece of software one could review all the paths through the code, or even do formal verification, but with neural networks, our ability to do this kind of review has presently been much more limited. With activation atlases humans can discover unanticipated issues in neural networks — for example, places where the network is relying on spurious correlations to classify images, or where re-using a feature between two classes leads to strange bugs. Humans can even use this understanding to “attack” the model, modifying images to fool it.
+For example, a special kind of activation atlas can be created to show how a network tells apart frying pans and woks. Many of the things we see are what one expects. Frying pans are more squarish, while woks are rounder and deeper. But it also seems like the model has learned that frying pans and woks can also be distinguished by food around them — in particular, wok is supported by the presence of noodles. Adding noodles to the corner of the image will fool the model 45% of the time! This is similar to work like adversarial patches, but based on human understanding.
+
+
+
+InceptionV1 partly relies on the presence of noodles to distinguish woks from frying pans. Adding noodles fools the model 45% of the time. More examples can be found in the paper.
+
+Other human-designed attacks based on the network overloading certain feature detectors are often more effective (some succeed as often as 93% of the time). But the noodle example is particularly interesting because it’s a case of the model picking up on something that is correlated, but not causal, with the correct answer. This has structural similarities to types of errors we might be particularly worried about, such as fairness and bias issues.
+Activation atlases worked better than we anticipated and seem to strongly suggest that neural network activations can be meaningful to humans. This gives us increased optimism that it is possible to achieve interpretability in vision models in a strong sense.
+We’re excited to have done this work in collaboration with researchers at Google. We believe that working together on safety-relevant research helps us all ensure the best outcome for society as AI research progresses.
+Want to make neural networks not be a black box? Apply to work at OpenAI.
+
+
+
+
+Acknowledgments
+
+Thanks to our co-authors at Google: Shan Carter, Zan Armstrong and Ian Johnson.
+Thanks to Greg Brockman, Dario Amodei, Jack Clark and Ashley Pilipiszyn for feedback on this blog post.
+We also thank Christian Howard for his help in coordination from the Google side, Phillip Isola for being Distill’s acting editor and Arvind Satyanarayan for feedback on our paper.
+
+
+
+
+
+
+
+
+
+
+
+
+Authors
+
+Chris OlahLudwig Schubert
+
+
+
+
+
+
+
+
+Filed Under
+
+Research
+
+
+
+
+
+
+
+
+
+
+Featured
+ChatGPT
+DALL·E 2
+Whisper
+Alignment
+Startup Fund
+
+
+
+
+API
+Overview
+Pricing
+Examples
+Docs
+Terms & Policies
+Status
+Log in
+
+
+
+
+Blog
+Index
+Research
+Announcements
+Events
+Milestones
+
+
+
+
+Information
+About Us
+Our Charter
+Our Research
+Publications
+Newsroom
+Careers
+
+
+
+
+
+OpenAI © 2015–2023 Privacy Policy Terms of Use
+
+
+ twitter   youtube   github   soundcloud   linkedin   facebook    twitter   youtube   github   soundcloud   linkedin   facebook  
+
+
+
+
+
+

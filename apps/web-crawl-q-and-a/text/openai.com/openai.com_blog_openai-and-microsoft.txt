@@ -1,0 +1,198 @@
+
+
+
+
+
+
+
+
+OpenAI and Microsoft
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Introducing ChatGPT research release
+
+Try ChatGPT
+Learn more
+
+
+
+
+
+
+
+
+
+
+API
+Research
+Blog
+About
+
+
+API
+Research
+Blog
+About
+
+
+
+
+
+
+
+
+OpenAI and Microsoft 
+
+
+
+
+We're working with Microsoft to start running most of our large-scale experiments on Azure. This will make Azure the primary cloud platform that OpenAI is using for deep learning and AI, and will let us conduct more research and share the results with the world.
+
+
+
+
+November 15, 2016
+1 minute read
+
+
+
+
+
+
+
+
+
+One of the most important factors for accelerating our progress is accessing more and faster computers; this is particularly true for emerging AI technologies like reinforcement learning and generative models. Azure has impressed us by building hardware configurations optimized for deep learning — they offer K80 GPUs with InfiniBand interconnects at scale. We're also excited by their roadmap, which should soon bring Pascal GPUs onto their cloud.
+In the coming months we will use thousands to tens of thousands of these machines to increase both the number of experiments we run and the size of the models we train.
+We'll share the results of this partnership with everyone: along with publishing our research results, we'll continue releasing open-source software making it easier for people to run large-scale AI workloads on the cloud. We'll also be giving feedback to the Microsoft team so that Azure's capabilities keep pace with our understanding of AI.
+It's great to work with another organization that believes in the importance of democratizing access to AI. We're looking forward to accelerating the AI community through this partnership.
+
+
+
+
+
+
+
+
+
+Authors
+
+Greg BrockmanIlya SutskeverSam Altman
+
+
+
+
+
+
+
+
+Filed Under
+
+Announcements
+
+
+
+
+
+
+
+
+
+
+Featured
+ChatGPT
+DALL·E 2
+Whisper
+Alignment
+Startup Fund
+
+
+
+
+API
+Overview
+Pricing
+Examples
+Docs
+Terms & Policies
+Status
+Log in
+
+
+
+
+Blog
+Index
+Research
+Announcements
+Events
+Milestones
+
+
+
+
+Information
+About Us
+Our Charter
+Our Research
+Publications
+Newsroom
+Careers
+
+
+
+
+
+OpenAI © 2015–2023 Privacy Policy Terms of Use
+
+
+ twitter   youtube   github   soundcloud   linkedin   facebook    twitter   youtube   github   soundcloud   linkedin   facebook  
+
+
+
+
+
+
