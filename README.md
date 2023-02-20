@@ -1,4 +1,4 @@
-# OpenAI Cookbook
+# Embedbase Cookbook
 
 The Embedbase Cookbook shares example code for accomplishing common tasks with the [Embedbase API].
 
