@@ -1,0 +1,21 @@
+
+tasks:
+    - name: Install dependencies
+      command: |
+        export PIP_USER=false
+        virtualenv env
+        source env/bin/activate
+        pip install -r **/**/requirements.txt
+vscode:
+  # list as bullet points installed extensions:
+  # code --list-extensions | xargs -L 1 echo - 
+  extensions:
+    - github.copilot
+    - toba.vsfire
+    - ms-python.vscode-pylance
+    - ms-python.python
+    - littlefoxteam.vscode-python-test-adapter
+    - k--kato.intellij-idea-keybindings
+    - trungngo.autoflake
+    - christian-kohler.npm-intellisense
+    - dbaeumer.vscode-eslint

@@ -1,5 +1,7 @@
 # Embedbase Cookbook
 
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/another-ai/embedbase-cookbook)
+
 The Embedbase Cookbook shares example code for accomplishing common tasks with the [Embedbase API].
 
 To run these examples, you'll need an Embedbase account and associated API key ([create a free account][api signup]).
