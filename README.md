@@ -17,7 +17,7 @@ Most code examples are written in Python, though the concepts can be applied in 
 
 ## Related resources
 
-Beyond the code examples here, you can learn about the [OpenAI API] from the following resources:
+Beyond the code examples here, you can learn about the [Embedbase API] from the following resources:
 
 - Try out the API in the [Embedbase Playground]
 - Read about the API in the [Embedbase Documentation]
