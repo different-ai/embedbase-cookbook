@@ -4,7 +4,7 @@
 
 The Embedbase Cookbook shares example code for accomplishing common tasks with the [Embedbase API]. These examples are identical to [OpenAI examples](https://github.com/openai/openai-cookbook) with less code & more readiness to production thanks to Embedbase.
 
-To run these examples, you'll need an Embedbase account and associated API key ([create a free account][api signup]).
+To run these examples, you'll need an Embedbase account and associated API key ([create a free account][api signup]). And eventually for some examples you'll need to [sign up for an OpenAI account](https://beta.openai.com/signup) and get an API key.
 
 Most code examples are written in Python, though the concepts can be applied in any language.
 
