@@ -1,7 +1,7 @@
-const { encoding_for_model } = require("@dqbd/tiktoken");
+const { get_encoding } = require("@dqbd/tiktoken");
 
 // Load the tokenizer which is designed to work with the embedding model
-const enc = encoding_for_model("text-davinci-003");
+const enc = get_encoding('cl100k_base');
 
 // read processed/scraped.csv
 const fs = require('fs');
@@ -142,27 +142,30 @@ const fn = async () => {
         return returns.join("\n\n###\n\n");
     }
 
-    const answerQuestion = async (model = "text-davinci-003",
+    const answerQuestion = async (
         question = "Am I allowed to publish model outputs to Twitter, without a human review?",
         maxLen = 1800,
-        maxTokens = 150,
-        stopSequence = null) => {
+        maxTokens = 150) => {
         const context = await createContext(question, maxLen);
         try {
             const response = await openai.createCompletion({
                 prompt: `Answer the question based on the context below, and if the question can't be answered based on the context, say "I don't know"\n\nContext: ${context}\n\n---\n\nQuestion: ${question}\nAnswer:`,
                 temperature: 0,
-                maxTokens: maxTokens,
-                topP: 1,
-                frequencyPenalty: 0,
-                presencePenalty: 0,
-                stop: stopSequence,
-                model: model,
+                max_tokens: maxTokens,
+                top_p: 1,
+                frequency_penalty: 0,
+                presence_penalty: 0,
+                model: "text-davinci-003",
             });
             return response.data.choices[0].text.trim();
-        } catch (e) {
-            console.log(e);
-            console.log("OpenAI is probably down, https://status.openai.com")
+        } catch (error) {
+            if (error.response) {
+                console.log(error.response.status);
+                console.log(error.response.data);
+            } else {
+                console.log(error.message);
+            }
+            console.log("OpenAI is probably down, https://status.openai.com");
             return "";
         }
     }
