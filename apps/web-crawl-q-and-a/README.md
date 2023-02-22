@@ -26,4 +26,4 @@ EMBEDBASE_API_KEY="<https://app.embedbase.xyz/dashboard>" OPENAI_API_KEY="<https
 # or "What is ChatGPT?"
 ```
 
-If you don't have an Embedbase account and associated API key ([create a free account][https://app.embedbase.xyz/signup]) and an OpenAI account and associated API key ([create a free account][https://beta.openai.com/signup]).
+If you don't have an Embedbase account and associated API key [create a free account](https://app.embedbase.xyz/signup) and an OpenAI account and associated API key [create a free account]https://beta.openai.com/signup).
