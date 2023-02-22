@@ -4,6 +4,8 @@
 
 This example shows how to use Embedbase to answer questions about a website.
 
+![ezgif com-video-to-gif](https://user-images.githubusercontent.com/25003283/220578385-e088b144-a735-47dc-9eb1-fd7c5df655df.gif)
+
 ## Usage
 
 To follow through the Jupyter notebook, you first need to run the following commands:
