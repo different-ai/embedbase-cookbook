@@ -35,7 +35,7 @@ If there are examples or guides you'd like to see, feel free to suggest them on 
 [embedbase api]: https://embedbase.xyz
 [api signup]: https://app.embedbase.xyz/signup
 [embedbase playground]: https://app.embedbase.xyz/dashboard
-[embedbase documentation]: https://github.com/another-ai/embedbase
+[embedbase documentation]: https://github.com/different-ai/embedbase
 [embedbase discord]: https://discord.gg/pMNeuGrDky
-[embedbase examples]: https://github.com/another-ai/embedbase/tree/main/examples
-[issues page]: https://github.com/another-ai/embedbase-cookbook/issues
+[embedbase examples]: https://github.com/different-ai/embedbase/tree/main/examples
+[issues page]: https://github.com/different-ai/embedbase-cookbook/issues
